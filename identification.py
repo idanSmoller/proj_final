@@ -11,11 +11,14 @@ Enhanced from gender_bias_id_v4 to export steering vectors.
 
 import gc
 import csv
+import json
+import os
 from pathlib import Path
 
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
+import requests
 from diffusers import DiffusionPipeline
 
 
@@ -34,6 +37,11 @@ IMAGES_ROOT = f"{OUTPUT_ROOT}/images"
 ACTIVATIONS_ROOT = f"{OUTPUT_ROOT}/activations"
 VECTORS_ROOT = f"{OUTPUT_ROOT}/steering_vectors"
 HEATMAPS_ROOT = f"{OUTPUT_ROOT}/bias_heatmaps"
+COUNTERFACTUALS_ROOT = f"{OUTPUT_ROOT}/counterfactual_anchors"
+
+TOP_BIAS_COUNT = 3
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 # Standardized profession list (consistent with injection script)
 PROFESSIONS = [
@@ -80,10 +88,19 @@ def init_pipeline(model_id: str = MODEL_ID, device: str = DEVICE):
     gc.collect()
     pipe = DiffusionPipeline.from_pretrained(
         model_id,
-        torch_dtype=torch.bfloat16,
+        torch_dtype=torch.float16,
         variant="fp16",
-    ).to(torch.device(device))
+        use_safetensors=True,
+        low_cpu_mem_usage=True,
+    )
+
+    # Important: do not call .to(cuda) before offload, or model loading can OOM.
     pipe.enable_model_cpu_offload()
+    pipe.enable_attention_slicing()
+    if hasattr(pipe, "enable_vae_slicing"):
+        pipe.enable_vae_slicing()
+    if hasattr(pipe, "enable_vae_tiling"):
+        pipe.enable_vae_tiling()
     return pipe
 
 
@@ -93,9 +110,12 @@ def get_sdxl_text_embeddings(pipe, prompt: str):
     Returns a normalized torch vector (1D).
     """
     with torch.no_grad():
+        execution_device = getattr(pipe, "_execution_device", None)
+        if execution_device is None:
+            execution_device = torch.device(DEVICE)
         _, _, pooled_embeds, _ = pipe.encode_prompt(
             prompt,
-            device=pipe.device,
+            device=execution_device,
             do_classifier_free_guidance=False
         )
     return pooled_embeds[0].float().cpu()
@@ -498,6 +518,156 @@ def save_steering_vectors(profession, analysis_results, output_dir):
     print(f"  Saved steering vectors to {out_path}")
 
 
+def bias_direction_label(score: float) -> str:
+    if score > 0:
+        return "male_skewed"
+    if score < 0:
+        return "female_skewed"
+    return "balanced"
+
+
+def get_top_bias_entries(analysis_results, top_k: int = TOP_BIAS_COUNT):
+    ranked = sorted(analysis_results, key=lambda x: abs(float(x["continuous"])), reverse=True)
+    top = []
+    for rank, item in enumerate(ranked[:top_k], start=1):
+        score = float(item["continuous"])
+        top.append({
+            "rank": rank,
+            "layer": item["layer"],
+            "step": int(item["step"]),
+            "continuous_bias": score,
+            "bias_direction": bias_direction_label(score),
+        })
+    return top
+
+
+def extract_json_block(text: str):
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        lines = cleaned.splitlines()
+        if lines and lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].strip() == "```":
+            lines = lines[:-1]
+        cleaned = "\n".join(lines).strip()
+
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise ValueError("Gemini output did not include a JSON object")
+    return json.loads(cleaned[start:end + 1])
+
+
+def build_gemini_counterfactual_prompt(profession: str, neutral_anchor: str, top_bias_entries):
+    payload = json.dumps(top_bias_entries, indent=2)
+    return (
+        "You are helping with fairness research for diffusion prompts. "
+        "Given one profession anchor prompt and the top biased layer-step findings, generate exactly 3 "
+        "counterfactual anchor prompts that preserve profession semantics but reduce gender stereotyping.\n\n"
+        f"Profession: {profession}\n"
+        f"Base anchor prompt: {neutral_anchor}\n"
+        f"Top biased entries: {payload}\n\n"
+        "Return STRICT JSON only with this schema:\n"
+        "{\n"
+        "  \"counterfactuals\": [\n"
+        "    {\n"
+        "      \"rank\": 1,\n"
+        "      \"layer\": \"mid_block\",\n"
+        "      \"step\": 0,\n"
+        "      \"continuous_bias\": 0.0,\n"
+        "      \"bias_direction\": \"male_skewed|female_skewed|balanced\",\n"
+        "      \"anchor_prompt\": \"<original base anchor prompt>\",\n"
+        "      \"counterfactual_anchor\": \"<revised anchor prompt>\",\n"
+        "      \"rationale\": \"<one short sentence>\"\n"
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Rules: keep each revised prompt photorealistic, profession-specific, and neutral on gender cues."
+    )
+
+
+def request_gemini_counterfactuals(profession: str, neutral_anchor: str, top_bias_entries, api_key: str):
+    if not api_key:
+        raise RuntimeError("Missing GEMINI_API_KEY")
+
+    prompt = build_gemini_counterfactual_prompt(profession, neutral_anchor, top_bias_entries)
+    url = GEMINI_API_URL.format(model=GEMINI_MODEL)
+    response = requests.post(
+        f"{url}?key={api_key}",
+        json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "temperature": 0.4,
+                "topP": 0.9,
+                "maxOutputTokens": 1200,
+            },
+        },
+        timeout=60,
+    )
+    response.raise_for_status()
+    data = response.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    parsed = extract_json_block(text)
+    counterfactuals = parsed.get("counterfactuals", [])
+    if not isinstance(counterfactuals, list) or len(counterfactuals) == 0:
+        raise ValueError("Gemini returned no counterfactual entries")
+    return counterfactuals
+
+
+def fallback_counterfactuals(neutral_anchor: str, top_bias_entries):
+    items = []
+    for entry in top_bias_entries:
+        items.append({
+            "rank": entry["rank"],
+            "layer": entry["layer"],
+            "step": entry["step"],
+            "continuous_bias": entry["continuous_bias"],
+            "bias_direction": entry["bias_direction"],
+            "anchor_prompt": neutral_anchor,
+            "counterfactual_anchor": (
+                neutral_anchor
+                + " The subject is portrayed with role-consistent tools and attire while avoiding gender-coded styling cues."
+            ),
+            "rationale": "Template fallback used because Gemini was unavailable.",
+        })
+    return items
+
+
+def save_counterfactual_outputs(profession: str, counterfactual_items, output_dir: str, csv_path: str, status: str):
+    out_dir = Path(output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    slug = slugify(profession)
+    per_profession_path = out_dir / f"{slug}.json"
+
+    with open(per_profession_path, "w") as f:
+        json.dump(
+            {
+                "profession": profession,
+                "model": GEMINI_MODEL,
+                "status": status,
+                "items": counterfactual_items,
+            },
+            f,
+            indent=2,
+        )
+
+    with open(csv_path, "a", newline="") as f:
+        writer = csv.writer(f)
+        for item in counterfactual_items:
+            writer.writerow([
+                profession,
+                item.get("rank", ""),
+                item.get("layer", ""),
+                item.get("step", ""),
+                item.get("continuous_bias", ""),
+                item.get("bias_direction", ""),
+                item.get("anchor_prompt", ""),
+                item.get("counterfactual_anchor", ""),
+                item.get("rationale", ""),
+                status,
+            ])
+
+
 def main():
     print(f"[SETUP] Professions: {PROFESSIONS}")
     print(f"[SETUP] Saving activations to: {ACTIVATIONS_ROOT}")
@@ -512,6 +682,7 @@ def main():
     Path(ACTIVATIONS_ROOT).mkdir(parents=True, exist_ok=True)
     Path(VECTORS_ROOT).mkdir(parents=True, exist_ok=True)
     Path(HEATMAPS_ROOT).mkdir(parents=True, exist_ok=True)
+    Path(COUNTERFACTUALS_ROOT).mkdir(parents=True, exist_ok=True)
 
     results_csv_path = f"{OUTPUT_ROOT}/bias_analysis.csv"
 
@@ -523,6 +694,28 @@ def main():
     with open(text_bias_csv_path, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["profession", "text_embedding_bias", "dist_male", "dist_female"])
+
+    counterfactual_csv_path = f"{COUNTERFACTUALS_ROOT}/counterfactual_anchors.csv"
+    with open(counterfactual_csv_path, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "profession",
+            "rank",
+            "layer",
+            "step",
+            "continuous_bias",
+            "bias_direction",
+            "anchor_prompt",
+            "counterfactual_anchor",
+            "rationale",
+            "status",
+        ])
+
+    gemini_api_key = os.getenv("GEMINI_API_KEY", "")
+    if gemini_api_key:
+        print(f"[SETUP] Gemini enabled: {GEMINI_MODEL}")
+    else:
+        print("[SETUP] GEMINI_API_KEY not found. Falling back to template counterfactual anchors.")
 
     for profession in PROFESSIONS:
         profession_slug = slugify(profession)
@@ -575,6 +768,33 @@ def main():
 
         analysis_results = compute_profession_bias_analysis(male_traj, female_traj, neutral_traj, TARGET_LAYER_KEYS)
 
+        top_bias_entries = get_top_bias_entries(analysis_results, top_k=TOP_BIAS_COUNT)
+        print("  - Generating counterfactual anchors for top-3 bias points...")
+        try:
+            if gemini_api_key:
+                counterfactual_items = request_gemini_counterfactuals(
+                    profession=profession,
+                    neutral_anchor=neutral_prompt,
+                    top_bias_entries=top_bias_entries,
+                    api_key=gemini_api_key,
+                )
+                status = "gemini"
+            else:
+                counterfactual_items = fallback_counterfactuals(neutral_prompt, top_bias_entries)
+                status = "fallback"
+        except Exception as err:
+            print(f"  - Gemini request failed ({err}). Using fallback prompts.")
+            counterfactual_items = fallback_counterfactuals(neutral_prompt, top_bias_entries)
+            status = "fallback"
+
+        save_counterfactual_outputs(
+            profession=profession,
+            counterfactual_items=counterfactual_items,
+            output_dir=COUNTERFACTUALS_ROOT,
+            csv_path=counterfactual_csv_path,
+            status=status,
+        )
+
         # Plot Heatmap
         heatmap_path = f"{HEATMAPS_ROOT}/{profession}.png"
         plot_bias_heatmap(profession, analysis_results, heatmap_path)
@@ -604,6 +824,7 @@ def main():
 
     print(f"\n[DONE] Bias analysis saved to {results_csv_path}")
     print(f"[DONE] Steering vectors saved to {VECTORS_ROOT}")
+    print(f"[DONE] Counterfactual anchors saved to {COUNTERFACTUALS_ROOT}")
 
 
 if __name__ == "__main__":

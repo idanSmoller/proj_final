@@ -582,19 +582,51 @@ def load_identification_vectors(vectors_dir: str, profession: str, layer: str) -
 def load_identification_vectors_all_professions(
     vectors_dir: str,
     professions: List[str],
-    layer: str
+    layer: str,
+    axis: Optional[str] = None,
 ) -> torch.Tensor:
     """Load and average vectors across all professions."""
     vectors = []
+    checked_paths: List[str] = []
+
+    def _candidate_paths(vectors_root: Path, prof_slug: str) -> List[Path]:
+        # New layout: <root>/<profession>/<axis>/layer_<layer>_mean.pt
+        # Legacy layout: <root>/<profession>/layer_<layer>_mean.pt
+        if axis:
+            return [
+                vectors_root / prof_slug / axis / f"layer_{layer}_mean.pt",
+                vectors_root / prof_slug / f"layer_{layer}_mean.pt",
+            ]
+        return [vectors_root / prof_slug / f"layer_{layer}_mean.pt"]
+
+    vectors_root = Path(vectors_dir)
     for prof in professions:
-        try:
-            vec = load_identification_vectors(vectors_dir, prof, layer)
-            vectors.append(vec)
-        except FileNotFoundError:
-            log(f"[load] Warning: No vector found for {prof}, skipping")
+        prof_slug = prof.lower().replace(" ", "_")
+        loaded = False
+
+        for candidate in _candidate_paths(vectors_root, prof_slug):
+            checked_paths.append(str(candidate))
+            if candidate.exists():
+                vec = torch.load(candidate, map_location="cpu")
+                vectors.append(vec)
+                log(f"[load] Loaded vector from {candidate}")
+                loaded = True
+                break
+
+        if not loaded:
+            if axis:
+                log(f"[load] Warning: No vector found for {prof} (axis='{axis}'), skipping")
+            else:
+                log(f"[load] Warning: No vector found for {prof}, skipping")
 
     if not vectors:
-        raise RuntimeError("No vectors could be loaded")
+        sample_checked = "\n  - ".join(checked_paths[:10])
+        if len(checked_paths) > 10:
+            sample_checked += "\n  - ..."
+        raise RuntimeError(
+            "No vectors could be loaded. Checked paths include:\n"
+            f"  - {sample_checked}"
+        )
 
     # Average and normalize
     mean_vec = torch.stack(vectors).mean(dim=0)
@@ -659,6 +691,12 @@ def parse_args() -> argparse.Namespace:
                    help="Path to steering_vectors dir from identification.py")
     p.add_argument("--load-layer", type=str, default="mid_block",
                    help="Which layer's vectors to load")
+    p.add_argument(
+        "--load-axis",
+        type=str,
+        default="gender",
+        help="Axis subfolder for loaded vectors (e.g., gender, age, status)",
+    )
 
     # Injection config
     p.add_argument("--inject-layer", type=str, default="mid_block",
@@ -758,6 +796,7 @@ def main() -> None:
             vectors_dir=args.load_vectors_dir,
             professions=args.professions,
             layer=args.load_layer,
+            axis=args.load_axis,
         )
 
         log(f"[vector] Loaded averaged vector for layer {args.load_layer}")

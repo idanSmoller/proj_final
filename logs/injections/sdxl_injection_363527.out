@@ -1,0 +1,62 @@
+[2026-03-22 15:27:42] [init] Loading SDXL model='stabilityai/stable-diffusion-xl-base-1.0' device=cuda dtype=torch.float16
+[2026-03-22 15:27:44] [init] Model loaded in 1.72s
+[2026-03-22 15:27:44] [init] Enabled CPU offload
+[2026-03-22 15:27:44] [vector] Mode: LOAD - Loading from identification.py output
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/nurse/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/fire_fighter/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/programmer/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/receptionist/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Warning: No vector found for Teacher (axis='gender'), skipping
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/doctor/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/lawyer/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/engineer/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/scientist/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/accountant/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/chef/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/architect/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/ceo/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/pilot/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Loaded vector from generated_images_2/steering_vectors/flight_attendant/gender/layer_mid_block_mean.pt
+[2026-03-22 15:27:44] [load] Averaged 14 profession vectors
+[2026-03-22 15:27:44] [vector] Loaded averaged vector for layer mid_block
+[2026-03-22 15:27:44] [outcomes] Generating comparison images
+[2026-03-22 15:27:44] [outcomes] Generating baseline for: A realistic profile picture of a Doctor
+[2026-03-22 15:28:06] [outcomes] Generating masculine strength=0.5
+[2026-03-22 15:28:06] [injector] Installed on mid_block, mode=add, strength=0.5
+[2026-03-22 15:28:24] [injector] Uninstalled
+[2026-03-22 15:28:25] [outcomes] Generating feminine strength=0.5
+[2026-03-22 15:28:25] [injector] Installed on mid_block, mode=add, strength=-0.5
+[2026-03-22 15:28:42] [injector] Uninstalled
+[2026-03-22 15:28:43] [outcomes] Generating masculine strength=1.0
+[2026-03-22 15:28:43] [injector] Installed on mid_block, mode=add, strength=1.0
+[2026-03-22 15:29:00] [injector] Uninstalled
+[2026-03-22 15:29:00] [outcomes] Generating feminine strength=1.0
+[2026-03-22 15:29:00] [injector] Installed on mid_block, mode=add, strength=-1.0
+[2026-03-22 15:29:17] [injector] Uninstalled
+[2026-03-22 15:29:18] [outcomes] Generating masculine strength=2.0
+[2026-03-22 15:29:18] [injector] Installed on mid_block, mode=add, strength=2.0
+[2026-03-22 15:29:35] [injector] Uninstalled
+[2026-03-22 15:29:35] [outcomes] Generating feminine strength=2.0
+[2026-03-22 15:29:35] [injector] Installed on mid_block, mode=add, strength=-2.0
+[2026-03-22 15:29:52] [injector] Uninstalled
+[2026-03-22 15:29:53] [outcomes] Generating baseline for: A realistic profile picture of a CEO
+[2026-03-22 15:30:10] [outcomes] Generating masculine strength=0.5
+[2026-03-22 15:30:10] [injector] Installed on mid_block, mode=add, strength=0.5
+[2026-03-22 15:30:27] [injector] Uninstalled
+[2026-03-22 15:30:27] [outcomes] Generating feminine strength=0.5
+[2026-03-22 15:30:28] [injector] Installed on mid_block, mode=add, strength=-0.5
+[2026-03-22 15:30:44] [injector] Uninstalled
+[2026-03-22 15:30:45] [outcomes] Generating masculine strength=1.0
+[2026-03-22 15:30:45] [injector] Installed on mid_block, mode=add, strength=1.0
+[2026-03-22 15:31:03] [injector] Uninstalled
+[2026-03-22 15:31:03] [outcomes] Generating feminine strength=1.0
+[2026-03-22 15:31:03] [injector] Installed on mid_block, mode=add, strength=-1.0
+[2026-03-22 15:31:20] [injector] Uninstalled
+[2026-03-22 15:31:20] [outcomes] Generating masculine strength=2.0
+[2026-03-22 15:31:20] [injector] Installed on mid_block, mode=add, strength=2.0
+[2026-03-22 15:31:37] [injector] Uninstalled
+[2026-03-22 15:31:37] [outcomes] Generating feminine strength=2.0
+[2026-03-22 15:31:37] [injector] Installed on mid_block, mode=add, strength=-2.0
+[2026-03-22 15:31:54] [injector] Uninstalled
+[2026-03-22 15:31:55] [outcomes] Saved to outputs/injection_results/outcomes
+[2026-03-22 15:31:55] [main] DONE

@@ -1,0 +1,272 @@
+[SETUP] Professions: ['Shoemaker']
+[SETUP] Saving activations to: generated_images/activations
+[SETUP] Saving steering vectors to: generated_images/steering_vectors
+[SETUP] Saving Gemini axes to: generated_images/gemini_axes
+[SETUP] Loading diffusion pipeline...
+[SETUP] Gemini enabled: gemini-2.5-flash
+
+[PROFESSION] Shoemaker
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Shoemaker
+====================================================================================================
+```json
+{
+  "concept": "Shoemaker",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "male",
+      "pole_b": "female",
+      "relevance": "Historically, shoemaking has often been perceived as a male-dominated trade, potentially leading to a default male representation in image generation.",
+      "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+      "prompt_a": "A photorealistic portrait of a male shoemaker in their workshop, focused on their craft.",
+      "prompt_b": "A photorealistic portrait of a female shoemaker in their workshop, focused on their craft."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Socioeconomic Status",
+      "pole_a": "humble",
+      "pole_b": "upscale",
+      "relevance": "The socioeconomic status of a shoemaker can vary greatly, from a small, traditional repair shop to a high-end bespoke atelier, influencing visual cues like workshop environment, tools, and attire.",
+      "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+      "prompt_a": "A photorealistic portrait of a humble shoemaker in a small, traditional workshop, focused on their craft.",
+      "prompt_b": "A photorealistic portrait of an upscale shoemaker in a modern, bespoke atelier, focused on their craft."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Cultural Origin",
+      "pole_a": "European",
+      "pole_b": "Asian",
+      "relevance": "The generic term 'shoemaker' might default to a specific cultural or geographic aesthetic, overlooking the diverse traditions of shoemaking across the globe.",
+      "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+      "prompt_a": "A photorealistic portrait of a European shoemaker in their workshop, focused on their craft.",
+      "prompt_b": "A photorealistic portrait of an Asian shoemaker in their workshop, focused on their craft."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "male",
+    "pole_b": "female",
+    "relevance": "Historically, shoemaking has often been perceived as a male-dominated trade, potentially leading to a default male representation in image generation.",
+    "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+    "prompt_a": "A photorealistic portrait of a male shoemaker in their workshop, focused on their craft.",
+    "prompt_b": "A photorealistic portrait of a female shoemaker in their workshop, focused on their craft."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Socioeconomic Status",
+    "pole_a": "humble",
+    "pole_b": "upscale",
+    "relevance": "The socioeconomic status of a shoemaker can vary greatly, from a small, traditional repair shop to a high-end bespoke atelier, influencing visual cues like workshop environment, tools, and attire.",
+    "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+    "prompt_a": "A photorealistic portrait of a humble shoemaker in a small, traditional workshop, focused on their craft.",
+    "prompt_b": "A photorealistic portrait of an upscale shoemaker in a modern, bespoke atelier, focused on their craft."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Cultural Origin",
+    "pole_a": "European",
+    "pole_b": "Asian",
+    "relevance": "The generic term 'shoemaker' might default to a specific cultural or geographic aesthetic, overlooking the diverse traditions of shoemaking across the globe.",
+    "base_prompt": "A photorealistic portrait of a shoemaker in their workshop, focused on their craft.",
+    "prompt_a": "A photorealistic portrait of a European shoemaker in their workshop, focused on their craft.",
+    "prompt_b": "A photorealistic portrait of an Asian shoemaker in their workshop, focused on their craft."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A photorealistic portrait of a male shoemaker in their workshop, focused on their craft.
+    prompt_b: A photorealistic portrait of a female shoemaker in their workshop, focused on their craft.
+    base_prompt: A photorealistic portrait of a shoemaker in their workshop, focused on their craft.
+    - Analyzing text embeddings...
+Shoemaker | Gender               | +0.4239 | Pole A ++ ██████████
+[Shoemaker | Gender | A] Batch 1/16 (Samples 1-1)
+[Shoemaker | Gender | A] Batch 2/16 (Samples 2-2)
+[Shoemaker | Gender | A] Batch 3/16 (Samples 3-3)
+[Shoemaker | Gender | A] Batch 4/16 (Samples 4-4)
+[Shoemaker | Gender | A] Batch 5/16 (Samples 5-5)
+[Shoemaker | Gender | A] Batch 6/16 (Samples 6-6)
+[Shoemaker | Gender | A] Batch 7/16 (Samples 7-7)
+[Shoemaker | Gender | A] Batch 8/16 (Samples 8-8)
+[Shoemaker | Gender | A] Batch 9/16 (Samples 9-9)
+[Shoemaker | Gender | A] Batch 10/16 (Samples 10-10)
+[Shoemaker | Gender | A] Batch 11/16 (Samples 11-11)
+[Shoemaker | Gender | A] Batch 12/16 (Samples 12-12)
+[Shoemaker | Gender | A] Batch 13/16 (Samples 13-13)
+[Shoemaker | Gender | A] Batch 14/16 (Samples 14-14)
+[Shoemaker | Gender | A] Batch 15/16 (Samples 15-15)
+[Shoemaker | Gender | A] Batch 16/16 (Samples 16-16)
+[Shoemaker | Gender | B] Batch 1/16 (Samples 1-1)
+[Shoemaker | Gender | B] Batch 2/16 (Samples 2-2)
+[Shoemaker | Gender | B] Batch 3/16 (Samples 3-3)
+[Shoemaker | Gender | B] Batch 4/16 (Samples 4-4)
+[Shoemaker | Gender | B] Batch 5/16 (Samples 5-5)
+[Shoemaker | Gender | B] Batch 6/16 (Samples 6-6)
+[Shoemaker | Gender | B] Batch 7/16 (Samples 7-7)
+[Shoemaker | Gender | B] Batch 8/16 (Samples 8-8)
+[Shoemaker | Gender | B] Batch 9/16 (Samples 9-9)
+[Shoemaker | Gender | B] Batch 10/16 (Samples 10-10)
+[Shoemaker | Gender | B] Batch 11/16 (Samples 11-11)
+[Shoemaker | Gender | B] Batch 12/16 (Samples 12-12)
+[Shoemaker | Gender | B] Batch 13/16 (Samples 13-13)
+[Shoemaker | Gender | B] Batch 14/16 (Samples 14-14)
+[Shoemaker | Gender | B] Batch 15/16 (Samples 15-15)
+[Shoemaker | Gender | B] Batch 16/16 (Samples 16-16)
+[Shoemaker | Gender | BASE] Batch 1/16 (Samples 1-1)
+[Shoemaker | Gender | BASE] Batch 2/16 (Samples 2-2)
+[Shoemaker | Gender | BASE] Batch 3/16 (Samples 3-3)
+[Shoemaker | Gender | BASE] Batch 4/16 (Samples 4-4)
+[Shoemaker | Gender | BASE] Batch 5/16 (Samples 5-5)
+[Shoemaker | Gender | BASE] Batch 6/16 (Samples 6-6)
+[Shoemaker | Gender | BASE] Batch 7/16 (Samples 7-7)
+[Shoemaker | Gender | BASE] Batch 8/16 (Samples 8-8)
+[Shoemaker | Gender | BASE] Batch 9/16 (Samples 9-9)
+[Shoemaker | Gender | BASE] Batch 10/16 (Samples 10-10)
+[Shoemaker | Gender | BASE] Batch 11/16 (Samples 11-11)
+[Shoemaker | Gender | BASE] Batch 12/16 (Samples 12-12)
+[Shoemaker | Gender | BASE] Batch 13/16 (Samples 13-13)
+[Shoemaker | Gender | BASE] Batch 14/16 (Samples 14-14)
+[Shoemaker | Gender | BASE] Batch 15/16 (Samples 15-15)
+[Shoemaker | Gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/shoemaker/gender
+    [BIAS SUMMARY]
+Shoemaker | Gender               | +0.8966 | Pole A ++ ██████████████████████
+    Max Bias: 0.9897 at mid_block step 11
+
+  [AXIS] Socioeconomic Status
+    pole_a: humble
+    pole_b: upscale
+    prompt_a: A photorealistic portrait of a humble shoemaker in a small, traditional workshop, focused on their craft.
+    prompt_b: A photorealistic portrait of an upscale shoemaker in a modern, bespoke atelier, focused on their craft.
+    base_prompt: A photorealistic portrait of a shoemaker in their workshop, focused on their craft.
+    - Analyzing text embeddings...
+Shoemaker | Socioeconomic Status | +0.4037 | Pole A ++ ██████████
+[Shoemaker | Socioeconomic Status | A] Batch 1/16 (Samples 1-1)
+[Shoemaker | Socioeconomic Status | A] Batch 2/16 (Samples 2-2)
+[Shoemaker | Socioeconomic Status | A] Batch 3/16 (Samples 3-3)
+[Shoemaker | Socioeconomic Status | A] Batch 4/16 (Samples 4-4)
+[Shoemaker | Socioeconomic Status | A] Batch 5/16 (Samples 5-5)
+[Shoemaker | Socioeconomic Status | A] Batch 6/16 (Samples 6-6)
+[Shoemaker | Socioeconomic Status | A] Batch 7/16 (Samples 7-7)
+[Shoemaker | Socioeconomic Status | A] Batch 8/16 (Samples 8-8)
+[Shoemaker | Socioeconomic Status | A] Batch 9/16 (Samples 9-9)
+[Shoemaker | Socioeconomic Status | A] Batch 10/16 (Samples 10-10)
+[Shoemaker | Socioeconomic Status | A] Batch 11/16 (Samples 11-11)
+[Shoemaker | Socioeconomic Status | A] Batch 12/16 (Samples 12-12)
+[Shoemaker | Socioeconomic Status | A] Batch 13/16 (Samples 13-13)
+[Shoemaker | Socioeconomic Status | A] Batch 14/16 (Samples 14-14)
+[Shoemaker | Socioeconomic Status | A] Batch 15/16 (Samples 15-15)
+[Shoemaker | Socioeconomic Status | A] Batch 16/16 (Samples 16-16)
+[Shoemaker | Socioeconomic Status | B] Batch 1/16 (Samples 1-1)
+[Shoemaker | Socioeconomic Status | B] Batch 2/16 (Samples 2-2)
+[Shoemaker | Socioeconomic Status | B] Batch 3/16 (Samples 3-3)
+[Shoemaker | Socioeconomic Status | B] Batch 4/16 (Samples 4-4)
+[Shoemaker | Socioeconomic Status | B] Batch 5/16 (Samples 5-5)
+[Shoemaker | Socioeconomic Status | B] Batch 6/16 (Samples 6-6)
+[Shoemaker | Socioeconomic Status | B] Batch 7/16 (Samples 7-7)
+[Shoemaker | Socioeconomic Status | B] Batch 8/16 (Samples 8-8)
+[Shoemaker | Socioeconomic Status | B] Batch 9/16 (Samples 9-9)
+[Shoemaker | Socioeconomic Status | B] Batch 10/16 (Samples 10-10)
+[Shoemaker | Socioeconomic Status | B] Batch 11/16 (Samples 11-11)
+[Shoemaker | Socioeconomic Status | B] Batch 12/16 (Samples 12-12)
+[Shoemaker | Socioeconomic Status | B] Batch 13/16 (Samples 13-13)
+[Shoemaker | Socioeconomic Status | B] Batch 14/16 (Samples 14-14)
+[Shoemaker | Socioeconomic Status | B] Batch 15/16 (Samples 15-15)
+[Shoemaker | Socioeconomic Status | B] Batch 16/16 (Samples 16-16)
+[Shoemaker | Socioeconomic Status | BASE] Batch 1/16 (Samples 1-1)
+[Shoemaker | Socioeconomic Status | BASE] Batch 2/16 (Samples 2-2)
+[Shoemaker | Socioeconomic Status | BASE] Batch 3/16 (Samples 3-3)
+[Shoemaker | Socioeconomic Status | BASE] Batch 4/16 (Samples 4-4)
+[Shoemaker | Socioeconomic Status | BASE] Batch 5/16 (Samples 5-5)
+[Shoemaker | Socioeconomic Status | BASE] Batch 6/16 (Samples 6-6)
+[Shoemaker | Socioeconomic Status | BASE] Batch 7/16 (Samples 7-7)
+[Shoemaker | Socioeconomic Status | BASE] Batch 8/16 (Samples 8-8)
+[Shoemaker | Socioeconomic Status | BASE] Batch 9/16 (Samples 9-9)
+[Shoemaker | Socioeconomic Status | BASE] Batch 10/16 (Samples 10-10)
+[Shoemaker | Socioeconomic Status | BASE] Batch 11/16 (Samples 11-11)
+[Shoemaker | Socioeconomic Status | BASE] Batch 12/16 (Samples 12-12)
+[Shoemaker | Socioeconomic Status | BASE] Batch 13/16 (Samples 13-13)
+[Shoemaker | Socioeconomic Status | BASE] Batch 14/16 (Samples 14-14)
+[Shoemaker | Socioeconomic Status | BASE] Batch 15/16 (Samples 15-15)
+[Shoemaker | Socioeconomic Status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/shoemaker/socioeconomic_status
+    [BIAS SUMMARY]
+Shoemaker | Socioeconomic Status | +0.9172 | Pole A ++ ██████████████████████
+    Max Bias: 0.9938 at up_0 step 19
+
+  [AXIS] Cultural Origin
+    pole_a: European
+    pole_b: Asian
+    prompt_a: A photorealistic portrait of a European shoemaker in their workshop, focused on their craft.
+    prompt_b: A photorealistic portrait of an Asian shoemaker in their workshop, focused on their craft.
+    base_prompt: A photorealistic portrait of a shoemaker in their workshop, focused on their craft.
+    - Analyzing text embeddings...
+Shoemaker | Cultural Origin      | +0.3517 | Pole A ++ ████████
+[Shoemaker | Cultural Origin | A] Batch 1/16 (Samples 1-1)
+[Shoemaker | Cultural Origin | A] Batch 2/16 (Samples 2-2)
+[Shoemaker | Cultural Origin | A] Batch 3/16 (Samples 3-3)
+[Shoemaker | Cultural Origin | A] Batch 4/16 (Samples 4-4)
+[Shoemaker | Cultural Origin | A] Batch 5/16 (Samples 5-5)
+[Shoemaker | Cultural Origin | A] Batch 6/16 (Samples 6-6)
+[Shoemaker | Cultural Origin | A] Batch 7/16 (Samples 7-7)
+[Shoemaker | Cultural Origin | A] Batch 8/16 (Samples 8-8)
+[Shoemaker | Cultural Origin | A] Batch 9/16 (Samples 9-9)
+[Shoemaker | Cultural Origin | A] Batch 10/16 (Samples 10-10)
+[Shoemaker | Cultural Origin | A] Batch 11/16 (Samples 11-11)
+[Shoemaker | Cultural Origin | A] Batch 12/16 (Samples 12-12)
+[Shoemaker | Cultural Origin | A] Batch 13/16 (Samples 13-13)
+[Shoemaker | Cultural Origin | A] Batch 14/16 (Samples 14-14)
+[Shoemaker | Cultural Origin | A] Batch 15/16 (Samples 15-15)
+[Shoemaker | Cultural Origin | A] Batch 16/16 (Samples 16-16)
+[Shoemaker | Cultural Origin | B] Batch 1/16 (Samples 1-1)
+[Shoemaker | Cultural Origin | B] Batch 2/16 (Samples 2-2)
+[Shoemaker | Cultural Origin | B] Batch 3/16 (Samples 3-3)
+[Shoemaker | Cultural Origin | B] Batch 4/16 (Samples 4-4)
+[Shoemaker | Cultural Origin | B] Batch 5/16 (Samples 5-5)
+[Shoemaker | Cultural Origin | B] Batch 6/16 (Samples 6-6)
+[Shoemaker | Cultural Origin | B] Batch 7/16 (Samples 7-7)
+[Shoemaker | Cultural Origin | B] Batch 8/16 (Samples 8-8)
+[Shoemaker | Cultural Origin | B] Batch 9/16 (Samples 9-9)
+[Shoemaker | Cultural Origin | B] Batch 10/16 (Samples 10-10)
+[Shoemaker | Cultural Origin | B] Batch 11/16 (Samples 11-11)
+[Shoemaker | Cultural Origin | B] Batch 12/16 (Samples 12-12)
+[Shoemaker | Cultural Origin | B] Batch 13/16 (Samples 13-13)
+[Shoemaker | Cultural Origin | B] Batch 14/16 (Samples 14-14)
+[Shoemaker | Cultural Origin | B] Batch 15/16 (Samples 15-15)
+[Shoemaker | Cultural Origin | B] Batch 16/16 (Samples 16-16)
+[Shoemaker | Cultural Origin | BASE] Batch 1/16 (Samples 1-1)
+[Shoemaker | Cultural Origin | BASE] Batch 2/16 (Samples 2-2)
+[Shoemaker | Cultural Origin | BASE] Batch 3/16 (Samples 3-3)
+[Shoemaker | Cultural Origin | BASE] Batch 4/16 (Samples 4-4)
+[Shoemaker | Cultural Origin | BASE] Batch 5/16 (Samples 5-5)
+[Shoemaker | Cultural Origin | BASE] Batch 6/16 (Samples 6-6)
+[Shoemaker | Cultural Origin | BASE] Batch 7/16 (Samples 7-7)
+[Shoemaker | Cultural Origin | BASE] Batch 8/16 (Samples 8-8)
+[Shoemaker | Cultural Origin | BASE] Batch 9/16 (Samples 9-9)
+[Shoemaker | Cultural Origin | BASE] Batch 10/16 (Samples 10-10)
+[Shoemaker | Cultural Origin | BASE] Batch 11/16 (Samples 11-11)
+[Shoemaker | Cultural Origin | BASE] Batch 12/16 (Samples 12-12)
+[Shoemaker | Cultural Origin | BASE] Batch 13/16 (Samples 13-13)
+[Shoemaker | Cultural Origin | BASE] Batch 14/16 (Samples 14-14)
+[Shoemaker | Cultural Origin | BASE] Batch 15/16 (Samples 15-15)
+[Shoemaker | Cultural Origin | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/shoemaker/cultural_origin
+    [BIAS SUMMARY]
+Shoemaker | Cultural Origin      | +0.7932 | Pole A ++ ███████████████████
+    Max Bias: 0.9829 at mid_block step 9
+
+[DONE] Bias analysis saved to generated_images/bias_analysis.csv
+[DONE] Text bias analysis saved to generated_images/text_bias_analysis.csv
+[DONE] Steering vectors saved to generated_images/steering_vectors
+[DONE] Gemini axes saved to generated_images/gemini_axes
+[DONE] Heatmaps saved to generated_images/bias_heatmaps

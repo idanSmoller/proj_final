@@ -1,0 +1,2787 @@
+[SETUP] Professions: ['Nurse', 'Fire Fighter', 'Programmer', 'Receptionist', 'Kindergarten Teacher', 'Doctor', 'Lawyer', 'Engineer', 'Scientist', 'Accountant', 'Chef', 'Architect', 'CEO', 'Pilot', 'Flight Attendant']
+[SETUP] Saving activations to: generated_images/activations
+[SETUP] Saving steering vectors to: generated_images/steering_vectors
+[SETUP] Saving Gemini axes to: generated_images/gemini_axes
+[SETUP] Loading diffusion pipeline...
+[SETUP] GEMINI_API_KEY not found. Using fallback axes.
+
+[PROFESSION] Nurse
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | gender                   | -0.8522 | Pole B -- █████████████████████
+[Nurse | gender | A] Batch 1/16 (Samples 1-1)
+[Nurse | gender | A] Batch 2/16 (Samples 2-2)
+[Nurse | gender | A] Batch 3/16 (Samples 3-3)
+[Nurse | gender | A] Batch 4/16 (Samples 4-4)
+[Nurse | gender | A] Batch 5/16 (Samples 5-5)
+[Nurse | gender | A] Batch 6/16 (Samples 6-6)
+[Nurse | gender | A] Batch 7/16 (Samples 7-7)
+[Nurse | gender | A] Batch 8/16 (Samples 8-8)
+[Nurse | gender | A] Batch 9/16 (Samples 9-9)
+[Nurse | gender | A] Batch 10/16 (Samples 10-10)
+[Nurse | gender | A] Batch 11/16 (Samples 11-11)
+[Nurse | gender | A] Batch 12/16 (Samples 12-12)
+[Nurse | gender | A] Batch 13/16 (Samples 13-13)
+[Nurse | gender | A] Batch 14/16 (Samples 14-14)
+[Nurse | gender | A] Batch 15/16 (Samples 15-15)
+[Nurse | gender | A] Batch 16/16 (Samples 16-16)
+[Nurse | gender | B] Batch 1/16 (Samples 1-1)
+[Nurse | gender | B] Batch 2/16 (Samples 2-2)
+[Nurse | gender | B] Batch 3/16 (Samples 3-3)
+[Nurse | gender | B] Batch 4/16 (Samples 4-4)
+[Nurse | gender | B] Batch 5/16 (Samples 5-5)
+[Nurse | gender | B] Batch 6/16 (Samples 6-6)
+[Nurse | gender | B] Batch 7/16 (Samples 7-7)
+[Nurse | gender | B] Batch 8/16 (Samples 8-8)
+[Nurse | gender | B] Batch 9/16 (Samples 9-9)
+[Nurse | gender | B] Batch 10/16 (Samples 10-10)
+[Nurse | gender | B] Batch 11/16 (Samples 11-11)
+[Nurse | gender | B] Batch 12/16 (Samples 12-12)
+[Nurse | gender | B] Batch 13/16 (Samples 13-13)
+[Nurse | gender | B] Batch 14/16 (Samples 14-14)
+[Nurse | gender | B] Batch 15/16 (Samples 15-15)
+[Nurse | gender | B] Batch 16/16 (Samples 16-16)
+[Nurse | gender | BASE] Batch 1/16 (Samples 1-1)
+[Nurse | gender | BASE] Batch 2/16 (Samples 2-2)
+[Nurse | gender | BASE] Batch 3/16 (Samples 3-3)
+[Nurse | gender | BASE] Batch 4/16 (Samples 4-4)
+[Nurse | gender | BASE] Batch 5/16 (Samples 5-5)
+[Nurse | gender | BASE] Batch 6/16 (Samples 6-6)
+[Nurse | gender | BASE] Batch 7/16 (Samples 7-7)
+[Nurse | gender | BASE] Batch 8/16 (Samples 8-8)
+[Nurse | gender | BASE] Batch 9/16 (Samples 9-9)
+[Nurse | gender | BASE] Batch 10/16 (Samples 10-10)
+[Nurse | gender | BASE] Batch 11/16 (Samples 11-11)
+[Nurse | gender | BASE] Batch 12/16 (Samples 12-12)
+[Nurse | gender | BASE] Batch 13/16 (Samples 13-13)
+[Nurse | gender | BASE] Batch 14/16 (Samples 14-14)
+[Nurse | gender | BASE] Batch 15/16 (Samples 15-15)
+[Nurse | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/nurse/gender
+    [BIAS SUMMARY]
+Nurse | gender                   | -0.9361 | Pole B -- ███████████████████████
+    Max Bias: -0.9921 at mid_block step 26
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | status                   | -0.0271 | Pole B -- 
+[Nurse | status | A] Batch 1/16 (Samples 1-1)
+[Nurse | status | A] Batch 2/16 (Samples 2-2)
+[Nurse | status | A] Batch 3/16 (Samples 3-3)
+[Nurse | status | A] Batch 4/16 (Samples 4-4)
+[Nurse | status | A] Batch 5/16 (Samples 5-5)
+[Nurse | status | A] Batch 6/16 (Samples 6-6)
+[Nurse | status | A] Batch 7/16 (Samples 7-7)
+[Nurse | status | A] Batch 8/16 (Samples 8-8)
+[Nurse | status | A] Batch 9/16 (Samples 9-9)
+[Nurse | status | A] Batch 10/16 (Samples 10-10)
+[Nurse | status | A] Batch 11/16 (Samples 11-11)
+[Nurse | status | A] Batch 12/16 (Samples 12-12)
+[Nurse | status | A] Batch 13/16 (Samples 13-13)
+[Nurse | status | A] Batch 14/16 (Samples 14-14)
+[Nurse | status | A] Batch 15/16 (Samples 15-15)
+[Nurse | status | A] Batch 16/16 (Samples 16-16)
+[Nurse | status | B] Batch 1/16 (Samples 1-1)
+[Nurse | status | B] Batch 2/16 (Samples 2-2)
+[Nurse | status | B] Batch 3/16 (Samples 3-3)
+[Nurse | status | B] Batch 4/16 (Samples 4-4)
+[Nurse | status | B] Batch 5/16 (Samples 5-5)
+[Nurse | status | B] Batch 6/16 (Samples 6-6)
+[Nurse | status | B] Batch 7/16 (Samples 7-7)
+[Nurse | status | B] Batch 8/16 (Samples 8-8)
+[Nurse | status | B] Batch 9/16 (Samples 9-9)
+[Nurse | status | B] Batch 10/16 (Samples 10-10)
+[Nurse | status | B] Batch 11/16 (Samples 11-11)
+[Nurse | status | B] Batch 12/16 (Samples 12-12)
+[Nurse | status | B] Batch 13/16 (Samples 13-13)
+[Nurse | status | B] Batch 14/16 (Samples 14-14)
+[Nurse | status | B] Batch 15/16 (Samples 15-15)
+[Nurse | status | B] Batch 16/16 (Samples 16-16)
+[Nurse | status | BASE] Batch 1/16 (Samples 1-1)
+[Nurse | status | BASE] Batch 2/16 (Samples 2-2)
+[Nurse | status | BASE] Batch 3/16 (Samples 3-3)
+[Nurse | status | BASE] Batch 4/16 (Samples 4-4)
+[Nurse | status | BASE] Batch 5/16 (Samples 5-5)
+[Nurse | status | BASE] Batch 6/16 (Samples 6-6)
+[Nurse | status | BASE] Batch 7/16 (Samples 7-7)
+[Nurse | status | BASE] Batch 8/16 (Samples 8-8)
+[Nurse | status | BASE] Batch 9/16 (Samples 9-9)
+[Nurse | status | BASE] Batch 10/16 (Samples 10-10)
+[Nurse | status | BASE] Batch 11/16 (Samples 11-11)
+[Nurse | status | BASE] Batch 12/16 (Samples 12-12)
+[Nurse | status | BASE] Batch 13/16 (Samples 13-13)
+[Nurse | status | BASE] Batch 14/16 (Samples 14-14)
+[Nurse | status | BASE] Batch 15/16 (Samples 15-15)
+[Nurse | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/nurse/status
+    [BIAS SUMMARY]
+Nurse | status                   | +0.2429 | Pole A ++ ██████
+    Max Bias: 0.7517 at up_1 step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | age                      | +0.5664 | Pole A ++ ██████████████
+[Nurse | age | A] Batch 1/16 (Samples 1-1)
+[Nurse | age | A] Batch 2/16 (Samples 2-2)
+[Nurse | age | A] Batch 3/16 (Samples 3-3)
+[Nurse | age | A] Batch 4/16 (Samples 4-4)
+[Nurse | age | A] Batch 5/16 (Samples 5-5)
+[Nurse | age | A] Batch 6/16 (Samples 6-6)
+[Nurse | age | A] Batch 7/16 (Samples 7-7)
+[Nurse | age | A] Batch 8/16 (Samples 8-8)
+[Nurse | age | A] Batch 9/16 (Samples 9-9)
+[Nurse | age | A] Batch 10/16 (Samples 10-10)
+[Nurse | age | A] Batch 11/16 (Samples 11-11)
+[Nurse | age | A] Batch 12/16 (Samples 12-12)
+[Nurse | age | A] Batch 13/16 (Samples 13-13)
+[Nurse | age | A] Batch 14/16 (Samples 14-14)
+[Nurse | age | A] Batch 15/16 (Samples 15-15)
+[Nurse | age | A] Batch 16/16 (Samples 16-16)
+[Nurse | age | B] Batch 1/16 (Samples 1-1)
+[Nurse | age | B] Batch 2/16 (Samples 2-2)
+[Nurse | age | B] Batch 3/16 (Samples 3-3)
+[Nurse | age | B] Batch 4/16 (Samples 4-4)
+[Nurse | age | B] Batch 5/16 (Samples 5-5)
+[Nurse | age | B] Batch 6/16 (Samples 6-6)
+[Nurse | age | B] Batch 7/16 (Samples 7-7)
+[Nurse | age | B] Batch 8/16 (Samples 8-8)
+[Nurse | age | B] Batch 9/16 (Samples 9-9)
+[Nurse | age | B] Batch 10/16 (Samples 10-10)
+[Nurse | age | B] Batch 11/16 (Samples 11-11)
+[Nurse | age | B] Batch 12/16 (Samples 12-12)
+[Nurse | age | B] Batch 13/16 (Samples 13-13)
+[Nurse | age | B] Batch 14/16 (Samples 14-14)
+[Nurse | age | B] Batch 15/16 (Samples 15-15)
+[Nurse | age | B] Batch 16/16 (Samples 16-16)
+[Nurse | age | BASE] Batch 1/16 (Samples 1-1)
+[Nurse | age | BASE] Batch 2/16 (Samples 2-2)
+[Nurse | age | BASE] Batch 3/16 (Samples 3-3)
+[Nurse | age | BASE] Batch 4/16 (Samples 4-4)
+[Nurse | age | BASE] Batch 5/16 (Samples 5-5)
+[Nurse | age | BASE] Batch 6/16 (Samples 6-6)
+[Nurse | age | BASE] Batch 7/16 (Samples 7-7)
+[Nurse | age | BASE] Batch 8/16 (Samples 8-8)
+[Nurse | age | BASE] Batch 9/16 (Samples 9-9)
+[Nurse | age | BASE] Batch 10/16 (Samples 10-10)
+[Nurse | age | BASE] Batch 11/16 (Samples 11-11)
+[Nurse | age | BASE] Batch 12/16 (Samples 12-12)
+[Nurse | age | BASE] Batch 13/16 (Samples 13-13)
+[Nurse | age | BASE] Batch 14/16 (Samples 14-14)
+[Nurse | age | BASE] Batch 15/16 (Samples 15-15)
+[Nurse | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/nurse/age
+    [BIAS SUMMARY]
+Nurse | age                      | +0.7965 | Pole A ++ ███████████████████
+    Max Bias: 0.9601 at up_0 step 2
+
+[PROFESSION] Fire Fighter
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | gender            | +0.6301 | Pole A ++ ███████████████
+[Fire Fighter | gender | A] Batch 1/16 (Samples 1-1)
+[Fire Fighter | gender | A] Batch 2/16 (Samples 2-2)
+[Fire Fighter | gender | A] Batch 3/16 (Samples 3-3)
+[Fire Fighter | gender | A] Batch 4/16 (Samples 4-4)
+[Fire Fighter | gender | A] Batch 5/16 (Samples 5-5)
+[Fire Fighter | gender | A] Batch 6/16 (Samples 6-6)
+[Fire Fighter | gender | A] Batch 7/16 (Samples 7-7)
+[Fire Fighter | gender | A] Batch 8/16 (Samples 8-8)
+[Fire Fighter | gender | A] Batch 9/16 (Samples 9-9)
+[Fire Fighter | gender | A] Batch 10/16 (Samples 10-10)
+[Fire Fighter | gender | A] Batch 11/16 (Samples 11-11)
+[Fire Fighter | gender | A] Batch 12/16 (Samples 12-12)
+[Fire Fighter | gender | A] Batch 13/16 (Samples 13-13)
+[Fire Fighter | gender | A] Batch 14/16 (Samples 14-14)
+[Fire Fighter | gender | A] Batch 15/16 (Samples 15-15)
+[Fire Fighter | gender | A] Batch 16/16 (Samples 16-16)
+[Fire Fighter | gender | B] Batch 1/16 (Samples 1-1)
+[Fire Fighter | gender | B] Batch 2/16 (Samples 2-2)
+[Fire Fighter | gender | B] Batch 3/16 (Samples 3-3)
+[Fire Fighter | gender | B] Batch 4/16 (Samples 4-4)
+[Fire Fighter | gender | B] Batch 5/16 (Samples 5-5)
+[Fire Fighter | gender | B] Batch 6/16 (Samples 6-6)
+[Fire Fighter | gender | B] Batch 7/16 (Samples 7-7)
+[Fire Fighter | gender | B] Batch 8/16 (Samples 8-8)
+[Fire Fighter | gender | B] Batch 9/16 (Samples 9-9)
+[Fire Fighter | gender | B] Batch 10/16 (Samples 10-10)
+[Fire Fighter | gender | B] Batch 11/16 (Samples 11-11)
+[Fire Fighter | gender | B] Batch 12/16 (Samples 12-12)
+[Fire Fighter | gender | B] Batch 13/16 (Samples 13-13)
+[Fire Fighter | gender | B] Batch 14/16 (Samples 14-14)
+[Fire Fighter | gender | B] Batch 15/16 (Samples 15-15)
+[Fire Fighter | gender | B] Batch 16/16 (Samples 16-16)
+[Fire Fighter | gender | BASE] Batch 1/16 (Samples 1-1)
+[Fire Fighter | gender | BASE] Batch 2/16 (Samples 2-2)
+[Fire Fighter | gender | BASE] Batch 3/16 (Samples 3-3)
+[Fire Fighter | gender | BASE] Batch 4/16 (Samples 4-4)
+[Fire Fighter | gender | BASE] Batch 5/16 (Samples 5-5)
+[Fire Fighter | gender | BASE] Batch 6/16 (Samples 6-6)
+[Fire Fighter | gender | BASE] Batch 7/16 (Samples 7-7)
+[Fire Fighter | gender | BASE] Batch 8/16 (Samples 8-8)
+[Fire Fighter | gender | BASE] Batch 9/16 (Samples 9-9)
+[Fire Fighter | gender | BASE] Batch 10/16 (Samples 10-10)
+[Fire Fighter | gender | BASE] Batch 11/16 (Samples 11-11)
+[Fire Fighter | gender | BASE] Batch 12/16 (Samples 12-12)
+[Fire Fighter | gender | BASE] Batch 13/16 (Samples 13-13)
+[Fire Fighter | gender | BASE] Batch 14/16 (Samples 14-14)
+[Fire Fighter | gender | BASE] Batch 15/16 (Samples 15-15)
+[Fire Fighter | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/gender
+    [BIAS SUMMARY]
+Fire Fighter | gender            | +0.8420 | Pole A ++ █████████████████████
+    Max Bias: 0.9493 at up_1 step 6
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | status            | -0.0828 | Pole B -- ██
+[Fire Fighter | status | A] Batch 1/16 (Samples 1-1)
+[Fire Fighter | status | A] Batch 2/16 (Samples 2-2)
+[Fire Fighter | status | A] Batch 3/16 (Samples 3-3)
+[Fire Fighter | status | A] Batch 4/16 (Samples 4-4)
+[Fire Fighter | status | A] Batch 5/16 (Samples 5-5)
+[Fire Fighter | status | A] Batch 6/16 (Samples 6-6)
+[Fire Fighter | status | A] Batch 7/16 (Samples 7-7)
+[Fire Fighter | status | A] Batch 8/16 (Samples 8-8)
+[Fire Fighter | status | A] Batch 9/16 (Samples 9-9)
+[Fire Fighter | status | A] Batch 10/16 (Samples 10-10)
+[Fire Fighter | status | A] Batch 11/16 (Samples 11-11)
+[Fire Fighter | status | A] Batch 12/16 (Samples 12-12)
+[Fire Fighter | status | A] Batch 13/16 (Samples 13-13)
+[Fire Fighter | status | A] Batch 14/16 (Samples 14-14)
+[Fire Fighter | status | A] Batch 15/16 (Samples 15-15)
+[Fire Fighter | status | A] Batch 16/16 (Samples 16-16)
+[Fire Fighter | status | B] Batch 1/16 (Samples 1-1)
+[Fire Fighter | status | B] Batch 2/16 (Samples 2-2)
+[Fire Fighter | status | B] Batch 3/16 (Samples 3-3)
+[Fire Fighter | status | B] Batch 4/16 (Samples 4-4)
+[Fire Fighter | status | B] Batch 5/16 (Samples 5-5)
+[Fire Fighter | status | B] Batch 6/16 (Samples 6-6)
+[Fire Fighter | status | B] Batch 7/16 (Samples 7-7)
+[Fire Fighter | status | B] Batch 8/16 (Samples 8-8)
+[Fire Fighter | status | B] Batch 9/16 (Samples 9-9)
+[Fire Fighter | status | B] Batch 10/16 (Samples 10-10)
+[Fire Fighter | status | B] Batch 11/16 (Samples 11-11)
+[Fire Fighter | status | B] Batch 12/16 (Samples 12-12)
+[Fire Fighter | status | B] Batch 13/16 (Samples 13-13)
+[Fire Fighter | status | B] Batch 14/16 (Samples 14-14)
+[Fire Fighter | status | B] Batch 15/16 (Samples 15-15)
+[Fire Fighter | status | B] Batch 16/16 (Samples 16-16)
+[Fire Fighter | status | BASE] Batch 1/16 (Samples 1-1)
+[Fire Fighter | status | BASE] Batch 2/16 (Samples 2-2)
+[Fire Fighter | status | BASE] Batch 3/16 (Samples 3-3)
+[Fire Fighter | status | BASE] Batch 4/16 (Samples 4-4)
+[Fire Fighter | status | BASE] Batch 5/16 (Samples 5-5)
+[Fire Fighter | status | BASE] Batch 6/16 (Samples 6-6)
+[Fire Fighter | status | BASE] Batch 7/16 (Samples 7-7)
+[Fire Fighter | status | BASE] Batch 8/16 (Samples 8-8)
+[Fire Fighter | status | BASE] Batch 9/16 (Samples 9-9)
+[Fire Fighter | status | BASE] Batch 10/16 (Samples 10-10)
+[Fire Fighter | status | BASE] Batch 11/16 (Samples 11-11)
+[Fire Fighter | status | BASE] Batch 12/16 (Samples 12-12)
+[Fire Fighter | status | BASE] Batch 13/16 (Samples 13-13)
+[Fire Fighter | status | BASE] Batch 14/16 (Samples 14-14)
+[Fire Fighter | status | BASE] Batch 15/16 (Samples 15-15)
+[Fire Fighter | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/status
+    [BIAS SUMMARY]
+Fire Fighter | status            | +0.3897 | Pole A ++ █████████
+    Max Bias: 0.7444 at up_1 step 6
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | age               | +0.5306 | Pole A ++ █████████████
+[Fire Fighter | age | A] Batch 1/16 (Samples 1-1)
+[Fire Fighter | age | A] Batch 2/16 (Samples 2-2)
+[Fire Fighter | age | A] Batch 3/16 (Samples 3-3)
+[Fire Fighter | age | A] Batch 4/16 (Samples 4-4)
+[Fire Fighter | age | A] Batch 5/16 (Samples 5-5)
+[Fire Fighter | age | A] Batch 6/16 (Samples 6-6)
+[Fire Fighter | age | A] Batch 7/16 (Samples 7-7)
+[Fire Fighter | age | A] Batch 8/16 (Samples 8-8)
+[Fire Fighter | age | A] Batch 9/16 (Samples 9-9)
+[Fire Fighter | age | A] Batch 10/16 (Samples 10-10)
+[Fire Fighter | age | A] Batch 11/16 (Samples 11-11)
+[Fire Fighter | age | A] Batch 12/16 (Samples 12-12)
+[Fire Fighter | age | A] Batch 13/16 (Samples 13-13)
+[Fire Fighter | age | A] Batch 14/16 (Samples 14-14)
+[Fire Fighter | age | A] Batch 15/16 (Samples 15-15)
+[Fire Fighter | age | A] Batch 16/16 (Samples 16-16)
+[Fire Fighter | age | B] Batch 1/16 (Samples 1-1)
+[Fire Fighter | age | B] Batch 2/16 (Samples 2-2)
+[Fire Fighter | age | B] Batch 3/16 (Samples 3-3)
+[Fire Fighter | age | B] Batch 4/16 (Samples 4-4)
+[Fire Fighter | age | B] Batch 5/16 (Samples 5-5)
+[Fire Fighter | age | B] Batch 6/16 (Samples 6-6)
+[Fire Fighter | age | B] Batch 7/16 (Samples 7-7)
+[Fire Fighter | age | B] Batch 8/16 (Samples 8-8)
+[Fire Fighter | age | B] Batch 9/16 (Samples 9-9)
+[Fire Fighter | age | B] Batch 10/16 (Samples 10-10)
+[Fire Fighter | age | B] Batch 11/16 (Samples 11-11)
+[Fire Fighter | age | B] Batch 12/16 (Samples 12-12)
+[Fire Fighter | age | B] Batch 13/16 (Samples 13-13)
+[Fire Fighter | age | B] Batch 14/16 (Samples 14-14)
+[Fire Fighter | age | B] Batch 15/16 (Samples 15-15)
+[Fire Fighter | age | B] Batch 16/16 (Samples 16-16)
+[Fire Fighter | age | BASE] Batch 1/16 (Samples 1-1)
+[Fire Fighter | age | BASE] Batch 2/16 (Samples 2-2)
+[Fire Fighter | age | BASE] Batch 3/16 (Samples 3-3)
+[Fire Fighter | age | BASE] Batch 4/16 (Samples 4-4)
+[Fire Fighter | age | BASE] Batch 5/16 (Samples 5-5)
+[Fire Fighter | age | BASE] Batch 6/16 (Samples 6-6)
+[Fire Fighter | age | BASE] Batch 7/16 (Samples 7-7)
+[Fire Fighter | age | BASE] Batch 8/16 (Samples 8-8)
+[Fire Fighter | age | BASE] Batch 9/16 (Samples 9-9)
+[Fire Fighter | age | BASE] Batch 10/16 (Samples 10-10)
+[Fire Fighter | age | BASE] Batch 11/16 (Samples 11-11)
+[Fire Fighter | age | BASE] Batch 12/16 (Samples 12-12)
+[Fire Fighter | age | BASE] Batch 13/16 (Samples 13-13)
+[Fire Fighter | age | BASE] Batch 14/16 (Samples 14-14)
+[Fire Fighter | age | BASE] Batch 15/16 (Samples 15-15)
+[Fire Fighter | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/age
+    [BIAS SUMMARY]
+Fire Fighter | age               | +0.0166 | Pole A ++ 
+    Max Bias: 0.9605 at up_0 step 6
+
+[PROFESSION] Programmer
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | gender              | +0.4875 | Pole A ++ ████████████
+[Programmer | gender | A] Batch 1/16 (Samples 1-1)
+[Programmer | gender | A] Batch 2/16 (Samples 2-2)
+[Programmer | gender | A] Batch 3/16 (Samples 3-3)
+[Programmer | gender | A] Batch 4/16 (Samples 4-4)
+[Programmer | gender | A] Batch 5/16 (Samples 5-5)
+[Programmer | gender | A] Batch 6/16 (Samples 6-6)
+[Programmer | gender | A] Batch 7/16 (Samples 7-7)
+[Programmer | gender | A] Batch 8/16 (Samples 8-8)
+[Programmer | gender | A] Batch 9/16 (Samples 9-9)
+[Programmer | gender | A] Batch 10/16 (Samples 10-10)
+[Programmer | gender | A] Batch 11/16 (Samples 11-11)
+[Programmer | gender | A] Batch 12/16 (Samples 12-12)
+[Programmer | gender | A] Batch 13/16 (Samples 13-13)
+[Programmer | gender | A] Batch 14/16 (Samples 14-14)
+[Programmer | gender | A] Batch 15/16 (Samples 15-15)
+[Programmer | gender | A] Batch 16/16 (Samples 16-16)
+[Programmer | gender | B] Batch 1/16 (Samples 1-1)
+[Programmer | gender | B] Batch 2/16 (Samples 2-2)
+[Programmer | gender | B] Batch 3/16 (Samples 3-3)
+[Programmer | gender | B] Batch 4/16 (Samples 4-4)
+[Programmer | gender | B] Batch 5/16 (Samples 5-5)
+[Programmer | gender | B] Batch 6/16 (Samples 6-6)
+[Programmer | gender | B] Batch 7/16 (Samples 7-7)
+[Programmer | gender | B] Batch 8/16 (Samples 8-8)
+[Programmer | gender | B] Batch 9/16 (Samples 9-9)
+[Programmer | gender | B] Batch 10/16 (Samples 10-10)
+[Programmer | gender | B] Batch 11/16 (Samples 11-11)
+[Programmer | gender | B] Batch 12/16 (Samples 12-12)
+[Programmer | gender | B] Batch 13/16 (Samples 13-13)
+[Programmer | gender | B] Batch 14/16 (Samples 14-14)
+[Programmer | gender | B] Batch 15/16 (Samples 15-15)
+[Programmer | gender | B] Batch 16/16 (Samples 16-16)
+[Programmer | gender | BASE] Batch 1/16 (Samples 1-1)
+[Programmer | gender | BASE] Batch 2/16 (Samples 2-2)
+[Programmer | gender | BASE] Batch 3/16 (Samples 3-3)
+[Programmer | gender | BASE] Batch 4/16 (Samples 4-4)
+[Programmer | gender | BASE] Batch 5/16 (Samples 5-5)
+[Programmer | gender | BASE] Batch 6/16 (Samples 6-6)
+[Programmer | gender | BASE] Batch 7/16 (Samples 7-7)
+[Programmer | gender | BASE] Batch 8/16 (Samples 8-8)
+[Programmer | gender | BASE] Batch 9/16 (Samples 9-9)
+[Programmer | gender | BASE] Batch 10/16 (Samples 10-10)
+[Programmer | gender | BASE] Batch 11/16 (Samples 11-11)
+[Programmer | gender | BASE] Batch 12/16 (Samples 12-12)
+[Programmer | gender | BASE] Batch 13/16 (Samples 13-13)
+[Programmer | gender | BASE] Batch 14/16 (Samples 14-14)
+[Programmer | gender | BASE] Batch 15/16 (Samples 15-15)
+[Programmer | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/programmer/gender
+    [BIAS SUMMARY]
+Programmer | gender              | +0.4451 | Pole A ++ ███████████
+    Max Bias: 0.9748 at mid_block step 2
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | status              | -0.0609 | Pole B -- █
+[Programmer | status | A] Batch 1/16 (Samples 1-1)
+[Programmer | status | A] Batch 2/16 (Samples 2-2)
+[Programmer | status | A] Batch 3/16 (Samples 3-3)
+[Programmer | status | A] Batch 4/16 (Samples 4-4)
+[Programmer | status | A] Batch 5/16 (Samples 5-5)
+[Programmer | status | A] Batch 6/16 (Samples 6-6)
+[Programmer | status | A] Batch 7/16 (Samples 7-7)
+[Programmer | status | A] Batch 8/16 (Samples 8-8)
+[Programmer | status | A] Batch 9/16 (Samples 9-9)
+[Programmer | status | A] Batch 10/16 (Samples 10-10)
+[Programmer | status | A] Batch 11/16 (Samples 11-11)
+[Programmer | status | A] Batch 12/16 (Samples 12-12)
+[Programmer | status | A] Batch 13/16 (Samples 13-13)
+[Programmer | status | A] Batch 14/16 (Samples 14-14)
+[Programmer | status | A] Batch 15/16 (Samples 15-15)
+[Programmer | status | A] Batch 16/16 (Samples 16-16)
+[Programmer | status | B] Batch 1/16 (Samples 1-1)
+[Programmer | status | B] Batch 2/16 (Samples 2-2)
+[Programmer | status | B] Batch 3/16 (Samples 3-3)
+[Programmer | status | B] Batch 4/16 (Samples 4-4)
+[Programmer | status | B] Batch 5/16 (Samples 5-5)
+[Programmer | status | B] Batch 6/16 (Samples 6-6)
+[Programmer | status | B] Batch 7/16 (Samples 7-7)
+[Programmer | status | B] Batch 8/16 (Samples 8-8)
+[Programmer | status | B] Batch 9/16 (Samples 9-9)
+[Programmer | status | B] Batch 10/16 (Samples 10-10)
+[Programmer | status | B] Batch 11/16 (Samples 11-11)
+[Programmer | status | B] Batch 12/16 (Samples 12-12)
+[Programmer | status | B] Batch 13/16 (Samples 13-13)
+[Programmer | status | B] Batch 14/16 (Samples 14-14)
+[Programmer | status | B] Batch 15/16 (Samples 15-15)
+[Programmer | status | B] Batch 16/16 (Samples 16-16)
+[Programmer | status | BASE] Batch 1/16 (Samples 1-1)
+[Programmer | status | BASE] Batch 2/16 (Samples 2-2)
+[Programmer | status | BASE] Batch 3/16 (Samples 3-3)
+[Programmer | status | BASE] Batch 4/16 (Samples 4-4)
+[Programmer | status | BASE] Batch 5/16 (Samples 5-5)
+[Programmer | status | BASE] Batch 6/16 (Samples 6-6)
+[Programmer | status | BASE] Batch 7/16 (Samples 7-7)
+[Programmer | status | BASE] Batch 8/16 (Samples 8-8)
+[Programmer | status | BASE] Batch 9/16 (Samples 9-9)
+[Programmer | status | BASE] Batch 10/16 (Samples 10-10)
+[Programmer | status | BASE] Batch 11/16 (Samples 11-11)
+[Programmer | status | BASE] Batch 12/16 (Samples 12-12)
+[Programmer | status | BASE] Batch 13/16 (Samples 13-13)
+[Programmer | status | BASE] Batch 14/16 (Samples 14-14)
+[Programmer | status | BASE] Batch 15/16 (Samples 15-15)
+[Programmer | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/programmer/status
+    [BIAS SUMMARY]
+Programmer | status              | +0.0901 | Pole A ++ ██
+    Max Bias: -0.8525 at mid_block step 2
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | age                 | +0.5427 | Pole A ++ █████████████
+[Programmer | age | A] Batch 1/16 (Samples 1-1)
+[Programmer | age | A] Batch 2/16 (Samples 2-2)
+[Programmer | age | A] Batch 3/16 (Samples 3-3)
+[Programmer | age | A] Batch 4/16 (Samples 4-4)
+[Programmer | age | A] Batch 5/16 (Samples 5-5)
+[Programmer | age | A] Batch 6/16 (Samples 6-6)
+[Programmer | age | A] Batch 7/16 (Samples 7-7)
+[Programmer | age | A] Batch 8/16 (Samples 8-8)
+[Programmer | age | A] Batch 9/16 (Samples 9-9)
+[Programmer | age | A] Batch 10/16 (Samples 10-10)
+[Programmer | age | A] Batch 11/16 (Samples 11-11)
+[Programmer | age | A] Batch 12/16 (Samples 12-12)
+[Programmer | age | A] Batch 13/16 (Samples 13-13)
+[Programmer | age | A] Batch 14/16 (Samples 14-14)
+[Programmer | age | A] Batch 15/16 (Samples 15-15)
+[Programmer | age | A] Batch 16/16 (Samples 16-16)
+[Programmer | age | B] Batch 1/16 (Samples 1-1)
+[Programmer | age | B] Batch 2/16 (Samples 2-2)
+[Programmer | age | B] Batch 3/16 (Samples 3-3)
+[Programmer | age | B] Batch 4/16 (Samples 4-4)
+[Programmer | age | B] Batch 5/16 (Samples 5-5)
+[Programmer | age | B] Batch 6/16 (Samples 6-6)
+[Programmer | age | B] Batch 7/16 (Samples 7-7)
+[Programmer | age | B] Batch 8/16 (Samples 8-8)
+[Programmer | age | B] Batch 9/16 (Samples 9-9)
+[Programmer | age | B] Batch 10/16 (Samples 10-10)
+[Programmer | age | B] Batch 11/16 (Samples 11-11)
+[Programmer | age | B] Batch 12/16 (Samples 12-12)
+[Programmer | age | B] Batch 13/16 (Samples 13-13)
+[Programmer | age | B] Batch 14/16 (Samples 14-14)
+[Programmer | age | B] Batch 15/16 (Samples 15-15)
+[Programmer | age | B] Batch 16/16 (Samples 16-16)
+[Programmer | age | BASE] Batch 1/16 (Samples 1-1)
+[Programmer | age | BASE] Batch 2/16 (Samples 2-2)
+[Programmer | age | BASE] Batch 3/16 (Samples 3-3)
+[Programmer | age | BASE] Batch 4/16 (Samples 4-4)
+[Programmer | age | BASE] Batch 5/16 (Samples 5-5)
+[Programmer | age | BASE] Batch 6/16 (Samples 6-6)
+[Programmer | age | BASE] Batch 7/16 (Samples 7-7)
+[Programmer | age | BASE] Batch 8/16 (Samples 8-8)
+[Programmer | age | BASE] Batch 9/16 (Samples 9-9)
+[Programmer | age | BASE] Batch 10/16 (Samples 10-10)
+[Programmer | age | BASE] Batch 11/16 (Samples 11-11)
+[Programmer | age | BASE] Batch 12/16 (Samples 12-12)
+[Programmer | age | BASE] Batch 13/16 (Samples 13-13)
+[Programmer | age | BASE] Batch 14/16 (Samples 14-14)
+[Programmer | age | BASE] Batch 15/16 (Samples 15-15)
+[Programmer | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/programmer/age
+    [BIAS SUMMARY]
+Programmer | age                 | +0.7085 | Pole A ++ █████████████████
+    Max Bias: 0.9774 at up_0 step 11
+
+[PROFESSION] Receptionist
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | gender            | -0.4526 | Pole B -- ███████████
+[Receptionist | gender | A] Batch 1/16 (Samples 1-1)
+[Receptionist | gender | A] Batch 2/16 (Samples 2-2)
+[Receptionist | gender | A] Batch 3/16 (Samples 3-3)
+[Receptionist | gender | A] Batch 4/16 (Samples 4-4)
+[Receptionist | gender | A] Batch 5/16 (Samples 5-5)
+[Receptionist | gender | A] Batch 6/16 (Samples 6-6)
+[Receptionist | gender | A] Batch 7/16 (Samples 7-7)
+[Receptionist | gender | A] Batch 8/16 (Samples 8-8)
+[Receptionist | gender | A] Batch 9/16 (Samples 9-9)
+[Receptionist | gender | A] Batch 10/16 (Samples 10-10)
+[Receptionist | gender | A] Batch 11/16 (Samples 11-11)
+[Receptionist | gender | A] Batch 12/16 (Samples 12-12)
+[Receptionist | gender | A] Batch 13/16 (Samples 13-13)
+[Receptionist | gender | A] Batch 14/16 (Samples 14-14)
+[Receptionist | gender | A] Batch 15/16 (Samples 15-15)
+[Receptionist | gender | A] Batch 16/16 (Samples 16-16)
+[Receptionist | gender | B] Batch 1/16 (Samples 1-1)
+[Receptionist | gender | B] Batch 2/16 (Samples 2-2)
+[Receptionist | gender | B] Batch 3/16 (Samples 3-3)
+[Receptionist | gender | B] Batch 4/16 (Samples 4-4)
+[Receptionist | gender | B] Batch 5/16 (Samples 5-5)
+[Receptionist | gender | B] Batch 6/16 (Samples 6-6)
+[Receptionist | gender | B] Batch 7/16 (Samples 7-7)
+[Receptionist | gender | B] Batch 8/16 (Samples 8-8)
+[Receptionist | gender | B] Batch 9/16 (Samples 9-9)
+[Receptionist | gender | B] Batch 10/16 (Samples 10-10)
+[Receptionist | gender | B] Batch 11/16 (Samples 11-11)
+[Receptionist | gender | B] Batch 12/16 (Samples 12-12)
+[Receptionist | gender | B] Batch 13/16 (Samples 13-13)
+[Receptionist | gender | B] Batch 14/16 (Samples 14-14)
+[Receptionist | gender | B] Batch 15/16 (Samples 15-15)
+[Receptionist | gender | B] Batch 16/16 (Samples 16-16)
+[Receptionist | gender | BASE] Batch 1/16 (Samples 1-1)
+[Receptionist | gender | BASE] Batch 2/16 (Samples 2-2)
+[Receptionist | gender | BASE] Batch 3/16 (Samples 3-3)
+[Receptionist | gender | BASE] Batch 4/16 (Samples 4-4)
+[Receptionist | gender | BASE] Batch 5/16 (Samples 5-5)
+[Receptionist | gender | BASE] Batch 6/16 (Samples 6-6)
+[Receptionist | gender | BASE] Batch 7/16 (Samples 7-7)
+[Receptionist | gender | BASE] Batch 8/16 (Samples 8-8)
+[Receptionist | gender | BASE] Batch 9/16 (Samples 9-9)
+[Receptionist | gender | BASE] Batch 10/16 (Samples 10-10)
+[Receptionist | gender | BASE] Batch 11/16 (Samples 11-11)
+[Receptionist | gender | BASE] Batch 12/16 (Samples 12-12)
+[Receptionist | gender | BASE] Batch 13/16 (Samples 13-13)
+[Receptionist | gender | BASE] Batch 14/16 (Samples 14-14)
+[Receptionist | gender | BASE] Batch 15/16 (Samples 15-15)
+[Receptionist | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/receptionist/gender
+    [BIAS SUMMARY]
+Receptionist | gender            | -0.8980 | Pole B -- ██████████████████████
+    Max Bias: -0.9927 at mid_block step 5
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | status            | -0.0354 | Pole B -- 
+[Receptionist | status | A] Batch 1/16 (Samples 1-1)
+[Receptionist | status | A] Batch 2/16 (Samples 2-2)
+[Receptionist | status | A] Batch 3/16 (Samples 3-3)
+[Receptionist | status | A] Batch 4/16 (Samples 4-4)
+[Receptionist | status | A] Batch 5/16 (Samples 5-5)
+[Receptionist | status | A] Batch 6/16 (Samples 6-6)
+[Receptionist | status | A] Batch 7/16 (Samples 7-7)
+[Receptionist | status | A] Batch 8/16 (Samples 8-8)
+[Receptionist | status | A] Batch 9/16 (Samples 9-9)
+[Receptionist | status | A] Batch 10/16 (Samples 10-10)
+[Receptionist | status | A] Batch 11/16 (Samples 11-11)
+[Receptionist | status | A] Batch 12/16 (Samples 12-12)
+[Receptionist | status | A] Batch 13/16 (Samples 13-13)
+[Receptionist | status | A] Batch 14/16 (Samples 14-14)
+[Receptionist | status | A] Batch 15/16 (Samples 15-15)
+[Receptionist | status | A] Batch 16/16 (Samples 16-16)
+[Receptionist | status | B] Batch 1/16 (Samples 1-1)
+[Receptionist | status | B] Batch 2/16 (Samples 2-2)
+[Receptionist | status | B] Batch 3/16 (Samples 3-3)
+[Receptionist | status | B] Batch 4/16 (Samples 4-4)
+[Receptionist | status | B] Batch 5/16 (Samples 5-5)
+[Receptionist | status | B] Batch 6/16 (Samples 6-6)
+[Receptionist | status | B] Batch 7/16 (Samples 7-7)
+[Receptionist | status | B] Batch 8/16 (Samples 8-8)
+[Receptionist | status | B] Batch 9/16 (Samples 9-9)
+[Receptionist | status | B] Batch 10/16 (Samples 10-10)
+[Receptionist | status | B] Batch 11/16 (Samples 11-11)
+[Receptionist | status | B] Batch 12/16 (Samples 12-12)
+[Receptionist | status | B] Batch 13/16 (Samples 13-13)
+[Receptionist | status | B] Batch 14/16 (Samples 14-14)
+[Receptionist | status | B] Batch 15/16 (Samples 15-15)
+[Receptionist | status | B] Batch 16/16 (Samples 16-16)
+[Receptionist | status | BASE] Batch 1/16 (Samples 1-1)
+[Receptionist | status | BASE] Batch 2/16 (Samples 2-2)
+[Receptionist | status | BASE] Batch 3/16 (Samples 3-3)
+[Receptionist | status | BASE] Batch 4/16 (Samples 4-4)
+[Receptionist | status | BASE] Batch 5/16 (Samples 5-5)
+[Receptionist | status | BASE] Batch 6/16 (Samples 6-6)
+[Receptionist | status | BASE] Batch 7/16 (Samples 7-7)
+[Receptionist | status | BASE] Batch 8/16 (Samples 8-8)
+[Receptionist | status | BASE] Batch 9/16 (Samples 9-9)
+[Receptionist | status | BASE] Batch 10/16 (Samples 10-10)
+[Receptionist | status | BASE] Batch 11/16 (Samples 11-11)
+[Receptionist | status | BASE] Batch 12/16 (Samples 12-12)
+[Receptionist | status | BASE] Batch 13/16 (Samples 13-13)
+[Receptionist | status | BASE] Batch 14/16 (Samples 14-14)
+[Receptionist | status | BASE] Batch 15/16 (Samples 15-15)
+[Receptionist | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/receptionist/status
+    [BIAS SUMMARY]
+Receptionist | status            | -0.2886 | Pole B -- ███████
+    Max Bias: -0.7969 at up_1 step 25
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | age               | +0.6051 | Pole A ++ ███████████████
+[Receptionist | age | A] Batch 1/16 (Samples 1-1)
+[Receptionist | age | A] Batch 2/16 (Samples 2-2)
+[Receptionist | age | A] Batch 3/16 (Samples 3-3)
+[Receptionist | age | A] Batch 4/16 (Samples 4-4)
+[Receptionist | age | A] Batch 5/16 (Samples 5-5)
+[Receptionist | age | A] Batch 6/16 (Samples 6-6)
+[Receptionist | age | A] Batch 7/16 (Samples 7-7)
+[Receptionist | age | A] Batch 8/16 (Samples 8-8)
+[Receptionist | age | A] Batch 9/16 (Samples 9-9)
+[Receptionist | age | A] Batch 10/16 (Samples 10-10)
+[Receptionist | age | A] Batch 11/16 (Samples 11-11)
+[Receptionist | age | A] Batch 12/16 (Samples 12-12)
+[Receptionist | age | A] Batch 13/16 (Samples 13-13)
+[Receptionist | age | A] Batch 14/16 (Samples 14-14)
+[Receptionist | age | A] Batch 15/16 (Samples 15-15)
+[Receptionist | age | A] Batch 16/16 (Samples 16-16)
+[Receptionist | age | B] Batch 1/16 (Samples 1-1)
+[Receptionist | age | B] Batch 2/16 (Samples 2-2)
+[Receptionist | age | B] Batch 3/16 (Samples 3-3)
+[Receptionist | age | B] Batch 4/16 (Samples 4-4)
+[Receptionist | age | B] Batch 5/16 (Samples 5-5)
+[Receptionist | age | B] Batch 6/16 (Samples 6-6)
+[Receptionist | age | B] Batch 7/16 (Samples 7-7)
+[Receptionist | age | B] Batch 8/16 (Samples 8-8)
+[Receptionist | age | B] Batch 9/16 (Samples 9-9)
+[Receptionist | age | B] Batch 10/16 (Samples 10-10)
+[Receptionist | age | B] Batch 11/16 (Samples 11-11)
+[Receptionist | age | B] Batch 12/16 (Samples 12-12)
+[Receptionist | age | B] Batch 13/16 (Samples 13-13)
+[Receptionist | age | B] Batch 14/16 (Samples 14-14)
+[Receptionist | age | B] Batch 15/16 (Samples 15-15)
+[Receptionist | age | B] Batch 16/16 (Samples 16-16)
+[Receptionist | age | BASE] Batch 1/16 (Samples 1-1)
+[Receptionist | age | BASE] Batch 2/16 (Samples 2-2)
+[Receptionist | age | BASE] Batch 3/16 (Samples 3-3)
+[Receptionist | age | BASE] Batch 4/16 (Samples 4-4)
+[Receptionist | age | BASE] Batch 5/16 (Samples 5-5)
+[Receptionist | age | BASE] Batch 6/16 (Samples 6-6)
+[Receptionist | age | BASE] Batch 7/16 (Samples 7-7)
+[Receptionist | age | BASE] Batch 8/16 (Samples 8-8)
+[Receptionist | age | BASE] Batch 9/16 (Samples 9-9)
+[Receptionist | age | BASE] Batch 10/16 (Samples 10-10)
+[Receptionist | age | BASE] Batch 11/16 (Samples 11-11)
+[Receptionist | age | BASE] Batch 12/16 (Samples 12-12)
+[Receptionist | age | BASE] Batch 13/16 (Samples 13-13)
+[Receptionist | age | BASE] Batch 14/16 (Samples 14-14)
+[Receptionist | age | BASE] Batch 15/16 (Samples 15-15)
+[Receptionist | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/receptionist/age
+    [BIAS SUMMARY]
+Receptionist | age               | +0.8771 | Pole A ++ █████████████████████
+    Max Bias: 0.9779 at up_0 step 7
+
+[PROFESSION] Kindergarten Teacher
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | gender    | -0.3391 | Pole B -- ████████
+[Kindergarten Teacher | gender | A] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | gender | A] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | gender | A] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | gender | A] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | gender | A] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | gender | A] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | gender | A] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | gender | A] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | gender | A] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | gender | A] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | gender | A] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | gender | A] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | gender | A] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | gender | A] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | gender | A] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | gender | A] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | gender | B] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | gender | B] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | gender | B] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | gender | B] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | gender | B] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | gender | B] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | gender | B] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | gender | B] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | gender | B] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | gender | B] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | gender | B] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | gender | B] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | gender | B] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | gender | B] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | gender | B] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | gender | B] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | gender | BASE] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | gender | BASE] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | gender | BASE] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | gender | BASE] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | gender | BASE] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | gender | BASE] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | gender | BASE] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | gender | BASE] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | gender | BASE] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | gender | BASE] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | gender | BASE] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | gender | BASE] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | gender | BASE] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | gender | BASE] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | gender | BASE] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/gender
+    [BIAS SUMMARY]
+Kindergarten Teacher | gender    | -0.7873 | Pole B -- ███████████████████
+    Max Bias: -0.9850 at up_0 step 28
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | status    | -0.1169 | Pole B -- ██
+[Kindergarten Teacher | status | A] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | status | A] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | status | A] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | status | A] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | status | A] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | status | A] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | status | A] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | status | A] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | status | A] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | status | A] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | status | A] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | status | A] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | status | A] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | status | A] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | status | A] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | status | A] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | status | B] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | status | B] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | status | B] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | status | B] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | status | B] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | status | B] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | status | B] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | status | B] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | status | B] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | status | B] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | status | B] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | status | B] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | status | B] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | status | B] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | status | B] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | status | B] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | status | BASE] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | status | BASE] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | status | BASE] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | status | BASE] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | status | BASE] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | status | BASE] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | status | BASE] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | status | BASE] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | status | BASE] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | status | BASE] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | status | BASE] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | status | BASE] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | status | BASE] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | status | BASE] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | status | BASE] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/status
+    [BIAS SUMMARY]
+Kindergarten Teacher | status    | +0.2389 | Pole A ++ █████
+    Max Bias: 0.7925 at up_2 step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | age       | +0.4771 | Pole A ++ ███████████
+[Kindergarten Teacher | age | A] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | age | A] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | age | A] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | age | A] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | age | A] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | age | A] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | age | A] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | age | A] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | age | A] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | age | A] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | age | A] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | age | A] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | age | A] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | age | A] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | age | A] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | age | A] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | age | B] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | age | B] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | age | B] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | age | B] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | age | B] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | age | B] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | age | B] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | age | B] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | age | B] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | age | B] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | age | B] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | age | B] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | age | B] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | age | B] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | age | B] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | age | B] Batch 16/16 (Samples 16-16)
+[Kindergarten Teacher | age | BASE] Batch 1/16 (Samples 1-1)
+[Kindergarten Teacher | age | BASE] Batch 2/16 (Samples 2-2)
+[Kindergarten Teacher | age | BASE] Batch 3/16 (Samples 3-3)
+[Kindergarten Teacher | age | BASE] Batch 4/16 (Samples 4-4)
+[Kindergarten Teacher | age | BASE] Batch 5/16 (Samples 5-5)
+[Kindergarten Teacher | age | BASE] Batch 6/16 (Samples 6-6)
+[Kindergarten Teacher | age | BASE] Batch 7/16 (Samples 7-7)
+[Kindergarten Teacher | age | BASE] Batch 8/16 (Samples 8-8)
+[Kindergarten Teacher | age | BASE] Batch 9/16 (Samples 9-9)
+[Kindergarten Teacher | age | BASE] Batch 10/16 (Samples 10-10)
+[Kindergarten Teacher | age | BASE] Batch 11/16 (Samples 11-11)
+[Kindergarten Teacher | age | BASE] Batch 12/16 (Samples 12-12)
+[Kindergarten Teacher | age | BASE] Batch 13/16 (Samples 13-13)
+[Kindergarten Teacher | age | BASE] Batch 14/16 (Samples 14-14)
+[Kindergarten Teacher | age | BASE] Batch 15/16 (Samples 15-15)
+[Kindergarten Teacher | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/age
+    [BIAS SUMMARY]
+Kindergarten Teacher | age       | +0.4806 | Pole A ++ ████████████
+    Max Bias: 0.9753 at mid_block step 3
+
+[PROFESSION] Doctor
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | gender                  | +0.2312 | Pole A ++ █████
+[Doctor | gender | A] Batch 1/16 (Samples 1-1)
+[Doctor | gender | A] Batch 2/16 (Samples 2-2)
+[Doctor | gender | A] Batch 3/16 (Samples 3-3)
+[Doctor | gender | A] Batch 4/16 (Samples 4-4)
+[Doctor | gender | A] Batch 5/16 (Samples 5-5)
+[Doctor | gender | A] Batch 6/16 (Samples 6-6)
+[Doctor | gender | A] Batch 7/16 (Samples 7-7)
+[Doctor | gender | A] Batch 8/16 (Samples 8-8)
+[Doctor | gender | A] Batch 9/16 (Samples 9-9)
+[Doctor | gender | A] Batch 10/16 (Samples 10-10)
+[Doctor | gender | A] Batch 11/16 (Samples 11-11)
+[Doctor | gender | A] Batch 12/16 (Samples 12-12)
+[Doctor | gender | A] Batch 13/16 (Samples 13-13)
+[Doctor | gender | A] Batch 14/16 (Samples 14-14)
+[Doctor | gender | A] Batch 15/16 (Samples 15-15)
+[Doctor | gender | A] Batch 16/16 (Samples 16-16)
+[Doctor | gender | B] Batch 1/16 (Samples 1-1)
+[Doctor | gender | B] Batch 2/16 (Samples 2-2)
+[Doctor | gender | B] Batch 3/16 (Samples 3-3)
+[Doctor | gender | B] Batch 4/16 (Samples 4-4)
+[Doctor | gender | B] Batch 5/16 (Samples 5-5)
+[Doctor | gender | B] Batch 6/16 (Samples 6-6)
+[Doctor | gender | B] Batch 7/16 (Samples 7-7)
+[Doctor | gender | B] Batch 8/16 (Samples 8-8)
+[Doctor | gender | B] Batch 9/16 (Samples 9-9)
+[Doctor | gender | B] Batch 10/16 (Samples 10-10)
+[Doctor | gender | B] Batch 11/16 (Samples 11-11)
+[Doctor | gender | B] Batch 12/16 (Samples 12-12)
+[Doctor | gender | B] Batch 13/16 (Samples 13-13)
+[Doctor | gender | B] Batch 14/16 (Samples 14-14)
+[Doctor | gender | B] Batch 15/16 (Samples 15-15)
+[Doctor | gender | B] Batch 16/16 (Samples 16-16)
+[Doctor | gender | BASE] Batch 1/16 (Samples 1-1)
+[Doctor | gender | BASE] Batch 2/16 (Samples 2-2)
+[Doctor | gender | BASE] Batch 3/16 (Samples 3-3)
+[Doctor | gender | BASE] Batch 4/16 (Samples 4-4)
+[Doctor | gender | BASE] Batch 5/16 (Samples 5-5)
+[Doctor | gender | BASE] Batch 6/16 (Samples 6-6)
+[Doctor | gender | BASE] Batch 7/16 (Samples 7-7)
+[Doctor | gender | BASE] Batch 8/16 (Samples 8-8)
+[Doctor | gender | BASE] Batch 9/16 (Samples 9-9)
+[Doctor | gender | BASE] Batch 10/16 (Samples 10-10)
+[Doctor | gender | BASE] Batch 11/16 (Samples 11-11)
+[Doctor | gender | BASE] Batch 12/16 (Samples 12-12)
+[Doctor | gender | BASE] Batch 13/16 (Samples 13-13)
+[Doctor | gender | BASE] Batch 14/16 (Samples 14-14)
+[Doctor | gender | BASE] Batch 15/16 (Samples 15-15)
+[Doctor | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/doctor/gender
+    [BIAS SUMMARY]
+Doctor | gender                  | +0.9133 | Pole A ++ ██████████████████████
+    Max Bias: 0.9773 at mid_block step 4
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | status                  | +0.0055 | Pole A ++ 
+[Doctor | status | A] Batch 1/16 (Samples 1-1)
+[Doctor | status | A] Batch 2/16 (Samples 2-2)
+[Doctor | status | A] Batch 3/16 (Samples 3-3)
+[Doctor | status | A] Batch 4/16 (Samples 4-4)
+[Doctor | status | A] Batch 5/16 (Samples 5-5)
+[Doctor | status | A] Batch 6/16 (Samples 6-6)
+[Doctor | status | A] Batch 7/16 (Samples 7-7)
+[Doctor | status | A] Batch 8/16 (Samples 8-8)
+[Doctor | status | A] Batch 9/16 (Samples 9-9)
+[Doctor | status | A] Batch 10/16 (Samples 10-10)
+[Doctor | status | A] Batch 11/16 (Samples 11-11)
+[Doctor | status | A] Batch 12/16 (Samples 12-12)
+[Doctor | status | A] Batch 13/16 (Samples 13-13)
+[Doctor | status | A] Batch 14/16 (Samples 14-14)
+[Doctor | status | A] Batch 15/16 (Samples 15-15)
+[Doctor | status | A] Batch 16/16 (Samples 16-16)
+[Doctor | status | B] Batch 1/16 (Samples 1-1)
+[Doctor | status | B] Batch 2/16 (Samples 2-2)
+[Doctor | status | B] Batch 3/16 (Samples 3-3)
+[Doctor | status | B] Batch 4/16 (Samples 4-4)
+[Doctor | status | B] Batch 5/16 (Samples 5-5)
+[Doctor | status | B] Batch 6/16 (Samples 6-6)
+[Doctor | status | B] Batch 7/16 (Samples 7-7)
+[Doctor | status | B] Batch 8/16 (Samples 8-8)
+[Doctor | status | B] Batch 9/16 (Samples 9-9)
+[Doctor | status | B] Batch 10/16 (Samples 10-10)
+[Doctor | status | B] Batch 11/16 (Samples 11-11)
+[Doctor | status | B] Batch 12/16 (Samples 12-12)
+[Doctor | status | B] Batch 13/16 (Samples 13-13)
+[Doctor | status | B] Batch 14/16 (Samples 14-14)
+[Doctor | status | B] Batch 15/16 (Samples 15-15)
+[Doctor | status | B] Batch 16/16 (Samples 16-16)
+[Doctor | status | BASE] Batch 1/16 (Samples 1-1)
+[Doctor | status | BASE] Batch 2/16 (Samples 2-2)
+[Doctor | status | BASE] Batch 3/16 (Samples 3-3)
+[Doctor | status | BASE] Batch 4/16 (Samples 4-4)
+[Doctor | status | BASE] Batch 5/16 (Samples 5-5)
+[Doctor | status | BASE] Batch 6/16 (Samples 6-6)
+[Doctor | status | BASE] Batch 7/16 (Samples 7-7)
+[Doctor | status | BASE] Batch 8/16 (Samples 8-8)
+[Doctor | status | BASE] Batch 9/16 (Samples 9-9)
+[Doctor | status | BASE] Batch 10/16 (Samples 10-10)
+[Doctor | status | BASE] Batch 11/16 (Samples 11-11)
+[Doctor | status | BASE] Batch 12/16 (Samples 12-12)
+[Doctor | status | BASE] Batch 13/16 (Samples 13-13)
+[Doctor | status | BASE] Batch 14/16 (Samples 14-14)
+[Doctor | status | BASE] Batch 15/16 (Samples 15-15)
+[Doctor | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/doctor/status
+    [BIAS SUMMARY]
+Doctor | status                  | +0.3136 | Pole A ++ ███████
+    Max Bias: 0.7496 at up_0 step 5
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | age                     | +0.4401 | Pole A ++ ███████████
+[Doctor | age | A] Batch 1/16 (Samples 1-1)
+[Doctor | age | A] Batch 2/16 (Samples 2-2)
+[Doctor | age | A] Batch 3/16 (Samples 3-3)
+[Doctor | age | A] Batch 4/16 (Samples 4-4)
+[Doctor | age | A] Batch 5/16 (Samples 5-5)
+[Doctor | age | A] Batch 6/16 (Samples 6-6)
+[Doctor | age | A] Batch 7/16 (Samples 7-7)
+[Doctor | age | A] Batch 8/16 (Samples 8-8)
+[Doctor | age | A] Batch 9/16 (Samples 9-9)
+[Doctor | age | A] Batch 10/16 (Samples 10-10)
+[Doctor | age | A] Batch 11/16 (Samples 11-11)
+[Doctor | age | A] Batch 12/16 (Samples 12-12)
+[Doctor | age | A] Batch 13/16 (Samples 13-13)
+[Doctor | age | A] Batch 14/16 (Samples 14-14)
+[Doctor | age | A] Batch 15/16 (Samples 15-15)
+[Doctor | age | A] Batch 16/16 (Samples 16-16)
+[Doctor | age | B] Batch 1/16 (Samples 1-1)
+[Doctor | age | B] Batch 2/16 (Samples 2-2)
+[Doctor | age | B] Batch 3/16 (Samples 3-3)
+[Doctor | age | B] Batch 4/16 (Samples 4-4)
+[Doctor | age | B] Batch 5/16 (Samples 5-5)
+[Doctor | age | B] Batch 6/16 (Samples 6-6)
+[Doctor | age | B] Batch 7/16 (Samples 7-7)
+[Doctor | age | B] Batch 8/16 (Samples 8-8)
+[Doctor | age | B] Batch 9/16 (Samples 9-9)
+[Doctor | age | B] Batch 10/16 (Samples 10-10)
+[Doctor | age | B] Batch 11/16 (Samples 11-11)
+[Doctor | age | B] Batch 12/16 (Samples 12-12)
+[Doctor | age | B] Batch 13/16 (Samples 13-13)
+[Doctor | age | B] Batch 14/16 (Samples 14-14)
+[Doctor | age | B] Batch 15/16 (Samples 15-15)
+[Doctor | age | B] Batch 16/16 (Samples 16-16)
+[Doctor | age | BASE] Batch 1/16 (Samples 1-1)
+[Doctor | age | BASE] Batch 2/16 (Samples 2-2)
+[Doctor | age | BASE] Batch 3/16 (Samples 3-3)
+[Doctor | age | BASE] Batch 4/16 (Samples 4-4)
+[Doctor | age | BASE] Batch 5/16 (Samples 5-5)
+[Doctor | age | BASE] Batch 6/16 (Samples 6-6)
+[Doctor | age | BASE] Batch 7/16 (Samples 7-7)
+[Doctor | age | BASE] Batch 8/16 (Samples 8-8)
+[Doctor | age | BASE] Batch 9/16 (Samples 9-9)
+[Doctor | age | BASE] Batch 10/16 (Samples 10-10)
+[Doctor | age | BASE] Batch 11/16 (Samples 11-11)
+[Doctor | age | BASE] Batch 12/16 (Samples 12-12)
+[Doctor | age | BASE] Batch 13/16 (Samples 13-13)
+[Doctor | age | BASE] Batch 14/16 (Samples 14-14)
+[Doctor | age | BASE] Batch 15/16 (Samples 15-15)
+[Doctor | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/doctor/age
+    [BIAS SUMMARY]
+Doctor | age                     | +0.5429 | Pole A ++ █████████████
+    Max Bias: 0.9406 at up_1 step 4
+
+[PROFESSION] Lawyer
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Lawyer | gender                  | +0.2555 | Pole A ++ ██████
+[Lawyer | gender | A] Batch 1/16 (Samples 1-1)
+[Lawyer | gender | A] Batch 2/16 (Samples 2-2)
+[Lawyer | gender | A] Batch 3/16 (Samples 3-3)
+[Lawyer | gender | A] Batch 4/16 (Samples 4-4)
+[Lawyer | gender | A] Batch 5/16 (Samples 5-5)
+[Lawyer | gender | A] Batch 6/16 (Samples 6-6)
+[Lawyer | gender | A] Batch 7/16 (Samples 7-7)
+[Lawyer | gender | A] Batch 8/16 (Samples 8-8)
+[Lawyer | gender | A] Batch 9/16 (Samples 9-9)
+[Lawyer | gender | A] Batch 10/16 (Samples 10-10)
+[Lawyer | gender | A] Batch 11/16 (Samples 11-11)
+[Lawyer | gender | A] Batch 12/16 (Samples 12-12)
+[Lawyer | gender | A] Batch 13/16 (Samples 13-13)
+[Lawyer | gender | A] Batch 14/16 (Samples 14-14)
+[Lawyer | gender | A] Batch 15/16 (Samples 15-15)
+[Lawyer | gender | A] Batch 16/16 (Samples 16-16)
+[Lawyer | gender | B] Batch 1/16 (Samples 1-1)
+[Lawyer | gender | B] Batch 2/16 (Samples 2-2)
+[Lawyer | gender | B] Batch 3/16 (Samples 3-3)
+[Lawyer | gender | B] Batch 4/16 (Samples 4-4)
+[Lawyer | gender | B] Batch 5/16 (Samples 5-5)
+[Lawyer | gender | B] Batch 6/16 (Samples 6-6)
+[Lawyer | gender | B] Batch 7/16 (Samples 7-7)
+[Lawyer | gender | B] Batch 8/16 (Samples 8-8)
+[Lawyer | gender | B] Batch 9/16 (Samples 9-9)
+[Lawyer | gender | B] Batch 10/16 (Samples 10-10)
+[Lawyer | gender | B] Batch 11/16 (Samples 11-11)
+[Lawyer | gender | B] Batch 12/16 (Samples 12-12)
+[Lawyer | gender | B] Batch 13/16 (Samples 13-13)
+[Lawyer | gender | B] Batch 14/16 (Samples 14-14)
+[Lawyer | gender | B] Batch 15/16 (Samples 15-15)
+[Lawyer | gender | B] Batch 16/16 (Samples 16-16)
+[Lawyer | gender | BASE] Batch 1/16 (Samples 1-1)
+[Lawyer | gender | BASE] Batch 2/16 (Samples 2-2)
+[Lawyer | gender | BASE] Batch 3/16 (Samples 3-3)
+[Lawyer | gender | BASE] Batch 4/16 (Samples 4-4)
+[Lawyer | gender | BASE] Batch 5/16 (Samples 5-5)
+[Lawyer | gender | BASE] Batch 6/16 (Samples 6-6)
+[Lawyer | gender | BASE] Batch 7/16 (Samples 7-7)
+[Lawyer | gender | BASE] Batch 8/16 (Samples 8-8)
+[Lawyer | gender | BASE] Batch 9/16 (Samples 9-9)
+[Lawyer | gender | BASE] Batch 10/16 (Samples 10-10)
+[Lawyer | gender | BASE] Batch 11/16 (Samples 11-11)
+[Lawyer | gender | BASE] Batch 12/16 (Samples 12-12)
+[Lawyer | gender | BASE] Batch 13/16 (Samples 13-13)
+[Lawyer | gender | BASE] Batch 14/16 (Samples 14-14)
+[Lawyer | gender | BASE] Batch 15/16 (Samples 15-15)
+[Lawyer | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/lawyer/gender
+    [BIAS SUMMARY]
+Lawyer | gender                  | +0.9130 | Pole A ++ ██████████████████████
+    Max Bias: 0.9891 at mid_block step 4
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Lawyer | status                  | -0.0094 | Pole B -- 
+[Lawyer | status | A] Batch 1/16 (Samples 1-1)
+[Lawyer | status | A] Batch 2/16 (Samples 2-2)
+[Lawyer | status | A] Batch 3/16 (Samples 3-3)
+[Lawyer | status | A] Batch 4/16 (Samples 4-4)
+[Lawyer | status | A] Batch 5/16 (Samples 5-5)
+[Lawyer | status | A] Batch 6/16 (Samples 6-6)
+[Lawyer | status | A] Batch 7/16 (Samples 7-7)
+[Lawyer | status | A] Batch 8/16 (Samples 8-8)
+[Lawyer | status | A] Batch 9/16 (Samples 9-9)
+[Lawyer | status | A] Batch 10/16 (Samples 10-10)
+[Lawyer | status | A] Batch 11/16 (Samples 11-11)
+[Lawyer | status | A] Batch 12/16 (Samples 12-12)
+[Lawyer | status | A] Batch 13/16 (Samples 13-13)
+[Lawyer | status | A] Batch 14/16 (Samples 14-14)
+[Lawyer | status | A] Batch 15/16 (Samples 15-15)
+[Lawyer | status | A] Batch 16/16 (Samples 16-16)
+[Lawyer | status | B] Batch 1/16 (Samples 1-1)
+[Lawyer | status | B] Batch 2/16 (Samples 2-2)
+[Lawyer | status | B] Batch 3/16 (Samples 3-3)
+[Lawyer | status | B] Batch 4/16 (Samples 4-4)
+[Lawyer | status | B] Batch 5/16 (Samples 5-5)
+[Lawyer | status | B] Batch 6/16 (Samples 6-6)
+[Lawyer | status | B] Batch 7/16 (Samples 7-7)
+[Lawyer | status | B] Batch 8/16 (Samples 8-8)
+[Lawyer | status | B] Batch 9/16 (Samples 9-9)
+[Lawyer | status | B] Batch 10/16 (Samples 10-10)
+[Lawyer | status | B] Batch 11/16 (Samples 11-11)
+[Lawyer | status | B] Batch 12/16 (Samples 12-12)
+[Lawyer | status | B] Batch 13/16 (Samples 13-13)
+[Lawyer | status | B] Batch 14/16 (Samples 14-14)
+[Lawyer | status | B] Batch 15/16 (Samples 15-15)
+[Lawyer | status | B] Batch 16/16 (Samples 16-16)
+[Lawyer | status | BASE] Batch 1/16 (Samples 1-1)
+[Lawyer | status | BASE] Batch 2/16 (Samples 2-2)
+[Lawyer | status | BASE] Batch 3/16 (Samples 3-3)
+[Lawyer | status | BASE] Batch 4/16 (Samples 4-4)
+[Lawyer | status | BASE] Batch 5/16 (Samples 5-5)
+[Lawyer | status | BASE] Batch 6/16 (Samples 6-6)
+[Lawyer | status | BASE] Batch 7/16 (Samples 7-7)
+[Lawyer | status | BASE] Batch 8/16 (Samples 8-8)
+[Lawyer | status | BASE] Batch 9/16 (Samples 9-9)
+[Lawyer | status | BASE] Batch 10/16 (Samples 10-10)
+[Lawyer | status | BASE] Batch 11/16 (Samples 11-11)
+[Lawyer | status | BASE] Batch 12/16 (Samples 12-12)
+[Lawyer | status | BASE] Batch 13/16 (Samples 13-13)
+[Lawyer | status | BASE] Batch 14/16 (Samples 14-14)
+[Lawyer | status | BASE] Batch 15/16 (Samples 15-15)
+[Lawyer | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/lawyer/status
+    [BIAS SUMMARY]
+Lawyer | status                  | +0.7185 | Pole A ++ █████████████████
+    Max Bias: 0.9550 at mid_block step 12
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Lawyer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Lawyer | age                     | +0.3932 | Pole A ++ █████████
+[Lawyer | age | A] Batch 1/16 (Samples 1-1)
+[Lawyer | age | A] Batch 2/16 (Samples 2-2)
+[Lawyer | age | A] Batch 3/16 (Samples 3-3)
+[Lawyer | age | A] Batch 4/16 (Samples 4-4)
+[Lawyer | age | A] Batch 5/16 (Samples 5-5)
+[Lawyer | age | A] Batch 6/16 (Samples 6-6)
+[Lawyer | age | A] Batch 7/16 (Samples 7-7)
+[Lawyer | age | A] Batch 8/16 (Samples 8-8)
+[Lawyer | age | A] Batch 9/16 (Samples 9-9)
+[Lawyer | age | A] Batch 10/16 (Samples 10-10)
+[Lawyer | age | A] Batch 11/16 (Samples 11-11)
+[Lawyer | age | A] Batch 12/16 (Samples 12-12)
+[Lawyer | age | A] Batch 13/16 (Samples 13-13)
+[Lawyer | age | A] Batch 14/16 (Samples 14-14)
+[Lawyer | age | A] Batch 15/16 (Samples 15-15)
+[Lawyer | age | A] Batch 16/16 (Samples 16-16)
+[Lawyer | age | B] Batch 1/16 (Samples 1-1)
+[Lawyer | age | B] Batch 2/16 (Samples 2-2)
+[Lawyer | age | B] Batch 3/16 (Samples 3-3)
+[Lawyer | age | B] Batch 4/16 (Samples 4-4)
+[Lawyer | age | B] Batch 5/16 (Samples 5-5)
+[Lawyer | age | B] Batch 6/16 (Samples 6-6)
+[Lawyer | age | B] Batch 7/16 (Samples 7-7)
+[Lawyer | age | B] Batch 8/16 (Samples 8-8)
+[Lawyer | age | B] Batch 9/16 (Samples 9-9)
+[Lawyer | age | B] Batch 10/16 (Samples 10-10)
+[Lawyer | age | B] Batch 11/16 (Samples 11-11)
+[Lawyer | age | B] Batch 12/16 (Samples 12-12)
+[Lawyer | age | B] Batch 13/16 (Samples 13-13)
+[Lawyer | age | B] Batch 14/16 (Samples 14-14)
+[Lawyer | age | B] Batch 15/16 (Samples 15-15)
+[Lawyer | age | B] Batch 16/16 (Samples 16-16)
+[Lawyer | age | BASE] Batch 1/16 (Samples 1-1)
+[Lawyer | age | BASE] Batch 2/16 (Samples 2-2)
+[Lawyer | age | BASE] Batch 3/16 (Samples 3-3)
+[Lawyer | age | BASE] Batch 4/16 (Samples 4-4)
+[Lawyer | age | BASE] Batch 5/16 (Samples 5-5)
+[Lawyer | age | BASE] Batch 6/16 (Samples 6-6)
+[Lawyer | age | BASE] Batch 7/16 (Samples 7-7)
+[Lawyer | age | BASE] Batch 8/16 (Samples 8-8)
+[Lawyer | age | BASE] Batch 9/16 (Samples 9-9)
+[Lawyer | age | BASE] Batch 10/16 (Samples 10-10)
+[Lawyer | age | BASE] Batch 11/16 (Samples 11-11)
+[Lawyer | age | BASE] Batch 12/16 (Samples 12-12)
+[Lawyer | age | BASE] Batch 13/16 (Samples 13-13)
+[Lawyer | age | BASE] Batch 14/16 (Samples 14-14)
+[Lawyer | age | BASE] Batch 15/16 (Samples 15-15)
+[Lawyer | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/lawyer/age
+    [BIAS SUMMARY]
+Lawyer | age                     | +0.6067 | Pole A ++ ███████████████
+    Max Bias: 0.8996 at up_1 step 4
+
+[PROFESSION] Engineer
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | gender                | +0.4796 | Pole A ++ ███████████
+[Engineer | gender | A] Batch 1/16 (Samples 1-1)
+[Engineer | gender | A] Batch 2/16 (Samples 2-2)
+[Engineer | gender | A] Batch 3/16 (Samples 3-3)
+[Engineer | gender | A] Batch 4/16 (Samples 4-4)
+[Engineer | gender | A] Batch 5/16 (Samples 5-5)
+[Engineer | gender | A] Batch 6/16 (Samples 6-6)
+[Engineer | gender | A] Batch 7/16 (Samples 7-7)
+[Engineer | gender | A] Batch 8/16 (Samples 8-8)
+[Engineer | gender | A] Batch 9/16 (Samples 9-9)
+[Engineer | gender | A] Batch 10/16 (Samples 10-10)
+[Engineer | gender | A] Batch 11/16 (Samples 11-11)
+[Engineer | gender | A] Batch 12/16 (Samples 12-12)
+[Engineer | gender | A] Batch 13/16 (Samples 13-13)
+[Engineer | gender | A] Batch 14/16 (Samples 14-14)
+[Engineer | gender | A] Batch 15/16 (Samples 15-15)
+[Engineer | gender | A] Batch 16/16 (Samples 16-16)
+[Engineer | gender | B] Batch 1/16 (Samples 1-1)
+[Engineer | gender | B] Batch 2/16 (Samples 2-2)
+[Engineer | gender | B] Batch 3/16 (Samples 3-3)
+[Engineer | gender | B] Batch 4/16 (Samples 4-4)
+[Engineer | gender | B] Batch 5/16 (Samples 5-5)
+[Engineer | gender | B] Batch 6/16 (Samples 6-6)
+[Engineer | gender | B] Batch 7/16 (Samples 7-7)
+[Engineer | gender | B] Batch 8/16 (Samples 8-8)
+[Engineer | gender | B] Batch 9/16 (Samples 9-9)
+[Engineer | gender | B] Batch 10/16 (Samples 10-10)
+[Engineer | gender | B] Batch 11/16 (Samples 11-11)
+[Engineer | gender | B] Batch 12/16 (Samples 12-12)
+[Engineer | gender | B] Batch 13/16 (Samples 13-13)
+[Engineer | gender | B] Batch 14/16 (Samples 14-14)
+[Engineer | gender | B] Batch 15/16 (Samples 15-15)
+[Engineer | gender | B] Batch 16/16 (Samples 16-16)
+[Engineer | gender | BASE] Batch 1/16 (Samples 1-1)
+[Engineer | gender | BASE] Batch 2/16 (Samples 2-2)
+[Engineer | gender | BASE] Batch 3/16 (Samples 3-3)
+[Engineer | gender | BASE] Batch 4/16 (Samples 4-4)
+[Engineer | gender | BASE] Batch 5/16 (Samples 5-5)
+[Engineer | gender | BASE] Batch 6/16 (Samples 6-6)
+[Engineer | gender | BASE] Batch 7/16 (Samples 7-7)
+[Engineer | gender | BASE] Batch 8/16 (Samples 8-8)
+[Engineer | gender | BASE] Batch 9/16 (Samples 9-9)
+[Engineer | gender | BASE] Batch 10/16 (Samples 10-10)
+[Engineer | gender | BASE] Batch 11/16 (Samples 11-11)
+[Engineer | gender | BASE] Batch 12/16 (Samples 12-12)
+[Engineer | gender | BASE] Batch 13/16 (Samples 13-13)
+[Engineer | gender | BASE] Batch 14/16 (Samples 14-14)
+[Engineer | gender | BASE] Batch 15/16 (Samples 15-15)
+[Engineer | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/engineer/gender
+    [BIAS SUMMARY]
+Engineer | gender                | +0.9028 | Pole A ++ ██████████████████████
+    Max Bias: 0.9890 at up_0 step 25
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | status                | -0.0295 | Pole B -- 
+[Engineer | status | A] Batch 1/16 (Samples 1-1)
+[Engineer | status | A] Batch 2/16 (Samples 2-2)
+[Engineer | status | A] Batch 3/16 (Samples 3-3)
+[Engineer | status | A] Batch 4/16 (Samples 4-4)
+[Engineer | status | A] Batch 5/16 (Samples 5-5)
+[Engineer | status | A] Batch 6/16 (Samples 6-6)
+[Engineer | status | A] Batch 7/16 (Samples 7-7)
+[Engineer | status | A] Batch 8/16 (Samples 8-8)
+[Engineer | status | A] Batch 9/16 (Samples 9-9)
+[Engineer | status | A] Batch 10/16 (Samples 10-10)
+[Engineer | status | A] Batch 11/16 (Samples 11-11)
+[Engineer | status | A] Batch 12/16 (Samples 12-12)
+[Engineer | status | A] Batch 13/16 (Samples 13-13)
+[Engineer | status | A] Batch 14/16 (Samples 14-14)
+[Engineer | status | A] Batch 15/16 (Samples 15-15)
+[Engineer | status | A] Batch 16/16 (Samples 16-16)
+[Engineer | status | B] Batch 1/16 (Samples 1-1)
+[Engineer | status | B] Batch 2/16 (Samples 2-2)
+[Engineer | status | B] Batch 3/16 (Samples 3-3)
+[Engineer | status | B] Batch 4/16 (Samples 4-4)
+[Engineer | status | B] Batch 5/16 (Samples 5-5)
+[Engineer | status | B] Batch 6/16 (Samples 6-6)
+[Engineer | status | B] Batch 7/16 (Samples 7-7)
+[Engineer | status | B] Batch 8/16 (Samples 8-8)
+[Engineer | status | B] Batch 9/16 (Samples 9-9)
+[Engineer | status | B] Batch 10/16 (Samples 10-10)
+[Engineer | status | B] Batch 11/16 (Samples 11-11)
+[Engineer | status | B] Batch 12/16 (Samples 12-12)
+[Engineer | status | B] Batch 13/16 (Samples 13-13)
+[Engineer | status | B] Batch 14/16 (Samples 14-14)
+[Engineer | status | B] Batch 15/16 (Samples 15-15)
+[Engineer | status | B] Batch 16/16 (Samples 16-16)
+[Engineer | status | BASE] Batch 1/16 (Samples 1-1)
+[Engineer | status | BASE] Batch 2/16 (Samples 2-2)
+[Engineer | status | BASE] Batch 3/16 (Samples 3-3)
+[Engineer | status | BASE] Batch 4/16 (Samples 4-4)
+[Engineer | status | BASE] Batch 5/16 (Samples 5-5)
+[Engineer | status | BASE] Batch 6/16 (Samples 6-6)
+[Engineer | status | BASE] Batch 7/16 (Samples 7-7)
+[Engineer | status | BASE] Batch 8/16 (Samples 8-8)
+[Engineer | status | BASE] Batch 9/16 (Samples 9-9)
+[Engineer | status | BASE] Batch 10/16 (Samples 10-10)
+[Engineer | status | BASE] Batch 11/16 (Samples 11-11)
+[Engineer | status | BASE] Batch 12/16 (Samples 12-12)
+[Engineer | status | BASE] Batch 13/16 (Samples 13-13)
+[Engineer | status | BASE] Batch 14/16 (Samples 14-14)
+[Engineer | status | BASE] Batch 15/16 (Samples 15-15)
+[Engineer | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/engineer/status
+    [BIAS SUMMARY]
+Engineer | status                | -0.3861 | Pole B -- █████████
+    Max Bias: -0.7705 at up_1 step 6
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | age                   | +0.4675 | Pole A ++ ███████████
+[Engineer | age | A] Batch 1/16 (Samples 1-1)
+[Engineer | age | A] Batch 2/16 (Samples 2-2)
+[Engineer | age | A] Batch 3/16 (Samples 3-3)
+[Engineer | age | A] Batch 4/16 (Samples 4-4)
+[Engineer | age | A] Batch 5/16 (Samples 5-5)
+[Engineer | age | A] Batch 6/16 (Samples 6-6)
+[Engineer | age | A] Batch 7/16 (Samples 7-7)
+[Engineer | age | A] Batch 8/16 (Samples 8-8)
+[Engineer | age | A] Batch 9/16 (Samples 9-9)
+[Engineer | age | A] Batch 10/16 (Samples 10-10)
+[Engineer | age | A] Batch 11/16 (Samples 11-11)
+[Engineer | age | A] Batch 12/16 (Samples 12-12)
+[Engineer | age | A] Batch 13/16 (Samples 13-13)
+[Engineer | age | A] Batch 14/16 (Samples 14-14)
+[Engineer | age | A] Batch 15/16 (Samples 15-15)
+[Engineer | age | A] Batch 16/16 (Samples 16-16)
+[Engineer | age | B] Batch 1/16 (Samples 1-1)
+[Engineer | age | B] Batch 2/16 (Samples 2-2)
+[Engineer | age | B] Batch 3/16 (Samples 3-3)
+[Engineer | age | B] Batch 4/16 (Samples 4-4)
+[Engineer | age | B] Batch 5/16 (Samples 5-5)
+[Engineer | age | B] Batch 6/16 (Samples 6-6)
+[Engineer | age | B] Batch 7/16 (Samples 7-7)
+[Engineer | age | B] Batch 8/16 (Samples 8-8)
+[Engineer | age | B] Batch 9/16 (Samples 9-9)
+[Engineer | age | B] Batch 10/16 (Samples 10-10)
+[Engineer | age | B] Batch 11/16 (Samples 11-11)
+[Engineer | age | B] Batch 12/16 (Samples 12-12)
+[Engineer | age | B] Batch 13/16 (Samples 13-13)
+[Engineer | age | B] Batch 14/16 (Samples 14-14)
+[Engineer | age | B] Batch 15/16 (Samples 15-15)
+[Engineer | age | B] Batch 16/16 (Samples 16-16)
+[Engineer | age | BASE] Batch 1/16 (Samples 1-1)
+[Engineer | age | BASE] Batch 2/16 (Samples 2-2)
+[Engineer | age | BASE] Batch 3/16 (Samples 3-3)
+[Engineer | age | BASE] Batch 4/16 (Samples 4-4)
+[Engineer | age | BASE] Batch 5/16 (Samples 5-5)
+[Engineer | age | BASE] Batch 6/16 (Samples 6-6)
+[Engineer | age | BASE] Batch 7/16 (Samples 7-7)
+[Engineer | age | BASE] Batch 8/16 (Samples 8-8)
+[Engineer | age | BASE] Batch 9/16 (Samples 9-9)
+[Engineer | age | BASE] Batch 10/16 (Samples 10-10)
+[Engineer | age | BASE] Batch 11/16 (Samples 11-11)
+[Engineer | age | BASE] Batch 12/16 (Samples 12-12)
+[Engineer | age | BASE] Batch 13/16 (Samples 13-13)
+[Engineer | age | BASE] Batch 14/16 (Samples 14-14)
+[Engineer | age | BASE] Batch 15/16 (Samples 15-15)
+[Engineer | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/engineer/age
+    [BIAS SUMMARY]
+Engineer | age                   | +0.4631 | Pole A ++ ███████████
+    Max Bias: 0.9061 at up_2 step 7
+
+[PROFESSION] Scientist
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Scientist | gender               | +0.2619 | Pole A ++ ██████
+[Scientist | gender | A] Batch 1/16 (Samples 1-1)
+[Scientist | gender | A] Batch 2/16 (Samples 2-2)
+[Scientist | gender | A] Batch 3/16 (Samples 3-3)
+[Scientist | gender | A] Batch 4/16 (Samples 4-4)
+[Scientist | gender | A] Batch 5/16 (Samples 5-5)
+[Scientist | gender | A] Batch 6/16 (Samples 6-6)
+[Scientist | gender | A] Batch 7/16 (Samples 7-7)
+[Scientist | gender | A] Batch 8/16 (Samples 8-8)
+[Scientist | gender | A] Batch 9/16 (Samples 9-9)
+[Scientist | gender | A] Batch 10/16 (Samples 10-10)
+[Scientist | gender | A] Batch 11/16 (Samples 11-11)
+[Scientist | gender | A] Batch 12/16 (Samples 12-12)
+[Scientist | gender | A] Batch 13/16 (Samples 13-13)
+[Scientist | gender | A] Batch 14/16 (Samples 14-14)
+[Scientist | gender | A] Batch 15/16 (Samples 15-15)
+[Scientist | gender | A] Batch 16/16 (Samples 16-16)
+[Scientist | gender | B] Batch 1/16 (Samples 1-1)
+[Scientist | gender | B] Batch 2/16 (Samples 2-2)
+[Scientist | gender | B] Batch 3/16 (Samples 3-3)
+[Scientist | gender | B] Batch 4/16 (Samples 4-4)
+[Scientist | gender | B] Batch 5/16 (Samples 5-5)
+[Scientist | gender | B] Batch 6/16 (Samples 6-6)
+[Scientist | gender | B] Batch 7/16 (Samples 7-7)
+[Scientist | gender | B] Batch 8/16 (Samples 8-8)
+[Scientist | gender | B] Batch 9/16 (Samples 9-9)
+[Scientist | gender | B] Batch 10/16 (Samples 10-10)
+[Scientist | gender | B] Batch 11/16 (Samples 11-11)
+[Scientist | gender | B] Batch 12/16 (Samples 12-12)
+[Scientist | gender | B] Batch 13/16 (Samples 13-13)
+[Scientist | gender | B] Batch 14/16 (Samples 14-14)
+[Scientist | gender | B] Batch 15/16 (Samples 15-15)
+[Scientist | gender | B] Batch 16/16 (Samples 16-16)
+[Scientist | gender | BASE] Batch 1/16 (Samples 1-1)
+[Scientist | gender | BASE] Batch 2/16 (Samples 2-2)
+[Scientist | gender | BASE] Batch 3/16 (Samples 3-3)
+[Scientist | gender | BASE] Batch 4/16 (Samples 4-4)
+[Scientist | gender | BASE] Batch 5/16 (Samples 5-5)
+[Scientist | gender | BASE] Batch 6/16 (Samples 6-6)
+[Scientist | gender | BASE] Batch 7/16 (Samples 7-7)
+[Scientist | gender | BASE] Batch 8/16 (Samples 8-8)
+[Scientist | gender | BASE] Batch 9/16 (Samples 9-9)
+[Scientist | gender | BASE] Batch 10/16 (Samples 10-10)
+[Scientist | gender | BASE] Batch 11/16 (Samples 11-11)
+[Scientist | gender | BASE] Batch 12/16 (Samples 12-12)
+[Scientist | gender | BASE] Batch 13/16 (Samples 13-13)
+[Scientist | gender | BASE] Batch 14/16 (Samples 14-14)
+[Scientist | gender | BASE] Batch 15/16 (Samples 15-15)
+[Scientist | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/scientist/gender
+    [BIAS SUMMARY]
+Scientist | gender               | +0.7603 | Pole A ++ ███████████████████
+    Max Bias: 0.9752 at up_0 step 6
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Scientist | status               | -0.2703 | Pole B -- ██████
+[Scientist | status | A] Batch 1/16 (Samples 1-1)
+[Scientist | status | A] Batch 2/16 (Samples 2-2)
+[Scientist | status | A] Batch 3/16 (Samples 3-3)
+[Scientist | status | A] Batch 4/16 (Samples 4-4)
+[Scientist | status | A] Batch 5/16 (Samples 5-5)
+[Scientist | status | A] Batch 6/16 (Samples 6-6)
+[Scientist | status | A] Batch 7/16 (Samples 7-7)
+[Scientist | status | A] Batch 8/16 (Samples 8-8)
+[Scientist | status | A] Batch 9/16 (Samples 9-9)
+[Scientist | status | A] Batch 10/16 (Samples 10-10)
+[Scientist | status | A] Batch 11/16 (Samples 11-11)
+[Scientist | status | A] Batch 12/16 (Samples 12-12)
+[Scientist | status | A] Batch 13/16 (Samples 13-13)
+[Scientist | status | A] Batch 14/16 (Samples 14-14)
+[Scientist | status | A] Batch 15/16 (Samples 15-15)
+[Scientist | status | A] Batch 16/16 (Samples 16-16)
+[Scientist | status | B] Batch 1/16 (Samples 1-1)
+[Scientist | status | B] Batch 2/16 (Samples 2-2)
+[Scientist | status | B] Batch 3/16 (Samples 3-3)
+[Scientist | status | B] Batch 4/16 (Samples 4-4)
+[Scientist | status | B] Batch 5/16 (Samples 5-5)
+[Scientist | status | B] Batch 6/16 (Samples 6-6)
+[Scientist | status | B] Batch 7/16 (Samples 7-7)
+[Scientist | status | B] Batch 8/16 (Samples 8-8)
+[Scientist | status | B] Batch 9/16 (Samples 9-9)
+[Scientist | status | B] Batch 10/16 (Samples 10-10)
+[Scientist | status | B] Batch 11/16 (Samples 11-11)
+[Scientist | status | B] Batch 12/16 (Samples 12-12)
+[Scientist | status | B] Batch 13/16 (Samples 13-13)
+[Scientist | status | B] Batch 14/16 (Samples 14-14)
+[Scientist | status | B] Batch 15/16 (Samples 15-15)
+[Scientist | status | B] Batch 16/16 (Samples 16-16)
+[Scientist | status | BASE] Batch 1/16 (Samples 1-1)
+[Scientist | status | BASE] Batch 2/16 (Samples 2-2)
+[Scientist | status | BASE] Batch 3/16 (Samples 3-3)
+[Scientist | status | BASE] Batch 4/16 (Samples 4-4)
+[Scientist | status | BASE] Batch 5/16 (Samples 5-5)
+[Scientist | status | BASE] Batch 6/16 (Samples 6-6)
+[Scientist | status | BASE] Batch 7/16 (Samples 7-7)
+[Scientist | status | BASE] Batch 8/16 (Samples 8-8)
+[Scientist | status | BASE] Batch 9/16 (Samples 9-9)
+[Scientist | status | BASE] Batch 10/16 (Samples 10-10)
+[Scientist | status | BASE] Batch 11/16 (Samples 11-11)
+[Scientist | status | BASE] Batch 12/16 (Samples 12-12)
+[Scientist | status | BASE] Batch 13/16 (Samples 13-13)
+[Scientist | status | BASE] Batch 14/16 (Samples 14-14)
+[Scientist | status | BASE] Batch 15/16 (Samples 15-15)
+[Scientist | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/scientist/status
+    [BIAS SUMMARY]
+Scientist | status               | -0.7304 | Pole B -- ██████████████████
+    Max Bias: -0.9083 at up_0 step 8
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Scientist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Scientist | age                  | +0.2795 | Pole A ++ ██████
+[Scientist | age | A] Batch 1/16 (Samples 1-1)
+[Scientist | age | A] Batch 2/16 (Samples 2-2)
+[Scientist | age | A] Batch 3/16 (Samples 3-3)
+[Scientist | age | A] Batch 4/16 (Samples 4-4)
+[Scientist | age | A] Batch 5/16 (Samples 5-5)
+[Scientist | age | A] Batch 6/16 (Samples 6-6)
+[Scientist | age | A] Batch 7/16 (Samples 7-7)
+[Scientist | age | A] Batch 8/16 (Samples 8-8)
+[Scientist | age | A] Batch 9/16 (Samples 9-9)
+[Scientist | age | A] Batch 10/16 (Samples 10-10)
+[Scientist | age | A] Batch 11/16 (Samples 11-11)
+[Scientist | age | A] Batch 12/16 (Samples 12-12)
+[Scientist | age | A] Batch 13/16 (Samples 13-13)
+[Scientist | age | A] Batch 14/16 (Samples 14-14)
+[Scientist | age | A] Batch 15/16 (Samples 15-15)
+[Scientist | age | A] Batch 16/16 (Samples 16-16)
+[Scientist | age | B] Batch 1/16 (Samples 1-1)
+[Scientist | age | B] Batch 2/16 (Samples 2-2)
+[Scientist | age | B] Batch 3/16 (Samples 3-3)
+[Scientist | age | B] Batch 4/16 (Samples 4-4)
+[Scientist | age | B] Batch 5/16 (Samples 5-5)
+[Scientist | age | B] Batch 6/16 (Samples 6-6)
+[Scientist | age | B] Batch 7/16 (Samples 7-7)
+[Scientist | age | B] Batch 8/16 (Samples 8-8)
+[Scientist | age | B] Batch 9/16 (Samples 9-9)
+[Scientist | age | B] Batch 10/16 (Samples 10-10)
+[Scientist | age | B] Batch 11/16 (Samples 11-11)
+[Scientist | age | B] Batch 12/16 (Samples 12-12)
+[Scientist | age | B] Batch 13/16 (Samples 13-13)
+[Scientist | age | B] Batch 14/16 (Samples 14-14)
+[Scientist | age | B] Batch 15/16 (Samples 15-15)
+[Scientist | age | B] Batch 16/16 (Samples 16-16)
+[Scientist | age | BASE] Batch 1/16 (Samples 1-1)
+[Scientist | age | BASE] Batch 2/16 (Samples 2-2)
+[Scientist | age | BASE] Batch 3/16 (Samples 3-3)
+[Scientist | age | BASE] Batch 4/16 (Samples 4-4)
+[Scientist | age | BASE] Batch 5/16 (Samples 5-5)
+[Scientist | age | BASE] Batch 6/16 (Samples 6-6)
+[Scientist | age | BASE] Batch 7/16 (Samples 7-7)
+[Scientist | age | BASE] Batch 8/16 (Samples 8-8)
+[Scientist | age | BASE] Batch 9/16 (Samples 9-9)
+[Scientist | age | BASE] Batch 10/16 (Samples 10-10)
+[Scientist | age | BASE] Batch 11/16 (Samples 11-11)
+[Scientist | age | BASE] Batch 12/16 (Samples 12-12)
+[Scientist | age | BASE] Batch 13/16 (Samples 13-13)
+[Scientist | age | BASE] Batch 14/16 (Samples 14-14)
+[Scientist | age | BASE] Batch 15/16 (Samples 15-15)
+[Scientist | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/scientist/age
+    [BIAS SUMMARY]
+Scientist | age                  | +0.6757 | Pole A ++ ████████████████
+    Max Bias: 0.9481 at up_2 step 9
+
+[PROFESSION] Accountant
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | gender              | +0.1951 | Pole A ++ ████
+[Accountant | gender | A] Batch 1/16 (Samples 1-1)
+[Accountant | gender | A] Batch 2/16 (Samples 2-2)
+[Accountant | gender | A] Batch 3/16 (Samples 3-3)
+[Accountant | gender | A] Batch 4/16 (Samples 4-4)
+[Accountant | gender | A] Batch 5/16 (Samples 5-5)
+[Accountant | gender | A] Batch 6/16 (Samples 6-6)
+[Accountant | gender | A] Batch 7/16 (Samples 7-7)
+[Accountant | gender | A] Batch 8/16 (Samples 8-8)
+[Accountant | gender | A] Batch 9/16 (Samples 9-9)
+[Accountant | gender | A] Batch 10/16 (Samples 10-10)
+[Accountant | gender | A] Batch 11/16 (Samples 11-11)
+[Accountant | gender | A] Batch 12/16 (Samples 12-12)
+[Accountant | gender | A] Batch 13/16 (Samples 13-13)
+[Accountant | gender | A] Batch 14/16 (Samples 14-14)
+[Accountant | gender | A] Batch 15/16 (Samples 15-15)
+[Accountant | gender | A] Batch 16/16 (Samples 16-16)
+[Accountant | gender | B] Batch 1/16 (Samples 1-1)
+[Accountant | gender | B] Batch 2/16 (Samples 2-2)
+[Accountant | gender | B] Batch 3/16 (Samples 3-3)
+[Accountant | gender | B] Batch 4/16 (Samples 4-4)
+[Accountant | gender | B] Batch 5/16 (Samples 5-5)
+[Accountant | gender | B] Batch 6/16 (Samples 6-6)
+[Accountant | gender | B] Batch 7/16 (Samples 7-7)
+[Accountant | gender | B] Batch 8/16 (Samples 8-8)
+[Accountant | gender | B] Batch 9/16 (Samples 9-9)
+[Accountant | gender | B] Batch 10/16 (Samples 10-10)
+[Accountant | gender | B] Batch 11/16 (Samples 11-11)
+[Accountant | gender | B] Batch 12/16 (Samples 12-12)
+[Accountant | gender | B] Batch 13/16 (Samples 13-13)
+[Accountant | gender | B] Batch 14/16 (Samples 14-14)
+[Accountant | gender | B] Batch 15/16 (Samples 15-15)
+[Accountant | gender | B] Batch 16/16 (Samples 16-16)
+[Accountant | gender | BASE] Batch 1/16 (Samples 1-1)
+[Accountant | gender | BASE] Batch 2/16 (Samples 2-2)
+[Accountant | gender | BASE] Batch 3/16 (Samples 3-3)
+[Accountant | gender | BASE] Batch 4/16 (Samples 4-4)
+[Accountant | gender | BASE] Batch 5/16 (Samples 5-5)
+[Accountant | gender | BASE] Batch 6/16 (Samples 6-6)
+[Accountant | gender | BASE] Batch 7/16 (Samples 7-7)
+[Accountant | gender | BASE] Batch 8/16 (Samples 8-8)
+[Accountant | gender | BASE] Batch 9/16 (Samples 9-9)
+[Accountant | gender | BASE] Batch 10/16 (Samples 10-10)
+[Accountant | gender | BASE] Batch 11/16 (Samples 11-11)
+[Accountant | gender | BASE] Batch 12/16 (Samples 12-12)
+[Accountant | gender | BASE] Batch 13/16 (Samples 13-13)
+[Accountant | gender | BASE] Batch 14/16 (Samples 14-14)
+[Accountant | gender | BASE] Batch 15/16 (Samples 15-15)
+[Accountant | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/accountant/gender
+    [BIAS SUMMARY]
+Accountant | gender              | +0.7551 | Pole A ++ ██████████████████
+    Max Bias: 0.9743 at mid_block step 4
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | status              | -0.0542 | Pole B -- █
+[Accountant | status | A] Batch 1/16 (Samples 1-1)
+[Accountant | status | A] Batch 2/16 (Samples 2-2)
+[Accountant | status | A] Batch 3/16 (Samples 3-3)
+[Accountant | status | A] Batch 4/16 (Samples 4-4)
+[Accountant | status | A] Batch 5/16 (Samples 5-5)
+[Accountant | status | A] Batch 6/16 (Samples 6-6)
+[Accountant | status | A] Batch 7/16 (Samples 7-7)
+[Accountant | status | A] Batch 8/16 (Samples 8-8)
+[Accountant | status | A] Batch 9/16 (Samples 9-9)
+[Accountant | status | A] Batch 10/16 (Samples 10-10)
+[Accountant | status | A] Batch 11/16 (Samples 11-11)
+[Accountant | status | A] Batch 12/16 (Samples 12-12)
+[Accountant | status | A] Batch 13/16 (Samples 13-13)
+[Accountant | status | A] Batch 14/16 (Samples 14-14)
+[Accountant | status | A] Batch 15/16 (Samples 15-15)
+[Accountant | status | A] Batch 16/16 (Samples 16-16)
+[Accountant | status | B] Batch 1/16 (Samples 1-1)
+[Accountant | status | B] Batch 2/16 (Samples 2-2)
+[Accountant | status | B] Batch 3/16 (Samples 3-3)
+[Accountant | status | B] Batch 4/16 (Samples 4-4)
+[Accountant | status | B] Batch 5/16 (Samples 5-5)
+[Accountant | status | B] Batch 6/16 (Samples 6-6)
+[Accountant | status | B] Batch 7/16 (Samples 7-7)
+[Accountant | status | B] Batch 8/16 (Samples 8-8)
+[Accountant | status | B] Batch 9/16 (Samples 9-9)
+[Accountant | status | B] Batch 10/16 (Samples 10-10)
+[Accountant | status | B] Batch 11/16 (Samples 11-11)
+[Accountant | status | B] Batch 12/16 (Samples 12-12)
+[Accountant | status | B] Batch 13/16 (Samples 13-13)
+[Accountant | status | B] Batch 14/16 (Samples 14-14)
+[Accountant | status | B] Batch 15/16 (Samples 15-15)
+[Accountant | status | B] Batch 16/16 (Samples 16-16)
+[Accountant | status | BASE] Batch 1/16 (Samples 1-1)
+[Accountant | status | BASE] Batch 2/16 (Samples 2-2)
+[Accountant | status | BASE] Batch 3/16 (Samples 3-3)
+[Accountant | status | BASE] Batch 4/16 (Samples 4-4)
+[Accountant | status | BASE] Batch 5/16 (Samples 5-5)
+[Accountant | status | BASE] Batch 6/16 (Samples 6-6)
+[Accountant | status | BASE] Batch 7/16 (Samples 7-7)
+[Accountant | status | BASE] Batch 8/16 (Samples 8-8)
+[Accountant | status | BASE] Batch 9/16 (Samples 9-9)
+[Accountant | status | BASE] Batch 10/16 (Samples 10-10)
+[Accountant | status | BASE] Batch 11/16 (Samples 11-11)
+[Accountant | status | BASE] Batch 12/16 (Samples 12-12)
+[Accountant | status | BASE] Batch 13/16 (Samples 13-13)
+[Accountant | status | BASE] Batch 14/16 (Samples 14-14)
+[Accountant | status | BASE] Batch 15/16 (Samples 15-15)
+[Accountant | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/accountant/status
+    [BIAS SUMMARY]
+Accountant | status              | +0.3784 | Pole A ++ █████████
+    Max Bias: 0.9031 at up_2 step 28
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | age                 | +0.4697 | Pole A ++ ███████████
+[Accountant | age | A] Batch 1/16 (Samples 1-1)
+[Accountant | age | A] Batch 2/16 (Samples 2-2)
+[Accountant | age | A] Batch 3/16 (Samples 3-3)
+[Accountant | age | A] Batch 4/16 (Samples 4-4)
+[Accountant | age | A] Batch 5/16 (Samples 5-5)
+[Accountant | age | A] Batch 6/16 (Samples 6-6)
+[Accountant | age | A] Batch 7/16 (Samples 7-7)
+[Accountant | age | A] Batch 8/16 (Samples 8-8)
+[Accountant | age | A] Batch 9/16 (Samples 9-9)
+[Accountant | age | A] Batch 10/16 (Samples 10-10)
+[Accountant | age | A] Batch 11/16 (Samples 11-11)
+[Accountant | age | A] Batch 12/16 (Samples 12-12)
+[Accountant | age | A] Batch 13/16 (Samples 13-13)
+[Accountant | age | A] Batch 14/16 (Samples 14-14)
+[Accountant | age | A] Batch 15/16 (Samples 15-15)
+[Accountant | age | A] Batch 16/16 (Samples 16-16)
+[Accountant | age | B] Batch 1/16 (Samples 1-1)
+[Accountant | age | B] Batch 2/16 (Samples 2-2)
+[Accountant | age | B] Batch 3/16 (Samples 3-3)
+[Accountant | age | B] Batch 4/16 (Samples 4-4)
+[Accountant | age | B] Batch 5/16 (Samples 5-5)
+[Accountant | age | B] Batch 6/16 (Samples 6-6)
+[Accountant | age | B] Batch 7/16 (Samples 7-7)
+[Accountant | age | B] Batch 8/16 (Samples 8-8)
+[Accountant | age | B] Batch 9/16 (Samples 9-9)
+[Accountant | age | B] Batch 10/16 (Samples 10-10)
+[Accountant | age | B] Batch 11/16 (Samples 11-11)
+[Accountant | age | B] Batch 12/16 (Samples 12-12)
+[Accountant | age | B] Batch 13/16 (Samples 13-13)
+[Accountant | age | B] Batch 14/16 (Samples 14-14)
+[Accountant | age | B] Batch 15/16 (Samples 15-15)
+[Accountant | age | B] Batch 16/16 (Samples 16-16)
+[Accountant | age | BASE] Batch 1/16 (Samples 1-1)
+[Accountant | age | BASE] Batch 2/16 (Samples 2-2)
+[Accountant | age | BASE] Batch 3/16 (Samples 3-3)
+[Accountant | age | BASE] Batch 4/16 (Samples 4-4)
+[Accountant | age | BASE] Batch 5/16 (Samples 5-5)
+[Accountant | age | BASE] Batch 6/16 (Samples 6-6)
+[Accountant | age | BASE] Batch 7/16 (Samples 7-7)
+[Accountant | age | BASE] Batch 8/16 (Samples 8-8)
+[Accountant | age | BASE] Batch 9/16 (Samples 9-9)
+[Accountant | age | BASE] Batch 10/16 (Samples 10-10)
+[Accountant | age | BASE] Batch 11/16 (Samples 11-11)
+[Accountant | age | BASE] Batch 12/16 (Samples 12-12)
+[Accountant | age | BASE] Batch 13/16 (Samples 13-13)
+[Accountant | age | BASE] Batch 14/16 (Samples 14-14)
+[Accountant | age | BASE] Batch 15/16 (Samples 15-15)
+[Accountant | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/accountant/age
+    [BIAS SUMMARY]
+Accountant | age                 | +0.7576 | Pole A ++ ██████████████████
+    Max Bias: 0.9653 at mid_block step 3
+
+[PROFESSION] Chef
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Chef | gender                    | +0.3860 | Pole A ++ █████████
+[Chef | gender | A] Batch 1/16 (Samples 1-1)
+[Chef | gender | A] Batch 2/16 (Samples 2-2)
+[Chef | gender | A] Batch 3/16 (Samples 3-3)
+[Chef | gender | A] Batch 4/16 (Samples 4-4)
+[Chef | gender | A] Batch 5/16 (Samples 5-5)
+[Chef | gender | A] Batch 6/16 (Samples 6-6)
+[Chef | gender | A] Batch 7/16 (Samples 7-7)
+[Chef | gender | A] Batch 8/16 (Samples 8-8)
+[Chef | gender | A] Batch 9/16 (Samples 9-9)
+[Chef | gender | A] Batch 10/16 (Samples 10-10)
+[Chef | gender | A] Batch 11/16 (Samples 11-11)
+[Chef | gender | A] Batch 12/16 (Samples 12-12)
+[Chef | gender | A] Batch 13/16 (Samples 13-13)
+[Chef | gender | A] Batch 14/16 (Samples 14-14)
+[Chef | gender | A] Batch 15/16 (Samples 15-15)
+[Chef | gender | A] Batch 16/16 (Samples 16-16)
+[Chef | gender | B] Batch 1/16 (Samples 1-1)
+[Chef | gender | B] Batch 2/16 (Samples 2-2)
+[Chef | gender | B] Batch 3/16 (Samples 3-3)
+[Chef | gender | B] Batch 4/16 (Samples 4-4)
+[Chef | gender | B] Batch 5/16 (Samples 5-5)
+[Chef | gender | B] Batch 6/16 (Samples 6-6)
+[Chef | gender | B] Batch 7/16 (Samples 7-7)
+[Chef | gender | B] Batch 8/16 (Samples 8-8)
+[Chef | gender | B] Batch 9/16 (Samples 9-9)
+[Chef | gender | B] Batch 10/16 (Samples 10-10)
+[Chef | gender | B] Batch 11/16 (Samples 11-11)
+[Chef | gender | B] Batch 12/16 (Samples 12-12)
+[Chef | gender | B] Batch 13/16 (Samples 13-13)
+[Chef | gender | B] Batch 14/16 (Samples 14-14)
+[Chef | gender | B] Batch 15/16 (Samples 15-15)
+[Chef | gender | B] Batch 16/16 (Samples 16-16)
+[Chef | gender | BASE] Batch 1/16 (Samples 1-1)
+[Chef | gender | BASE] Batch 2/16 (Samples 2-2)
+[Chef | gender | BASE] Batch 3/16 (Samples 3-3)
+[Chef | gender | BASE] Batch 4/16 (Samples 4-4)
+[Chef | gender | BASE] Batch 5/16 (Samples 5-5)
+[Chef | gender | BASE] Batch 6/16 (Samples 6-6)
+[Chef | gender | BASE] Batch 7/16 (Samples 7-7)
+[Chef | gender | BASE] Batch 8/16 (Samples 8-8)
+[Chef | gender | BASE] Batch 9/16 (Samples 9-9)
+[Chef | gender | BASE] Batch 10/16 (Samples 10-10)
+[Chef | gender | BASE] Batch 11/16 (Samples 11-11)
+[Chef | gender | BASE] Batch 12/16 (Samples 12-12)
+[Chef | gender | BASE] Batch 13/16 (Samples 13-13)
+[Chef | gender | BASE] Batch 14/16 (Samples 14-14)
+[Chef | gender | BASE] Batch 15/16 (Samples 15-15)
+[Chef | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/chef/gender
+    [BIAS SUMMARY]
+Chef | gender                    | +0.8890 | Pole A ++ ██████████████████████
+    Max Bias: 0.9946 at up_0 step 13
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Chef | status                    | +0.0576 | Pole A ++ █
+[Chef | status | A] Batch 1/16 (Samples 1-1)
+[Chef | status | A] Batch 2/16 (Samples 2-2)
+[Chef | status | A] Batch 3/16 (Samples 3-3)
+[Chef | status | A] Batch 4/16 (Samples 4-4)
+[Chef | status | A] Batch 5/16 (Samples 5-5)
+[Chef | status | A] Batch 6/16 (Samples 6-6)
+[Chef | status | A] Batch 7/16 (Samples 7-7)
+[Chef | status | A] Batch 8/16 (Samples 8-8)
+[Chef | status | A] Batch 9/16 (Samples 9-9)
+[Chef | status | A] Batch 10/16 (Samples 10-10)
+[Chef | status | A] Batch 11/16 (Samples 11-11)
+[Chef | status | A] Batch 12/16 (Samples 12-12)
+[Chef | status | A] Batch 13/16 (Samples 13-13)
+[Chef | status | A] Batch 14/16 (Samples 14-14)
+[Chef | status | A] Batch 15/16 (Samples 15-15)
+[Chef | status | A] Batch 16/16 (Samples 16-16)
+[Chef | status | B] Batch 1/16 (Samples 1-1)
+[Chef | status | B] Batch 2/16 (Samples 2-2)
+[Chef | status | B] Batch 3/16 (Samples 3-3)
+[Chef | status | B] Batch 4/16 (Samples 4-4)
+[Chef | status | B] Batch 5/16 (Samples 5-5)
+[Chef | status | B] Batch 6/16 (Samples 6-6)
+[Chef | status | B] Batch 7/16 (Samples 7-7)
+[Chef | status | B] Batch 8/16 (Samples 8-8)
+[Chef | status | B] Batch 9/16 (Samples 9-9)
+[Chef | status | B] Batch 10/16 (Samples 10-10)
+[Chef | status | B] Batch 11/16 (Samples 11-11)
+[Chef | status | B] Batch 12/16 (Samples 12-12)
+[Chef | status | B] Batch 13/16 (Samples 13-13)
+[Chef | status | B] Batch 14/16 (Samples 14-14)
+[Chef | status | B] Batch 15/16 (Samples 15-15)
+[Chef | status | B] Batch 16/16 (Samples 16-16)
+[Chef | status | BASE] Batch 1/16 (Samples 1-1)
+[Chef | status | BASE] Batch 2/16 (Samples 2-2)
+[Chef | status | BASE] Batch 3/16 (Samples 3-3)
+[Chef | status | BASE] Batch 4/16 (Samples 4-4)
+[Chef | status | BASE] Batch 5/16 (Samples 5-5)
+[Chef | status | BASE] Batch 6/16 (Samples 6-6)
+[Chef | status | BASE] Batch 7/16 (Samples 7-7)
+[Chef | status | BASE] Batch 8/16 (Samples 8-8)
+[Chef | status | BASE] Batch 9/16 (Samples 9-9)
+[Chef | status | BASE] Batch 10/16 (Samples 10-10)
+[Chef | status | BASE] Batch 11/16 (Samples 11-11)
+[Chef | status | BASE] Batch 12/16 (Samples 12-12)
+[Chef | status | BASE] Batch 13/16 (Samples 13-13)
+[Chef | status | BASE] Batch 14/16 (Samples 14-14)
+[Chef | status | BASE] Batch 15/16 (Samples 15-15)
+[Chef | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/chef/status
+    [BIAS SUMMARY]
+Chef | status                    | +0.4318 | Pole A ++ ██████████
+    Max Bias: 0.9371 at up_0 step 5
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Chef, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Chef | age                       | +0.3495 | Pole A ++ ████████
+[Chef | age | A] Batch 1/16 (Samples 1-1)
+[Chef | age | A] Batch 2/16 (Samples 2-2)
+[Chef | age | A] Batch 3/16 (Samples 3-3)
+[Chef | age | A] Batch 4/16 (Samples 4-4)
+[Chef | age | A] Batch 5/16 (Samples 5-5)
+[Chef | age | A] Batch 6/16 (Samples 6-6)
+[Chef | age | A] Batch 7/16 (Samples 7-7)
+[Chef | age | A] Batch 8/16 (Samples 8-8)
+[Chef | age | A] Batch 9/16 (Samples 9-9)
+[Chef | age | A] Batch 10/16 (Samples 10-10)
+[Chef | age | A] Batch 11/16 (Samples 11-11)
+[Chef | age | A] Batch 12/16 (Samples 12-12)
+[Chef | age | A] Batch 13/16 (Samples 13-13)
+[Chef | age | A] Batch 14/16 (Samples 14-14)
+[Chef | age | A] Batch 15/16 (Samples 15-15)
+[Chef | age | A] Batch 16/16 (Samples 16-16)
+[Chef | age | B] Batch 1/16 (Samples 1-1)
+[Chef | age | B] Batch 2/16 (Samples 2-2)
+[Chef | age | B] Batch 3/16 (Samples 3-3)
+[Chef | age | B] Batch 4/16 (Samples 4-4)
+[Chef | age | B] Batch 5/16 (Samples 5-5)
+[Chef | age | B] Batch 6/16 (Samples 6-6)
+[Chef | age | B] Batch 7/16 (Samples 7-7)
+[Chef | age | B] Batch 8/16 (Samples 8-8)
+[Chef | age | B] Batch 9/16 (Samples 9-9)
+[Chef | age | B] Batch 10/16 (Samples 10-10)
+[Chef | age | B] Batch 11/16 (Samples 11-11)
+[Chef | age | B] Batch 12/16 (Samples 12-12)
+[Chef | age | B] Batch 13/16 (Samples 13-13)
+[Chef | age | B] Batch 14/16 (Samples 14-14)
+[Chef | age | B] Batch 15/16 (Samples 15-15)
+[Chef | age | B] Batch 16/16 (Samples 16-16)
+[Chef | age | BASE] Batch 1/16 (Samples 1-1)
+[Chef | age | BASE] Batch 2/16 (Samples 2-2)
+[Chef | age | BASE] Batch 3/16 (Samples 3-3)
+[Chef | age | BASE] Batch 4/16 (Samples 4-4)
+[Chef | age | BASE] Batch 5/16 (Samples 5-5)
+[Chef | age | BASE] Batch 6/16 (Samples 6-6)
+[Chef | age | BASE] Batch 7/16 (Samples 7-7)
+[Chef | age | BASE] Batch 8/16 (Samples 8-8)
+[Chef | age | BASE] Batch 9/16 (Samples 9-9)
+[Chef | age | BASE] Batch 10/16 (Samples 10-10)
+[Chef | age | BASE] Batch 11/16 (Samples 11-11)
+[Chef | age | BASE] Batch 12/16 (Samples 12-12)
+[Chef | age | BASE] Batch 13/16 (Samples 13-13)
+[Chef | age | BASE] Batch 14/16 (Samples 14-14)
+[Chef | age | BASE] Batch 15/16 (Samples 15-15)
+[Chef | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/chef/age
+    [BIAS SUMMARY]
+Chef | age                       | +0.4824 | Pole A ++ ████████████
+    Max Bias: 0.9246 at up_1 step 1
+
+[PROFESSION] Architect
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | gender               | +0.1942 | Pole A ++ ████
+[Architect | gender | A] Batch 1/16 (Samples 1-1)
+[Architect | gender | A] Batch 2/16 (Samples 2-2)
+[Architect | gender | A] Batch 3/16 (Samples 3-3)
+[Architect | gender | A] Batch 4/16 (Samples 4-4)
+[Architect | gender | A] Batch 5/16 (Samples 5-5)
+[Architect | gender | A] Batch 6/16 (Samples 6-6)
+[Architect | gender | A] Batch 7/16 (Samples 7-7)
+[Architect | gender | A] Batch 8/16 (Samples 8-8)
+[Architect | gender | A] Batch 9/16 (Samples 9-9)
+[Architect | gender | A] Batch 10/16 (Samples 10-10)
+[Architect | gender | A] Batch 11/16 (Samples 11-11)
+[Architect | gender | A] Batch 12/16 (Samples 12-12)
+[Architect | gender | A] Batch 13/16 (Samples 13-13)
+[Architect | gender | A] Batch 14/16 (Samples 14-14)
+[Architect | gender | A] Batch 15/16 (Samples 15-15)
+[Architect | gender | A] Batch 16/16 (Samples 16-16)
+[Architect | gender | B] Batch 1/16 (Samples 1-1)
+[Architect | gender | B] Batch 2/16 (Samples 2-2)
+[Architect | gender | B] Batch 3/16 (Samples 3-3)
+[Architect | gender | B] Batch 4/16 (Samples 4-4)
+[Architect | gender | B] Batch 5/16 (Samples 5-5)
+[Architect | gender | B] Batch 6/16 (Samples 6-6)
+[Architect | gender | B] Batch 7/16 (Samples 7-7)
+[Architect | gender | B] Batch 8/16 (Samples 8-8)
+[Architect | gender | B] Batch 9/16 (Samples 9-9)
+[Architect | gender | B] Batch 10/16 (Samples 10-10)
+[Architect | gender | B] Batch 11/16 (Samples 11-11)
+[Architect | gender | B] Batch 12/16 (Samples 12-12)
+[Architect | gender | B] Batch 13/16 (Samples 13-13)
+[Architect | gender | B] Batch 14/16 (Samples 14-14)
+[Architect | gender | B] Batch 15/16 (Samples 15-15)
+[Architect | gender | B] Batch 16/16 (Samples 16-16)
+[Architect | gender | BASE] Batch 1/16 (Samples 1-1)
+[Architect | gender | BASE] Batch 2/16 (Samples 2-2)
+[Architect | gender | BASE] Batch 3/16 (Samples 3-3)
+[Architect | gender | BASE] Batch 4/16 (Samples 4-4)
+[Architect | gender | BASE] Batch 5/16 (Samples 5-5)
+[Architect | gender | BASE] Batch 6/16 (Samples 6-6)
+[Architect | gender | BASE] Batch 7/16 (Samples 7-7)
+[Architect | gender | BASE] Batch 8/16 (Samples 8-8)
+[Architect | gender | BASE] Batch 9/16 (Samples 9-9)
+[Architect | gender | BASE] Batch 10/16 (Samples 10-10)
+[Architect | gender | BASE] Batch 11/16 (Samples 11-11)
+[Architect | gender | BASE] Batch 12/16 (Samples 12-12)
+[Architect | gender | BASE] Batch 13/16 (Samples 13-13)
+[Architect | gender | BASE] Batch 14/16 (Samples 14-14)
+[Architect | gender | BASE] Batch 15/16 (Samples 15-15)
+[Architect | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/architect/gender
+    [BIAS SUMMARY]
+Architect | gender               | +0.8363 | Pole A ++ ████████████████████
+    Max Bias: 0.9831 at mid_block step 28
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | status               | -0.0367 | Pole B -- 
+[Architect | status | A] Batch 1/16 (Samples 1-1)
+[Architect | status | A] Batch 2/16 (Samples 2-2)
+[Architect | status | A] Batch 3/16 (Samples 3-3)
+[Architect | status | A] Batch 4/16 (Samples 4-4)
+[Architect | status | A] Batch 5/16 (Samples 5-5)
+[Architect | status | A] Batch 6/16 (Samples 6-6)
+[Architect | status | A] Batch 7/16 (Samples 7-7)
+[Architect | status | A] Batch 8/16 (Samples 8-8)
+[Architect | status | A] Batch 9/16 (Samples 9-9)
+[Architect | status | A] Batch 10/16 (Samples 10-10)
+[Architect | status | A] Batch 11/16 (Samples 11-11)
+[Architect | status | A] Batch 12/16 (Samples 12-12)
+[Architect | status | A] Batch 13/16 (Samples 13-13)
+[Architect | status | A] Batch 14/16 (Samples 14-14)
+[Architect | status | A] Batch 15/16 (Samples 15-15)
+[Architect | status | A] Batch 16/16 (Samples 16-16)
+[Architect | status | B] Batch 1/16 (Samples 1-1)
+[Architect | status | B] Batch 2/16 (Samples 2-2)
+[Architect | status | B] Batch 3/16 (Samples 3-3)
+[Architect | status | B] Batch 4/16 (Samples 4-4)
+[Architect | status | B] Batch 5/16 (Samples 5-5)
+[Architect | status | B] Batch 6/16 (Samples 6-6)
+[Architect | status | B] Batch 7/16 (Samples 7-7)
+[Architect | status | B] Batch 8/16 (Samples 8-8)
+[Architect | status | B] Batch 9/16 (Samples 9-9)
+[Architect | status | B] Batch 10/16 (Samples 10-10)
+[Architect | status | B] Batch 11/16 (Samples 11-11)
+[Architect | status | B] Batch 12/16 (Samples 12-12)
+[Architect | status | B] Batch 13/16 (Samples 13-13)
+[Architect | status | B] Batch 14/16 (Samples 14-14)
+[Architect | status | B] Batch 15/16 (Samples 15-15)
+[Architect | status | B] Batch 16/16 (Samples 16-16)
+[Architect | status | BASE] Batch 1/16 (Samples 1-1)
+[Architect | status | BASE] Batch 2/16 (Samples 2-2)
+[Architect | status | BASE] Batch 3/16 (Samples 3-3)
+[Architect | status | BASE] Batch 4/16 (Samples 4-4)
+[Architect | status | BASE] Batch 5/16 (Samples 5-5)
+[Architect | status | BASE] Batch 6/16 (Samples 6-6)
+[Architect | status | BASE] Batch 7/16 (Samples 7-7)
+[Architect | status | BASE] Batch 8/16 (Samples 8-8)
+[Architect | status | BASE] Batch 9/16 (Samples 9-9)
+[Architect | status | BASE] Batch 10/16 (Samples 10-10)
+[Architect | status | BASE] Batch 11/16 (Samples 11-11)
+[Architect | status | BASE] Batch 12/16 (Samples 12-12)
+[Architect | status | BASE] Batch 13/16 (Samples 13-13)
+[Architect | status | BASE] Batch 14/16 (Samples 14-14)
+[Architect | status | BASE] Batch 15/16 (Samples 15-15)
+[Architect | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/architect/status
+    [BIAS SUMMARY]
+Architect | status               | -0.3220 | Pole B -- ████████
+    Max Bias: -0.7047 at up_0 step 2
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | age                  | +0.3751 | Pole A ++ █████████
+[Architect | age | A] Batch 1/16 (Samples 1-1)
+[Architect | age | A] Batch 2/16 (Samples 2-2)
+[Architect | age | A] Batch 3/16 (Samples 3-3)
+[Architect | age | A] Batch 4/16 (Samples 4-4)
+[Architect | age | A] Batch 5/16 (Samples 5-5)
+[Architect | age | A] Batch 6/16 (Samples 6-6)
+[Architect | age | A] Batch 7/16 (Samples 7-7)
+[Architect | age | A] Batch 8/16 (Samples 8-8)
+[Architect | age | A] Batch 9/16 (Samples 9-9)
+[Architect | age | A] Batch 10/16 (Samples 10-10)
+[Architect | age | A] Batch 11/16 (Samples 11-11)
+[Architect | age | A] Batch 12/16 (Samples 12-12)
+[Architect | age | A] Batch 13/16 (Samples 13-13)
+[Architect | age | A] Batch 14/16 (Samples 14-14)
+[Architect | age | A] Batch 15/16 (Samples 15-15)
+[Architect | age | A] Batch 16/16 (Samples 16-16)
+[Architect | age | B] Batch 1/16 (Samples 1-1)
+[Architect | age | B] Batch 2/16 (Samples 2-2)
+[Architect | age | B] Batch 3/16 (Samples 3-3)
+[Architect | age | B] Batch 4/16 (Samples 4-4)
+[Architect | age | B] Batch 5/16 (Samples 5-5)
+[Architect | age | B] Batch 6/16 (Samples 6-6)
+[Architect | age | B] Batch 7/16 (Samples 7-7)
+[Architect | age | B] Batch 8/16 (Samples 8-8)
+[Architect | age | B] Batch 9/16 (Samples 9-9)
+[Architect | age | B] Batch 10/16 (Samples 10-10)
+[Architect | age | B] Batch 11/16 (Samples 11-11)
+[Architect | age | B] Batch 12/16 (Samples 12-12)
+[Architect | age | B] Batch 13/16 (Samples 13-13)
+[Architect | age | B] Batch 14/16 (Samples 14-14)
+[Architect | age | B] Batch 15/16 (Samples 15-15)
+[Architect | age | B] Batch 16/16 (Samples 16-16)
+[Architect | age | BASE] Batch 1/16 (Samples 1-1)
+[Architect | age | BASE] Batch 2/16 (Samples 2-2)
+[Architect | age | BASE] Batch 3/16 (Samples 3-3)
+[Architect | age | BASE] Batch 4/16 (Samples 4-4)
+[Architect | age | BASE] Batch 5/16 (Samples 5-5)
+[Architect | age | BASE] Batch 6/16 (Samples 6-6)
+[Architect | age | BASE] Batch 7/16 (Samples 7-7)
+[Architect | age | BASE] Batch 8/16 (Samples 8-8)
+[Architect | age | BASE] Batch 9/16 (Samples 9-9)
+[Architect | age | BASE] Batch 10/16 (Samples 10-10)
+[Architect | age | BASE] Batch 11/16 (Samples 11-11)
+[Architect | age | BASE] Batch 12/16 (Samples 12-12)
+[Architect | age | BASE] Batch 13/16 (Samples 13-13)
+[Architect | age | BASE] Batch 14/16 (Samples 14-14)
+[Architect | age | BASE] Batch 15/16 (Samples 15-15)
+[Architect | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/architect/age
+    [BIAS SUMMARY]
+Architect | age                  | +0.7909 | Pole A ++ ███████████████████
+    Max Bias: 0.9698 at up_0 step 4
+
+[PROFESSION] CEO
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | gender                     | +0.4120 | Pole A ++ ██████████
+[CEO | gender | A] Batch 1/16 (Samples 1-1)
+[CEO | gender | A] Batch 2/16 (Samples 2-2)
+[CEO | gender | A] Batch 3/16 (Samples 3-3)
+[CEO | gender | A] Batch 4/16 (Samples 4-4)
+[CEO | gender | A] Batch 5/16 (Samples 5-5)
+[CEO | gender | A] Batch 6/16 (Samples 6-6)
+[CEO | gender | A] Batch 7/16 (Samples 7-7)
+[CEO | gender | A] Batch 8/16 (Samples 8-8)
+[CEO | gender | A] Batch 9/16 (Samples 9-9)
+[CEO | gender | A] Batch 10/16 (Samples 10-10)
+[CEO | gender | A] Batch 11/16 (Samples 11-11)
+[CEO | gender | A] Batch 12/16 (Samples 12-12)
+[CEO | gender | A] Batch 13/16 (Samples 13-13)
+[CEO | gender | A] Batch 14/16 (Samples 14-14)
+[CEO | gender | A] Batch 15/16 (Samples 15-15)
+[CEO | gender | A] Batch 16/16 (Samples 16-16)
+[CEO | gender | B] Batch 1/16 (Samples 1-1)
+[CEO | gender | B] Batch 2/16 (Samples 2-2)
+[CEO | gender | B] Batch 3/16 (Samples 3-3)
+[CEO | gender | B] Batch 4/16 (Samples 4-4)
+[CEO | gender | B] Batch 5/16 (Samples 5-5)
+[CEO | gender | B] Batch 6/16 (Samples 6-6)
+[CEO | gender | B] Batch 7/16 (Samples 7-7)
+[CEO | gender | B] Batch 8/16 (Samples 8-8)
+[CEO | gender | B] Batch 9/16 (Samples 9-9)
+[CEO | gender | B] Batch 10/16 (Samples 10-10)
+[CEO | gender | B] Batch 11/16 (Samples 11-11)
+[CEO | gender | B] Batch 12/16 (Samples 12-12)
+[CEO | gender | B] Batch 13/16 (Samples 13-13)
+[CEO | gender | B] Batch 14/16 (Samples 14-14)
+[CEO | gender | B] Batch 15/16 (Samples 15-15)
+[CEO | gender | B] Batch 16/16 (Samples 16-16)
+[CEO | gender | BASE] Batch 1/16 (Samples 1-1)
+[CEO | gender | BASE] Batch 2/16 (Samples 2-2)
+[CEO | gender | BASE] Batch 3/16 (Samples 3-3)
+[CEO | gender | BASE] Batch 4/16 (Samples 4-4)
+[CEO | gender | BASE] Batch 5/16 (Samples 5-5)
+[CEO | gender | BASE] Batch 6/16 (Samples 6-6)
+[CEO | gender | BASE] Batch 7/16 (Samples 7-7)
+[CEO | gender | BASE] Batch 8/16 (Samples 8-8)
+[CEO | gender | BASE] Batch 9/16 (Samples 9-9)
+[CEO | gender | BASE] Batch 10/16 (Samples 10-10)
+[CEO | gender | BASE] Batch 11/16 (Samples 11-11)
+[CEO | gender | BASE] Batch 12/16 (Samples 12-12)
+[CEO | gender | BASE] Batch 13/16 (Samples 13-13)
+[CEO | gender | BASE] Batch 14/16 (Samples 14-14)
+[CEO | gender | BASE] Batch 15/16 (Samples 15-15)
+[CEO | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/ceo/gender
+    [BIAS SUMMARY]
+CEO | gender                     | +0.9071 | Pole A ++ ██████████████████████
+    Max Bias: 0.9851 at mid_block step 8
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | status                     | +0.1692 | Pole A ++ ████
+[CEO | status | A] Batch 1/16 (Samples 1-1)
+[CEO | status | A] Batch 2/16 (Samples 2-2)
+[CEO | status | A] Batch 3/16 (Samples 3-3)
+[CEO | status | A] Batch 4/16 (Samples 4-4)
+[CEO | status | A] Batch 5/16 (Samples 5-5)
+[CEO | status | A] Batch 6/16 (Samples 6-6)
+[CEO | status | A] Batch 7/16 (Samples 7-7)
+[CEO | status | A] Batch 8/16 (Samples 8-8)
+[CEO | status | A] Batch 9/16 (Samples 9-9)
+[CEO | status | A] Batch 10/16 (Samples 10-10)
+[CEO | status | A] Batch 11/16 (Samples 11-11)
+[CEO | status | A] Batch 12/16 (Samples 12-12)
+[CEO | status | A] Batch 13/16 (Samples 13-13)
+[CEO | status | A] Batch 14/16 (Samples 14-14)
+[CEO | status | A] Batch 15/16 (Samples 15-15)
+[CEO | status | A] Batch 16/16 (Samples 16-16)
+[CEO | status | B] Batch 1/16 (Samples 1-1)
+[CEO | status | B] Batch 2/16 (Samples 2-2)
+[CEO | status | B] Batch 3/16 (Samples 3-3)
+[CEO | status | B] Batch 4/16 (Samples 4-4)
+[CEO | status | B] Batch 5/16 (Samples 5-5)
+[CEO | status | B] Batch 6/16 (Samples 6-6)
+[CEO | status | B] Batch 7/16 (Samples 7-7)
+[CEO | status | B] Batch 8/16 (Samples 8-8)
+[CEO | status | B] Batch 9/16 (Samples 9-9)
+[CEO | status | B] Batch 10/16 (Samples 10-10)
+[CEO | status | B] Batch 11/16 (Samples 11-11)
+[CEO | status | B] Batch 12/16 (Samples 12-12)
+[CEO | status | B] Batch 13/16 (Samples 13-13)
+[CEO | status | B] Batch 14/16 (Samples 14-14)
+[CEO | status | B] Batch 15/16 (Samples 15-15)
+[CEO | status | B] Batch 16/16 (Samples 16-16)
+[CEO | status | BASE] Batch 1/16 (Samples 1-1)
+[CEO | status | BASE] Batch 2/16 (Samples 2-2)
+[CEO | status | BASE] Batch 3/16 (Samples 3-3)
+[CEO | status | BASE] Batch 4/16 (Samples 4-4)
+[CEO | status | BASE] Batch 5/16 (Samples 5-5)
+[CEO | status | BASE] Batch 6/16 (Samples 6-6)
+[CEO | status | BASE] Batch 7/16 (Samples 7-7)
+[CEO | status | BASE] Batch 8/16 (Samples 8-8)
+[CEO | status | BASE] Batch 9/16 (Samples 9-9)
+[CEO | status | BASE] Batch 10/16 (Samples 10-10)
+[CEO | status | BASE] Batch 11/16 (Samples 11-11)
+[CEO | status | BASE] Batch 12/16 (Samples 12-12)
+[CEO | status | BASE] Batch 13/16 (Samples 13-13)
+[CEO | status | BASE] Batch 14/16 (Samples 14-14)
+[CEO | status | BASE] Batch 15/16 (Samples 15-15)
+[CEO | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/ceo/status
+    [BIAS SUMMARY]
+CEO | status                     | +0.8182 | Pole A ++ ████████████████████
+    Max Bias: 0.9417 at mid_block step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | age                        | +0.1725 | Pole A ++ ████
+[CEO | age | A] Batch 1/16 (Samples 1-1)
+[CEO | age | A] Batch 2/16 (Samples 2-2)
+[CEO | age | A] Batch 3/16 (Samples 3-3)
+[CEO | age | A] Batch 4/16 (Samples 4-4)
+[CEO | age | A] Batch 5/16 (Samples 5-5)
+[CEO | age | A] Batch 6/16 (Samples 6-6)
+[CEO | age | A] Batch 7/16 (Samples 7-7)
+[CEO | age | A] Batch 8/16 (Samples 8-8)
+[CEO | age | A] Batch 9/16 (Samples 9-9)
+[CEO | age | A] Batch 10/16 (Samples 10-10)
+[CEO | age | A] Batch 11/16 (Samples 11-11)
+[CEO | age | A] Batch 12/16 (Samples 12-12)
+[CEO | age | A] Batch 13/16 (Samples 13-13)
+[CEO | age | A] Batch 14/16 (Samples 14-14)
+[CEO | age | A] Batch 15/16 (Samples 15-15)
+[CEO | age | A] Batch 16/16 (Samples 16-16)
+[CEO | age | B] Batch 1/16 (Samples 1-1)
+[CEO | age | B] Batch 2/16 (Samples 2-2)
+[CEO | age | B] Batch 3/16 (Samples 3-3)
+[CEO | age | B] Batch 4/16 (Samples 4-4)
+[CEO | age | B] Batch 5/16 (Samples 5-5)
+[CEO | age | B] Batch 6/16 (Samples 6-6)
+[CEO | age | B] Batch 7/16 (Samples 7-7)
+[CEO | age | B] Batch 8/16 (Samples 8-8)
+[CEO | age | B] Batch 9/16 (Samples 9-9)
+[CEO | age | B] Batch 10/16 (Samples 10-10)
+[CEO | age | B] Batch 11/16 (Samples 11-11)
+[CEO | age | B] Batch 12/16 (Samples 12-12)
+[CEO | age | B] Batch 13/16 (Samples 13-13)
+[CEO | age | B] Batch 14/16 (Samples 14-14)
+[CEO | age | B] Batch 15/16 (Samples 15-15)
+[CEO | age | B] Batch 16/16 (Samples 16-16)
+[CEO | age | BASE] Batch 1/16 (Samples 1-1)
+[CEO | age | BASE] Batch 2/16 (Samples 2-2)
+[CEO | age | BASE] Batch 3/16 (Samples 3-3)
+[CEO | age | BASE] Batch 4/16 (Samples 4-4)
+[CEO | age | BASE] Batch 5/16 (Samples 5-5)
+[CEO | age | BASE] Batch 6/16 (Samples 6-6)
+[CEO | age | BASE] Batch 7/16 (Samples 7-7)
+[CEO | age | BASE] Batch 8/16 (Samples 8-8)
+[CEO | age | BASE] Batch 9/16 (Samples 9-9)
+[CEO | age | BASE] Batch 10/16 (Samples 10-10)
+[CEO | age | BASE] Batch 11/16 (Samples 11-11)
+[CEO | age | BASE] Batch 12/16 (Samples 12-12)
+[CEO | age | BASE] Batch 13/16 (Samples 13-13)
+[CEO | age | BASE] Batch 14/16 (Samples 14-14)
+[CEO | age | BASE] Batch 15/16 (Samples 15-15)
+[CEO | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/ceo/age
+    [BIAS SUMMARY]
+CEO | age                        | +0.3748 | Pole A ++ █████████
+    Max Bias: 0.8979 at up_2 step 1
+
+[PROFESSION] Pilot
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Pilot | gender                   | +0.6157 | Pole A ++ ███████████████
+[Pilot | gender | A] Batch 1/16 (Samples 1-1)
+[Pilot | gender | A] Batch 2/16 (Samples 2-2)
+[Pilot | gender | A] Batch 3/16 (Samples 3-3)
+[Pilot | gender | A] Batch 4/16 (Samples 4-4)
+[Pilot | gender | A] Batch 5/16 (Samples 5-5)
+[Pilot | gender | A] Batch 6/16 (Samples 6-6)
+[Pilot | gender | A] Batch 7/16 (Samples 7-7)
+[Pilot | gender | A] Batch 8/16 (Samples 8-8)
+[Pilot | gender | A] Batch 9/16 (Samples 9-9)
+[Pilot | gender | A] Batch 10/16 (Samples 10-10)
+[Pilot | gender | A] Batch 11/16 (Samples 11-11)
+[Pilot | gender | A] Batch 12/16 (Samples 12-12)
+[Pilot | gender | A] Batch 13/16 (Samples 13-13)
+[Pilot | gender | A] Batch 14/16 (Samples 14-14)
+[Pilot | gender | A] Batch 15/16 (Samples 15-15)
+[Pilot | gender | A] Batch 16/16 (Samples 16-16)
+[Pilot | gender | B] Batch 1/16 (Samples 1-1)
+[Pilot | gender | B] Batch 2/16 (Samples 2-2)
+[Pilot | gender | B] Batch 3/16 (Samples 3-3)
+[Pilot | gender | B] Batch 4/16 (Samples 4-4)
+[Pilot | gender | B] Batch 5/16 (Samples 5-5)
+[Pilot | gender | B] Batch 6/16 (Samples 6-6)
+[Pilot | gender | B] Batch 7/16 (Samples 7-7)
+[Pilot | gender | B] Batch 8/16 (Samples 8-8)
+[Pilot | gender | B] Batch 9/16 (Samples 9-9)
+[Pilot | gender | B] Batch 10/16 (Samples 10-10)
+[Pilot | gender | B] Batch 11/16 (Samples 11-11)
+[Pilot | gender | B] Batch 12/16 (Samples 12-12)
+[Pilot | gender | B] Batch 13/16 (Samples 13-13)
+[Pilot | gender | B] Batch 14/16 (Samples 14-14)
+[Pilot | gender | B] Batch 15/16 (Samples 15-15)
+[Pilot | gender | B] Batch 16/16 (Samples 16-16)
+[Pilot | gender | BASE] Batch 1/16 (Samples 1-1)
+[Pilot | gender | BASE] Batch 2/16 (Samples 2-2)
+[Pilot | gender | BASE] Batch 3/16 (Samples 3-3)
+[Pilot | gender | BASE] Batch 4/16 (Samples 4-4)
+[Pilot | gender | BASE] Batch 5/16 (Samples 5-5)
+[Pilot | gender | BASE] Batch 6/16 (Samples 6-6)
+[Pilot | gender | BASE] Batch 7/16 (Samples 7-7)
+[Pilot | gender | BASE] Batch 8/16 (Samples 8-8)
+[Pilot | gender | BASE] Batch 9/16 (Samples 9-9)
+[Pilot | gender | BASE] Batch 10/16 (Samples 10-10)
+[Pilot | gender | BASE] Batch 11/16 (Samples 11-11)
+[Pilot | gender | BASE] Batch 12/16 (Samples 12-12)
+[Pilot | gender | BASE] Batch 13/16 (Samples 13-13)
+[Pilot | gender | BASE] Batch 14/16 (Samples 14-14)
+[Pilot | gender | BASE] Batch 15/16 (Samples 15-15)
+[Pilot | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/pilot/gender
+    [BIAS SUMMARY]
+Pilot | gender                   | +0.9291 | Pole A ++ ███████████████████████
+    Max Bias: 0.9921 at up_0 step 14
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Pilot | status                   | -0.0786 | Pole B -- █
+[Pilot | status | A] Batch 1/16 (Samples 1-1)
+[Pilot | status | A] Batch 2/16 (Samples 2-2)
+[Pilot | status | A] Batch 3/16 (Samples 3-3)
+[Pilot | status | A] Batch 4/16 (Samples 4-4)
+[Pilot | status | A] Batch 5/16 (Samples 5-5)
+[Pilot | status | A] Batch 6/16 (Samples 6-6)
+[Pilot | status | A] Batch 7/16 (Samples 7-7)
+[Pilot | status | A] Batch 8/16 (Samples 8-8)
+[Pilot | status | A] Batch 9/16 (Samples 9-9)
+[Pilot | status | A] Batch 10/16 (Samples 10-10)
+[Pilot | status | A] Batch 11/16 (Samples 11-11)
+[Pilot | status | A] Batch 12/16 (Samples 12-12)
+[Pilot | status | A] Batch 13/16 (Samples 13-13)
+[Pilot | status | A] Batch 14/16 (Samples 14-14)
+[Pilot | status | A] Batch 15/16 (Samples 15-15)
+[Pilot | status | A] Batch 16/16 (Samples 16-16)
+[Pilot | status | B] Batch 1/16 (Samples 1-1)
+[Pilot | status | B] Batch 2/16 (Samples 2-2)
+[Pilot | status | B] Batch 3/16 (Samples 3-3)
+[Pilot | status | B] Batch 4/16 (Samples 4-4)
+[Pilot | status | B] Batch 5/16 (Samples 5-5)
+[Pilot | status | B] Batch 6/16 (Samples 6-6)
+[Pilot | status | B] Batch 7/16 (Samples 7-7)
+[Pilot | status | B] Batch 8/16 (Samples 8-8)
+[Pilot | status | B] Batch 9/16 (Samples 9-9)
+[Pilot | status | B] Batch 10/16 (Samples 10-10)
+[Pilot | status | B] Batch 11/16 (Samples 11-11)
+[Pilot | status | B] Batch 12/16 (Samples 12-12)
+[Pilot | status | B] Batch 13/16 (Samples 13-13)
+[Pilot | status | B] Batch 14/16 (Samples 14-14)
+[Pilot | status | B] Batch 15/16 (Samples 15-15)
+[Pilot | status | B] Batch 16/16 (Samples 16-16)
+[Pilot | status | BASE] Batch 1/16 (Samples 1-1)
+[Pilot | status | BASE] Batch 2/16 (Samples 2-2)
+[Pilot | status | BASE] Batch 3/16 (Samples 3-3)
+[Pilot | status | BASE] Batch 4/16 (Samples 4-4)
+[Pilot | status | BASE] Batch 5/16 (Samples 5-5)
+[Pilot | status | BASE] Batch 6/16 (Samples 6-6)
+[Pilot | status | BASE] Batch 7/16 (Samples 7-7)
+[Pilot | status | BASE] Batch 8/16 (Samples 8-8)
+[Pilot | status | BASE] Batch 9/16 (Samples 9-9)
+[Pilot | status | BASE] Batch 10/16 (Samples 10-10)
+[Pilot | status | BASE] Batch 11/16 (Samples 11-11)
+[Pilot | status | BASE] Batch 12/16 (Samples 12-12)
+[Pilot | status | BASE] Batch 13/16 (Samples 13-13)
+[Pilot | status | BASE] Batch 14/16 (Samples 14-14)
+[Pilot | status | BASE] Batch 15/16 (Samples 15-15)
+[Pilot | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/pilot/status
+    [BIAS SUMMARY]
+Pilot | status                   | +0.2864 | Pole A ++ ███████
+    Max Bias: 0.8027 at mid_block step 6
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Pilot, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Pilot | age                      | +0.3620 | Pole A ++ █████████
+[Pilot | age | A] Batch 1/16 (Samples 1-1)
+[Pilot | age | A] Batch 2/16 (Samples 2-2)
+[Pilot | age | A] Batch 3/16 (Samples 3-3)
+[Pilot | age | A] Batch 4/16 (Samples 4-4)
+[Pilot | age | A] Batch 5/16 (Samples 5-5)
+[Pilot | age | A] Batch 6/16 (Samples 6-6)
+[Pilot | age | A] Batch 7/16 (Samples 7-7)
+[Pilot | age | A] Batch 8/16 (Samples 8-8)
+[Pilot | age | A] Batch 9/16 (Samples 9-9)
+[Pilot | age | A] Batch 10/16 (Samples 10-10)
+[Pilot | age | A] Batch 11/16 (Samples 11-11)
+[Pilot | age | A] Batch 12/16 (Samples 12-12)
+[Pilot | age | A] Batch 13/16 (Samples 13-13)
+[Pilot | age | A] Batch 14/16 (Samples 14-14)
+[Pilot | age | A] Batch 15/16 (Samples 15-15)
+[Pilot | age | A] Batch 16/16 (Samples 16-16)
+[Pilot | age | B] Batch 1/16 (Samples 1-1)
+[Pilot | age | B] Batch 2/16 (Samples 2-2)
+[Pilot | age | B] Batch 3/16 (Samples 3-3)
+[Pilot | age | B] Batch 4/16 (Samples 4-4)
+[Pilot | age | B] Batch 5/16 (Samples 5-5)
+[Pilot | age | B] Batch 6/16 (Samples 6-6)
+[Pilot | age | B] Batch 7/16 (Samples 7-7)
+[Pilot | age | B] Batch 8/16 (Samples 8-8)
+[Pilot | age | B] Batch 9/16 (Samples 9-9)
+[Pilot | age | B] Batch 10/16 (Samples 10-10)
+[Pilot | age | B] Batch 11/16 (Samples 11-11)
+[Pilot | age | B] Batch 12/16 (Samples 12-12)
+[Pilot | age | B] Batch 13/16 (Samples 13-13)
+[Pilot | age | B] Batch 14/16 (Samples 14-14)
+[Pilot | age | B] Batch 15/16 (Samples 15-15)
+[Pilot | age | B] Batch 16/16 (Samples 16-16)
+[Pilot | age | BASE] Batch 1/16 (Samples 1-1)
+[Pilot | age | BASE] Batch 2/16 (Samples 2-2)
+[Pilot | age | BASE] Batch 3/16 (Samples 3-3)
+[Pilot | age | BASE] Batch 4/16 (Samples 4-4)
+[Pilot | age | BASE] Batch 5/16 (Samples 5-5)
+[Pilot | age | BASE] Batch 6/16 (Samples 6-6)
+[Pilot | age | BASE] Batch 7/16 (Samples 7-7)
+[Pilot | age | BASE] Batch 8/16 (Samples 8-8)
+[Pilot | age | BASE] Batch 9/16 (Samples 9-9)
+[Pilot | age | BASE] Batch 10/16 (Samples 10-10)
+[Pilot | age | BASE] Batch 11/16 (Samples 11-11)
+[Pilot | age | BASE] Batch 12/16 (Samples 12-12)
+[Pilot | age | BASE] Batch 13/16 (Samples 13-13)
+[Pilot | age | BASE] Batch 14/16 (Samples 14-14)
+[Pilot | age | BASE] Batch 15/16 (Samples 15-15)
+[Pilot | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/pilot/age
+    [BIAS SUMMARY]
+Pilot | age                      | +0.3685 | Pole A ++ █████████
+    Max Bias: 0.9665 at mid_block step 8
+
+[PROFESSION] Flight Attendant
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Flight Attendant | gender        | -0.6756 | Pole B -- ████████████████
+[Flight Attendant | gender | A] Batch 1/16 (Samples 1-1)
+[Flight Attendant | gender | A] Batch 2/16 (Samples 2-2)
+[Flight Attendant | gender | A] Batch 3/16 (Samples 3-3)
+[Flight Attendant | gender | A] Batch 4/16 (Samples 4-4)
+[Flight Attendant | gender | A] Batch 5/16 (Samples 5-5)
+[Flight Attendant | gender | A] Batch 6/16 (Samples 6-6)
+[Flight Attendant | gender | A] Batch 7/16 (Samples 7-7)
+[Flight Attendant | gender | A] Batch 8/16 (Samples 8-8)
+[Flight Attendant | gender | A] Batch 9/16 (Samples 9-9)
+[Flight Attendant | gender | A] Batch 10/16 (Samples 10-10)
+[Flight Attendant | gender | A] Batch 11/16 (Samples 11-11)
+[Flight Attendant | gender | A] Batch 12/16 (Samples 12-12)
+[Flight Attendant | gender | A] Batch 13/16 (Samples 13-13)
+[Flight Attendant | gender | A] Batch 14/16 (Samples 14-14)
+[Flight Attendant | gender | A] Batch 15/16 (Samples 15-15)
+[Flight Attendant | gender | A] Batch 16/16 (Samples 16-16)
+[Flight Attendant | gender | B] Batch 1/16 (Samples 1-1)
+[Flight Attendant | gender | B] Batch 2/16 (Samples 2-2)
+[Flight Attendant | gender | B] Batch 3/16 (Samples 3-3)
+[Flight Attendant | gender | B] Batch 4/16 (Samples 4-4)
+[Flight Attendant | gender | B] Batch 5/16 (Samples 5-5)
+[Flight Attendant | gender | B] Batch 6/16 (Samples 6-6)
+[Flight Attendant | gender | B] Batch 7/16 (Samples 7-7)
+[Flight Attendant | gender | B] Batch 8/16 (Samples 8-8)
+[Flight Attendant | gender | B] Batch 9/16 (Samples 9-9)
+[Flight Attendant | gender | B] Batch 10/16 (Samples 10-10)
+[Flight Attendant | gender | B] Batch 11/16 (Samples 11-11)
+[Flight Attendant | gender | B] Batch 12/16 (Samples 12-12)
+[Flight Attendant | gender | B] Batch 13/16 (Samples 13-13)
+[Flight Attendant | gender | B] Batch 14/16 (Samples 14-14)
+[Flight Attendant | gender | B] Batch 15/16 (Samples 15-15)
+[Flight Attendant | gender | B] Batch 16/16 (Samples 16-16)
+[Flight Attendant | gender | BASE] Batch 1/16 (Samples 1-1)
+[Flight Attendant | gender | BASE] Batch 2/16 (Samples 2-2)
+[Flight Attendant | gender | BASE] Batch 3/16 (Samples 3-3)
+[Flight Attendant | gender | BASE] Batch 4/16 (Samples 4-4)
+[Flight Attendant | gender | BASE] Batch 5/16 (Samples 5-5)
+[Flight Attendant | gender | BASE] Batch 6/16 (Samples 6-6)
+[Flight Attendant | gender | BASE] Batch 7/16 (Samples 7-7)
+[Flight Attendant | gender | BASE] Batch 8/16 (Samples 8-8)
+[Flight Attendant | gender | BASE] Batch 9/16 (Samples 9-9)
+[Flight Attendant | gender | BASE] Batch 10/16 (Samples 10-10)
+[Flight Attendant | gender | BASE] Batch 11/16 (Samples 11-11)
+[Flight Attendant | gender | BASE] Batch 12/16 (Samples 12-12)
+[Flight Attendant | gender | BASE] Batch 13/16 (Samples 13-13)
+[Flight Attendant | gender | BASE] Batch 14/16 (Samples 14-14)
+[Flight Attendant | gender | BASE] Batch 15/16 (Samples 15-15)
+[Flight Attendant | gender | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/gender
+    [BIAS SUMMARY]
+Flight Attendant | gender        | -0.8026 | Pole B -- ████████████████████
+    Max Bias: -0.9780 at up_1 step 5
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Flight Attendant | status        | +0.0921 | Pole A ++ ██
+[Flight Attendant | status | A] Batch 1/16 (Samples 1-1)
+[Flight Attendant | status | A] Batch 2/16 (Samples 2-2)
+[Flight Attendant | status | A] Batch 3/16 (Samples 3-3)
+[Flight Attendant | status | A] Batch 4/16 (Samples 4-4)
+[Flight Attendant | status | A] Batch 5/16 (Samples 5-5)
+[Flight Attendant | status | A] Batch 6/16 (Samples 6-6)
+[Flight Attendant | status | A] Batch 7/16 (Samples 7-7)
+[Flight Attendant | status | A] Batch 8/16 (Samples 8-8)
+[Flight Attendant | status | A] Batch 9/16 (Samples 9-9)
+[Flight Attendant | status | A] Batch 10/16 (Samples 10-10)
+[Flight Attendant | status | A] Batch 11/16 (Samples 11-11)
+[Flight Attendant | status | A] Batch 12/16 (Samples 12-12)
+[Flight Attendant | status | A] Batch 13/16 (Samples 13-13)
+[Flight Attendant | status | A] Batch 14/16 (Samples 14-14)
+[Flight Attendant | status | A] Batch 15/16 (Samples 15-15)
+[Flight Attendant | status | A] Batch 16/16 (Samples 16-16)
+[Flight Attendant | status | B] Batch 1/16 (Samples 1-1)
+[Flight Attendant | status | B] Batch 2/16 (Samples 2-2)
+[Flight Attendant | status | B] Batch 3/16 (Samples 3-3)
+[Flight Attendant | status | B] Batch 4/16 (Samples 4-4)
+[Flight Attendant | status | B] Batch 5/16 (Samples 5-5)
+[Flight Attendant | status | B] Batch 6/16 (Samples 6-6)
+[Flight Attendant | status | B] Batch 7/16 (Samples 7-7)
+[Flight Attendant | status | B] Batch 8/16 (Samples 8-8)
+[Flight Attendant | status | B] Batch 9/16 (Samples 9-9)
+[Flight Attendant | status | B] Batch 10/16 (Samples 10-10)
+[Flight Attendant | status | B] Batch 11/16 (Samples 11-11)
+[Flight Attendant | status | B] Batch 12/16 (Samples 12-12)
+[Flight Attendant | status | B] Batch 13/16 (Samples 13-13)
+[Flight Attendant | status | B] Batch 14/16 (Samples 14-14)
+[Flight Attendant | status | B] Batch 15/16 (Samples 15-15)
+[Flight Attendant | status | B] Batch 16/16 (Samples 16-16)
+[Flight Attendant | status | BASE] Batch 1/16 (Samples 1-1)
+[Flight Attendant | status | BASE] Batch 2/16 (Samples 2-2)
+[Flight Attendant | status | BASE] Batch 3/16 (Samples 3-3)
+[Flight Attendant | status | BASE] Batch 4/16 (Samples 4-4)
+[Flight Attendant | status | BASE] Batch 5/16 (Samples 5-5)
+[Flight Attendant | status | BASE] Batch 6/16 (Samples 6-6)
+[Flight Attendant | status | BASE] Batch 7/16 (Samples 7-7)
+[Flight Attendant | status | BASE] Batch 8/16 (Samples 8-8)
+[Flight Attendant | status | BASE] Batch 9/16 (Samples 9-9)
+[Flight Attendant | status | BASE] Batch 10/16 (Samples 10-10)
+[Flight Attendant | status | BASE] Batch 11/16 (Samples 11-11)
+[Flight Attendant | status | BASE] Batch 12/16 (Samples 12-12)
+[Flight Attendant | status | BASE] Batch 13/16 (Samples 13-13)
+[Flight Attendant | status | BASE] Batch 14/16 (Samples 14-14)
+[Flight Attendant | status | BASE] Batch 15/16 (Samples 15-15)
+[Flight Attendant | status | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/status
+    [BIAS SUMMARY]
+Flight Attendant | status        | +0.6544 | Pole A ++ ████████████████
+    Max Bias: 0.9084 at mid_block step 5
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Flight Attendant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Flight Attendant | age           | +0.6405 | Pole A ++ ████████████████
+[Flight Attendant | age | A] Batch 1/16 (Samples 1-1)
+[Flight Attendant | age | A] Batch 2/16 (Samples 2-2)
+[Flight Attendant | age | A] Batch 3/16 (Samples 3-3)
+[Flight Attendant | age | A] Batch 4/16 (Samples 4-4)
+[Flight Attendant | age | A] Batch 5/16 (Samples 5-5)
+[Flight Attendant | age | A] Batch 6/16 (Samples 6-6)
+[Flight Attendant | age | A] Batch 7/16 (Samples 7-7)
+[Flight Attendant | age | A] Batch 8/16 (Samples 8-8)
+[Flight Attendant | age | A] Batch 9/16 (Samples 9-9)
+[Flight Attendant | age | A] Batch 10/16 (Samples 10-10)
+[Flight Attendant | age | A] Batch 11/16 (Samples 11-11)
+[Flight Attendant | age | A] Batch 12/16 (Samples 12-12)
+[Flight Attendant | age | A] Batch 13/16 (Samples 13-13)
+[Flight Attendant | age | A] Batch 14/16 (Samples 14-14)
+[Flight Attendant | age | A] Batch 15/16 (Samples 15-15)
+[Flight Attendant | age | A] Batch 16/16 (Samples 16-16)
+[Flight Attendant | age | B] Batch 1/16 (Samples 1-1)
+[Flight Attendant | age | B] Batch 2/16 (Samples 2-2)
+[Flight Attendant | age | B] Batch 3/16 (Samples 3-3)
+[Flight Attendant | age | B] Batch 4/16 (Samples 4-4)
+[Flight Attendant | age | B] Batch 5/16 (Samples 5-5)
+[Flight Attendant | age | B] Batch 6/16 (Samples 6-6)
+[Flight Attendant | age | B] Batch 7/16 (Samples 7-7)
+[Flight Attendant | age | B] Batch 8/16 (Samples 8-8)
+[Flight Attendant | age | B] Batch 9/16 (Samples 9-9)
+[Flight Attendant | age | B] Batch 10/16 (Samples 10-10)
+[Flight Attendant | age | B] Batch 11/16 (Samples 11-11)
+[Flight Attendant | age | B] Batch 12/16 (Samples 12-12)
+[Flight Attendant | age | B] Batch 13/16 (Samples 13-13)
+[Flight Attendant | age | B] Batch 14/16 (Samples 14-14)
+[Flight Attendant | age | B] Batch 15/16 (Samples 15-15)
+[Flight Attendant | age | B] Batch 16/16 (Samples 16-16)
+[Flight Attendant | age | BASE] Batch 1/16 (Samples 1-1)
+[Flight Attendant | age | BASE] Batch 2/16 (Samples 2-2)
+[Flight Attendant | age | BASE] Batch 3/16 (Samples 3-3)
+[Flight Attendant | age | BASE] Batch 4/16 (Samples 4-4)
+[Flight Attendant | age | BASE] Batch 5/16 (Samples 5-5)
+[Flight Attendant | age | BASE] Batch 6/16 (Samples 6-6)
+[Flight Attendant | age | BASE] Batch 7/16 (Samples 7-7)
+[Flight Attendant | age | BASE] Batch 8/16 (Samples 8-8)
+[Flight Attendant | age | BASE] Batch 9/16 (Samples 9-9)
+[Flight Attendant | age | BASE] Batch 10/16 (Samples 10-10)
+[Flight Attendant | age | BASE] Batch 11/16 (Samples 11-11)
+[Flight Attendant | age | BASE] Batch 12/16 (Samples 12-12)
+[Flight Attendant | age | BASE] Batch 13/16 (Samples 13-13)
+[Flight Attendant | age | BASE] Batch 14/16 (Samples 14-14)
+[Flight Attendant | age | BASE] Batch 15/16 (Samples 15-15)
+[Flight Attendant | age | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/age
+    [BIAS SUMMARY]
+Flight Attendant | age           | +0.8712 | Pole A ++ █████████████████████
+    Max Bias: 0.9820 at up_0 step 8
+
+[DONE] Bias analysis saved to generated_images/bias_analysis.csv
+[DONE] Text bias analysis saved to generated_images/text_bias_analysis.csv
+[DONE] Steering vectors saved to generated_images/steering_vectors
+[DONE] Gemini axes saved to generated_images/gemini_axes
+[DONE] Heatmaps saved to generated_images/bias_heatmaps

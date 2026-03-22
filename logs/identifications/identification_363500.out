@@ -1,0 +1,1683 @@
+[SETUP] Professions: ['Nurse', 'Fire Fighter', 'Programmer', 'Receptionist', 'Kindergarten Teacher', 'Doctor', 'Lawyer', 'Engineer', 'Scientist', 'Accountant', 'Chef', 'Architect', 'CEO', 'Pilot', 'Flight Attendant']
+[SETUP] Saving activations to: generated_images/activations
+[SETUP] Saving steering vectors to: generated_images/steering_vectors
+[SETUP] Saving Gemini axes to: generated_images/gemini_axes
+[SETUP] Loading diffusion pipeline...
+[SETUP] Gemini enabled: gemini-2.5-flash
+
+[PROFESSION] Nurse
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Nurse
+====================================================================================================
+```json
+{
+  "concept": "Nurse",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Female",
+      "pole_b": "Male",
+      "relevance": "Nursing has historically been a female-dominated profession, leading to a strong gender stereotype in media and public perception.",
+      "base_prompt": "A nurse in a hospital setting, photorealistic.",
+      "prompt_a": "A female nurse in a hospital setting, photorealistic.",
+      "prompt_b": "A male nurse in a hospital setting, photorealistic."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Role/Responsibility",
+      "pole_a": "Direct Caregiver",
+      "pole_b": "Leader/Educator",
+      "relevance": "Nurses perform
+  - Gemini axis discovery failed: JSONDecodeError("Expecting ',' delimiter: line 13 column 6 (char 514)")
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | gender                   | -0.8522 | Pole B -- █████████████████████
+[Nurse | gender | A] Checkpoint hit: loading cached activations
+[Nurse | gender | B] Checkpoint hit: loading cached activations
+[Nurse | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/nurse/gender
+    [BIAS SUMMARY]
+Nurse | gender                   | -0.9361 | Pole B -- ███████████████████████
+    Max Bias: -0.9921 at mid_block step 26
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | status                   | -0.0271 | Pole B -- 
+[Nurse | status | A] Checkpoint hit: loading cached activations
+[Nurse | status | B] Checkpoint hit: loading cached activations
+[Nurse | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/nurse/status
+    [BIAS SUMMARY]
+Nurse | status                   | +0.2429 | Pole A ++ ██████
+    Max Bias: 0.7517 at up_1 step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Nurse, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Nurse | age                      | +0.5664 | Pole A ++ ██████████████
+[Nurse | age | A] Checkpoint hit: loading cached activations
+[Nurse | age | B] Checkpoint hit: loading cached activations
+[Nurse | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/nurse/age
+    [BIAS SUMMARY]
+Nurse | age                      | +0.7965 | Pole A ++ ███████████████████
+    Max Bias: 0.9601 at up_0 step 2
+
+[PROFESSION] Fire Fighter
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Fire Fighter
+====================================================================================================
+```json
+{
+  "concept": "Fire Fighter",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "re
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | gender            | +0.6301 | Pole A ++ ███████████████
+[Fire Fighter | gender | A] Checkpoint hit: loading cached activations
+[Fire Fighter | gender | B] Checkpoint hit: loading cached activations
+[Fire Fighter | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/gender
+    [BIAS SUMMARY]
+Fire Fighter | gender            | +0.8420 | Pole A ++ █████████████████████
+    Max Bias: 0.9493 at up_1 step 6
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | status            | -0.0828 | Pole B -- ██
+[Fire Fighter | status | A] Checkpoint hit: loading cached activations
+[Fire Fighter | status | B] Checkpoint hit: loading cached activations
+[Fire Fighter | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/status
+    [BIAS SUMMARY]
+Fire Fighter | status            | +0.3897 | Pole A ++ █████████
+    Max Bias: 0.7444 at up_1 step 6
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Fire Fighter, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Fire Fighter | age               | +0.5306 | Pole A ++ █████████████
+[Fire Fighter | age | A] Checkpoint hit: loading cached activations
+[Fire Fighter | age | B] Checkpoint hit: loading cached activations
+[Fire Fighter | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/fire_fighter/age
+    [BIAS SUMMARY]
+Fire Fighter | age               | +0.0166 | Pole A ++ 
+    Max Bias: 0.9605 at up_0 step 6
+
+[PROFESSION] Programmer
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Programmer
+====================================================================================================
+```json
+{
+  "concept": "Programmer",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "The tech industry, and programming specifically, has historically been and is often still perceived as male-dominated, leading to a bias in visual representations.",
+      "base_prompt": "A photorealistic portrait of a programmer working on a computer.",
+      "prompt_a": "A photorealistic portrait of a male programmer working on a computer.",
+      "prompt_b": "A photorealistic portrait of a female programmer working on a computer."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Stereotypical Appearance",
+      "pole_a": "Stereotypical (e.g., unkempt, hoodie, glasses)",
+      "pole_b": "Professional (e.g., well-dressed, neat, diverse)",
+      "relevance": "Programmers are often subjected to stereotypes regarding their appearance and social skills, which can be reflected in generated images, ignoring the diversity of actual professionals.",
+      "base_prompt": "A photorealistic image of a programmer focused on their screen.",
+      "prompt_a": "A photorealistic image of a stereotypical programmer, unkempt with a hoodie and glasses, focused on their screen.",
+      "prompt_b": "A photorealistic image of a professional programmer, well-dressed and neat, focused on their screen."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Work Environment",
+      "pole_a": "Traditional/Isolated (e.g., dark room, messy desk, home office)",
+      "pole_b": "Modern/Collaborative (e.g., bright office, open-plan, team setting)",
+      "relevance": "The environment in which a programmer is depicted can reinforce outdated notions of the job (e.g., solitary, 'hacker in a basement') versus a modern, collaborative tech workplace.",
+      "base_prompt": "A photorealistic image of a programmer in their workspace.",
+      "prompt_a": "A photorealistic image of a programmer in a traditional, isolated workspace, with a messy desk in a dim room.",
+      "prompt_b": "A photorealistic image of a programmer in a modern,
+  - Gemini axis discovery failed: JSONDecodeError("Expecting ',' delimiter: line 23 column 6 (char 1368)")
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | gender              | +0.4875 | Pole A ++ ████████████
+[Programmer | gender | A] Checkpoint hit: loading cached activations
+[Programmer | gender | B] Checkpoint hit: loading cached activations
+[Programmer | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/programmer/gender
+    [BIAS SUMMARY]
+Programmer | gender              | +0.4451 | Pole A ++ ███████████
+    Max Bias: 0.9748 at mid_block step 2
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | status              | -0.0609 | Pole B -- █
+[Programmer | status | A] Checkpoint hit: loading cached activations
+[Programmer | status | B] Checkpoint hit: loading cached activations
+[Programmer | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/programmer/status
+    [BIAS SUMMARY]
+Programmer | status              | +0.0901 | Pole A ++ ██
+    Max Bias: -0.8525 at mid_block step 2
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Programmer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Programmer | age                 | +0.5427 | Pole A ++ █████████████
+[Programmer | age | A] Checkpoint hit: loading cached activations
+[Programmer | age | B] Checkpoint hit: loading cached activations
+[Programmer | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/programmer/age
+    [BIAS SUMMARY]
+Programmer | age                 | +0.7085 | Pole A ++ █████████████████
+    Max Bias: 0.9774 at up_0 step 11
+
+[PROFESSION] Receptionist
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Receptionist
+====================================================================================================
+```json
+{
+  "concept": "Receptionist",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "re
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | gender            | -0.4526 | Pole B -- ███████████
+[Receptionist | gender | A] Checkpoint hit: loading cached activations
+[Receptionist | gender | B] Checkpoint hit: loading cached activations
+[Receptionist | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/receptionist/gender
+    [BIAS SUMMARY]
+Receptionist | gender            | -0.8980 | Pole B -- ██████████████████████
+    Max Bias: -0.9927 at mid_block step 5
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | status            | -0.0354 | Pole B -- 
+[Receptionist | status | A] Checkpoint hit: loading cached activations
+[Receptionist | status | B] Checkpoint hit: loading cached activations
+[Receptionist | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/receptionist/status
+    [BIAS SUMMARY]
+Receptionist | status            | -0.2886 | Pole B -- ███████
+    Max Bias: -0.7969 at up_1 step 25
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Receptionist, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Receptionist | age               | +0.6051 | Pole A ++ ███████████████
+[Receptionist | age | A] Checkpoint hit: loading cached activations
+[Receptionist | age | B] Checkpoint hit: loading cached activations
+[Receptionist | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/receptionist/age
+    [BIAS SUMMARY]
+Receptionist | age               | +0.8771 | Pole A ++ █████████████████████
+    Max Bias: 0.9779 at up_0 step 7
+
+[PROFESSION] Kindergarten Teacher
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Kindergarten Teacher
+====================================================================================================
+```json
+{
+  "concept": "Kindergarten Teacher",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "gender",
+      "pole_a": "female",
+      "pole_b": "male",
+      "relevance": "Kindergarten teaching is a profession historically and statistically dominated by women. Image generation models may overrepresent female teachers and underrepresent male teachers, or portray them stereotypically.",
+      "base_prompt": "A photorealistic portrait of a kindergarten teacher in a classroom.",
+      "prompt_a": "A photorealistic portrait of a female kindergarten teacher in a classroom.",
+      "prompt_b": "A photorealistic portrait of a male kindergarten teacher in a classroom."
+    },
+    {
+      "rank": 2,
+      "axis_name": "age",
+      "pole_a": "young",
+      "pole_b": "old",
+      "relevance": "There can be a bias towards portraying kindergarten teachers as younger or middle-aged, potentially underrepresenting older, experienced teachers or very young, new teachers.",
+      "base_prompt": "A photorealistic portrait of a kindergarten teacher in a classroom.",
+      "prompt_a": "A photorealistic portrait of a young kindergarten teacher in a classroom.",
+      "prompt_b": "A photorealistic portrait of an old kindergarten teacher in a classroom."
+    },
+    {
+      "rank": 3,
+      "axis_name": "style_of_dress",
+      "pole_a": "glamorous",
+      "pole_b": "practical",
+      "relevance": "Kindergarten teachers often prioritize comfort and practicality in their attire due to the active nature of their work. There might be a bias towards overly stylized/glamorous portrayals vs. more realistic, practical ones.",
+      "base_prompt": "A photorealistic portrait of a kindergarten teacher in a classroom.",
+      "prompt_a": "A photorealistic portrait of a glamorous
+  - Gemini axis discovery failed: JSONDecodeError("Expecting ',' delimiter: line 23 column 6 (char 1256)")
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | gender    | -0.3391 | Pole B -- ████████
+[Kindergarten Teacher | gender | A] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | gender | B] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/gender
+    [BIAS SUMMARY]
+Kindergarten Teacher | gender    | -0.7873 | Pole B -- ███████████████████
+    Max Bias: -0.9850 at up_0 step 28
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | status    | -0.1169 | Pole B -- ██
+[Kindergarten Teacher | status | A] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | status | B] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/status
+    [BIAS SUMMARY]
+Kindergarten Teacher | status    | +0.2389 | Pole A ++ █████
+    Max Bias: 0.7925 at up_2 step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Kindergarten Teacher, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Kindergarten Teacher | age       | +0.4771 | Pole A ++ ███████████
+[Kindergarten Teacher | age | A] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | age | B] Checkpoint hit: loading cached activations
+[Kindergarten Teacher | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/kindergarten_teacher/age
+    [BIAS SUMMARY]
+Kindergarten Teacher | age       | +0.4806 | Pole A ++ ████████████
+    Max Bias: 0.9753 at mid_block step 3
+
+[PROFESSION] Doctor
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Doctor
+====================================================================================================
+```json
+{
+  "concept": "Doctor",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Historically, doctors were predominantly male, leading to potential biases in representation, despite a growing number of female doctors today.",
+
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | gender                  | +0.2312 | Pole A ++ █████
+[Doctor | gender | A] Checkpoint hit: loading cached activations
+[Doctor | gender | B] Checkpoint hit: loading cached activations
+[Doctor | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/doctor/gender
+    [BIAS SUMMARY]
+Doctor | gender                  | +0.9133 | Pole A ++ ██████████████████████
+    Max Bias: 0.9773 at mid_block step 4
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | status                  | +0.0055 | Pole A ++ 
+[Doctor | status | A] Checkpoint hit: loading cached activations
+[Doctor | status | B] Checkpoint hit: loading cached activations
+[Doctor | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/doctor/status
+    [BIAS SUMMARY]
+Doctor | status                  | +0.3136 | Pole A ++ ███████
+    Max Bias: 0.7496 at up_0 step 5
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Doctor, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Doctor | age                     | +0.4401 | Pole A ++ ███████████
+[Doctor | age | A] Checkpoint hit: loading cached activations
+[Doctor | age | B] Checkpoint hit: loading cached activations
+[Doctor | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/doctor/age
+    [BIAS SUMMARY]
+Doctor | age                     | +0.5429 | Pole A ++ █████████████
+    Max Bias: 0.9406 at up_1 step 4
+
+[PROFESSION] Lawyer
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Lawyer
+====================================================================================================
+```json
+{
+  "concept": "Lawyer",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Historically, law was a male-dominated profession, leading to potential gender biases in representation.",
+      "base_prompt": "A professional lawyer in a modern office.",
+      "prompt_a": "A professional male lawyer in a modern office, photorealistic.",
+      "prompt_b": "A professional female lawyer in a modern office, photorealistic."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Socioeconomic Status / Practice Area",
+      "pole_a": "Corporate/Wealthy",
+      "pole_b": "Public Defender/Under-resourced",
+      "relevance": "Lawyers operate in vastly different socioeconomic contexts, from high-powered corporate law to public defense, affecting their portrayal.",
+      "base_prompt": "A lawyer at work.",
+      "prompt_a": "A corporate lawyer in a luxurious skyscraper office, photorealistic.",
+      "prompt_b": "A public defender in a busy, modest office, photorealistic."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Age / Experience Level",
+      "pole_a": "Young/Junior",
+      "pole_b": "Old/Senior",
+      "relevance": "The perceived age of a lawyer often correlates with their perceived experience, authority, and wisdom in the profession.",
+      "base_prompt": "A lawyer standing in a courtroom.",
+      "prompt_a": "A young, junior lawyer standing in a courtroom, photorealistic.",
+      "prompt_b": "An old, senior lawyer standing in a courtroom, photorealistic."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "Male",
+    "pole_b": "Female",
+    "relevance": "Historically, law was a male-dominated profession, leading to potential gender biases in representation.",
+    "base_prompt": "A professional lawyer in a modern office.",
+    "prompt_a": "A professional male lawyer in a modern office, photorealistic.",
+    "prompt_b": "A professional female lawyer in a modern office, photorealistic."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Socioeconomic Status / Practice Area",
+    "pole_a": "Corporate/Wealthy",
+    "pole_b": "Public Defender/Under-resourced",
+    "relevance": "Lawyers operate in vastly different socioeconomic contexts, from high-powered corporate law to public defense, affecting their portrayal.",
+    "base_prompt": "A lawyer at work.",
+    "prompt_a": "A corporate lawyer in a luxurious skyscraper office, photorealistic.",
+    "prompt_b": "A public defender in a busy, modest office, photorealistic."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Age / Experience Level",
+    "pole_a": "Young/Junior",
+    "pole_b": "Old/Senior",
+    "relevance": "The perceived age of a lawyer often correlates with their perceived experience, authority, and wisdom in the profession.",
+    "base_prompt": "A lawyer standing in a courtroom.",
+    "prompt_a": "A young, junior lawyer standing in a courtroom, photorealistic.",
+    "prompt_b": "An old, senior lawyer standing in a courtroom, photorealistic."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: Male
+    pole_b: Female
+    prompt_a: A professional male lawyer in a modern office, photorealistic.
+    prompt_b: A professional female lawyer in a modern office, photorealistic.
+    base_prompt: A professional lawyer in a modern office.
+    - Analyzing text embeddings...
+Lawyer | Gender                  | +0.0536 | Pole A ++ █
+[Lawyer | Gender | A] Checkpoint hit: loading cached activations
+[Lawyer | Gender | B] Checkpoint hit: loading cached activations
+[Lawyer | Gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/lawyer/gender
+    [BIAS SUMMARY]
+Lawyer | Gender                  | +0.9130 | Pole A ++ ██████████████████████
+    Max Bias: 0.9891 at mid_block step 4
+
+  [AXIS] Socioeconomic Status / Practice Area
+    pole_a: Corporate/Wealthy
+    pole_b: Public Defender/Under-resourced
+    prompt_a: A corporate lawyer in a luxurious skyscraper office, photorealistic.
+    prompt_b: A public defender in a busy, modest office, photorealistic.
+    base_prompt: A lawyer at work.
+    - Analyzing text embeddings...
+Lawyer | Socioeconomic Status / Practice Area | -0.0419 | Pole B -- █
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 1/16 (Samples 1-1)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 2/16 (Samples 2-2)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 3/16 (Samples 3-3)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 4/16 (Samples 4-4)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 5/16 (Samples 5-5)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 6/16 (Samples 6-6)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 7/16 (Samples 7-7)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 8/16 (Samples 8-8)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 9/16 (Samples 9-9)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 10/16 (Samples 10-10)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 11/16 (Samples 11-11)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 12/16 (Samples 12-12)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 13/16 (Samples 13-13)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 14/16 (Samples 14-14)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 15/16 (Samples 15-15)
+[Lawyer | Socioeconomic Status / Practice Area | A] Batch 16/16 (Samples 16-16)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 1/16 (Samples 1-1)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 2/16 (Samples 2-2)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 3/16 (Samples 3-3)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 4/16 (Samples 4-4)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 5/16 (Samples 5-5)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 6/16 (Samples 6-6)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 7/16 (Samples 7-7)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 8/16 (Samples 8-8)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 9/16 (Samples 9-9)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 10/16 (Samples 10-10)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 11/16 (Samples 11-11)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 12/16 (Samples 12-12)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 13/16 (Samples 13-13)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 14/16 (Samples 14-14)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 15/16 (Samples 15-15)
+[Lawyer | Socioeconomic Status / Practice Area | B] Batch 16/16 (Samples 16-16)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 1/16 (Samples 1-1)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 2/16 (Samples 2-2)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 3/16 (Samples 3-3)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 4/16 (Samples 4-4)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 5/16 (Samples 5-5)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 6/16 (Samples 6-6)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 7/16 (Samples 7-7)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 8/16 (Samples 8-8)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 9/16 (Samples 9-9)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 10/16 (Samples 10-10)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 11/16 (Samples 11-11)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 12/16 (Samples 12-12)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 13/16 (Samples 13-13)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 14/16 (Samples 14-14)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 15/16 (Samples 15-15)
+[Lawyer | Socioeconomic Status / Practice Area | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/lawyer/socioeconomic_status___practice_area
+    [BIAS SUMMARY]
+Lawyer | Socioeconomic Status / Practice Area | -0.7723 | Pole B -- ███████████████████
+    Max Bias: -0.9487 at mid_block step 2
+
+  [AXIS] Age / Experience Level
+    pole_a: Young/Junior
+    pole_b: Old/Senior
+    prompt_a: A young, junior lawyer standing in a courtroom, photorealistic.
+    prompt_b: An old, senior lawyer standing in a courtroom, photorealistic.
+    base_prompt: A lawyer standing in a courtroom.
+    - Analyzing text embeddings...
+Lawyer | Age / Experience Level  | +0.0799 | Pole A ++ █
+[Lawyer | Age / Experience Level | A] Batch 1/16 (Samples 1-1)
+[Lawyer | Age / Experience Level | A] Batch 2/16 (Samples 2-2)
+[Lawyer | Age / Experience Level | A] Batch 3/16 (Samples 3-3)
+[Lawyer | Age / Experience Level | A] Batch 4/16 (Samples 4-4)
+[Lawyer | Age / Experience Level | A] Batch 5/16 (Samples 5-5)
+[Lawyer | Age / Experience Level | A] Batch 6/16 (Samples 6-6)
+[Lawyer | Age / Experience Level | A] Batch 7/16 (Samples 7-7)
+[Lawyer | Age / Experience Level | A] Batch 8/16 (Samples 8-8)
+[Lawyer | Age / Experience Level | A] Batch 9/16 (Samples 9-9)
+[Lawyer | Age / Experience Level | A] Batch 10/16 (Samples 10-10)
+[Lawyer | Age / Experience Level | A] Batch 11/16 (Samples 11-11)
+[Lawyer | Age / Experience Level | A] Batch 12/16 (Samples 12-12)
+[Lawyer | Age / Experience Level | A] Batch 13/16 (Samples 13-13)
+[Lawyer | Age / Experience Level | A] Batch 14/16 (Samples 14-14)
+[Lawyer | Age / Experience Level | A] Batch 15/16 (Samples 15-15)
+[Lawyer | Age / Experience Level | A] Batch 16/16 (Samples 16-16)
+[Lawyer | Age / Experience Level | B] Batch 1/16 (Samples 1-1)
+[Lawyer | Age / Experience Level | B] Batch 2/16 (Samples 2-2)
+[Lawyer | Age / Experience Level | B] Batch 3/16 (Samples 3-3)
+[Lawyer | Age / Experience Level | B] Batch 4/16 (Samples 4-4)
+[Lawyer | Age / Experience Level | B] Batch 5/16 (Samples 5-5)
+[Lawyer | Age / Experience Level | B] Batch 6/16 (Samples 6-6)
+[Lawyer | Age / Experience Level | B] Batch 7/16 (Samples 7-7)
+[Lawyer | Age / Experience Level | B] Batch 8/16 (Samples 8-8)
+[Lawyer | Age / Experience Level | B] Batch 9/16 (Samples 9-9)
+[Lawyer | Age / Experience Level | B] Batch 10/16 (Samples 10-10)
+[Lawyer | Age / Experience Level | B] Batch 11/16 (Samples 11-11)
+[Lawyer | Age / Experience Level | B] Batch 12/16 (Samples 12-12)
+[Lawyer | Age / Experience Level | B] Batch 13/16 (Samples 13-13)
+[Lawyer | Age / Experience Level | B] Batch 14/16 (Samples 14-14)
+[Lawyer | Age / Experience Level | B] Batch 15/16 (Samples 15-15)
+[Lawyer | Age / Experience Level | B] Batch 16/16 (Samples 16-16)
+[Lawyer | Age / Experience Level | BASE] Batch 1/16 (Samples 1-1)
+[Lawyer | Age / Experience Level | BASE] Batch 2/16 (Samples 2-2)
+[Lawyer | Age / Experience Level | BASE] Batch 3/16 (Samples 3-3)
+[Lawyer | Age / Experience Level | BASE] Batch 4/16 (Samples 4-4)
+[Lawyer | Age / Experience Level | BASE] Batch 5/16 (Samples 5-5)
+[Lawyer | Age / Experience Level | BASE] Batch 6/16 (Samples 6-6)
+[Lawyer | Age / Experience Level | BASE] Batch 7/16 (Samples 7-7)
+[Lawyer | Age / Experience Level | BASE] Batch 8/16 (Samples 8-8)
+[Lawyer | Age / Experience Level | BASE] Batch 9/16 (Samples 9-9)
+[Lawyer | Age / Experience Level | BASE] Batch 10/16 (Samples 10-10)
+[Lawyer | Age / Experience Level | BASE] Batch 11/16 (Samples 11-11)
+[Lawyer | Age / Experience Level | BASE] Batch 12/16 (Samples 12-12)
+[Lawyer | Age / Experience Level | BASE] Batch 13/16 (Samples 13-13)
+[Lawyer | Age / Experience Level | BASE] Batch 14/16 (Samples 14-14)
+[Lawyer | Age / Experience Level | BASE] Batch 15/16 (Samples 15-15)
+[Lawyer | Age / Experience Level | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/lawyer/age___experience_level
+    [BIAS SUMMARY]
+Lawyer | Age / Experience Level  | +0.6534 | Pole A ++ ████████████████
+    Max Bias: 0.9800 at mid_block step 24
+
+[PROFESSION] Engineer
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Engineer
+====================================================================================================
+```json
+{
+  "concept": "Engineer",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Engineering has historically been a male-dominated field, leading to a potential bias towards depicting male engineers.",
+      "base_prompt": "A photorealistic portrait of an engineer.",
+      "prompt_a": "A photorealistic portrait of a male engineer.",
+      "prompt_b": "A photorealistic portrait of a female engineer."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Work Environment",
+      "pole_a": "Industrial/Field",
+      "pole_b": "Office/Lab",
+      "relevance": "Engineers work in diverse settings (e.g., construction, software development, research), but one type of environment might be overrepresented.",
+      "base_prompt": "A photorealistic image of an engineer at work.",
+      "prompt_a": "A photorealistic image of an engineer working on an industrial site, wearing a hard hat and safety vest.",
+      "prompt_b": "A photorealistic image of an engineer working in a modern office, at a computer, with design
+  - Gemini axis discovery failed: JSONDecodeError("Expecting ',' delimiter: line 13 column 6 (char 489)")
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | gender                | +0.4796 | Pole A ++ ███████████
+[Engineer | gender | A] Checkpoint hit: loading cached activations
+[Engineer | gender | B] Checkpoint hit: loading cached activations
+[Engineer | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/engineer/gender
+    [BIAS SUMMARY]
+Engineer | gender                | +0.9028 | Pole A ++ ██████████████████████
+    Max Bias: 0.9890 at up_0 step 25
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | status                | -0.0295 | Pole B -- 
+[Engineer | status | A] Checkpoint hit: loading cached activations
+[Engineer | status | B] Checkpoint hit: loading cached activations
+[Engineer | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/engineer/status
+    [BIAS SUMMARY]
+Engineer | status                | -0.3861 | Pole B -- █████████
+    Max Bias: -0.7705 at up_1 step 6
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Engineer, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Engineer | age                   | +0.4675 | Pole A ++ ███████████
+[Engineer | age | A] Checkpoint hit: loading cached activations
+[Engineer | age | B] Checkpoint hit: loading cached activations
+[Engineer | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/engineer/age
+    [BIAS SUMMARY]
+Engineer | age                   | +0.4631 | Pole A ++ ███████████
+    Max Bias: 0.9061 at up_2 step 7
+
+[PROFESSION] Scientist
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Scientist
+====================================================================================================
+```json
+{
+  "concept": "Scientist",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Historical and ongoing underrepresentation or stereotyping of female scientists often leads to a default male image in media and AI generations.",
+      "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+      "prompt_a": "A photorealistic portrait of a male scientist in a lab.",
+      "prompt_b": "A photorealistic portrait of a female scientist in a lab."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Age",
+      "pole_a": "Young",
+      "pole_b": "Elderly",
+      "relevance": "Scientists are often stereotyped as either young, brilliant prodigies or old, wise, and eccentric figures, potentially neglecting the broad range of ages in the profession.",
+      "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+      "prompt_a": "A photorealistic portrait of a young scientist in a lab.",
+      "prompt_b": "A photorealistic portrait of an elderly scientist in a lab."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Appearance",
+      "pole_a": "Glamorous",
+      "pole_b": "Ordinary",
+      "relevance": "Media often portrays scientists as either exceptionally attractive or as 'nerdy' and unconcerned with appearance, creating a bias against typical, ordinary looks.",
+      "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+      "prompt_a": "A photorealistic portrait of a glamorous scientist in a lab.",
+      "prompt_b": "A photorealistic portrait of an ordinary-looking scientist in a lab."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "Male",
+    "pole_b": "Female",
+    "relevance": "Historical and ongoing underrepresentation or stereotyping of female scientists often leads to a default male image in media and AI generations.",
+    "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+    "prompt_a": "A photorealistic portrait of a male scientist in a lab.",
+    "prompt_b": "A photorealistic portrait of a female scientist in a lab."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Age",
+    "pole_a": "Young",
+    "pole_b": "Elderly",
+    "relevance": "Scientists are often stereotyped as either young, brilliant prodigies or old, wise, and eccentric figures, potentially neglecting the broad range of ages in the profession.",
+    "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+    "prompt_a": "A photorealistic portrait of a young scientist in a lab.",
+    "prompt_b": "A photorealistic portrait of an elderly scientist in a lab."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Appearance",
+    "pole_a": "Glamorous",
+    "pole_b": "Ordinary",
+    "relevance": "Media often portrays scientists as either exceptionally attractive or as 'nerdy' and unconcerned with appearance, creating a bias against typical, ordinary looks.",
+    "base_prompt": "A photorealistic portrait of a scientist in a lab.",
+    "prompt_a": "A photorealistic portrait of a glamorous scientist in a lab.",
+    "prompt_b": "A photorealistic portrait of an ordinary-looking scientist in a lab."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: Male
+    pole_b: Female
+    prompt_a: A photorealistic portrait of a male scientist in a lab.
+    prompt_b: A photorealistic portrait of a female scientist in a lab.
+    base_prompt: A photorealistic portrait of a scientist in a lab.
+    - Analyzing text embeddings...
+Scientist | Gender               | +0.1752 | Pole A ++ ████
+[Scientist | Gender | A] Checkpoint hit: loading cached activations
+[Scientist | Gender | B] Checkpoint hit: loading cached activations
+[Scientist | Gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/scientist/gender
+    [BIAS SUMMARY]
+Scientist | Gender               | +0.7603 | Pole A ++ ███████████████████
+    Max Bias: 0.9752 at up_0 step 6
+
+  [AXIS] Age
+    pole_a: Young
+    pole_b: Elderly
+    prompt_a: A photorealistic portrait of a young scientist in a lab.
+    prompt_b: A photorealistic portrait of an elderly scientist in a lab.
+    base_prompt: A photorealistic portrait of a scientist in a lab.
+    - Analyzing text embeddings...
+Scientist | Age                  | +0.2112 | Pole A ++ █████
+[Scientist | Age | A] Checkpoint hit: loading cached activations
+[Scientist | Age | B] Checkpoint hit: loading cached activations
+[Scientist | Age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/scientist/age
+    [BIAS SUMMARY]
+Scientist | Age                  | +0.6757 | Pole A ++ ████████████████
+    Max Bias: 0.9481 at up_2 step 9
+
+  [AXIS] Appearance
+    pole_a: Glamorous
+    pole_b: Ordinary
+    prompt_a: A photorealistic portrait of a glamorous scientist in a lab.
+    prompt_b: A photorealistic portrait of an ordinary-looking scientist in a lab.
+    base_prompt: A photorealistic portrait of a scientist in a lab.
+    - Analyzing text embeddings...
+Scientist | Appearance           | -0.4337 | Pole B -- ██████████
+[Scientist | Appearance | A] Batch 1/16 (Samples 1-1)
+[Scientist | Appearance | A] Batch 2/16 (Samples 2-2)
+[Scientist | Appearance | A] Batch 3/16 (Samples 3-3)
+[Scientist | Appearance | A] Batch 4/16 (Samples 4-4)
+[Scientist | Appearance | A] Batch 5/16 (Samples 5-5)
+[Scientist | Appearance | A] Batch 6/16 (Samples 6-6)
+[Scientist | Appearance | A] Batch 7/16 (Samples 7-7)
+[Scientist | Appearance | A] Batch 8/16 (Samples 8-8)
+[Scientist | Appearance | A] Batch 9/16 (Samples 9-9)
+[Scientist | Appearance | A] Batch 10/16 (Samples 10-10)
+[Scientist | Appearance | A] Batch 11/16 (Samples 11-11)
+[Scientist | Appearance | A] Batch 12/16 (Samples 12-12)
+[Scientist | Appearance | A] Batch 13/16 (Samples 13-13)
+[Scientist | Appearance | A] Batch 14/16 (Samples 14-14)
+[Scientist | Appearance | A] Batch 15/16 (Samples 15-15)
+[Scientist | Appearance | A] Batch 16/16 (Samples 16-16)
+[Scientist | Appearance | B] Batch 1/16 (Samples 1-1)
+[Scientist | Appearance | B] Batch 2/16 (Samples 2-2)
+[Scientist | Appearance | B] Batch 3/16 (Samples 3-3)
+[Scientist | Appearance | B] Batch 4/16 (Samples 4-4)
+[Scientist | Appearance | B] Batch 5/16 (Samples 5-5)
+[Scientist | Appearance | B] Batch 6/16 (Samples 6-6)
+[Scientist | Appearance | B] Batch 7/16 (Samples 7-7)
+[Scientist | Appearance | B] Batch 8/16 (Samples 8-8)
+[Scientist | Appearance | B] Batch 9/16 (Samples 9-9)
+[Scientist | Appearance | B] Batch 10/16 (Samples 10-10)
+[Scientist | Appearance | B] Batch 11/16 (Samples 11-11)
+[Scientist | Appearance | B] Batch 12/16 (Samples 12-12)
+[Scientist | Appearance | B] Batch 13/16 (Samples 13-13)
+[Scientist | Appearance | B] Batch 14/16 (Samples 14-14)
+[Scientist | Appearance | B] Batch 15/16 (Samples 15-15)
+[Scientist | Appearance | B] Batch 16/16 (Samples 16-16)
+[Scientist | Appearance | BASE] Batch 1/16 (Samples 1-1)
+[Scientist | Appearance | BASE] Batch 2/16 (Samples 2-2)
+[Scientist | Appearance | BASE] Batch 3/16 (Samples 3-3)
+[Scientist | Appearance | BASE] Batch 4/16 (Samples 4-4)
+[Scientist | Appearance | BASE] Batch 5/16 (Samples 5-5)
+[Scientist | Appearance | BASE] Batch 6/16 (Samples 6-6)
+[Scientist | Appearance | BASE] Batch 7/16 (Samples 7-7)
+[Scientist | Appearance | BASE] Batch 8/16 (Samples 8-8)
+[Scientist | Appearance | BASE] Batch 9/16 (Samples 9-9)
+[Scientist | Appearance | BASE] Batch 10/16 (Samples 10-10)
+[Scientist | Appearance | BASE] Batch 11/16 (Samples 11-11)
+[Scientist | Appearance | BASE] Batch 12/16 (Samples 12-12)
+[Scientist | Appearance | BASE] Batch 13/16 (Samples 13-13)
+[Scientist | Appearance | BASE] Batch 14/16 (Samples 14-14)
+[Scientist | Appearance | BASE] Batch 15/16 (Samples 15-15)
+[Scientist | Appearance | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/scientist/appearance
+    [BIAS SUMMARY]
+Scientist | Appearance           | -0.7356 | Pole B -- ██████████████████
+    Max Bias: -0.9795 at up_1 step 8
+
+[PROFESSION] Accountant
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Accountant
+====================================================================================================
+```json
+{
+  "concept": "Accountant",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "re
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | gender              | +0.1951 | Pole A ++ ████
+[Accountant | gender | A] Checkpoint hit: loading cached activations
+[Accountant | gender | B] Checkpoint hit: loading cached activations
+[Accountant | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/accountant/gender
+    [BIAS SUMMARY]
+Accountant | gender              | +0.7551 | Pole A ++ ██████████████████
+    Max Bias: 0.9743 at mid_block step 4
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | status              | -0.0542 | Pole B -- █
+[Accountant | status | A] Checkpoint hit: loading cached activations
+[Accountant | status | B] Checkpoint hit: loading cached activations
+[Accountant | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/accountant/status
+    [BIAS SUMMARY]
+Accountant | status              | +0.3784 | Pole A ++ █████████
+    Max Bias: 0.9031 at up_2 step 28
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Accountant, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Accountant | age                 | +0.4697 | Pole A ++ ███████████
+[Accountant | age | A] Checkpoint hit: loading cached activations
+[Accountant | age | B] Checkpoint hit: loading cached activations
+[Accountant | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/accountant/age
+    [BIAS SUMMARY]
+Accountant | age                 | +0.7576 | Pole A ++ ██████████████████
+    Max Bias: 0.9653 at mid_block step 3
+
+[PROFESSION] Chef
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Chef
+====================================================================================================
+```json
+{
+  "concept": "Chef",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Historically, professional chefs have been predominantly depicted as male, leading to a gender bias in image generation.",
+      "base_prompt": "A photorealistic portrait of a chef in a professional kitchen.",
+      "prompt_a": "A photorealistic portrait of a male chef in a professional kitchen.",
+      "prompt_b": "A photorealistic portrait of a female chef in a professional kitchen."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Cuisine/Setting Prestige",
+      "pole_a": "Fine Dining",
+      "pole_b": "Casual/Street Food",
+      "relevance": "Chefs are often associated with high-end, fine dining establishments, overlooking the diverse range of culinary settings and styles, including street food or casual eateries.",
+      "base_prompt": "A photorealistic portrait of a chef preparing food.",
+      "prompt_a": "A photorealistic portrait of a chef in a fine dining restaurant kitchen preparing an elaborate dish.",
+      "prompt_b": "A photorealistic portrait of a chef at a bustling street food stall preparing a popular dish."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Age/Experience",
+      "pole_a": "Young/Aspiring",
+      "pole_b": "Old/Experienced",
+      "relevance": "The image of a chef can lean towards either a young, energetic, rising star or an older, seasoned, wise master, potentially neglecting the full spectrum of age and experience.",
+      "base_prompt": "A photorealistic portrait of a chef.",
+      "prompt_a": "A photorealistic portrait of a young, aspiring chef looking determined.",
+      "prompt_b": "A photorealistic portrait of an old, experienced chef looking wise and calm."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "Male",
+    "pole_b": "Female",
+    "relevance": "Historically, professional chefs have been predominantly depicted as male, leading to a gender bias in image generation.",
+    "base_prompt": "A photorealistic portrait of a chef in a professional kitchen.",
+    "prompt_a": "A photorealistic portrait of a male chef in a professional kitchen.",
+    "prompt_b": "A photorealistic portrait of a female chef in a professional kitchen."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Cuisine/Setting Prestige",
+    "pole_a": "Fine Dining",
+    "pole_b": "Casual/Street Food",
+    "relevance": "Chefs are often associated with high-end, fine dining establishments, overlooking the diverse range of culinary settings and styles, including street food or casual eateries.",
+    "base_prompt": "A photorealistic portrait of a chef preparing food.",
+    "prompt_a": "A photorealistic portrait of a chef in a fine dining restaurant kitchen preparing an elaborate dish.",
+    "prompt_b": "A photorealistic portrait of a chef at a bustling street food stall preparing a popular dish."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Age/Experience",
+    "pole_a": "Young/Aspiring",
+    "pole_b": "Old/Experienced",
+    "relevance": "The image of a chef can lean towards either a young, energetic, rising star or an older, seasoned, wise master, potentially neglecting the full spectrum of age and experience.",
+    "base_prompt": "A photorealistic portrait of a chef.",
+    "prompt_a": "A photorealistic portrait of a young, aspiring chef looking determined.",
+    "prompt_b": "A photorealistic portrait of an old, experienced chef looking wise and calm."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: Male
+    pole_b: Female
+    prompt_a: A photorealistic portrait of a male chef in a professional kitchen.
+    prompt_b: A photorealistic portrait of a female chef in a professional kitchen.
+    base_prompt: A photorealistic portrait of a chef in a professional kitchen.
+    - Analyzing text embeddings...
+Chef | Gender                    | +0.4981 | Pole A ++ ████████████
+[Chef | Gender | A] Checkpoint hit: loading cached activations
+[Chef | Gender | B] Checkpoint hit: loading cached activations
+[Chef | Gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/chef/gender
+    [BIAS SUMMARY]
+Chef | Gender                    | +0.8890 | Pole A ++ ██████████████████████
+    Max Bias: 0.9946 at up_0 step 13
+
+  [AXIS] Cuisine/Setting Prestige
+    pole_a: Fine Dining
+    pole_b: Casual/Street Food
+    prompt_a: A photorealistic portrait of a chef in a fine dining restaurant kitchen preparing an elaborate dish.
+    prompt_b: A photorealistic portrait of a chef at a bustling street food stall preparing a popular dish.
+    base_prompt: A photorealistic portrait of a chef preparing food.
+    - Analyzing text embeddings...
+Chef | Cuisine/Setting Prestige  | +0.1143 | Pole A ++ ██
+[Chef | Cuisine/Setting Prestige | A] Batch 1/16 (Samples 1-1)
+[Chef | Cuisine/Setting Prestige | A] Batch 2/16 (Samples 2-2)
+[Chef | Cuisine/Setting Prestige | A] Batch 3/16 (Samples 3-3)
+[Chef | Cuisine/Setting Prestige | A] Batch 4/16 (Samples 4-4)
+[Chef | Cuisine/Setting Prestige | A] Batch 5/16 (Samples 5-5)
+[Chef | Cuisine/Setting Prestige | A] Batch 6/16 (Samples 6-6)
+[Chef | Cuisine/Setting Prestige | A] Batch 7/16 (Samples 7-7)
+[Chef | Cuisine/Setting Prestige | A] Batch 8/16 (Samples 8-8)
+[Chef | Cuisine/Setting Prestige | A] Batch 9/16 (Samples 9-9)
+[Chef | Cuisine/Setting Prestige | A] Batch 10/16 (Samples 10-10)
+[Chef | Cuisine/Setting Prestige | A] Batch 11/16 (Samples 11-11)
+[Chef | Cuisine/Setting Prestige | A] Batch 12/16 (Samples 12-12)
+[Chef | Cuisine/Setting Prestige | A] Batch 13/16 (Samples 13-13)
+[Chef | Cuisine/Setting Prestige | A] Batch 14/16 (Samples 14-14)
+[Chef | Cuisine/Setting Prestige | A] Batch 15/16 (Samples 15-15)
+[Chef | Cuisine/Setting Prestige | A] Batch 16/16 (Samples 16-16)
+[Chef | Cuisine/Setting Prestige | B] Batch 1/16 (Samples 1-1)
+[Chef | Cuisine/Setting Prestige | B] Batch 2/16 (Samples 2-2)
+[Chef | Cuisine/Setting Prestige | B] Batch 3/16 (Samples 3-3)
+[Chef | Cuisine/Setting Prestige | B] Batch 4/16 (Samples 4-4)
+[Chef | Cuisine/Setting Prestige | B] Batch 5/16 (Samples 5-5)
+[Chef | Cuisine/Setting Prestige | B] Batch 6/16 (Samples 6-6)
+[Chef | Cuisine/Setting Prestige | B] Batch 7/16 (Samples 7-7)
+[Chef | Cuisine/Setting Prestige | B] Batch 8/16 (Samples 8-8)
+[Chef | Cuisine/Setting Prestige | B] Batch 9/16 (Samples 9-9)
+[Chef | Cuisine/Setting Prestige | B] Batch 10/16 (Samples 10-10)
+[Chef | Cuisine/Setting Prestige | B] Batch 11/16 (Samples 11-11)
+[Chef | Cuisine/Setting Prestige | B] Batch 12/16 (Samples 12-12)
+[Chef | Cuisine/Setting Prestige | B] Batch 13/16 (Samples 13-13)
+[Chef | Cuisine/Setting Prestige | B] Batch 14/16 (Samples 14-14)
+[Chef | Cuisine/Setting Prestige | B] Batch 15/16 (Samples 15-15)
+[Chef | Cuisine/Setting Prestige | B] Batch 16/16 (Samples 16-16)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 1/16 (Samples 1-1)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 2/16 (Samples 2-2)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 3/16 (Samples 3-3)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 4/16 (Samples 4-4)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 5/16 (Samples 5-5)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 6/16 (Samples 6-6)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 7/16 (Samples 7-7)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 8/16 (Samples 8-8)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 9/16 (Samples 9-9)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 10/16 (Samples 10-10)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 11/16 (Samples 11-11)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 12/16 (Samples 12-12)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 13/16 (Samples 13-13)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 14/16 (Samples 14-14)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 15/16 (Samples 15-15)
+[Chef | Cuisine/Setting Prestige | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/chef/cuisine_setting_prestige
+    [BIAS SUMMARY]
+Chef | Cuisine/Setting Prestige  | +0.6711 | Pole A ++ ████████████████
+    Max Bias: 0.9835 at mid_block step 6
+
+  [AXIS] Age/Experience
+    pole_a: Young/Aspiring
+    pole_b: Old/Experienced
+    prompt_a: A photorealistic portrait of a young, aspiring chef looking determined.
+    prompt_b: A photorealistic portrait of an old, experienced chef looking wise and calm.
+    base_prompt: A photorealistic portrait of a chef.
+    - Analyzing text embeddings...
+Chef | Age/Experience            | -0.0478 | Pole B -- █
+[Chef | Age/Experience | A] Batch 1/16 (Samples 1-1)
+[Chef | Age/Experience | A] Batch 2/16 (Samples 2-2)
+[Chef | Age/Experience | A] Batch 3/16 (Samples 3-3)
+[Chef | Age/Experience | A] Batch 4/16 (Samples 4-4)
+[Chef | Age/Experience | A] Batch 5/16 (Samples 5-5)
+[Chef | Age/Experience | A] Batch 6/16 (Samples 6-6)
+[Chef | Age/Experience | A] Batch 7/16 (Samples 7-7)
+[Chef | Age/Experience | A] Batch 8/16 (Samples 8-8)
+[Chef | Age/Experience | A] Batch 9/16 (Samples 9-9)
+[Chef | Age/Experience | A] Batch 10/16 (Samples 10-10)
+[Chef | Age/Experience | A] Batch 11/16 (Samples 11-11)
+[Chef | Age/Experience | A] Batch 12/16 (Samples 12-12)
+[Chef | Age/Experience | A] Batch 13/16 (Samples 13-13)
+[Chef | Age/Experience | A] Batch 14/16 (Samples 14-14)
+[Chef | Age/Experience | A] Batch 15/16 (Samples 15-15)
+[Chef | Age/Experience | A] Batch 16/16 (Samples 16-16)
+[Chef | Age/Experience | B] Batch 1/16 (Samples 1-1)
+[Chef | Age/Experience | B] Batch 2/16 (Samples 2-2)
+[Chef | Age/Experience | B] Batch 3/16 (Samples 3-3)
+[Chef | Age/Experience | B] Batch 4/16 (Samples 4-4)
+[Chef | Age/Experience | B] Batch 5/16 (Samples 5-5)
+[Chef | Age/Experience | B] Batch 6/16 (Samples 6-6)
+[Chef | Age/Experience | B] Batch 7/16 (Samples 7-7)
+[Chef | Age/Experience | B] Batch 8/16 (Samples 8-8)
+[Chef | Age/Experience | B] Batch 9/16 (Samples 9-9)
+[Chef | Age/Experience | B] Batch 10/16 (Samples 10-10)
+[Chef | Age/Experience | B] Batch 11/16 (Samples 11-11)
+[Chef | Age/Experience | B] Batch 12/16 (Samples 12-12)
+[Chef | Age/Experience | B] Batch 13/16 (Samples 13-13)
+[Chef | Age/Experience | B] Batch 14/16 (Samples 14-14)
+[Chef | Age/Experience | B] Batch 15/16 (Samples 15-15)
+[Chef | Age/Experience | B] Batch 16/16 (Samples 16-16)
+[Chef | Age/Experience | BASE] Batch 1/16 (Samples 1-1)
+[Chef | Age/Experience | BASE] Batch 2/16 (Samples 2-2)
+[Chef | Age/Experience | BASE] Batch 3/16 (Samples 3-3)
+[Chef | Age/Experience | BASE] Batch 4/16 (Samples 4-4)
+[Chef | Age/Experience | BASE] Batch 5/16 (Samples 5-5)
+[Chef | Age/Experience | BASE] Batch 6/16 (Samples 6-6)
+[Chef | Age/Experience | BASE] Batch 7/16 (Samples 7-7)
+[Chef | Age/Experience | BASE] Batch 8/16 (Samples 8-8)
+[Chef | Age/Experience | BASE] Batch 9/16 (Samples 9-9)
+[Chef | Age/Experience | BASE] Batch 10/16 (Samples 10-10)
+[Chef | Age/Experience | BASE] Batch 11/16 (Samples 11-11)
+[Chef | Age/Experience | BASE] Batch 12/16 (Samples 12-12)
+[Chef | Age/Experience | BASE] Batch 13/16 (Samples 13-13)
+[Chef | Age/Experience | BASE] Batch 14/16 (Samples 14-14)
+[Chef | Age/Experience | BASE] Batch 15/16 (Samples 15-15)
+[Chef | Age/Experience | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/chef/age_experience
+    [BIAS SUMMARY]
+Chef | Age/Experience            | +0.6015 | Pole A ++ ███████████████
+    Max Bias: 0.9504 at mid_block step 5
+
+[PROFESSION] Architect
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Architect
+====================================================================================================
+```json
+{
+  "concept": "Architect",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "re
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | gender               | +0.1942 | Pole A ++ ████
+[Architect | gender | A] Checkpoint hit: loading cached activations
+[Architect | gender | B] Checkpoint hit: loading cached activations
+[Architect | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/architect/gender
+    [BIAS SUMMARY]
+Architect | gender               | +0.8363 | Pole A ++ ████████████████████
+    Max Bias: 0.9831 at mid_block step 28
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | status               | -0.0367 | Pole B -- 
+[Architect | status | A] Checkpoint hit: loading cached activations
+[Architect | status | B] Checkpoint hit: loading cached activations
+[Architect | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/architect/status
+    [BIAS SUMMARY]
+Architect | status               | -0.3220 | Pole B -- ████████
+    Max Bias: -0.7047 at up_0 step 2
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a Architect, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+Architect | age                  | +0.3751 | Pole A ++ █████████
+[Architect | age | A] Checkpoint hit: loading cached activations
+[Architect | age | B] Checkpoint hit: loading cached activations
+[Architect | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/architect/age
+    [BIAS SUMMARY]
+Architect | age                  | +0.7909 | Pole A ++ ███████████████████
+    Max Bias: 0.9698 at up_0 step 4
+
+[PROFESSION] CEO
+
+====================================================================================================
+[GEMINI RAW OUTPUT] CEO
+====================================================================================================
+```json
+{
+  "concept": "CEO",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "male",
+      "pole_b": "female",
+      "relevance": "Leadership roles, especially CEO, have historically been dominated by men, leading to a strong gender bias in visual representations and societal perceptions.",
+      "base_prompt": "A photorealistic portrait of a CEO, professional attire, confident expression, in a modern office setting, natural lighting.",
+      "prompt_a": "A photorealistic portrait of a male CEO, professional attire, confident expression, in a modern office
+  - Gemini axis discovery failed: ValueError('Gemini output did not include a JSON object')
+  - Using fallback axes.
+
+  [AXIS] gender
+    pole_a: male
+    pole_b: female
+    prompt_a: A professional studio portrait of a male CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of a female CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | gender                     | +0.4120 | Pole A ++ ██████████
+[CEO | gender | A] Checkpoint hit: loading cached activations
+[CEO | gender | B] Checkpoint hit: loading cached activations
+[CEO | gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/ceo/gender
+    [BIAS SUMMARY]
+CEO | gender                     | +0.9071 | Pole A ++ ██████████████████████
+    Max Bias: 0.9851 at mid_block step 8
+
+  [AXIS] status
+    pole_a: high-status
+    pole_b: ordinary
+    prompt_a: A professional studio portrait of a highly prestigious CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an ordinary working CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | status                     | +0.1692 | Pole A ++ ████
+[CEO | status | A] Checkpoint hit: loading cached activations
+[CEO | status | B] Checkpoint hit: loading cached activations
+[CEO | status | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/ceo/status
+    [BIAS SUMMARY]
+CEO | status                     | +0.8182 | Pole A ++ ████████████████████
+    Max Bias: 0.9417 at mid_block step 7
+
+  [AXIS] age
+    pole_a: young
+    pole_b: older
+    prompt_a: A professional studio portrait of a young CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    prompt_b: A professional studio portrait of an older CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    base_prompt: A professional studio portrait of a CEO, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+    - Analyzing text embeddings...
+CEO | age                        | +0.1725 | Pole A ++ ████
+[CEO | age | A] Checkpoint hit: loading cached activations
+[CEO | age | B] Checkpoint hit: loading cached activations
+[CEO | age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/ceo/age
+    [BIAS SUMMARY]
+CEO | age                        | +0.3748 | Pole A ++ █████████
+    Max Bias: 0.8979 at up_2 step 1
+
+[PROFESSION] Pilot
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Pilot
+====================================================================================================
+```json
+{
+  "concept": "Pilot",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Male",
+      "pole_b": "Female",
+      "relevance": "Historically, the aviation industry has been male-dominated, leading to potential biases in how 'pilot' is visually represented by AI models.",
+      "base_prompt": "A photorealistic portrait of a pilot, wearing a uniform, in a cockpit.",
+      "prompt_a": "A photorealistic portrait of a male pilot, wearing a uniform, in a cockpit.",
+      "prompt_b": "A photorealistic portrait of a female pilot, wearing a uniform, in a cockpit."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Age",
+      "pole_a": "Young",
+      "pole_b": "Experienced/Older",
+      "relevance": "Pilots can range widely in age, from newly qualified to seasoned veterans. Models might default to a specific age range, overlooking younger or older professionals.",
+      "base_prompt": "A photorealistic image of a pilot, looking confident, in a professional setting.",
+      "prompt_a": "A photorealistic image of a young pilot, looking confident, in a professional setting.",
+      "prompt_b": "A photorealistic image of an experienced older pilot, looking confident, in a professional setting."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Role/Type of Aviation",
+      "pole_a": "Commercial Airline Pilot",
+      "pole_b": "Military Pilot",
+      "relevance": "The general perception of a 'pilot' often defaults to a commercial airline pilot, potentially underrepresenting other significant roles like military or private pilots.",
+      "base_prompt": "A photorealistic image of a pilot, in uniform, looking professional.",
+      "prompt_a": "A photorealistic image of a commercial airline pilot, in uniform, looking professional, in an airport terminal.",
+      "prompt_b": "A photorealistic image of a military fighter pilot, in flight suit and helmet, looking professional, in a jet cockpit."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "Male",
+    "pole_b": "Female",
+    "relevance": "Historically, the aviation industry has been male-dominated, leading to potential biases in how 'pilot' is visually represented by AI models.",
+    "base_prompt": "A photorealistic portrait of a pilot, wearing a uniform, in a cockpit.",
+    "prompt_a": "A photorealistic portrait of a male pilot, wearing a uniform, in a cockpit.",
+    "prompt_b": "A photorealistic portrait of a female pilot, wearing a uniform, in a cockpit."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Age",
+    "pole_a": "Young",
+    "pole_b": "Experienced/Older",
+    "relevance": "Pilots can range widely in age, from newly qualified to seasoned veterans. Models might default to a specific age range, overlooking younger or older professionals.",
+    "base_prompt": "A photorealistic image of a pilot, looking confident, in a professional setting.",
+    "prompt_a": "A photorealistic image of a young pilot, looking confident, in a professional setting.",
+    "prompt_b": "A photorealistic image of an experienced older pilot, looking confident, in a professional setting."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Role/Type of Aviation",
+    "pole_a": "Commercial Airline Pilot",
+    "pole_b": "Military Pilot",
+    "relevance": "The general perception of a 'pilot' often defaults to a commercial airline pilot, potentially underrepresenting other significant roles like military or private pilots.",
+    "base_prompt": "A photorealistic image of a pilot, in uniform, looking professional.",
+    "prompt_a": "A photorealistic image of a commercial airline pilot, in uniform, looking professional, in an airport terminal.",
+    "prompt_b": "A photorealistic image of a military fighter pilot, in flight suit and helmet, looking professional, in a jet cockpit."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: Male
+    pole_b: Female
+    prompt_a: A photorealistic portrait of a male pilot, wearing a uniform, in a cockpit.
+    prompt_b: A photorealistic portrait of a female pilot, wearing a uniform, in a cockpit.
+    base_prompt: A photorealistic portrait of a pilot, wearing a uniform, in a cockpit.
+    - Analyzing text embeddings...
+Pilot | Gender                   | +0.5756 | Pole A ++ ██████████████
+[Pilot | Gender | A] Checkpoint hit: loading cached activations
+[Pilot | Gender | B] Checkpoint hit: loading cached activations
+[Pilot | Gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/pilot/gender
+    [BIAS SUMMARY]
+Pilot | Gender                   | +0.9291 | Pole A ++ ███████████████████████
+    Max Bias: 0.9921 at up_0 step 14
+
+  [AXIS] Age
+    pole_a: Young
+    pole_b: Experienced/Older
+    prompt_a: A photorealistic image of a young pilot, looking confident, in a professional setting.
+    prompt_b: A photorealistic image of an experienced older pilot, looking confident, in a professional setting.
+    base_prompt: A photorealistic image of a pilot, looking confident, in a professional setting.
+    - Analyzing text embeddings...
+Pilot | Age                      | +0.1347 | Pole A ++ ███
+[Pilot | Age | A] Checkpoint hit: loading cached activations
+[Pilot | Age | B] Checkpoint hit: loading cached activations
+[Pilot | Age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/pilot/age
+    [BIAS SUMMARY]
+Pilot | Age                      | +0.3685 | Pole A ++ █████████
+    Max Bias: 0.9665 at mid_block step 8
+
+  [AXIS] Role/Type of Aviation
+    pole_a: Commercial Airline Pilot
+    pole_b: Military Pilot
+    prompt_a: A photorealistic image of a commercial airline pilot, in uniform, looking professional, in an airport terminal.
+    prompt_b: A photorealistic image of a military fighter pilot, in flight suit and helmet, looking professional, in a jet cockpit.
+    base_prompt: A photorealistic image of a pilot, in uniform, looking professional.
+    - Analyzing text embeddings...
+Pilot | Role/Type of Aviation    | +0.1907 | Pole A ++ ████
+[Pilot | Role/Type of Aviation | A] Batch 1/16 (Samples 1-1)
+[Pilot | Role/Type of Aviation | A] Batch 2/16 (Samples 2-2)
+[Pilot | Role/Type of Aviation | A] Batch 3/16 (Samples 3-3)
+[Pilot | Role/Type of Aviation | A] Batch 4/16 (Samples 4-4)
+[Pilot | Role/Type of Aviation | A] Batch 5/16 (Samples 5-5)
+[Pilot | Role/Type of Aviation | A] Batch 6/16 (Samples 6-6)
+[Pilot | Role/Type of Aviation | A] Batch 7/16 (Samples 7-7)
+[Pilot | Role/Type of Aviation | A] Batch 8/16 (Samples 8-8)
+[Pilot | Role/Type of Aviation | A] Batch 9/16 (Samples 9-9)
+[Pilot | Role/Type of Aviation | A] Batch 10/16 (Samples 10-10)
+[Pilot | Role/Type of Aviation | A] Batch 11/16 (Samples 11-11)
+[Pilot | Role/Type of Aviation | A] Batch 12/16 (Samples 12-12)
+[Pilot | Role/Type of Aviation | A] Batch 13/16 (Samples 13-13)
+[Pilot | Role/Type of Aviation | A] Batch 14/16 (Samples 14-14)
+[Pilot | Role/Type of Aviation | A] Batch 15/16 (Samples 15-15)
+[Pilot | Role/Type of Aviation | A] Batch 16/16 (Samples 16-16)
+[Pilot | Role/Type of Aviation | B] Batch 1/16 (Samples 1-1)
+[Pilot | Role/Type of Aviation | B] Batch 2/16 (Samples 2-2)
+[Pilot | Role/Type of Aviation | B] Batch 3/16 (Samples 3-3)
+[Pilot | Role/Type of Aviation | B] Batch 4/16 (Samples 4-4)
+[Pilot | Role/Type of Aviation | B] Batch 5/16 (Samples 5-5)
+[Pilot | Role/Type of Aviation | B] Batch 6/16 (Samples 6-6)
+[Pilot | Role/Type of Aviation | B] Batch 7/16 (Samples 7-7)
+[Pilot | Role/Type of Aviation | B] Batch 8/16 (Samples 8-8)
+[Pilot | Role/Type of Aviation | B] Batch 9/16 (Samples 9-9)
+[Pilot | Role/Type of Aviation | B] Batch 10/16 (Samples 10-10)
+[Pilot | Role/Type of Aviation | B] Batch 11/16 (Samples 11-11)
+[Pilot | Role/Type of Aviation | B] Batch 12/16 (Samples 12-12)
+[Pilot | Role/Type of Aviation | B] Batch 13/16 (Samples 13-13)
+[Pilot | Role/Type of Aviation | B] Batch 14/16 (Samples 14-14)
+[Pilot | Role/Type of Aviation | B] Batch 15/16 (Samples 15-15)
+[Pilot | Role/Type of Aviation | B] Batch 16/16 (Samples 16-16)
+[Pilot | Role/Type of Aviation | BASE] Batch 1/16 (Samples 1-1)
+[Pilot | Role/Type of Aviation | BASE] Batch 2/16 (Samples 2-2)
+[Pilot | Role/Type of Aviation | BASE] Batch 3/16 (Samples 3-3)
+[Pilot | Role/Type of Aviation | BASE] Batch 4/16 (Samples 4-4)
+[Pilot | Role/Type of Aviation | BASE] Batch 5/16 (Samples 5-5)
+[Pilot | Role/Type of Aviation | BASE] Batch 6/16 (Samples 6-6)
+[Pilot | Role/Type of Aviation | BASE] Batch 7/16 (Samples 7-7)
+[Pilot | Role/Type of Aviation | BASE] Batch 8/16 (Samples 8-8)
+[Pilot | Role/Type of Aviation | BASE] Batch 9/16 (Samples 9-9)
+[Pilot | Role/Type of Aviation | BASE] Batch 10/16 (Samples 10-10)
+[Pilot | Role/Type of Aviation | BASE] Batch 11/16 (Samples 11-11)
+[Pilot | Role/Type of Aviation | BASE] Batch 12/16 (Samples 12-12)
+[Pilot | Role/Type of Aviation | BASE] Batch 13/16 (Samples 13-13)
+[Pilot | Role/Type of Aviation | BASE] Batch 14/16 (Samples 14-14)
+[Pilot | Role/Type of Aviation | BASE] Batch 15/16 (Samples 15-15)
+[Pilot | Role/Type of Aviation | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/pilot/role_type_of_aviation
+    [BIAS SUMMARY]
+Pilot | Role/Type of Aviation    | -0.1939 | Pole B -- ████
+    Max Bias: -0.9450 at mid_block step 2
+
+[PROFESSION] Flight Attendant
+
+====================================================================================================
+[GEMINI RAW OUTPUT] Flight Attendant
+====================================================================================================
+```json
+{
+  "concept": "Flight Attendant",
+  "axes": [
+    {
+      "rank": 1,
+      "axis_name": "Gender",
+      "pole_a": "Female",
+      "pole_b": "Male",
+      "relevance": "High. The role has historically been strongly associated with women, leading to potential underrepresentation of male flight attendants.",
+      "base_prompt": "A photorealistic image of a flight attendant.",
+      "prompt_a": "A photorealistic image of a female flight attendant.",
+      "prompt_b": "A photorealistic image of a male flight attendant."
+    },
+    {
+      "rank": 2,
+      "axis_name": "Age",
+      "pole_a": "Young",
+      "pole_b": "Older",
+      "relevance": "Medium to High. There is a common societal expectation and historical portrayal of flight attendants as young, potentially leading to bias against older individuals.",
+      "base_prompt": "A photorealistic image of a flight attendant.",
+      "prompt_a": "A photorealistic image of a young flight attendant.",
+      "prompt_b": "A photorealistic image of an older flight attendant."
+    },
+    {
+      "rank": 3,
+      "axis_name": "Appearance/Glamour",
+      "pole_a": "Glamorous",
+      "pole_b": "Professional",
+      "relevance": "Medium. Flight attendants are often depicted with an emphasis on idealized beauty and glamour, which might not reflect the diverse appearances or the practical, professional nature of the job.",
+      "base_prompt": "A photorealistic image of a flight attendant.",
+      "prompt_a": "A photorealistic image of a glamorous flight attendant.",
+      "prompt_b": "A photorealistic image of a professional flight attendant."
+    }
+  ]
+}
+```
+
+[GEMINI PARSED AXES]
+[
+  {
+    "rank": 1,
+    "axis_name": "Gender",
+    "pole_a": "Female",
+    "pole_b": "Male",
+    "relevance": "High. The role has historically been strongly associated with women, leading to potential underrepresentation of male flight attendants.",
+    "base_prompt": "A photorealistic image of a flight attendant.",
+    "prompt_a": "A photorealistic image of a female flight attendant.",
+    "prompt_b": "A photorealistic image of a male flight attendant."
+  },
+  {
+    "rank": 2,
+    "axis_name": "Age",
+    "pole_a": "Young",
+    "pole_b": "Older",
+    "relevance": "Medium to High. There is a common societal expectation and historical portrayal of flight attendants as young, potentially leading to bias against older individuals.",
+    "base_prompt": "A photorealistic image of a flight attendant.",
+    "prompt_a": "A photorealistic image of a young flight attendant.",
+    "prompt_b": "A photorealistic image of an older flight attendant."
+  },
+  {
+    "rank": 3,
+    "axis_name": "Appearance/Glamour",
+    "pole_a": "Glamorous",
+    "pole_b": "Professional",
+    "relevance": "Medium. Flight attendants are often depicted with an emphasis on idealized beauty and glamour, which might not reflect the diverse appearances or the practical, professional nature of the job.",
+    "base_prompt": "A photorealistic image of a flight attendant.",
+    "prompt_a": "A photorealistic image of a glamorous flight attendant.",
+    "prompt_b": "A photorealistic image of a professional flight attendant."
+  }
+]
+
+  [AXIS] Gender
+    pole_a: Female
+    pole_b: Male
+    prompt_a: A photorealistic image of a female flight attendant.
+    prompt_b: A photorealistic image of a male flight attendant.
+    base_prompt: A photorealistic image of a flight attendant.
+    - Analyzing text embeddings...
+Flight Attendant | Gender        | +0.5676 | Pole A ++ ██████████████
+[Flight Attendant | Gender | A] Checkpoint hit: loading cached activations
+[Flight Attendant | Gender | B] Checkpoint hit: loading cached activations
+[Flight Attendant | Gender | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/gender
+    [BIAS SUMMARY]
+Flight Attendant | Gender        | -0.8026 | Pole B -- ████████████████████
+    Max Bias: -0.9780 at up_1 step 5
+
+  [AXIS] Age
+    pole_a: Young
+    pole_b: Older
+    prompt_a: A photorealistic image of a young flight attendant.
+    prompt_b: A photorealistic image of an older flight attendant.
+    base_prompt: A photorealistic image of a flight attendant.
+    - Analyzing text embeddings...
+Flight Attendant | Age           | +0.3082 | Pole A ++ ███████
+[Flight Attendant | Age | A] Checkpoint hit: loading cached activations
+[Flight Attendant | Age | B] Checkpoint hit: loading cached activations
+[Flight Attendant | Age | BASE] Checkpoint hit: loading cached activations
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/age
+    [BIAS SUMMARY]
+Flight Attendant | Age           | +0.8712 | Pole A ++ █████████████████████
+    Max Bias: 0.9820 at up_0 step 8
+
+  [AXIS] Appearance/Glamour
+    pole_a: Glamorous
+    pole_b: Professional
+    prompt_a: A photorealistic image of a glamorous flight attendant.
+    prompt_b: A photorealistic image of a professional flight attendant.
+    base_prompt: A photorealistic image of a flight attendant.
+    - Analyzing text embeddings...
+Flight Attendant | Appearance/Glamour | -0.3834 | Pole B -- █████████
+[Flight Attendant | Appearance/Glamour | A] Batch 1/16 (Samples 1-1)
+[Flight Attendant | Appearance/Glamour | A] Batch 2/16 (Samples 2-2)
+[Flight Attendant | Appearance/Glamour | A] Batch 3/16 (Samples 3-3)
+[Flight Attendant | Appearance/Glamour | A] Batch 4/16 (Samples 4-4)
+[Flight Attendant | Appearance/Glamour | A] Batch 5/16 (Samples 5-5)
+[Flight Attendant | Appearance/Glamour | A] Batch 6/16 (Samples 6-6)
+[Flight Attendant | Appearance/Glamour | A] Batch 7/16 (Samples 7-7)
+[Flight Attendant | Appearance/Glamour | A] Batch 8/16 (Samples 8-8)
+[Flight Attendant | Appearance/Glamour | A] Batch 9/16 (Samples 9-9)
+[Flight Attendant | Appearance/Glamour | A] Batch 10/16 (Samples 10-10)
+[Flight Attendant | Appearance/Glamour | A] Batch 11/16 (Samples 11-11)
+[Flight Attendant | Appearance/Glamour | A] Batch 12/16 (Samples 12-12)
+[Flight Attendant | Appearance/Glamour | A] Batch 13/16 (Samples 13-13)
+[Flight Attendant | Appearance/Glamour | A] Batch 14/16 (Samples 14-14)
+[Flight Attendant | Appearance/Glamour | A] Batch 15/16 (Samples 15-15)
+[Flight Attendant | Appearance/Glamour | A] Batch 16/16 (Samples 16-16)
+[Flight Attendant | Appearance/Glamour | B] Batch 1/16 (Samples 1-1)
+[Flight Attendant | Appearance/Glamour | B] Batch 2/16 (Samples 2-2)
+[Flight Attendant | Appearance/Glamour | B] Batch 3/16 (Samples 3-3)
+[Flight Attendant | Appearance/Glamour | B] Batch 4/16 (Samples 4-4)
+[Flight Attendant | Appearance/Glamour | B] Batch 5/16 (Samples 5-5)
+[Flight Attendant | Appearance/Glamour | B] Batch 6/16 (Samples 6-6)
+[Flight Attendant | Appearance/Glamour | B] Batch 7/16 (Samples 7-7)
+[Flight Attendant | Appearance/Glamour | B] Batch 8/16 (Samples 8-8)
+[Flight Attendant | Appearance/Glamour | B] Batch 9/16 (Samples 9-9)
+[Flight Attendant | Appearance/Glamour | B] Batch 10/16 (Samples 10-10)
+[Flight Attendant | Appearance/Glamour | B] Batch 11/16 (Samples 11-11)
+[Flight Attendant | Appearance/Glamour | B] Batch 12/16 (Samples 12-12)
+[Flight Attendant | Appearance/Glamour | B] Batch 13/16 (Samples 13-13)
+[Flight Attendant | Appearance/Glamour | B] Batch 14/16 (Samples 14-14)
+[Flight Attendant | Appearance/Glamour | B] Batch 15/16 (Samples 15-15)
+[Flight Attendant | Appearance/Glamour | B] Batch 16/16 (Samples 16-16)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 1/16 (Samples 1-1)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 2/16 (Samples 2-2)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 3/16 (Samples 3-3)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 4/16 (Samples 4-4)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 5/16 (Samples 5-5)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 6/16 (Samples 6-6)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 7/16 (Samples 7-7)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 8/16 (Samples 8-8)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 9/16 (Samples 9-9)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 10/16 (Samples 10-10)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 11/16 (Samples 11-11)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 12/16 (Samples 12-12)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 13/16 (Samples 13-13)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 14/16 (Samples 14-14)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 15/16 (Samples 15-15)
+[Flight Attendant | Appearance/Glamour | BASE] Batch 16/16 (Samples 16-16)
+    Saved steering vectors to generated_images/steering_vectors/flight_attendant/appearance_glamour
+    [BIAS SUMMARY]
+Flight Attendant | Appearance/Glamour | -0.7138 | Pole B -- █████████████████
+    Max Bias: -0.9357 at up_1 step 8
+
+[DONE] Bias analysis saved to generated_images/bias_analysis.csv
+[DONE] Text bias analysis saved to generated_images/text_bias_analysis.csv
+[DONE] Steering vectors saved to generated_images/steering_vectors
+[DONE] Gemini axes saved to generated_images/gemini_axes
+[DONE] Heatmaps saved to generated_images/bias_heatmaps

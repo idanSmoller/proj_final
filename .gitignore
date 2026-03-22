@@ -1,3 +1,7 @@
-generated_images/
 outputs/
-logs/
+.env
+generated_images/
+generated_images_2/
+generated_images.tar.gz
+*.tar.gz
+/home/dan.raviv/project/proj_final/generated_images.tar.gz
