@@ -5,3 +5,8 @@ generated_images_2/
 generated_images.tar.gz
 *.tar.gz
 /home/dan.raviv/project/proj_final/generated_images.tar.gz
+multi_model_results/
+*.png
+*.pt
+*.csv
+*.pyc
