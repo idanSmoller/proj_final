@@ -1,0 +1,75 @@
+[2026-03-26 22:28:53] [init] Loading SDXL model='stabilityai/stable-diffusion-xl-base-1.0' device=cuda dtype=torch.float16
+[2026-03-26 22:28:55] [init] Model loaded in 1.82s
+[2026-03-26 22:28:55] [init] Enabled CPU offload
+[2026-03-26 22:28:55] [vector] Mode: LOAD
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/nurse/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/fire_fighter/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/programmer/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/receptionist/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Warning: No vector found for Teacher (axis='gender'), skipping
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/doctor/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/lawyer/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/engineer/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/scientist/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/accountant/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/chef/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/architect/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/ceo/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/pilot/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Loaded vector from generated_images_2/steering_vectors/flight_attendant/gender/layer_mid_block_mean.pt
+[2026-03-26 22:28:55] [load] Averaged 14 profession vectors
+[2026-03-26 22:28:55] [vector] Loaded averaged vector for layer mid_block
+[2026-03-26 22:28:55] [save] Saved loaded vector snapshot to outputs/injection_results/steering_vector_loaded.pt
+[2026-03-26 22:28:55] [outcomes] Generating comparison images
+[2026-03-26 22:28:55] [outcomes] Baseline for: A realistic profile picture of a Doctor
+[2026-03-26 22:29:18] [outcomes] prompt='A realistic profile picture of a Doctor' sign=masculine strength=0.5
+[2026-03-26 22:29:18] [injector] Installed on mid_block, mode=add, strength=0.5, cfg_target=cond, schedule=sine
+[2026-03-26 22:29:18] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=0.5
+[2026-03-26 22:29:37] [injector] Uninstalled
+[2026-03-26 22:29:38] [outcomes] prompt='A realistic profile picture of a Doctor' sign=feminine strength=0.5
+[2026-03-26 22:29:38] [injector] Installed on mid_block, mode=add, strength=-0.5, cfg_target=cond, schedule=sine
+[2026-03-26 22:29:38] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=-0.5
+[2026-03-26 22:29:55] [injector] Uninstalled
+[2026-03-26 22:29:55] [outcomes] prompt='A realistic profile picture of a Doctor' sign=masculine strength=1.0
+[2026-03-26 22:29:55] [injector] Installed on mid_block, mode=add, strength=1.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:29:55] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=1.0
+[2026-03-26 22:30:12] [injector] Uninstalled
+[2026-03-26 22:30:13] [outcomes] prompt='A realistic profile picture of a Doctor' sign=feminine strength=1.0
+[2026-03-26 22:30:13] [injector] Installed on mid_block, mode=add, strength=-1.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:30:13] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=-1.0
+[2026-03-26 22:30:29] [injector] Uninstalled
+[2026-03-26 22:30:29] [outcomes] prompt='A realistic profile picture of a Doctor' sign=masculine strength=2.0
+[2026-03-26 22:30:29] [injector] Installed on mid_block, mode=add, strength=2.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:30:29] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=2.0
+[2026-03-26 22:30:46] [injector] Uninstalled
+[2026-03-26 22:30:46] [outcomes] prompt='A realistic profile picture of a Doctor' sign=feminine strength=2.0
+[2026-03-26 22:30:46] [injector] Installed on mid_block, mode=add, strength=-2.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:30:46] [gen] prompt='A realistic profile picture of a Doctor' seed=1234 layer=mid_block mode=add strength=-2.0
+[2026-03-26 22:31:03] [injector] Uninstalled
+[2026-03-26 22:31:04] [outcomes] Baseline for: A realistic profile picture of a CEO
+[2026-03-26 22:31:21] [outcomes] prompt='A realistic profile picture of a CEO' sign=masculine strength=0.5
+[2026-03-26 22:31:21] [injector] Installed on mid_block, mode=add, strength=0.5, cfg_target=cond, schedule=sine
+[2026-03-26 22:31:21] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=0.5
+[2026-03-26 22:31:37] [injector] Uninstalled
+[2026-03-26 22:31:37] [outcomes] prompt='A realistic profile picture of a CEO' sign=feminine strength=0.5
+[2026-03-26 22:31:37] [injector] Installed on mid_block, mode=add, strength=-0.5, cfg_target=cond, schedule=sine
+[2026-03-26 22:31:37] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=-0.5
+[2026-03-26 22:31:54] [injector] Uninstalled
+[2026-03-26 22:31:54] [outcomes] prompt='A realistic profile picture of a CEO' sign=masculine strength=1.0
+[2026-03-26 22:31:54] [injector] Installed on mid_block, mode=add, strength=1.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:31:54] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=1.0
+[2026-03-26 22:32:11] [injector] Uninstalled
+[2026-03-26 22:32:12] [outcomes] prompt='A realistic profile picture of a CEO' sign=feminine strength=1.0
+[2026-03-26 22:32:12] [injector] Installed on mid_block, mode=add, strength=-1.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:32:12] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=-1.0
+[2026-03-26 22:32:28] [injector] Uninstalled
+[2026-03-26 22:32:29] [outcomes] prompt='A realistic profile picture of a CEO' sign=masculine strength=2.0
+[2026-03-26 22:32:29] [injector] Installed on mid_block, mode=add, strength=2.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:32:29] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=2.0
+[2026-03-26 22:32:45] [injector] Uninstalled
+[2026-03-26 22:32:45] [outcomes] prompt='A realistic profile picture of a CEO' sign=feminine strength=2.0
+[2026-03-26 22:32:45] [injector] Installed on mid_block, mode=add, strength=-2.0, cfg_target=cond, schedule=sine
+[2026-03-26 22:32:45] [gen] prompt='A realistic profile picture of a CEO' seed=1234 layer=mid_block mode=add strength=-2.0
+[2026-03-26 22:33:02] [injector] Uninstalled
+[2026-03-26 22:33:03] [outcomes] Saved to outputs/injection_results/outcomes
+[2026-03-26 22:33:03] [main] DONE
