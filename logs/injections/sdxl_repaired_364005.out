@@ -1,0 +1,60 @@
+[2026-03-28 15:18:29] [init] Loading pipeline on cuda
+[2026-03-28 15:18:31] [start] Beginning repaired gender-axis discovery + injection
+[2026-03-28 15:18:31] [capture] Profession: Nurse
+[2026-03-28 15:18:31]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a Nurse
+[2026-03-28 15:18:31]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a male Nurse
+[2026-03-28 15:18:31]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a female Nurse
+[2026-03-28 15:19:27] [generate] Baseline for Nurse
+[2026-03-28 15:19:44] [generate] Nurse | +axis | strength=1.0
+[2026-03-28 15:20:01] [generate] Nurse | -axis | strength=1.0
+[2026-03-28 15:20:18] [generate] Nurse | +axis | strength=4.0
+[2026-03-28 15:20:36] [generate] Nurse | -axis | strength=4.0
+[2026-03-28 15:20:53] [generate] Nurse | +axis | strength=8.0
+[2026-03-28 15:21:10] [generate] Nurse | -axis | strength=8.0
+[2026-03-28 15:21:28] [generate] Nurse | +axis | strength=10.0
+[2026-03-28 15:21:45] [generate] Nurse | -axis | strength=10.0
+[2026-03-28 15:22:03] [generate] Nurse | +axis | strength=15.0
+[2026-03-28 15:22:20] [generate] Nurse | -axis | strength=15.0
+[2026-03-28 15:22:37] [generate] Nurse | +axis | strength=25.0
+[2026-03-28 15:22:55] [generate] Nurse | -axis | strength=25.0
+[2026-03-28 15:23:12] [generate] Nurse | +axis | strength=50.0
+[2026-03-28 15:23:29] [generate] Nurse | -axis | strength=50.0
+[2026-03-28 15:23:47] [capture] Profession: Doctor
+[2026-03-28 15:23:47]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a Doctor
+[2026-03-28 15:23:47]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a male Doctor
+[2026-03-28 15:23:47]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a female Doctor
+[2026-03-28 15:24:37] [generate] Baseline for Doctor
+[2026-03-28 15:24:55] [generate] Doctor | +axis | strength=1.0
+[2026-03-28 15:25:12] [generate] Doctor | -axis | strength=1.0
+[2026-03-28 15:25:30] [generate] Doctor | +axis | strength=4.0
+[2026-03-28 15:25:47] [generate] Doctor | -axis | strength=4.0
+[2026-03-28 15:26:05] [generate] Doctor | +axis | strength=8.0
+[2026-03-28 15:26:22] [generate] Doctor | -axis | strength=8.0
+[2026-03-28 15:26:39] [generate] Doctor | +axis | strength=10.0
+[2026-03-28 15:26:57] [generate] Doctor | -axis | strength=10.0
+[2026-03-28 15:27:14] [generate] Doctor | +axis | strength=15.0
+[2026-03-28 15:27:32] [generate] Doctor | -axis | strength=15.0
+[2026-03-28 15:27:49] [generate] Doctor | +axis | strength=25.0
+[2026-03-28 15:28:06] [generate] Doctor | -axis | strength=25.0
+[2026-03-28 15:28:24] [generate] Doctor | +axis | strength=50.0
+[2026-03-28 15:28:41] [generate] Doctor | -axis | strength=50.0
+[2026-03-28 15:28:58] [capture] Profession: Programmer
+[2026-03-28 15:28:58]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a Programmer
+[2026-03-28 15:28:58]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a male Programmer
+[2026-03-28 15:28:58]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject, in color image of a female Programmer
+[2026-03-28 15:29:49] [generate] Baseline for Programmer
+[2026-03-28 15:30:06] [generate] Programmer | +axis | strength=1.0
+[2026-03-28 15:30:24] [generate] Programmer | -axis | strength=1.0
+[2026-03-28 15:30:41] [generate] Programmer | +axis | strength=4.0
+[2026-03-28 15:30:59] [generate] Programmer | -axis | strength=4.0
+[2026-03-28 15:31:16] [generate] Programmer | +axis | strength=8.0
+[2026-03-28 15:31:34] [generate] Programmer | -axis | strength=8.0
+[2026-03-28 15:31:51] [generate] Programmer | +axis | strength=10.0
+[2026-03-28 15:32:08] [generate] Programmer | -axis | strength=10.0
+[2026-03-28 15:32:26] [generate] Programmer | +axis | strength=15.0
+[2026-03-28 15:32:43] [generate] Programmer | -axis | strength=15.0
+[2026-03-28 15:33:01] [generate] Programmer | +axis | strength=25.0
+[2026-03-28 15:33:18] [generate] Programmer | -axis | strength=25.0
+[2026-03-28 15:33:36] [generate] Programmer | +axis | strength=50.0
+[2026-03-28 15:33:53] [generate] Programmer | -axis | strength=50.0
+[2026-03-28 15:34:11] [done] All repaired injections complete.

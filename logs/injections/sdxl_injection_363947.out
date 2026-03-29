@@ -1,0 +1,12 @@
+[2026-03-27 15:48:55] [init] Enabled CPU offload
+[2026-03-27 15:48:55] [vector] Mode: LOAD
+[2026-03-27 15:48:55] [load] Loaded generated_images_2/steering_vectors/nurse/gender/layer_mid_block_mean.pt
+[2026-03-27 15:48:55] [load] Loaded generated_images_2/steering_vectors/fire_fighter/gender/layer_mid_block_mean.pt
+[2026-03-27 15:48:55] [load] Loaded generated_images_2/steering_vectors/programmer/gender/layer_mid_block_mean.pt
+[2026-03-27 15:48:55] [load] Loaded generated_images_2/steering_vectors/kindergarten_teacher/gender/layer_mid_block_mean.pt
+[2026-03-27 15:48:55] [load] Loaded generated_images_2/steering_vectors/doctor/gender/layer_mid_block_mean.pt
+[2026-03-27 15:48:55] [outcomes] Baseline for: A realistic profile picture of a Nurse
+[2026-03-27 15:51:34] [outcomes] Baseline for: A realistic profile picture of a Fire Fighter
+[2026-03-27 15:54:08] [outcomes] Baseline for: A realistic profile picture of a Programmer
+[2026-03-27 15:56:40] [outcomes] Baseline for: A realistic profile picture of a Kindergarten Teacher
+[2026-03-27 15:59:13] [outcomes] Baseline for: A realistic profile picture of a Doctor

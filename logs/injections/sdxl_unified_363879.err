@@ -1,0 +1,114 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.91it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:01,  4.01it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:01,  3.18it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:01<00:00,  5.62it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.25it/s]
+Collecting traces:   0%|          | 0/6 [00:00<?, ?it/s]
+  0%|          | 0/30 [00:00<?, ?it/s][A
+  3%|▎         | 1/30 [00:01<00:29,  1.00s/it][A
+  7%|▋         | 2/30 [00:01<00:17,  1.62it/s][A
+ 10%|█         | 3/30 [00:01<00:13,  2.00it/s][A
+ 13%|█▎        | 4/30 [00:02<00:11,  2.23it/s][A
+ 17%|█▋        | 5/30 [00:02<00:10,  2.39it/s][A
+ 20%|██        | 6/30 [00:02<00:09,  2.49it/s][A
+ 23%|██▎       | 7/30 [00:03<00:08,  2.56it/s][A
+ 27%|██▋       | 8/30 [00:03<00:08,  2.61it/s][A
+ 30%|███       | 9/30 [00:03<00:07,  2.64it/s][A
+ 33%|███▎      | 10/30 [00:04<00:07,  2.67it/s][A
+ 37%|███▋      | 11/30 [00:04<00:07,  2.68it/s][A
+ 40%|████      | 12/30 [00:05<00:06,  2.69it/s][A
+ 43%|████▎     | 13/30 [00:05<00:06,  2.70it/s][A
+ 47%|████▋     | 14/30 [00:05<00:05,  2.71it/s][A
+ 50%|█████     | 15/30 [00:06<00:05,  2.71it/s][A
+ 53%|█████▎    | 16/30 [00:06<00:05,  2.71it/s][A
+ 57%|█████▋    | 17/30 [00:06<00:04,  2.71it/s][A
+ 60%|██████    | 18/30 [00:07<00:04,  2.71it/s][A
+ 63%|██████▎   | 19/30 [00:07<00:04,  2.71it/s][A
+ 67%|██████▋   | 20/30 [00:07<00:03,  2.71it/s][A
+ 70%|███████   | 21/30 [00:08<00:03,  2.71it/s][A
+ 73%|███████▎  | 22/30 [00:08<00:02,  2.71it/s][A
+ 77%|███████▋  | 23/30 [00:09<00:02,  2.70it/s][A
+ 80%|████████  | 24/30 [00:09<00:02,  2.70it/s][A
+ 83%|████████▎ | 25/30 [00:09<00:01,  2.70it/s][A
+ 87%|████████▋ | 26/30 [00:10<00:01,  2.70it/s][A
+ 90%|█████████ | 27/30 [00:10<00:01,  2.70it/s][A
+ 93%|█████████▎| 28/30 [00:10<00:00,  2.70it/s][A
+ 97%|█████████▋| 29/30 [00:11<00:00,  2.70it/s][A
+100%|██████████| 30/30 [00:11<00:00,  2.70it/s][A100%|██████████| 30/30 [00:11<00:00,  2.57it/s]
+/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/stable_diffusion_xl/pipeline_stable_diffusion_xl.py:748: FutureWarning: `upcast_vae` is deprecated and will be removed in version 1.0.0. `upcast_vae` is deprecated. Please use `pipe.vae.to(torch.float32)`. For more details, please refer to: https://github.com/huggingface/diffusers/pull/12619#issue-3606633695.
+  deprecate(
+
+  0%|          | 0/30 [00:00<?, ?it/s][A
+  3%|▎         | 1/30 [00:00<00:10,  2.84it/s][A
+  7%|▋         | 2/30 [00:00<00:10,  2.76it/s][A
+ 10%|█         | 3/30 [00:01<00:09,  2.72it/s][A
+ 13%|█▎        | 4/30 [00:01<00:09,  2.71it/s][A
+ 17%|█▋        | 5/30 [00:01<00:09,  2.71it/s][A
+ 20%|██        | 6/30 [00:02<00:08,  2.70it/s][A
+ 23%|██▎       | 7/30 [00:02<00:08,  2.70it/s][A
+ 27%|██▋       | 8/30 [00:02<00:08,  2.69it/s][A
+ 30%|███       | 9/30 [00:03<00:07,  2.69it/s][A
+ 33%|███▎      | 10/30 [00:03<00:07,  2.69it/s][A
+ 37%|███▋      | 11/30 [00:04<00:07,  2.69it/s][A
+ 40%|████      | 12/30 [00:04<00:06,  2.69it/s][A
+ 43%|████▎     | 13/30 [00:04<00:06,  2.68it/s][A
+ 47%|████▋     | 14/30 [00:05<00:05,  2.68it/s][A
+ 50%|█████     | 15/30 [00:05<00:05,  2.68it/s][A
+ 53%|█████▎    | 16/30 [00:05<00:05,  2.68it/s][A
+ 57%|█████▋    | 17/30 [00:06<00:04,  2.68it/s][A
+ 60%|██████    | 18/30 [00:06<00:04,  2.67it/s][A
+ 63%|██████▎   | 19/30 [00:07<00:04,  2.67it/s][A
+ 67%|██████▋   | 20/30 [00:07<00:03,  2.67it/s][A
+ 70%|███████   | 21/30 [00:07<00:03,  2.67it/s][A
+ 73%|███████▎  | 22/30 [00:08<00:02,  2.67it/s][A
+ 77%|███████▋  | 23/30 [00:08<00:02,  2.67it/s][A
+ 80%|████████  | 24/30 [00:08<00:02,  2.67it/s][A
+ 83%|████████▎ | 25/30 [00:09<00:01,  2.67it/s][A
+ 87%|████████▋ | 26/30 [00:09<00:01,  2.67it/s][A
+ 90%|█████████ | 27/30 [00:10<00:01,  2.67it/s][A
+ 93%|█████████▎| 28/30 [00:10<00:00,  2.67it/s][A
+ 97%|█████████▋| 29/30 [00:10<00:00,  2.67it/s][A
+100%|██████████| 30/30 [00:11<00:00,  2.67it/s][A100%|██████████| 30/30 [00:11<00:00,  2.68it/s]
+Collecting traces:   0%|          | 0/6 [00:24<?, ?it/s]
+Traceback (most recent call last):
+  File "injection.py", line 1097, in <module>
+    main()
+  File "injection.py", line 958, in main
+    neg_trace = extractor.capture_timestep_vectors(negative, seed, cfg)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "injection.py", line 532, in capture_timestep_vectors
+    self.pipe(
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/stable_diffusion_xl/pipeline_stable_diffusion_xl.py", line 1277, in __call__
+    image = self.vae.decode(latents, return_dict=False)[0]
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/utils/accelerate_utils.py", line 46, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 237, in decode
+    decoded = self._decode(z).sample
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/models/autoencoders/autoencoder_kl.py", line 208, in _decode
+    dec = self.decoder(z)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/models/autoencoders/vae.py", line 302, in forward
+    sample = up_block(sample, latent_embeds)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/models/unets/unet_2d_blocks.py", line 2643, in forward
+    hidden_states = upsampler(hidden_states)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/models/upsampling.py", line 188, in forward
+    hidden_states = self.conv(hidden_states)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 458, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 454, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 10.75 GiB of which 521.62 MiB is free. Including non-PyTorch memory, this process has 10.24 GiB memory in use. Of the allocated memory 8.48 GiB is allocated by PyTorch, and 1.57 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,263 @@
+[2026-03-28 18:44:12] [init] Loading pipeline on cuda
+[2026-03-28 18:44:14] [start] Beginning robust high-throughput discovery (N=5 seeds)
+[2026-03-28 18:44:14] 
+[capture] Profession: Nurse
+[2026-03-28 18:44:14]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Nurse
+[2026-03-28 18:44:14]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Nurse
+[2026-03-28 18:44:14]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Nurse
+[2026-03-28 18:48:41] [generate] Baseline for Nurse (seed=42)
+[2026-03-28 18:48:59] [generate] Nurse | MASCULINE | strength=0.50
+[2026-03-28 18:49:18] [generate] Nurse | FEMININE | strength=0.50
+[2026-03-28 18:49:35] [generate] Nurse | MASCULINE | strength=2.67
+[2026-03-28 18:49:53] [generate] Nurse | FEMININE | strength=2.67
+[2026-03-28 18:50:11] [generate] Nurse | MASCULINE | strength=4.83
+[2026-03-28 18:50:30] [generate] Nurse | FEMININE | strength=4.83
+[2026-03-28 18:50:47] [generate] Nurse | MASCULINE | strength=7.00
+[2026-03-28 18:51:05] [generate] Nurse | FEMININE | strength=7.00
+[2026-03-28 18:51:24] [generate] Nurse | MASCULINE | strength=9.17
+[2026-03-28 18:51:42] [generate] Nurse | FEMININE | strength=9.17
+[2026-03-28 18:52:00] [generate] Nurse | MASCULINE | strength=11.33
+[2026-03-28 18:52:18] [generate] Nurse | FEMININE | strength=11.33
+[2026-03-28 18:52:36] [generate] Nurse | MASCULINE | strength=13.50
+[2026-03-28 18:52:54] [generate] Nurse | FEMININE | strength=13.50
+[2026-03-28 18:53:12] [generate] Nurse | MASCULINE | strength=15.67
+[2026-03-28 18:53:30] [generate] Nurse | FEMININE | strength=15.67
+[2026-03-28 18:53:48] [generate] Nurse | MASCULINE | strength=17.83
+[2026-03-28 18:54:06] [generate] Nurse | FEMININE | strength=17.83
+[2026-03-28 18:54:24] [generate] Nurse | MASCULINE | strength=20.00
+[2026-03-28 18:54:43] [generate] Nurse | FEMININE | strength=20.00
+[2026-03-28 18:55:00] 
+[capture] Profession: Doctor
+[2026-03-28 18:55:00]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Doctor
+[2026-03-28 18:55:00]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Doctor
+[2026-03-28 18:55:00]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Doctor
+[2026-03-28 18:59:23] [generate] Baseline for Doctor (seed=42)
+[2026-03-28 18:59:41] [generate] Doctor | MASCULINE | strength=0.50
+[2026-03-28 18:59:59] [generate] Doctor | FEMININE | strength=0.50
+[2026-03-28 19:00:17] [generate] Doctor | MASCULINE | strength=2.67
+[2026-03-28 19:00:35] [generate] Doctor | FEMININE | strength=2.67
+[2026-03-28 19:00:53] [generate] Doctor | MASCULINE | strength=4.83
+[2026-03-28 19:01:11] [generate] Doctor | FEMININE | strength=4.83
+[2026-03-28 19:01:29] [generate] Doctor | MASCULINE | strength=7.00
+[2026-03-28 19:01:47] [generate] Doctor | FEMININE | strength=7.00
+[2026-03-28 19:02:05] [generate] Doctor | MASCULINE | strength=9.17
+[2026-03-28 19:02:23] [generate] Doctor | FEMININE | strength=9.17
+[2026-03-28 19:02:41] [generate] Doctor | MASCULINE | strength=11.33
+[2026-03-28 19:02:59] [generate] Doctor | FEMININE | strength=11.33
+[2026-03-28 19:03:17] [generate] Doctor | MASCULINE | strength=13.50
+[2026-03-28 19:03:35] [generate] Doctor | FEMININE | strength=13.50
+[2026-03-28 19:03:53] [generate] Doctor | MASCULINE | strength=15.67
+[2026-03-28 19:04:11] [generate] Doctor | FEMININE | strength=15.67
+[2026-03-28 19:04:29] [generate] Doctor | MASCULINE | strength=17.83
+[2026-03-28 19:04:47] [generate] Doctor | FEMININE | strength=17.83
+[2026-03-28 19:05:05] [generate] Doctor | MASCULINE | strength=20.00
+[2026-03-28 19:05:23] [generate] Doctor | FEMININE | strength=20.00
+[2026-03-28 19:05:41] 
+[capture] Profession: Programmer
+[2026-03-28 19:05:41]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Programmer
+[2026-03-28 19:05:41]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Programmer
+[2026-03-28 19:05:41]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Programmer
+[2026-03-28 19:10:03] [generate] Baseline for Programmer (seed=42)
+[2026-03-28 19:10:21] [generate] Programmer | MASCULINE | strength=0.50
+[2026-03-28 19:10:39] [generate] Programmer | FEMININE | strength=0.50
+[2026-03-28 19:10:57] [generate] Programmer | MASCULINE | strength=2.67
+[2026-03-28 19:11:15] [generate] Programmer | FEMININE | strength=2.67
+[2026-03-28 19:11:33] [generate] Programmer | MASCULINE | strength=4.83
+[2026-03-28 19:11:51] [generate] Programmer | FEMININE | strength=4.83
+[2026-03-28 19:12:10] [generate] Programmer | MASCULINE | strength=7.00
+[2026-03-28 19:12:27] [generate] Programmer | FEMININE | strength=7.00
+[2026-03-28 19:12:46] [generate] Programmer | MASCULINE | strength=9.17
+[2026-03-28 19:13:03] [generate] Programmer | FEMININE | strength=9.17
+[2026-03-28 19:13:22] [generate] Programmer | MASCULINE | strength=11.33
+[2026-03-28 19:13:40] [generate] Programmer | FEMININE | strength=11.33
+[2026-03-28 19:13:58] [generate] Programmer | MASCULINE | strength=13.50
+[2026-03-28 19:14:16] [generate] Programmer | FEMININE | strength=13.50
+[2026-03-28 19:14:34] [generate] Programmer | MASCULINE | strength=15.67
+[2026-03-28 19:14:52] [generate] Programmer | FEMININE | strength=15.67
+[2026-03-28 19:15:10] [generate] Programmer | MASCULINE | strength=17.83
+[2026-03-28 19:15:28] [generate] Programmer | FEMININE | strength=17.83
+[2026-03-28 19:15:46] [generate] Programmer | MASCULINE | strength=20.00
+[2026-03-28 19:16:04] [generate] Programmer | FEMININE | strength=20.00
+[2026-03-28 19:16:22] 
+[capture] Profession: Kindergarten Teacher
+[2026-03-28 19:16:22]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Kindergarten Teacher
+[2026-03-28 19:16:22]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Kindergarten Teacher
+[2026-03-28 19:16:22]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Kindergarten Teacher
+[2026-03-28 19:20:44] [generate] Baseline for Kindergarten Teacher (seed=42)
+[2026-03-28 19:21:02] [generate] Kindergarten Teacher | MASCULINE | strength=0.50
+[2026-03-28 19:21:20] [generate] Kindergarten Teacher | FEMININE | strength=0.50
+[2026-03-28 19:21:38] [generate] Kindergarten Teacher | MASCULINE | strength=2.67
+[2026-03-28 19:21:56] [generate] Kindergarten Teacher | FEMININE | strength=2.67
+[2026-03-28 19:22:14] [generate] Kindergarten Teacher | MASCULINE | strength=4.83
+[2026-03-28 19:22:32] [generate] Kindergarten Teacher | FEMININE | strength=4.83
+[2026-03-28 19:22:50] [generate] Kindergarten Teacher | MASCULINE | strength=7.00
+[2026-03-28 19:23:08] [generate] Kindergarten Teacher | FEMININE | strength=7.00
+[2026-03-28 19:23:26] [generate] Kindergarten Teacher | MASCULINE | strength=9.17
+[2026-03-28 19:23:44] [generate] Kindergarten Teacher | FEMININE | strength=9.17
+[2026-03-28 19:24:02] [generate] Kindergarten Teacher | MASCULINE | strength=11.33
+[2026-03-28 19:24:20] [generate] Kindergarten Teacher | FEMININE | strength=11.33
+[2026-03-28 19:24:38] [generate] Kindergarten Teacher | MASCULINE | strength=13.50
+[2026-03-28 19:24:56] [generate] Kindergarten Teacher | FEMININE | strength=13.50
+[2026-03-28 19:25:14] [generate] Kindergarten Teacher | MASCULINE | strength=15.67
+[2026-03-28 19:25:32] [generate] Kindergarten Teacher | FEMININE | strength=15.67
+[2026-03-28 19:25:50] [generate] Kindergarten Teacher | MASCULINE | strength=17.83
+[2026-03-28 19:26:07] [generate] Kindergarten Teacher | FEMININE | strength=17.83
+[2026-03-28 19:26:26] [generate] Kindergarten Teacher | MASCULINE | strength=20.00
+[2026-03-28 19:26:44] [generate] Kindergarten Teacher | FEMININE | strength=20.00
+[2026-03-28 19:27:02] 
+[capture] Profession: CEO
+[2026-03-28 19:27:02]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a CEO
+[2026-03-28 19:27:02]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male CEO
+[2026-03-28 19:27:02]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female CEO
+[2026-03-28 19:31:23] [generate] Baseline for CEO (seed=42)
+[2026-03-28 19:31:41] [generate] CEO | MASCULINE | strength=0.50
+[2026-03-28 19:31:59] [generate] CEO | FEMININE | strength=0.50
+[2026-03-28 19:32:17] [generate] CEO | MASCULINE | strength=2.67
+[2026-03-28 19:32:35] [generate] CEO | FEMININE | strength=2.67
+[2026-03-28 19:32:53] [generate] CEO | MASCULINE | strength=4.83
+[2026-03-28 19:33:11] [generate] CEO | FEMININE | strength=4.83
+[2026-03-28 19:33:29] [generate] CEO | MASCULINE | strength=7.00
+[2026-03-28 19:33:46] [generate] CEO | FEMININE | strength=7.00
+[2026-03-28 19:34:04] [generate] CEO | MASCULINE | strength=9.17
+[2026-03-28 19:34:22] [generate] CEO | FEMININE | strength=9.17
+[2026-03-28 19:34:40] [generate] CEO | MASCULINE | strength=11.33
+[2026-03-28 19:34:58] [generate] CEO | FEMININE | strength=11.33
+[2026-03-28 19:35:16] [generate] CEO | MASCULINE | strength=13.50
+[2026-03-28 19:35:34] [generate] CEO | FEMININE | strength=13.50
+[2026-03-28 19:35:51] [generate] CEO | MASCULINE | strength=15.67
+[2026-03-28 19:36:09] [generate] CEO | FEMININE | strength=15.67
+[2026-03-28 19:36:27] [generate] CEO | MASCULINE | strength=17.83
+[2026-03-28 19:36:45] [generate] CEO | FEMININE | strength=17.83
+[2026-03-28 19:37:03] [generate] CEO | MASCULINE | strength=20.00
+[2026-03-28 19:37:21] [generate] CEO | FEMININE | strength=20.00
+[2026-03-28 19:37:39] 
+[capture] Profession: Construction Worker
+[2026-03-28 19:37:39]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Construction Worker
+[2026-03-28 19:37:39]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Construction Worker
+[2026-03-28 19:37:39]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Construction Worker
+[2026-03-28 19:41:59] [generate] Baseline for Construction Worker (seed=42)
+[2026-03-28 19:42:17] [generate] Construction Worker | MASCULINE | strength=0.50
+[2026-03-28 19:42:35] [generate] Construction Worker | FEMININE | strength=0.50
+[2026-03-28 19:42:53] [generate] Construction Worker | MASCULINE | strength=2.67
+[2026-03-28 19:43:10] [generate] Construction Worker | FEMININE | strength=2.67
+[2026-03-28 19:43:28] [generate] Construction Worker | MASCULINE | strength=4.83
+[2026-03-28 19:43:46] [generate] Construction Worker | FEMININE | strength=4.83
+[2026-03-28 19:44:04] [generate] Construction Worker | MASCULINE | strength=7.00
+[2026-03-28 19:44:22] [generate] Construction Worker | FEMININE | strength=7.00
+[2026-03-28 19:44:40] [generate] Construction Worker | MASCULINE | strength=9.17
+[2026-03-28 19:44:58] [generate] Construction Worker | FEMININE | strength=9.17
+[2026-03-28 19:45:16] [generate] Construction Worker | MASCULINE | strength=11.33
+[2026-03-28 19:45:34] [generate] Construction Worker | FEMININE | strength=11.33
+[2026-03-28 19:45:52] [generate] Construction Worker | MASCULINE | strength=13.50
+[2026-03-28 19:46:10] [generate] Construction Worker | FEMININE | strength=13.50
+[2026-03-28 19:46:28] [generate] Construction Worker | MASCULINE | strength=15.67
+[2026-03-28 19:46:46] [generate] Construction Worker | FEMININE | strength=15.67
+[2026-03-28 19:47:03] [generate] Construction Worker | MASCULINE | strength=17.83
+[2026-03-28 19:47:22] [generate] Construction Worker | FEMININE | strength=17.83
+[2026-03-28 19:47:40] [generate] Construction Worker | MASCULINE | strength=20.00
+[2026-03-28 19:47:57] [generate] Construction Worker | FEMININE | strength=20.00
+[2026-03-28 19:48:15] 
+[capture] Profession: Flight Attendant
+[2026-03-28 19:48:15]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Flight Attendant
+[2026-03-28 19:48:15]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Flight Attendant
+[2026-03-28 19:48:15]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Flight Attendant
+[2026-03-28 19:52:35] [generate] Baseline for Flight Attendant (seed=42)
+[2026-03-28 19:52:53] [generate] Flight Attendant | MASCULINE | strength=0.50
+[2026-03-28 19:53:11] [generate] Flight Attendant | FEMININE | strength=0.50
+[2026-03-28 19:53:29] [generate] Flight Attendant | MASCULINE | strength=2.67
+[2026-03-28 19:53:47] [generate] Flight Attendant | FEMININE | strength=2.67
+[2026-03-28 19:54:05] [generate] Flight Attendant | MASCULINE | strength=4.83
+[2026-03-28 19:54:22] [generate] Flight Attendant | FEMININE | strength=4.83
+[2026-03-28 19:54:40] [generate] Flight Attendant | MASCULINE | strength=7.00
+[2026-03-28 19:54:59] [generate] Flight Attendant | FEMININE | strength=7.00
+[2026-03-28 19:55:17] [generate] Flight Attendant | MASCULINE | strength=9.17
+[2026-03-28 19:55:35] [generate] Flight Attendant | FEMININE | strength=9.17
+[2026-03-28 19:55:53] [generate] Flight Attendant | MASCULINE | strength=11.33
+[2026-03-28 19:56:11] [generate] Flight Attendant | FEMININE | strength=11.33
+[2026-03-28 19:56:29] [generate] Flight Attendant | MASCULINE | strength=13.50
+[2026-03-28 19:56:47] [generate] Flight Attendant | FEMININE | strength=13.50
+[2026-03-28 19:57:05] [generate] Flight Attendant | MASCULINE | strength=15.67
+[2026-03-28 19:57:23] [generate] Flight Attendant | FEMININE | strength=15.67
+[2026-03-28 19:57:41] [generate] Flight Attendant | MASCULINE | strength=17.83
+[2026-03-28 19:57:59] [generate] Flight Attendant | FEMININE | strength=17.83
+[2026-03-28 19:58:18] [generate] Flight Attendant | MASCULINE | strength=20.00
+[2026-03-28 19:58:36] [generate] Flight Attendant | FEMININE | strength=20.00
+[2026-03-28 19:58:54] 
+[capture] Profession: Scientist
+[2026-03-28 19:58:54]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Scientist
+[2026-03-28 19:58:54]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Scientist
+[2026-03-28 19:58:54]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Scientist
+[2026-03-28 20:03:15] [generate] Baseline for Scientist (seed=42)
+[2026-03-28 20:03:33] [generate] Scientist | MASCULINE | strength=0.50
+[2026-03-28 20:03:51] [generate] Scientist | FEMININE | strength=0.50
+[2026-03-28 20:04:09] [generate] Scientist | MASCULINE | strength=2.67
+[2026-03-28 20:04:27] [generate] Scientist | FEMININE | strength=2.67
+[2026-03-28 20:04:45] [generate] Scientist | MASCULINE | strength=4.83
+[2026-03-28 20:05:03] [generate] Scientist | FEMININE | strength=4.83
+[2026-03-28 20:05:22] [generate] Scientist | MASCULINE | strength=7.00
+[2026-03-28 20:05:40] [generate] Scientist | FEMININE | strength=7.00
+[2026-03-28 20:05:58] [generate] Scientist | MASCULINE | strength=9.17
+[2026-03-28 20:06:16] [generate] Scientist | FEMININE | strength=9.17
+[2026-03-28 20:06:34] [generate] Scientist | MASCULINE | strength=11.33
+[2026-03-28 20:06:52] [generate] Scientist | FEMININE | strength=11.33
+[2026-03-28 20:07:10] [generate] Scientist | MASCULINE | strength=13.50
+[2026-03-28 20:07:28] [generate] Scientist | FEMININE | strength=13.50
+[2026-03-28 20:07:46] [generate] Scientist | MASCULINE | strength=15.67
+[2026-03-28 20:08:04] [generate] Scientist | FEMININE | strength=15.67
+[2026-03-28 20:08:22] [generate] Scientist | MASCULINE | strength=17.83
+[2026-03-28 20:08:40] [generate] Scientist | FEMININE | strength=17.83
+[2026-03-28 20:08:58] [generate] Scientist | MASCULINE | strength=20.00
+[2026-03-28 20:09:16] [generate] Scientist | FEMININE | strength=20.00
+[2026-03-28 20:09:34] 
+[capture] Profession: Firefighter
+[2026-03-28 20:09:34]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Firefighter
+[2026-03-28 20:09:34]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Firefighter
+[2026-03-28 20:09:34]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Firefighter
+[2026-03-28 20:13:51] [generate] Baseline for Firefighter (seed=42)
+[2026-03-28 20:14:09] [generate] Firefighter | MASCULINE | strength=0.50
+[2026-03-28 20:14:26] [generate] Firefighter | FEMININE | strength=0.50
+[2026-03-28 20:14:44] [generate] Firefighter | MASCULINE | strength=2.67
+[2026-03-28 20:15:02] [generate] Firefighter | FEMININE | strength=2.67
+[2026-03-28 20:15:19] [generate] Firefighter | MASCULINE | strength=4.83
+[2026-03-28 20:15:37] [generate] Firefighter | FEMININE | strength=4.83
+[2026-03-28 20:15:54] [generate] Firefighter | MASCULINE | strength=7.00
+[2026-03-28 20:16:12] [generate] Firefighter | FEMININE | strength=7.00
+[2026-03-28 20:16:30] [generate] Firefighter | MASCULINE | strength=9.17
+[2026-03-28 20:16:48] [generate] Firefighter | FEMININE | strength=9.17
+[2026-03-28 20:17:05] [generate] Firefighter | MASCULINE | strength=11.33
+[2026-03-28 20:17:23] [generate] Firefighter | FEMININE | strength=11.33
+[2026-03-28 20:17:40] [generate] Firefighter | MASCULINE | strength=13.50
+[2026-03-28 20:17:58] [generate] Firefighter | FEMININE | strength=13.50
+[2026-03-28 20:18:16] [generate] Firefighter | MASCULINE | strength=15.67
+[2026-03-28 20:18:33] [generate] Firefighter | FEMININE | strength=15.67
+[2026-03-28 20:18:51] [generate] Firefighter | MASCULINE | strength=17.83
+[2026-03-28 20:19:09] [generate] Firefighter | FEMININE | strength=17.83
+[2026-03-28 20:19:26] [generate] Firefighter | MASCULINE | strength=20.00
+[2026-03-28 20:19:44] [generate] Firefighter | FEMININE | strength=20.00
+[2026-03-28 20:20:02] 
+[capture] Profession: Librarian
+[2026-03-28 20:20:02]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Librarian
+[2026-03-28 20:20:02]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Librarian
+[2026-03-28 20:20:02]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Librarian
+[2026-03-28 20:24:19] [generate] Baseline for Librarian (seed=42)
+[2026-03-28 20:24:37] [generate] Librarian | MASCULINE | strength=0.50
+[2026-03-28 20:24:55] [generate] Librarian | FEMININE | strength=0.50
+[2026-03-28 20:25:13] [generate] Librarian | MASCULINE | strength=2.67
+[2026-03-28 20:25:30] [generate] Librarian | FEMININE | strength=2.67
+[2026-03-28 20:25:48] [generate] Librarian | MASCULINE | strength=4.83
+[2026-03-28 20:26:06] [generate] Librarian | FEMININE | strength=4.83
+[2026-03-28 20:26:24] [generate] Librarian | MASCULINE | strength=7.00
+[2026-03-28 20:26:42] [generate] Librarian | FEMININE | strength=7.00
+[2026-03-28 20:26:59] [generate] Librarian | MASCULINE | strength=9.17
+[2026-03-28 20:27:17] [generate] Librarian | FEMININE | strength=9.17
+[2026-03-28 20:27:35] [generate] Librarian | MASCULINE | strength=11.33
+[2026-03-28 20:27:53] [generate] Librarian | FEMININE | strength=11.33
+[2026-03-28 20:28:10] [generate] Librarian | MASCULINE | strength=13.50
+[2026-03-28 20:28:28] [generate] Librarian | FEMININE | strength=13.50
+[2026-03-28 20:28:46] [generate] Librarian | MASCULINE | strength=15.67
+[2026-03-28 20:29:03] [generate] Librarian | FEMININE | strength=15.67
+[2026-03-28 20:29:21] [generate] Librarian | MASCULINE | strength=17.83
+[2026-03-28 20:29:39] [generate] Librarian | FEMININE | strength=17.83
+[2026-03-28 20:29:57] [generate] Librarian | MASCULINE | strength=20.00
+[2026-03-28 20:30:15] [generate] Librarian | FEMININE | strength=20.00
+[2026-03-28 20:30:32] [done] All independent injections complete.

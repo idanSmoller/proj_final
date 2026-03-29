@@ -29,7 +29,7 @@ def parse_power(token: str) -> Tuple[float, str]:
 
 def parse_image_name(image_path: Path) -> ImageItem:
 	stem = image_path.stem
-	if stem == "baseline":
+	if "baseline" in stem:
 		return ImageItem(
 			path=image_path,
 			axis="baseline",
@@ -39,6 +39,8 @@ def parse_image_name(image_path: Path) -> ImageItem:
 		)
 
 	parts = stem.split("_")
+	if "axis" in parts:
+		parts.remove("axis")
 	axis = parts[0]
 	power_value = None
 	power_text = ""
@@ -105,7 +107,6 @@ def build_generic_sequence(
 def panel_label(item: ImageItem, is_first: bool, is_last: bool) -> str:
 	if item.is_baseline:
 		return "baseline"
-
 	parts = [f"{item.axis}", f"s={item.power_text}"]
 	if is_first:
 		parts.append("(axis extreme)")

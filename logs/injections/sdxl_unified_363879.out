@@ -1,0 +1,4 @@
+[2026-03-26 23:58:42] [init] Loading SDXL model='stabilityai/stable-diffusion-xl-base-1.0' device=cuda dtype=torch.float16
+[2026-03-26 23:58:44] [init] Model loaded in 1.52s
+[2026-03-26 23:58:46] [init] Pipeline moved to device=cuda
+[2026-03-26 23:58:46] [vector] Mode: DISCOVER (Masking Sigma: 0.3)

@@ -1,0 +1,18 @@
+[2026-03-28 17:17:35] [init] Loading pipeline on cuda
+[2026-03-28 17:17:37] [start] Beginning repaired gender-axis discovery + injection
+[2026-03-28 17:17:37] [capture] Profession: Nurse
+[2026-03-28 17:17:37]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Nurse
+[2026-03-28 17:17:37]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Nurse
+[2026-03-28 17:17:37]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Nurse
+[2026-03-28 17:18:35] [generate] Baseline for Nurse
+[2026-03-28 17:18:53] [generate] Nurse | +axis | strength=1.0
+[2026-03-28 17:19:10] [generate] Nurse | -axis | strength=1.0
+[2026-03-28 17:19:28] [generate] Nurse | +axis | strength=4.0
+[2026-03-28 17:19:47] [generate] Nurse | -axis | strength=4.0
+[2026-03-28 17:20:05] [generate] Nurse | +axis | strength=8.0
+[2026-03-28 17:20:22] [generate] Nurse | -axis | strength=8.0
+[2026-03-28 17:20:41] [generate] Nurse | +axis | strength=10.0
+[2026-03-28 17:20:59] [generate] Nurse | -axis | strength=10.0
+[2026-03-28 17:21:17] [generate] Nurse | +axis | strength=15.0
+[2026-03-28 17:21:35] [generate] Nurse | -axis | strength=15.0
+[2026-03-28 17:21:53] [generate] Nurse | +axis | strength=25.0

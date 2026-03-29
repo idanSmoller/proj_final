@@ -1,0 +1,193 @@
+[2026-03-28 17:22:51] [init] Loading pipeline on cuda
+[2026-03-28 17:22:52] [start] Beginning repaired gender-axis discovery + injection
+[2026-03-28 17:22:52] [capture] Profession: Nurse
+[2026-03-28 17:22:52]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Nurse
+[2026-03-28 17:22:52]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Nurse
+[2026-03-28 17:22:52]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Nurse
+[2026-03-28 17:23:52] [generate] Baseline for Nurse
+[2026-03-28 17:24:10] [generate] Nurse | +axis | strength=1.0
+[2026-03-28 17:24:28] [generate] Nurse | -axis | strength=1.0
+[2026-03-28 17:24:46] [generate] Nurse | +axis | strength=4.0
+[2026-03-28 17:25:05] [generate] Nurse | -axis | strength=4.0
+[2026-03-28 17:25:23] [generate] Nurse | +axis | strength=8.0
+[2026-03-28 17:25:41] [generate] Nurse | -axis | strength=8.0
+[2026-03-28 17:25:59] [generate] Nurse | +axis | strength=10.0
+[2026-03-28 17:26:17] [generate] Nurse | -axis | strength=10.0
+[2026-03-28 17:26:35] [generate] Nurse | +axis | strength=15.0
+[2026-03-28 17:26:53] [generate] Nurse | -axis | strength=15.0
+[2026-03-28 17:27:11] [generate] Nurse | +axis | strength=25.0
+[2026-03-28 17:27:29] [generate] Nurse | -axis | strength=25.0
+[2026-03-28 17:27:47] [generate] Nurse | +axis | strength=50.0
+[2026-03-28 17:28:05] [generate] Nurse | -axis | strength=50.0
+[2026-03-28 17:28:23] [capture] Profession: Doctor
+[2026-03-28 17:28:23]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Doctor
+[2026-03-28 17:28:23]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Doctor
+[2026-03-28 17:28:23]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Doctor
+[2026-03-28 17:29:15] [generate] Baseline for Doctor
+[2026-03-28 17:29:33] [generate] Doctor | +axis | strength=1.0
+[2026-03-28 17:29:51] [generate] Doctor | -axis | strength=1.0
+[2026-03-28 17:30:09] [generate] Doctor | +axis | strength=4.0
+[2026-03-28 17:30:27] [generate] Doctor | -axis | strength=4.0
+[2026-03-28 17:30:45] [generate] Doctor | +axis | strength=8.0
+[2026-03-28 17:31:03] [generate] Doctor | -axis | strength=8.0
+[2026-03-28 17:31:21] [generate] Doctor | +axis | strength=10.0
+[2026-03-28 17:31:39] [generate] Doctor | -axis | strength=10.0
+[2026-03-28 17:31:57] [generate] Doctor | +axis | strength=15.0
+[2026-03-28 17:32:15] [generate] Doctor | -axis | strength=15.0
+[2026-03-28 17:32:33] [generate] Doctor | +axis | strength=25.0
+[2026-03-28 17:32:53] [generate] Doctor | -axis | strength=25.0
+[2026-03-28 17:33:10] [generate] Doctor | +axis | strength=50.0
+[2026-03-28 17:33:28] [generate] Doctor | -axis | strength=50.0
+[2026-03-28 17:33:46] [capture] Profession: Programmer
+[2026-03-28 17:33:46]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Programmer
+[2026-03-28 17:33:46]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Programmer
+[2026-03-28 17:33:46]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Programmer
+[2026-03-28 17:34:37] [generate] Baseline for Programmer
+[2026-03-28 17:34:55] [generate] Programmer | +axis | strength=1.0
+[2026-03-28 17:35:13] [generate] Programmer | -axis | strength=1.0
+[2026-03-28 17:35:30] [generate] Programmer | +axis | strength=4.0
+[2026-03-28 17:35:48] [generate] Programmer | -axis | strength=4.0
+[2026-03-28 17:36:06] [generate] Programmer | +axis | strength=8.0
+[2026-03-28 17:36:23] [generate] Programmer | -axis | strength=8.0
+[2026-03-28 17:36:41] [generate] Programmer | +axis | strength=10.0
+[2026-03-28 17:36:58] [generate] Programmer | -axis | strength=10.0
+[2026-03-28 17:37:16] [generate] Programmer | +axis | strength=15.0
+[2026-03-28 17:37:34] [generate] Programmer | -axis | strength=15.0
+[2026-03-28 17:37:51] [generate] Programmer | +axis | strength=25.0
+[2026-03-28 17:38:09] [generate] Programmer | -axis | strength=25.0
+[2026-03-28 17:38:27] [generate] Programmer | +axis | strength=50.0
+[2026-03-28 17:38:44] [generate] Programmer | -axis | strength=50.0
+[2026-03-28 17:39:02] [capture] Profession: Kindergarten Teacher
+[2026-03-28 17:39:02]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Kindergarten Teacher
+[2026-03-28 17:39:02]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Kindergarten Teacher
+[2026-03-28 17:39:02]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Kindergarten Teacher
+[2026-03-28 17:39:53] [generate] Baseline for Kindergarten Teacher
+[2026-03-28 17:40:10] [generate] Kindergarten Teacher | +axis | strength=1.0
+[2026-03-28 17:40:28] [generate] Kindergarten Teacher | -axis | strength=1.0
+[2026-03-28 17:40:45] [generate] Kindergarten Teacher | +axis | strength=4.0
+[2026-03-28 17:41:03] [generate] Kindergarten Teacher | -axis | strength=4.0
+[2026-03-28 17:41:21] [generate] Kindergarten Teacher | +axis | strength=8.0
+[2026-03-28 17:41:38] [generate] Kindergarten Teacher | -axis | strength=8.0
+[2026-03-28 17:41:56] [generate] Kindergarten Teacher | +axis | strength=10.0
+[2026-03-28 17:42:13] [generate] Kindergarten Teacher | -axis | strength=10.0
+[2026-03-28 17:42:31] [generate] Kindergarten Teacher | +axis | strength=15.0
+[2026-03-28 17:42:49] [generate] Kindergarten Teacher | -axis | strength=15.0
+[2026-03-28 17:43:06] [generate] Kindergarten Teacher | +axis | strength=25.0
+[2026-03-28 17:43:24] [generate] Kindergarten Teacher | -axis | strength=25.0
+[2026-03-28 17:43:42] [generate] Kindergarten Teacher | +axis | strength=50.0
+[2026-03-28 17:43:59] [generate] Kindergarten Teacher | -axis | strength=50.0
+[2026-03-28 17:44:17] [capture] Profession: CEO
+[2026-03-28 17:44:17]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a CEO
+[2026-03-28 17:44:17]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male CEO
+[2026-03-28 17:44:17]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female CEO
+[2026-03-28 17:45:07] [generate] Baseline for CEO
+[2026-03-28 17:45:25] [generate] CEO | +axis | strength=1.0
+[2026-03-28 17:45:44] [generate] CEO | -axis | strength=1.0
+[2026-03-28 17:46:01] [generate] CEO | +axis | strength=4.0
+[2026-03-28 17:46:19] [generate] CEO | -axis | strength=4.0
+[2026-03-28 17:46:36] [generate] CEO | +axis | strength=8.0
+[2026-03-28 17:46:54] [generate] CEO | -axis | strength=8.0
+[2026-03-28 17:47:11] [generate] CEO | +axis | strength=10.0
+[2026-03-28 17:47:29] [generate] CEO | -axis | strength=10.0
+[2026-03-28 17:47:47] [generate] CEO | +axis | strength=15.0
+[2026-03-28 17:48:04] [generate] CEO | -axis | strength=15.0
+[2026-03-28 17:48:22] [generate] CEO | +axis | strength=25.0
+[2026-03-28 17:48:39] [generate] CEO | -axis | strength=25.0
+[2026-03-28 17:48:57] [generate] CEO | +axis | strength=50.0
+[2026-03-28 17:49:15] [generate] CEO | -axis | strength=50.0
+[2026-03-28 17:49:33] [capture] Profession: Construction Worker
+[2026-03-28 17:49:33]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Construction Worker
+[2026-03-28 17:49:33]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Construction Worker
+[2026-03-28 17:49:33]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Construction Worker
+[2026-03-28 17:50:24] [generate] Baseline for Construction Worker
+[2026-03-28 17:50:41] [generate] Construction Worker | +axis | strength=1.0
+[2026-03-28 17:50:59] [generate] Construction Worker | -axis | strength=1.0
+[2026-03-28 17:51:17] [generate] Construction Worker | +axis | strength=4.0
+[2026-03-28 17:51:34] [generate] Construction Worker | -axis | strength=4.0
+[2026-03-28 17:51:52] [generate] Construction Worker | +axis | strength=8.0
+[2026-03-28 17:52:10] [generate] Construction Worker | -axis | strength=8.0
+[2026-03-28 17:52:27] [generate] Construction Worker | +axis | strength=10.0
+[2026-03-28 17:52:45] [generate] Construction Worker | -axis | strength=10.0
+[2026-03-28 17:53:02] [generate] Construction Worker | +axis | strength=15.0
+[2026-03-28 17:53:20] [generate] Construction Worker | -axis | strength=15.0
+[2026-03-28 17:53:37] [generate] Construction Worker | +axis | strength=25.0
+[2026-03-28 17:53:55] [generate] Construction Worker | -axis | strength=25.0
+[2026-03-28 17:54:13] [generate] Construction Worker | +axis | strength=50.0
+[2026-03-28 17:54:30] [generate] Construction Worker | -axis | strength=50.0
+[2026-03-28 17:54:48] [capture] Profession: Flight Attendant
+[2026-03-28 17:54:48]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Flight Attendant
+[2026-03-28 17:54:48]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Flight Attendant
+[2026-03-28 17:54:48]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Flight Attendant
+[2026-03-28 17:55:39] [generate] Baseline for Flight Attendant
+[2026-03-28 17:55:57] [generate] Flight Attendant | +axis | strength=1.0
+[2026-03-28 17:56:14] [generate] Flight Attendant | -axis | strength=1.0
+[2026-03-28 17:56:32] [generate] Flight Attendant | +axis | strength=4.0
+[2026-03-28 17:56:50] [generate] Flight Attendant | -axis | strength=4.0
+[2026-03-28 17:57:07] [generate] Flight Attendant | +axis | strength=8.0
+[2026-03-28 17:57:25] [generate] Flight Attendant | -axis | strength=8.0
+[2026-03-28 17:57:42] [generate] Flight Attendant | +axis | strength=10.0
+[2026-03-28 17:58:00] [generate] Flight Attendant | -axis | strength=10.0
+[2026-03-28 17:58:17] [generate] Flight Attendant | +axis | strength=15.0
+[2026-03-28 17:58:35] [generate] Flight Attendant | -axis | strength=15.0
+[2026-03-28 17:58:53] [generate] Flight Attendant | +axis | strength=25.0
+[2026-03-28 17:59:10] [generate] Flight Attendant | -axis | strength=25.0
+[2026-03-28 17:59:28] [generate] Flight Attendant | +axis | strength=50.0
+[2026-03-28 17:59:45] [generate] Flight Attendant | -axis | strength=50.0
+[2026-03-28 18:00:03] [capture] Profession: Scientist
+[2026-03-28 18:00:03]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Scientist
+[2026-03-28 18:00:03]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Scientist
+[2026-03-28 18:00:03]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Scientist
+[2026-03-28 18:00:54] [generate] Baseline for Scientist
+[2026-03-28 18:01:12] [generate] Scientist | +axis | strength=1.0
+[2026-03-28 18:01:29] [generate] Scientist | -axis | strength=1.0
+[2026-03-28 18:01:47] [generate] Scientist | +axis | strength=4.0
+[2026-03-28 18:02:04] [generate] Scientist | -axis | strength=4.0
+[2026-03-28 18:02:22] [generate] Scientist | +axis | strength=8.0
+[2026-03-28 18:02:40] [generate] Scientist | -axis | strength=8.0
+[2026-03-28 18:02:57] [generate] Scientist | +axis | strength=10.0
+[2026-03-28 18:03:15] [generate] Scientist | -axis | strength=10.0
+[2026-03-28 18:03:32] [generate] Scientist | +axis | strength=15.0
+[2026-03-28 18:03:50] [generate] Scientist | -axis | strength=15.0
+[2026-03-28 18:04:08] [generate] Scientist | +axis | strength=25.0
+[2026-03-28 18:04:25] [generate] Scientist | -axis | strength=25.0
+[2026-03-28 18:04:43] [generate] Scientist | +axis | strength=50.0
+[2026-03-28 18:05:01] [generate] Scientist | -axis | strength=50.0
+[2026-03-28 18:05:18] [capture] Profession: Firefighter
+[2026-03-28 18:05:18]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Firefighter
+[2026-03-28 18:05:18]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Firefighter
+[2026-03-28 18:05:18]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Firefighter
+[2026-03-28 18:06:09] [generate] Baseline for Firefighter
+[2026-03-28 18:06:27] [generate] Firefighter | +axis | strength=1.0
+[2026-03-28 18:06:44] [generate] Firefighter | -axis | strength=1.0
+[2026-03-28 18:07:03] [generate] Firefighter | +axis | strength=4.0
+[2026-03-28 18:07:21] [generate] Firefighter | -axis | strength=4.0
+[2026-03-28 18:07:38] [generate] Firefighter | +axis | strength=8.0
+[2026-03-28 18:07:56] [generate] Firefighter | -axis | strength=8.0
+[2026-03-28 18:08:14] [generate] Firefighter | +axis | strength=10.0
+[2026-03-28 18:08:31] [generate] Firefighter | -axis | strength=10.0
+[2026-03-28 18:08:49] [generate] Firefighter | +axis | strength=15.0
+[2026-03-28 18:09:06] [generate] Firefighter | -axis | strength=15.0
+[2026-03-28 18:09:24] [generate] Firefighter | +axis | strength=25.0
+[2026-03-28 18:09:42] [generate] Firefighter | -axis | strength=25.0
+[2026-03-28 18:09:59] [generate] Firefighter | +axis | strength=50.0
+[2026-03-28 18:10:17] [generate] Firefighter | -axis | strength=50.0
+[2026-03-28 18:10:34] [capture] Profession: Librarian
+[2026-03-28 18:10:34]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Librarian
+[2026-03-28 18:10:34]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Librarian
+[2026-03-28 18:10:34]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Librarian
+[2026-03-28 18:11:26] [generate] Baseline for Librarian
+[2026-03-28 18:11:43] [generate] Librarian | +axis | strength=1.0
+[2026-03-28 18:12:01] [generate] Librarian | -axis | strength=1.0
+[2026-03-28 18:12:19] [generate] Librarian | +axis | strength=4.0
+[2026-03-28 18:12:36] [generate] Librarian | -axis | strength=4.0
+[2026-03-28 18:12:54] [generate] Librarian | +axis | strength=8.0
+[2026-03-28 18:13:12] [generate] Librarian | -axis | strength=8.0
+[2026-03-28 18:13:30] [generate] Librarian | +axis | strength=10.0
+[2026-03-28 18:13:47] [generate] Librarian | -axis | strength=10.0
+[2026-03-28 18:14:05] [generate] Librarian | +axis | strength=15.0
+[2026-03-28 18:14:22] [generate] Librarian | -axis | strength=15.0
+[2026-03-28 18:14:40] [generate] Librarian | +axis | strength=25.0
+[2026-03-28 18:14:58] [generate] Librarian | -axis | strength=25.0
+[2026-03-28 18:15:15] [generate] Librarian | +axis | strength=50.0
+[2026-03-28 18:15:33] [generate] Librarian | -axis | strength=50.0
+[2026-03-28 18:15:51] [done] All repaired injections complete.

@@ -1,0 +1,9 @@
+[2026-03-28 21:25:55] [init] Loading pipeline on cuda
+[2026-03-28 21:25:57] [start] Beginning robust high-throughput discovery (N=5 seeds)
+[2026-03-28 21:25:57] 
+[capture] Profession: Nurse
+[2026-03-28 21:25:57]   neutral: A studio lighting, face clearly visible, realistic profile picture, centered subject image of a Nurse
+[2026-03-28 21:25:57]   male:    A studio lighting, face clearly visible, realistic profile picture, centered subject image of a male Nurse
+[2026-03-28 21:25:57]   female:  A studio lighting, face clearly visible, realistic profile picture, centered subject image of a female Nurse
+[2026-03-28 22:29:34] [generate] Baseline for Nurse (seed=42)
+[2026-03-28 22:33:47] [generate] Nurse | MASCULINE | strength=0.50

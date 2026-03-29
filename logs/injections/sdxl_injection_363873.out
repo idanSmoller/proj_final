@@ -1,0 +1,77 @@
+[2026-03-26 23:39:21] [init] Loading SDXL model='stabilityai/stable-diffusion-xl-base-1.0' device=cuda dtype=torch.float16
+[2026-03-26 23:39:23] [init] Model loaded in 1.65s
+[2026-03-26 23:39:23] [init] Enabled CPU offload
+[2026-03-26 23:39:23] [vector] Mode: LOAD
+[2026-03-26 23:39:23] [load] Loaded vector from generated_images_2/steering_vectors/nurse/gender/layer_mid_block_mean.pt
+[2026-03-26 23:39:23] [load] Loaded vector from generated_images_2/steering_vectors/fire_fighter/gender/layer_mid_block_mean.pt
+[2026-03-26 23:39:23] [load] Loaded vector from generated_images_2/steering_vectors/programmer/gender/layer_mid_block_mean.pt
+[2026-03-26 23:39:23] [load] Loaded vector from generated_images_2/steering_vectors/receptionist/gender/layer_mid_block_mean.pt
+[2026-03-26 23:39:23] [load] Warning: No vector found for Teacher (axis='gender'), skipping
+[2026-03-26 23:39:23] [load] Loaded vector from generated_images_2/steering_vectors/doctor/gender/layer_mid_block_mean.pt
+[2026-03-26 23:39:23] [load] Averaged 5 profession vectors
+[2026-03-26 23:39:23] [vector] Loaded averaged vector for layer mid_block
+[2026-03-26 23:39:23] [save] Saved loaded vector snapshot to outputs/injection_results/steering_vector_loaded.pt
+[2026-03-26 23:39:23] [eval] Using 6 auto-generated prompts from professions
+[2026-03-26 23:39:23] [outcomes] Generating comparison images
+[2026-03-26 23:39:23] [outcomes] Baseline for: A realistic profile picture of a Nurse
+[2026-03-26 23:39:45] [outcomes] prompt='A realistic profile picture of a Nurse' sign=masculine strength=0.5
+[2026-03-26 23:39:45] [injector] Installed on mid_block, mode=add, strength=0.5, cfg_target=cond, schedule=flat
+[2026-03-26 23:39:45] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=0.5
+[2026-03-26 23:39:48] [injector] step=00 effective_delta_ratio=0.0070
+[2026-03-26 23:39:50] [injector] step=05 effective_delta_ratio=0.0070
+[2026-03-26 23:39:52] [injector] step=10 effective_delta_ratio=0.0070
+[2026-03-26 23:39:54] [injector] step=15 effective_delta_ratio=0.0070
+[2026-03-26 23:39:56] [injector] step=20 effective_delta_ratio=0.0070
+[2026-03-26 23:39:58] [injector] step=25 effective_delta_ratio=0.0070
+[2026-03-26 23:40:04] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:40:04] [outcomes] prompt='A realistic profile picture of a Nurse' sign=feminine strength=0.5
+[2026-03-26 23:40:04] [injector] Installed on mid_block, mode=add, strength=-0.5, cfg_target=cond, schedule=flat
+[2026-03-26 23:40:04] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=-0.5
+[2026-03-26 23:40:07] [injector] step=00 effective_delta_ratio=0.0070
+[2026-03-26 23:40:09] [injector] step=05 effective_delta_ratio=0.0070
+[2026-03-26 23:40:11] [injector] step=10 effective_delta_ratio=0.0070
+[2026-03-26 23:40:13] [injector] step=15 effective_delta_ratio=0.0070
+[2026-03-26 23:40:15] [injector] step=20 effective_delta_ratio=0.0070
+[2026-03-26 23:40:17] [injector] step=25 effective_delta_ratio=0.0070
+[2026-03-26 23:40:22] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:40:22] [outcomes] prompt='A realistic profile picture of a Nurse' sign=masculine strength=1.0
+[2026-03-26 23:40:22] [injector] Installed on mid_block, mode=add, strength=1.0, cfg_target=cond, schedule=flat
+[2026-03-26 23:40:22] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=1.0
+[2026-03-26 23:40:25] [injector] step=00 effective_delta_ratio=0.0140
+[2026-03-26 23:40:27] [injector] step=05 effective_delta_ratio=0.0140
+[2026-03-26 23:40:29] [injector] step=10 effective_delta_ratio=0.0140
+[2026-03-26 23:40:31] [injector] step=15 effective_delta_ratio=0.0140
+[2026-03-26 23:40:33] [injector] step=20 effective_delta_ratio=0.0140
+[2026-03-26 23:40:35] [injector] step=25 effective_delta_ratio=0.0140
+[2026-03-26 23:40:39] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:40:39] [outcomes] prompt='A realistic profile picture of a Nurse' sign=feminine strength=1.0
+[2026-03-26 23:40:39] [injector] Installed on mid_block, mode=add, strength=-1.0, cfg_target=cond, schedule=flat
+[2026-03-26 23:40:39] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=-1.0
+[2026-03-26 23:40:42] [injector] step=00 effective_delta_ratio=0.0140
+[2026-03-26 23:40:44] [injector] step=05 effective_delta_ratio=0.0140
+[2026-03-26 23:40:46] [injector] step=10 effective_delta_ratio=0.0140
+[2026-03-26 23:40:48] [injector] step=15 effective_delta_ratio=0.0140
+[2026-03-26 23:40:50] [injector] step=20 effective_delta_ratio=0.0140
+[2026-03-26 23:40:52] [injector] step=25 effective_delta_ratio=0.0140
+[2026-03-26 23:40:56] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:40:56] [outcomes] prompt='A realistic profile picture of a Nurse' sign=masculine strength=2.0
+[2026-03-26 23:40:56] [injector] Installed on mid_block, mode=add, strength=2.0, cfg_target=cond, schedule=flat
+[2026-03-26 23:40:56] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=2.0
+[2026-03-26 23:40:59] [injector] step=00 effective_delta_ratio=0.0280
+[2026-03-26 23:41:01] [injector] step=05 effective_delta_ratio=0.0279
+[2026-03-26 23:41:03] [injector] step=10 effective_delta_ratio=0.0280
+[2026-03-26 23:41:05] [injector] step=15 effective_delta_ratio=0.0280
+[2026-03-26 23:41:07] [injector] step=20 effective_delta_ratio=0.0279
+[2026-03-26 23:41:09] [injector] step=25 effective_delta_ratio=0.0279
+[2026-03-26 23:41:13] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:41:14] [outcomes] prompt='A realistic profile picture of a Nurse' sign=feminine strength=2.0
+[2026-03-26 23:41:14] [injector] Installed on mid_block, mode=add, strength=-2.0, cfg_target=cond, schedule=flat
+[2026-03-26 23:41:14] [gen] prompt='A realistic profile picture of a Nurse' seed=1234 layer=mid_block mode=add strength=-2.0
+[2026-03-26 23:41:16] [injector] step=00 effective_delta_ratio=0.0280
+[2026-03-26 23:41:18] [injector] step=05 effective_delta_ratio=0.0280
+[2026-03-26 23:41:20] [injector] step=10 effective_delta_ratio=0.0279
+[2026-03-26 23:41:22] [injector] step=15 effective_delta_ratio=0.0280
+[2026-03-26 23:41:24] [injector] step=20 effective_delta_ratio=0.0280
+[2026-03-26 23:41:26] [injector] step=25 effective_delta_ratio=0.0280
+[2026-03-26 23:41:31] [injector] Uninstalled after 30 hook calls, injected on 30 steps
+[2026-03-26 23:41:31] [outcomes] Baseline for: A realistic profile picture of a Fire Fighter

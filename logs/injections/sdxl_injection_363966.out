@@ -1,0 +1,688 @@
+[2026-03-27 19:48:57] [init] Enabled CPU offload
+[2026-03-27 19:48:57] [vector] Mode: DISCOVER
+[2026-03-27 19:57:45] [calibrate] male_score=-0.0296 female_score=-0.0967
+[2026-03-27 19:57:45] [outcomes] Baseline for: A realistic profile picture of a Nurse
+[2026-03-27 19:58:02] [injector] Installed on down_2, style=broadcast, strength=2.0, cfg_target=both
+[2026-03-27 19:58:04] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 19:58:04] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 19:58:05] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 19:58:05] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 19:58:06] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 19:58:06] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 19:58:06] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 19:58:07] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 19:58:07] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 19:58:08] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 19:58:08] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 19:58:09] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 19:58:09] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 19:58:09] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 19:58:10] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 19:58:18] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:58:19] [injector] Installed on down_2, style=broadcast, strength=-2.0, cfg_target=both
+[2026-03-27 19:58:21] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 19:58:22] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 19:58:22] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 19:58:22] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 19:58:23] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 19:58:23] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 19:58:24] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 19:58:24] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 19:58:24] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 19:58:25] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 19:58:25] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 19:58:26] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 19:58:26] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 19:58:27] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 19:58:27] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 19:58:36] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:58:36] [injector] Installed on down_2, style=broadcast, strength=4.0, cfg_target=both
+[2026-03-27 19:58:38] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 19:58:39] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 19:58:39] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 19:58:39] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 19:58:40] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 19:58:40] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 19:58:41] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 19:58:41] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 19:58:41] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 19:58:42] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 19:58:42] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 19:58:43] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 19:58:43] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 19:58:44] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 19:58:44] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 19:58:53] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:58:53] [injector] Installed on down_2, style=broadcast, strength=-4.0, cfg_target=both
+[2026-03-27 19:58:55] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 19:58:56] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 19:58:56] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 19:58:57] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 19:58:57] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 19:58:57] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 19:58:58] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 19:58:58] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 19:58:59] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 19:58:59] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 19:58:59] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 19:59:00] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 19:59:00] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 19:59:01] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 19:59:01] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 19:59:10] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:59:10] [injector] Installed on down_2, style=broadcast, strength=8.0, cfg_target=both
+[2026-03-27 19:59:12] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 19:59:13] [injector] step=01 effective_delta_ratio=0.2235
+[2026-03-27 19:59:13] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 19:59:13] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 19:59:14] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 19:59:14] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 19:59:15] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 19:59:15] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 19:59:16] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 19:59:16] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 19:59:16] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 19:59:17] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 19:59:17] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 19:59:18] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 19:59:18] [injector] step=14 effective_delta_ratio=0.2235
+[2026-03-27 19:59:27] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:59:27] [injector] Installed on down_2, style=broadcast, strength=-8.0, cfg_target=both
+[2026-03-27 19:59:29] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 19:59:30] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 19:59:30] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 19:59:30] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 19:59:31] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 19:59:31] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 19:59:32] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 19:59:32] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 19:59:32] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 19:59:33] [injector] step=09 effective_delta_ratio=0.2235
+[2026-03-27 19:59:33] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 19:59:34] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 19:59:34] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 19:59:35] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 19:59:35] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 19:59:44] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 19:59:44] [injector] Installed on down_2, style=broadcast, strength=12.0, cfg_target=both
+[2026-03-27 19:59:46] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 19:59:47] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 19:59:47] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 19:59:47] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 19:59:48] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 19:59:48] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 19:59:49] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 19:59:49] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 19:59:49] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 19:59:50] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 19:59:50] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 19:59:51] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 19:59:51] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 19:59:52] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 19:59:52] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:00:01] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:00:01] [injector] Installed on down_2, style=broadcast, strength=-12.0, cfg_target=both
+[2026-03-27 20:00:03] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:00:04] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:00:04] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:00:05] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:00:05] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:00:05] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:00:06] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:00:06] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:00:07] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:00:07] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:00:07] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:00:08] [injector] step=11 effective_delta_ratio=0.3352
+[2026-03-27 20:00:08] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:00:09] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:00:09] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:00:18] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:00:18] [outcomes] Baseline for: A realistic profile picture of a Fire Fighter
+[2026-03-27 20:00:35] [injector] Installed on down_2, style=broadcast, strength=2.0, cfg_target=both
+[2026-03-27 20:00:37] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:00:37] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:00:38] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:00:38] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:00:39] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:00:39] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:00:39] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:00:40] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:00:40] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:00:41] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:00:41] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:00:41] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:00:42] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:00:42] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:00:43] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:00:51] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:00:52] [injector] Installed on down_2, style=broadcast, strength=-2.0, cfg_target=both
+[2026-03-27 20:00:54] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:00:54] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:00:55] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:00:55] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:00:55] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:00:56] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:00:56] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:00:57] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:00:57] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:00:58] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:00:58] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:00:58] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:00:59] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:00:59] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:01:00] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:01:08] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:01:09] [injector] Installed on down_2, style=broadcast, strength=4.0, cfg_target=both
+[2026-03-27 20:01:11] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:01:11] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:01:12] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:01:12] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:01:13] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:01:13] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:01:14] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:01:14] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:01:14] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:01:15] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:01:15] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:01:16] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:01:16] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:01:16] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:01:17] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:01:26] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:01:26] [injector] Installed on down_2, style=broadcast, strength=-4.0, cfg_target=both
+[2026-03-27 20:01:28] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:01:28] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:01:29] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:01:29] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:01:30] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:01:30] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:01:30] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:01:31] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:01:31] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:01:32] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:01:32] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:01:32] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:01:33] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:01:33] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:01:34] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:01:42] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:01:43] [injector] Installed on down_2, style=broadcast, strength=8.0, cfg_target=both
+[2026-03-27 20:01:45] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:01:45] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:01:46] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:01:46] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:01:46] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:01:47] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:01:47] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:01:48] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:01:48] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:01:49] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:01:49] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:01:49] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:01:50] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:01:50] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:01:51] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:01:59] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:02:00] [injector] Installed on down_2, style=broadcast, strength=-8.0, cfg_target=both
+[2026-03-27 20:02:02] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:02:02] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:02:03] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:02:03] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:02:04] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:02:04] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:02:04] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:02:05] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:02:05] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:02:06] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:02:06] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:02:07] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:02:07] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:02:07] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:02:08] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:02:16] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:02:17] [injector] Installed on down_2, style=broadcast, strength=12.0, cfg_target=both
+[2026-03-27 20:02:19] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:02:19] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:02:19] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:02:20] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:02:20] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:02:21] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:02:21] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:02:22] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:02:22] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:02:22] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:02:23] [injector] step=10 effective_delta_ratio=0.3352
+[2026-03-27 20:02:23] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:02:24] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:02:24] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:02:24] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:02:33] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:02:34] [injector] Installed on down_2, style=broadcast, strength=-12.0, cfg_target=both
+[2026-03-27 20:02:36] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:02:36] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:02:36] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:02:37] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:02:37] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:02:38] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:02:38] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:02:38] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:02:39] [injector] step=08 effective_delta_ratio=0.3352
+[2026-03-27 20:02:39] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:02:40] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:02:40] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:02:41] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:02:41] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:02:41] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:02:50] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:02:51] [outcomes] Baseline for: A realistic profile picture of a Programmer
+[2026-03-27 20:03:07] [injector] Installed on down_2, style=broadcast, strength=2.0, cfg_target=both
+[2026-03-27 20:03:09] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:03:10] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:03:10] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:03:11] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:03:11] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:03:11] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:03:12] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:03:12] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:03:13] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:03:13] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:03:14] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:03:14] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:03:14] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:03:15] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:03:15] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:03:24] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:03:24] [injector] Installed on down_2, style=broadcast, strength=-2.0, cfg_target=both
+[2026-03-27 20:03:26] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:03:26] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:03:27] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:03:27] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:03:28] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:03:28] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:03:29] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:03:29] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:03:29] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:03:30] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:03:30] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:03:31] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:03:31] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:03:31] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:03:32] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:03:41] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:03:41] [injector] Installed on down_2, style=broadcast, strength=4.0, cfg_target=both
+[2026-03-27 20:03:43] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:03:43] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:03:44] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:03:44] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:03:44] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:03:45] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:03:45] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:03:46] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:03:46] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:03:47] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:03:47] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:03:47] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:03:48] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:03:48] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:03:49] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:03:58] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:03:58] [injector] Installed on down_2, style=broadcast, strength=-4.0, cfg_target=both
+[2026-03-27 20:04:00] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:04:00] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:04:01] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:04:01] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:04:01] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:04:02] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:04:02] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:04:03] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:04:03] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:04:04] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:04:04] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:04:04] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:04:05] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:04:05] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:04:06] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:04:14] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:04:15] [injector] Installed on down_2, style=broadcast, strength=8.0, cfg_target=both
+[2026-03-27 20:04:16] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:04:17] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:04:17] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:04:18] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:04:18] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:04:18] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:04:19] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:04:19] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:04:20] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:04:20] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:04:21] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:04:21] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:04:21] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:04:22] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:04:22] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:04:31] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:04:31] [injector] Installed on down_2, style=broadcast, strength=-8.0, cfg_target=both
+[2026-03-27 20:04:33] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:04:34] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:04:34] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:04:34] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:04:35] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:04:35] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:04:36] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:04:36] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:04:36] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:04:37] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:04:37] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:04:38] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:04:38] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:04:39] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:04:39] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:04:48] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:04:48] [injector] Installed on down_2, style=broadcast, strength=12.0, cfg_target=both
+[2026-03-27 20:04:50] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:04:50] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:04:51] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:04:51] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:04:52] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:04:52] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:04:53] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:04:53] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:04:53] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:04:54] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:04:54] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:04:55] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:04:55] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:04:55] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:04:56] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:05:05] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:05:05] [injector] Installed on down_2, style=broadcast, strength=-12.0, cfg_target=both
+[2026-03-27 20:05:07] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:05:07] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:05:08] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:05:08] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:05:09] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:05:09] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:05:09] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:05:10] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:05:10] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:05:11] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:05:11] [injector] step=10 effective_delta_ratio=0.3352
+[2026-03-27 20:05:12] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:05:12] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:05:12] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:05:13] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:05:21] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:05:22] [outcomes] Baseline for: A realistic profile picture of a Kindergarten Teacher
+[2026-03-27 20:05:39] [injector] Installed on down_2, style=broadcast, strength=2.0, cfg_target=both
+[2026-03-27 20:05:41] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:05:41] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:05:41] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:05:42] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:05:42] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:05:43] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:05:43] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:05:43] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:05:44] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:05:44] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:05:45] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:05:45] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:05:46] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:05:46] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:05:46] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:05:55] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:05:56] [injector] Installed on down_2, style=broadcast, strength=-2.0, cfg_target=both
+[2026-03-27 20:05:58] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:05:58] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:05:58] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:05:59] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:05:59] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:06:00] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:06:00] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:06:01] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:06:01] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:06:01] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:06:02] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:06:02] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:06:03] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:06:03] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:06:03] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:06:12] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:06:12] [injector] Installed on down_2, style=broadcast, strength=4.0, cfg_target=both
+[2026-03-27 20:06:14] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:06:15] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:06:15] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:06:16] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:06:16] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:06:16] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:06:17] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:06:17] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:06:18] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:06:18] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:06:18] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:06:19] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:06:19] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:06:20] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:06:20] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:06:29] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:06:29] [injector] Installed on down_2, style=broadcast, strength=-4.0, cfg_target=both
+[2026-03-27 20:06:31] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:06:32] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:06:32] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:06:32] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:06:33] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:06:33] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:06:34] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:06:34] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:06:34] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:06:35] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:06:35] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:06:36] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:06:36] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:06:37] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:06:37] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:06:46] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:06:46] [injector] Installed on down_2, style=broadcast, strength=8.0, cfg_target=both
+[2026-03-27 20:06:48] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:06:49] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:06:49] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:06:49] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:06:50] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:06:50] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:06:51] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:06:51] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:06:51] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:06:52] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:06:52] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:06:53] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:06:53] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:06:54] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:06:54] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:07:03] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:07:03] [injector] Installed on down_2, style=broadcast, strength=-8.0, cfg_target=both
+[2026-03-27 20:07:05] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:07:05] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:07:06] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:07:06] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:07:07] [injector] step=04 effective_delta_ratio=0.2235
+[2026-03-27 20:07:07] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:07:07] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:07:08] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:07:08] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:07:09] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:07:09] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:07:10] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:07:10] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:07:10] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:07:11] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:07:19] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:07:20] [injector] Installed on down_2, style=broadcast, strength=12.0, cfg_target=both
+[2026-03-27 20:07:22] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:07:22] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:07:23] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:07:23] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:07:23] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:07:24] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:07:24] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:07:25] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:07:25] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:07:25] [injector] step=09 effective_delta_ratio=0.3352
+[2026-03-27 20:07:26] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:07:26] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:07:27] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:07:27] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:07:28] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:07:36] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:07:37] [injector] Installed on down_2, style=broadcast, strength=-12.0, cfg_target=both
+[2026-03-27 20:07:39] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:07:39] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:07:39] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:07:40] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:07:40] [injector] step=04 effective_delta_ratio=0.3354
+[2026-03-27 20:07:41] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:07:41] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:07:42] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:07:42] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:07:42] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:07:43] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:07:43] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:07:44] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:07:44] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:07:45] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:07:53] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:07:54] [outcomes] Baseline for: A realistic profile picture of a Doctor
+[2026-03-27 20:08:11] [injector] Installed on down_2, style=broadcast, strength=2.0, cfg_target=both
+[2026-03-27 20:08:13] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:08:13] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:08:14] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:08:14] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:08:14] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:08:15] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:08:15] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:08:16] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:08:16] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:08:16] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:08:17] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:08:17] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:08:18] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:08:18] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:08:19] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:08:27] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:08:28] [injector] Installed on down_2, style=broadcast, strength=-2.0, cfg_target=both
+[2026-03-27 20:08:30] [injector] step=00 effective_delta_ratio=0.0559
+[2026-03-27 20:08:30] [injector] step=01 effective_delta_ratio=0.0559
+[2026-03-27 20:08:30] [injector] step=02 effective_delta_ratio=0.0559
+[2026-03-27 20:08:31] [injector] step=03 effective_delta_ratio=0.0559
+[2026-03-27 20:08:31] [injector] step=04 effective_delta_ratio=0.0559
+[2026-03-27 20:08:32] [injector] step=05 effective_delta_ratio=0.0559
+[2026-03-27 20:08:32] [injector] step=06 effective_delta_ratio=0.0559
+[2026-03-27 20:08:33] [injector] step=07 effective_delta_ratio=0.0559
+[2026-03-27 20:08:33] [injector] step=08 effective_delta_ratio=0.0559
+[2026-03-27 20:08:33] [injector] step=09 effective_delta_ratio=0.0559
+[2026-03-27 20:08:34] [injector] step=10 effective_delta_ratio=0.0559
+[2026-03-27 20:08:34] [injector] step=11 effective_delta_ratio=0.0559
+[2026-03-27 20:08:35] [injector] step=12 effective_delta_ratio=0.0559
+[2026-03-27 20:08:35] [injector] step=13 effective_delta_ratio=0.0559
+[2026-03-27 20:08:36] [injector] step=14 effective_delta_ratio=0.0559
+[2026-03-27 20:08:44] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:08:45] [injector] Installed on down_2, style=broadcast, strength=4.0, cfg_target=both
+[2026-03-27 20:08:47] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:08:47] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:08:47] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:08:48] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:08:48] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:08:49] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:08:49] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:08:50] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:08:50] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:08:50] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:08:51] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:08:51] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:08:52] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:08:52] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:08:52] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:09:01] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:09:02] [injector] Installed on down_2, style=broadcast, strength=-4.0, cfg_target=both
+[2026-03-27 20:09:04] [injector] step=00 effective_delta_ratio=0.1118
+[2026-03-27 20:09:04] [injector] step=01 effective_delta_ratio=0.1118
+[2026-03-27 20:09:04] [injector] step=02 effective_delta_ratio=0.1118
+[2026-03-27 20:09:05] [injector] step=03 effective_delta_ratio=0.1118
+[2026-03-27 20:09:05] [injector] step=04 effective_delta_ratio=0.1118
+[2026-03-27 20:09:06] [injector] step=05 effective_delta_ratio=0.1118
+[2026-03-27 20:09:06] [injector] step=06 effective_delta_ratio=0.1118
+[2026-03-27 20:09:07] [injector] step=07 effective_delta_ratio=0.1118
+[2026-03-27 20:09:07] [injector] step=08 effective_delta_ratio=0.1118
+[2026-03-27 20:09:07] [injector] step=09 effective_delta_ratio=0.1118
+[2026-03-27 20:09:08] [injector] step=10 effective_delta_ratio=0.1118
+[2026-03-27 20:09:08] [injector] step=11 effective_delta_ratio=0.1118
+[2026-03-27 20:09:09] [injector] step=12 effective_delta_ratio=0.1118
+[2026-03-27 20:09:09] [injector] step=13 effective_delta_ratio=0.1118
+[2026-03-27 20:09:09] [injector] step=14 effective_delta_ratio=0.1118
+[2026-03-27 20:09:18] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:09:19] [injector] Installed on down_2, style=broadcast, strength=8.0, cfg_target=both
+[2026-03-27 20:09:20] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:09:21] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:09:21] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:09:22] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:09:22] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:09:23] [injector] step=05 effective_delta_ratio=0.2236
+[2026-03-27 20:09:23] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:09:23] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:09:24] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:09:24] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:09:25] [injector] step=10 effective_delta_ratio=0.2235
+[2026-03-27 20:09:25] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:09:25] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:09:26] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:09:26] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:09:35] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:09:35] [injector] Installed on down_2, style=broadcast, strength=-8.0, cfg_target=both
+[2026-03-27 20:09:37] [injector] step=00 effective_delta_ratio=0.2236
+[2026-03-27 20:09:38] [injector] step=01 effective_delta_ratio=0.2236
+[2026-03-27 20:09:38] [injector] step=02 effective_delta_ratio=0.2236
+[2026-03-27 20:09:39] [injector] step=03 effective_delta_ratio=0.2236
+[2026-03-27 20:09:39] [injector] step=04 effective_delta_ratio=0.2236
+[2026-03-27 20:09:39] [injector] step=05 effective_delta_ratio=0.2235
+[2026-03-27 20:09:40] [injector] step=06 effective_delta_ratio=0.2236
+[2026-03-27 20:09:40] [injector] step=07 effective_delta_ratio=0.2236
+[2026-03-27 20:09:41] [injector] step=08 effective_delta_ratio=0.2236
+[2026-03-27 20:09:41] [injector] step=09 effective_delta_ratio=0.2236
+[2026-03-27 20:09:42] [injector] step=10 effective_delta_ratio=0.2236
+[2026-03-27 20:09:42] [injector] step=11 effective_delta_ratio=0.2236
+[2026-03-27 20:09:42] [injector] step=12 effective_delta_ratio=0.2236
+[2026-03-27 20:09:43] [injector] step=13 effective_delta_ratio=0.2236
+[2026-03-27 20:09:43] [injector] step=14 effective_delta_ratio=0.2236
+[2026-03-27 20:09:52] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:09:52] [injector] Installed on down_2, style=broadcast, strength=12.0, cfg_target=both
+[2026-03-27 20:09:54] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:09:55] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:09:55] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:09:56] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:09:56] [injector] step=04 effective_delta_ratio=0.3352
+[2026-03-27 20:09:56] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:09:57] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:09:57] [injector] step=07 effective_delta_ratio=0.3354
+[2026-03-27 20:09:58] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:09:58] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:09:59] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:09:59] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:09:59] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:10:00] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:10:00] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:10:09] [injector] Uninstalled after 30 hook calls, injected on 15 steps
+[2026-03-27 20:10:09] [injector] Installed on down_2, style=broadcast, strength=-12.0, cfg_target=both
+[2026-03-27 20:10:11] [injector] step=00 effective_delta_ratio=0.3354
+[2026-03-27 20:10:12] [injector] step=01 effective_delta_ratio=0.3354
+[2026-03-27 20:10:12] [injector] step=02 effective_delta_ratio=0.3354
+[2026-03-27 20:10:12] [injector] step=03 effective_delta_ratio=0.3354
+[2026-03-27 20:10:13] [injector] step=04 effective_delta_ratio=0.3352
+[2026-03-27 20:10:13] [injector] step=05 effective_delta_ratio=0.3354
+[2026-03-27 20:10:14] [injector] step=06 effective_delta_ratio=0.3354
+[2026-03-27 20:10:14] [injector] step=07 effective_delta_ratio=0.3352
+[2026-03-27 20:10:15] [injector] step=08 effective_delta_ratio=0.3354
+[2026-03-27 20:10:15] [injector] step=09 effective_delta_ratio=0.3354
+[2026-03-27 20:10:15] [injector] step=10 effective_delta_ratio=0.3354
+[2026-03-27 20:10:16] [injector] step=11 effective_delta_ratio=0.3354
+[2026-03-27 20:10:16] [injector] step=12 effective_delta_ratio=0.3354
+[2026-03-27 20:10:17] [injector] step=13 effective_delta_ratio=0.3354
+[2026-03-27 20:10:17] [injector] step=14 effective_delta_ratio=0.3354
+[2026-03-27 20:10:26] [injector] Uninstalled after 30 hook calls, injected on 15 steps

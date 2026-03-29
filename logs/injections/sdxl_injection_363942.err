@@ -1,0 +1,10 @@
+Fetching 19 files:   0%|          | 0/19 [00:00<?, ?it/s]Fetching 19 files: 100%|██████████| 19/19 [00:02<00:00,  7.80it/s]Fetching 19 files: 100%|██████████| 19/19 [00:02<00:00,  7.80it/s]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 13.12it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00, 10.32it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00,  6.74it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.49it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.48it/s]
+Traceback (most recent call last):
+  File "best_injection.py", line 531, in <module>
+    main()
+  File "best_injection.py", line 502, in main
+    steering_vector = load_vectors(args.load_vectors_dir, DEFAULT_PROFESSIONS, args.load_layer)
+  File "best_injection.py", line 456, in load_vectors
+    if not vectors: raise RuntimeError(f"No vectors found in {vectors_dir}")
+RuntimeError: No vectors found in generated_images_2/steering_vectors

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "plot_injection.py", line 198, in <module>
+    main()
+  File "plot_injection.py", line 189, in main
+    out = plot_prompt_progression(prompt_dir, args.output_dir)
+  File "plot_injection.py", line 122, in plot_prompt_progression
+    parsed = [parse_image_name(path) for path in image_paths]
+  File "plot_injection.py", line 122, in <listcomp>
+    parsed = [parse_image_name(path) for path in image_paths]
+  File "plot_injection.py", line 47, in parse_image_name
+    power_value, power_text = parse_power(parts[1])
+  File "plot_injection.py", line 27, in parse_power
+    return float(power_text), power_text
+ValueError: could not convert string to float: 'neg'
