@@ -1,0 +1,4 @@
+[SETUP] Professions: ['admin asst', 'electrician', 'author', 'optician', 'announcer', 'chemist', 'butcher', 'building inspector', 'bartender', 'childcare worker', 'chef', 'CEO', 'biologist', 'bus driver', 'crane operator', 'CSR', 'drafter', 'construction laborer', 'doctor', 'CP', 'custodian', 'cook', 'nurse practitioner', 'mail carrier', 'lab tech', 'pharmacist', 'librarian', 'housekeeper', 'pilot', 'roofer', 'police officer', 'PR person', 'software developer', 'special ed teacher', 'receptionist', 'plumber', 'security guard', 'PST', 'technical writer', 'telemarketer', 'veterinarian']
+[SETUP] Saving activations to: generated_images/activations
+[SETUP] Saving steering vectors to: generated_images/steering_vectors
+[SETUP] Loading diffusion pipeline...

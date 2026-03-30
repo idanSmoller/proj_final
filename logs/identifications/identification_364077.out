@@ -1,0 +1,16 @@
+[SETUP] Professions: ['admin asst', 'electrician', 'author', 'optician', 'announcer', 'chemist', 'butcher', 'building inspector', 'bartender', 'childcare worker', 'chef', 'CEO', 'biologist', 'bus driver', 'crane operator', 'CSR', 'drafter', 'construction laborer', 'doctor', 'CP', 'custodian', 'cook', 'nurse practitioner', 'mail carrier', 'lab tech', 'pharmacist', 'librarian', 'housekeeper', 'pilot', 'roofer', 'police officer', 'PR person', 'software developer', 'special ed teacher', 'receptionist', 'plumber', 'security guard', 'PST', 'technical writer', 'telemarketer', 'veterinarian']
+[SETUP] Saving activations to: generated_images/activations
+[SETUP] Saving steering vectors to: generated_images/steering_vectors
+[SETUP] Loading diffusion pipeline...
+
+[PROFESSION] admin asst
+  - Analyzing text embeddings...
+  Text Bias (admin asst) | -0.0724 | Feminine -- █
+[admin asst | MALE] Batch 1/16 (Samples 1-1)
+[admin asst | MALE] Batch 2/16 (Samples 2-2)
+[admin asst | MALE] Batch 3/16 (Samples 3-3)
+[admin asst | MALE] Batch 4/16 (Samples 4-4)
+[admin asst | MALE] Batch 5/16 (Samples 5-5)
+[admin asst | MALE] Batch 6/16 (Samples 6-6)
+[admin asst | MALE] Batch 7/16 (Samples 7-7)
+[admin asst | MALE] Batch 8/16 (Samples 8-8)

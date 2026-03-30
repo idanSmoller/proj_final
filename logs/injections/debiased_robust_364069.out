@@ -1,0 +1,139 @@
+[2026-03-29 19:01:25] [init] Loading pipeline on cuda
+[2026-03-29 19:01:26] [start] Beginning Two-Stage Pipeline (Debias + Injection)
+[2026-03-29 19:01:26] 
+[stage 1] Calculating Orthogonal Projection for: Nurse
+[2026-03-29 19:01:28] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-29 19:04:04] [generate] Unbiased Baseline for Nurse
+[2026-03-29 19:04:21] [generate] Nurse | MASCULINE | strength=0.50
+[2026-03-29 19:04:37] [generate] Nurse | FEMININE | strength=0.50
+[2026-03-29 19:04:54] [generate] Nurse | MASCULINE | strength=3.32
+[2026-03-29 19:05:10] [generate] Nurse | FEMININE | strength=3.32
+[2026-03-29 19:05:26] [generate] Nurse | MASCULINE | strength=6.14
+[2026-03-29 19:05:43] [generate] Nurse | FEMININE | strength=6.14
+[2026-03-29 19:05:59] [generate] Nurse | MASCULINE | strength=8.96
+[2026-03-29 19:06:16] [generate] Nurse | FEMININE | strength=8.96
+[2026-03-29 19:06:32] [generate] Nurse | MASCULINE | strength=11.79
+[2026-03-29 19:06:49] [generate] Nurse | FEMININE | strength=11.79
+[2026-03-29 19:07:05] [generate] Nurse | MASCULINE | strength=14.61
+[2026-03-29 19:07:22] [generate] Nurse | FEMININE | strength=14.61
+[2026-03-29 19:07:38] [generate] Nurse | MASCULINE | strength=17.43
+[2026-03-29 19:07:55] [generate] Nurse | FEMININE | strength=17.43
+[2026-03-29 19:08:11] [generate] Nurse | MASCULINE | strength=20.25
+[2026-03-29 19:08:27] [generate] Nurse | FEMININE | strength=20.25
+[2026-03-29 19:08:44] [generate] Nurse | MASCULINE | strength=23.07
+[2026-03-29 19:09:00] [generate] Nurse | FEMININE | strength=23.07
+[2026-03-29 19:09:16] [generate] Nurse | MASCULINE | strength=25.89
+[2026-03-29 19:09:33] [generate] Nurse | FEMININE | strength=25.89
+[2026-03-29 19:09:49] [generate] Nurse | MASCULINE | strength=28.71
+[2026-03-29 19:10:06] [generate] Nurse | FEMININE | strength=28.71
+[2026-03-29 19:10:22] [generate] Nurse | MASCULINE | strength=31.54
+[2026-03-29 19:10:38] [generate] Nurse | FEMININE | strength=31.54
+[2026-03-29 19:10:55] [generate] Nurse | MASCULINE | strength=34.36
+[2026-03-29 19:11:11] [generate] Nurse | FEMININE | strength=34.36
+[2026-03-29 19:11:28] [generate] Nurse | MASCULINE | strength=37.18
+[2026-03-29 19:11:44] [generate] Nurse | FEMININE | strength=37.18
+[2026-03-29 19:12:00] [generate] Nurse | MASCULINE | strength=40.00
+[2026-03-29 19:12:17] [generate] Nurse | FEMININE | strength=40.00
+[2026-03-29 19:12:33] 
+[stage 1] Calculating Orthogonal Projection for: Doctor
+[2026-03-29 19:12:35] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-29 19:15:04] [generate] Unbiased Baseline for Doctor
+[2026-03-29 19:15:20] [generate] Doctor | MASCULINE | strength=0.50
+[2026-03-29 19:15:37] [generate] Doctor | FEMININE | strength=0.50
+[2026-03-29 19:15:53] [generate] Doctor | MASCULINE | strength=3.32
+[2026-03-29 19:16:10] [generate] Doctor | FEMININE | strength=3.32
+[2026-03-29 19:16:26] [generate] Doctor | MASCULINE | strength=6.14
+[2026-03-29 19:16:43] [generate] Doctor | FEMININE | strength=6.14
+[2026-03-29 19:16:59] [generate] Doctor | MASCULINE | strength=8.96
+[2026-03-29 19:17:15] [generate] Doctor | FEMININE | strength=8.96
+[2026-03-29 19:17:32] [generate] Doctor | MASCULINE | strength=11.79
+[2026-03-29 19:17:48] [generate] Doctor | FEMININE | strength=11.79
+[2026-03-29 19:18:05] [generate] Doctor | MASCULINE | strength=14.61
+[2026-03-29 19:18:21] [generate] Doctor | FEMININE | strength=14.61
+[2026-03-29 19:18:38] [generate] Doctor | MASCULINE | strength=17.43
+[2026-03-29 19:18:54] [generate] Doctor | FEMININE | strength=17.43
+[2026-03-29 19:19:10] [generate] Doctor | MASCULINE | strength=20.25
+[2026-03-29 19:19:27] [generate] Doctor | FEMININE | strength=20.25
+[2026-03-29 19:19:43] [generate] Doctor | MASCULINE | strength=23.07
+[2026-03-29 19:19:59] [generate] Doctor | FEMININE | strength=23.07
+[2026-03-29 19:20:16] [generate] Doctor | MASCULINE | strength=25.89
+[2026-03-29 19:20:32] [generate] Doctor | FEMININE | strength=25.89
+[2026-03-29 19:20:49] [generate] Doctor | MASCULINE | strength=28.71
+[2026-03-29 19:21:05] [generate] Doctor | FEMININE | strength=28.71
+[2026-03-29 19:21:21] [generate] Doctor | MASCULINE | strength=31.54
+[2026-03-29 19:21:38] [generate] Doctor | FEMININE | strength=31.54
+[2026-03-29 19:21:54] [generate] Doctor | MASCULINE | strength=34.36
+[2026-03-29 19:22:11] [generate] Doctor | FEMININE | strength=34.36
+[2026-03-29 19:22:27] [generate] Doctor | MASCULINE | strength=37.18
+[2026-03-29 19:22:43] [generate] Doctor | FEMININE | strength=37.18
+[2026-03-29 19:23:00] [generate] Doctor | MASCULINE | strength=40.00
+[2026-03-29 19:23:16] [generate] Doctor | FEMININE | strength=40.00
+[2026-03-29 19:23:33] 
+[stage 1] Calculating Orthogonal Projection for: Programmer
+[2026-03-29 19:23:34] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-29 19:26:03] [generate] Unbiased Baseline for Programmer
+[2026-03-29 19:26:19] [generate] Programmer | MASCULINE | strength=0.50
+[2026-03-29 19:26:36] [generate] Programmer | FEMININE | strength=0.50
+[2026-03-29 19:26:52] [generate] Programmer | MASCULINE | strength=3.32
+[2026-03-29 19:27:09] [generate] Programmer | FEMININE | strength=3.32
+[2026-03-29 19:27:25] [generate] Programmer | MASCULINE | strength=6.14
+[2026-03-29 19:27:42] [generate] Programmer | FEMININE | strength=6.14
+[2026-03-29 19:27:58] [generate] Programmer | MASCULINE | strength=8.96
+[2026-03-29 19:28:15] [generate] Programmer | FEMININE | strength=8.96
+[2026-03-29 19:28:31] [generate] Programmer | MASCULINE | strength=11.79
+[2026-03-29 19:28:47] [generate] Programmer | FEMININE | strength=11.79
+[2026-03-29 19:29:04] [generate] Programmer | MASCULINE | strength=14.61
+[2026-03-29 19:29:20] [generate] Programmer | FEMININE | strength=14.61
+[2026-03-29 19:29:37] [generate] Programmer | MASCULINE | strength=17.43
+[2026-03-29 19:29:53] [generate] Programmer | FEMININE | strength=17.43
+[2026-03-29 19:30:10] [generate] Programmer | MASCULINE | strength=20.25
+[2026-03-29 19:30:26] [generate] Programmer | FEMININE | strength=20.25
+[2026-03-29 19:30:43] [generate] Programmer | MASCULINE | strength=23.07
+[2026-03-29 19:30:59] [generate] Programmer | FEMININE | strength=23.07
+[2026-03-29 19:31:16] [generate] Programmer | MASCULINE | strength=25.89
+[2026-03-29 19:31:32] [generate] Programmer | FEMININE | strength=25.89
+[2026-03-29 19:31:48] [generate] Programmer | MASCULINE | strength=28.71
+[2026-03-29 19:32:05] [generate] Programmer | FEMININE | strength=28.71
+[2026-03-29 19:32:21] [generate] Programmer | MASCULINE | strength=31.54
+[2026-03-29 19:32:38] [generate] Programmer | FEMININE | strength=31.54
+[2026-03-29 19:32:54] [generate] Programmer | MASCULINE | strength=34.36
+[2026-03-29 19:33:11] [generate] Programmer | FEMININE | strength=34.36
+[2026-03-29 19:33:27] [generate] Programmer | MASCULINE | strength=37.18
+[2026-03-29 19:33:44] [generate] Programmer | FEMININE | strength=37.18
+[2026-03-29 19:34:00] [generate] Programmer | MASCULINE | strength=40.00
+[2026-03-29 19:34:16] [generate] Programmer | FEMININE | strength=40.00
+[2026-03-29 19:34:33] 
+[stage 1] Calculating Orthogonal Projection for: CEO
+[2026-03-29 19:34:34] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-29 19:37:03] [generate] Unbiased Baseline for CEO
+[2026-03-29 19:37:19] [generate] CEO | MASCULINE | strength=0.50
+[2026-03-29 19:37:36] [generate] CEO | FEMININE | strength=0.50
+[2026-03-29 19:37:52] [generate] CEO | MASCULINE | strength=3.32
+[2026-03-29 19:38:09] [generate] CEO | FEMININE | strength=3.32
+[2026-03-29 19:38:25] [generate] CEO | MASCULINE | strength=6.14
+[2026-03-29 19:38:41] [generate] CEO | FEMININE | strength=6.14
+[2026-03-29 19:38:58] [generate] CEO | MASCULINE | strength=8.96
+[2026-03-29 19:39:14] [generate] CEO | FEMININE | strength=8.96
+[2026-03-29 19:39:30] [generate] CEO | MASCULINE | strength=11.79
+[2026-03-29 19:39:47] [generate] CEO | FEMININE | strength=11.79
+[2026-03-29 19:40:03] [generate] CEO | MASCULINE | strength=14.61
+[2026-03-29 19:40:19] [generate] CEO | FEMININE | strength=14.61
+[2026-03-29 19:40:36] [generate] CEO | MASCULINE | strength=17.43
+[2026-03-29 19:40:52] [generate] CEO | FEMININE | strength=17.43
+[2026-03-29 19:41:09] [generate] CEO | MASCULINE | strength=20.25
+[2026-03-29 19:41:25] [generate] CEO | FEMININE | strength=20.25
+[2026-03-29 19:41:42] [generate] CEO | MASCULINE | strength=23.07
+[2026-03-29 19:41:58] [generate] CEO | FEMININE | strength=23.07
+[2026-03-29 19:42:14] [generate] CEO | MASCULINE | strength=25.89
+[2026-03-29 19:42:31] [generate] CEO | FEMININE | strength=25.89
+[2026-03-29 19:42:47] [generate] CEO | MASCULINE | strength=28.71
+[2026-03-29 19:43:03] [generate] CEO | FEMININE | strength=28.71
+[2026-03-29 19:43:20] [generate] CEO | MASCULINE | strength=31.54
+[2026-03-29 19:43:36] [generate] CEO | FEMININE | strength=31.54
+[2026-03-29 19:43:53] [generate] CEO | MASCULINE | strength=34.36
+[2026-03-29 19:44:09] [generate] CEO | FEMININE | strength=34.36
+[2026-03-29 19:44:25] [generate] CEO | MASCULINE | strength=37.18
+[2026-03-29 19:44:42] [generate] CEO | FEMININE | strength=37.18
+[2026-03-29 19:44:58] [generate] CEO | MASCULINE | strength=40.00
+[2026-03-29 19:45:14] [generate] CEO | FEMININE | strength=40.00
+[2026-03-29 19:45:31] [done] All debiased injections complete.

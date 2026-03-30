@@ -1,0 +1,4 @@
+  File "unbiased_steering.py", line 413
+    p.add_argument("--professions", type=str, nargs="+", default=PROFESSIONS = [
+                                                                             ^
+SyntaxError: invalid syntax
