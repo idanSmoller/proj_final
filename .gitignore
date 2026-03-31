@@ -6,3 +6,10 @@ generated_images_old/
 generated_images.tar.gz
 *.tar.gz
 /home/dan.raviv/project/proj_final/generated_images.tar.gz
+
+*.pt
+*.png
+*.csv
+*.pyc
+
+srun --nodelist=lambda1 --gres=gpu:1 --cpus-per-task=2 --mem=32G   --chdir=/home/dan.raviv/project/proj_final   --output=logs/injections/debiased_robust_%j.out   --error=logs/injections/debiased_robust_%j.err   /home/dan.raviv/project/proj_final/.venv_cuda/bin/python best_injection.py   --enable-cpu-offload --steps 30 --num-discovery-seeds 5

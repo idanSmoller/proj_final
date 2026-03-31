@@ -1820,7 +1820,7 @@ def plot_profession_progression(
     output_dir: Path,
     seed: Optional[int] = None,
 ) -> Optional[Path]:
-    """Create a progression plot for a single profession."""
+    """Create a progression plot for a single profession with images and heatmaps."""
     from PIL import Image
 
     image_paths = sorted(prof_dir.glob("*.png"))
@@ -1852,24 +1852,52 @@ def plot_profession_progression(
     if not sequence:
         return None
 
+    # Find heatmaps directory (sibling to generations directory)
+    heatmaps_dir = prof_dir.parent / "bias_heatmaps"
+    prof_slug = prof_dir.name.replace(" ", "_")
+    seed_suffix = f"_seed{seed}" if seed is not None else ""
+
     cols = len(sequence)
-    fig, axes = plt.subplots(1, cols, figsize=(3 * cols, 3.8), squeeze=False)
+    # Create 2 rows: top for images, bottom for heatmaps
+    fig, axes = plt.subplots(2, cols, figsize=(3 * cols, 7.5), squeeze=False)
 
     for idx, item in enumerate(sequence):
-        ax = axes[0][idx]
+        # Top row: images
+        ax_img = axes[0][idx]
         with Image.open(item.path) as img:
-            ax.imshow(img)
-        ax.axis("off")
-        ax.set_title(panel_label_for_progression(item), fontsize=10)
+            ax_img.imshow(img)
+        ax_img.axis("off")
+        ax_img.set_title(panel_label_for_progression(item), fontsize=10)
+
+        # Bottom row: heatmaps
+        ax_heatmap = axes[1][idx]
+
+        # Construct heatmap filename based on item type
+        if item.is_baseline:
+            heatmap_filename = f"{prof_slug}_baseline{seed_suffix}.png"
+        else:
+            heatmap_filename = f"{prof_slug}_{item.axis}_s{item.power_text}{seed_suffix}.png"
+
+        heatmap_path = heatmaps_dir / heatmap_filename
+
+        print(f"Looking for heatmap at: {heatmap_path}")
+
+        # Display heatmap if it exists, otherwise show a placeholder
+        if heatmap_path.exists():
+            with Image.open(heatmap_path) as heatmap_img:
+                ax_heatmap.imshow(heatmap_img)
+        else:
+            # Show a blank placeholder if heatmap doesn't exist
+            ax_heatmap.text(0.5, 0.5, "No heatmap", ha="center", va="center", fontsize=8)
+        ax_heatmap.axis("off")
 
     seed_str = f" (seed={seed})" if seed is not None else ""
-    fig.suptitle(f"{prof_dir.name}{seed_str}\n{subtitle}", fontsize=12)
-    fig.tight_layout()
+    fig.suptitle(f"{prof_dir.name}{seed_str}\n{subtitle}", fontsize=12, y=0.98)
+    fig.tight_layout(rect=[0, 0, 1, 0.96])
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    seed_suffix = f"_seed{seed}" if seed is not None else ""
     out_path = output_dir / f"{prof_dir.name}_progression{seed_suffix}.png"
-    fig.savefig(out_path, dpi=200)
+    fig.savefig(out_path, dpi=200, bbox_inches='tight')
     plt.close(fig)
     return out_path
 
@@ -2307,6 +2335,9 @@ def main():
                     masculine_avg = sum(r['continuous'] for r in masculine_bias) / len(masculine_bias) if masculine_bias else 0
                     feminine_avg = sum(r['continuous'] for r in feminine_bias) / len(feminine_bias) if feminine_bias else 0
                     log(f"  [BIAS SHIFT] Baseline: {baseline_avg:.4f} -> Masculine: {masculine_avg:.4f}, Feminine: {feminine_avg:.4f}")
+
+                    steering_worked = (masculine_avg > 0) if baseline_avg <= 0 else (feminine_avg < 0)
+                    log(f"  [STEERING EFFECT] {'SUCCESS' if steering_worked else 'FAILURE'}")
                 else:
                     img_pos = manager.generate(prompts["neutral"], gen_seed, capture_cfg, injector=injector_pos)
                     img_pos.save(prof_dir / f"masculine_s{strength_str}{seed_suffix}.png")
