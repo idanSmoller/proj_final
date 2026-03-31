@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "plot_injection.py", line 234, in <module>
+    main()
+  File "plot_injection.py", line 216, in main
+    left_indices = 6 - right_indices if right_indices is not None else None
+TypeError: unsupported operand type(s) for -: 'int' and 'list'

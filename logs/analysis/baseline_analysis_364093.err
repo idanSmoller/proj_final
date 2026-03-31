@@ -1,0 +1,4 @@
+  File "bias_deep_analysis.py", line 86
+    out[] = out[baseline_cols].mean(axis=1)
+        ^
+SyntaxError: invalid syntax

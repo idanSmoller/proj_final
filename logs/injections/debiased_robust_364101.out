@@ -1,0 +1,19 @@
+[2026-03-30 16:19:51] [init] Loading pipeline on cuda
+[2026-03-30 16:19:53] [start] Beginning Two-Stage Pipeline (Debias + Injection)
+[2026-03-30 16:19:53] 
+[stage 1] Calculating Orthogonal Projection for: admin asst
+[2026-03-30 16:19:55] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:22:27] [generate] Axis-debiased baseline for admin asst
+[2026-03-30 16:22:43] [generate] admin asst | MASCULINE | strength=0.75
+[2026-03-30 16:22:59] [generate] admin asst | FEMININE | strength=0.75
+[2026-03-30 16:23:15] [generate] admin asst | MASCULINE | strength=2.06
+[2026-03-30 16:23:32] [generate] admin asst | FEMININE | strength=2.06
+[2026-03-30 16:23:47] [generate] admin asst | MASCULINE | strength=3.38
+[2026-03-30 16:24:03] [generate] admin asst | FEMININE | strength=3.38
+[2026-03-30 16:24:20] [generate] admin asst | MASCULINE | strength=4.69
+[2026-03-30 16:24:36] [generate] admin asst | FEMININE | strength=4.69
+[2026-03-30 16:24:51] [generate] admin asst | MASCULINE | strength=6.00
+[2026-03-30 16:25:07] [generate] admin asst | FEMININE | strength=6.00
+[2026-03-30 16:25:23] 
+[stage 1] Calculating Orthogonal Projection for: electrician
+[2026-03-30 16:25:25] [stage 2] Discovering Activation Vectors (N=3 seeds)

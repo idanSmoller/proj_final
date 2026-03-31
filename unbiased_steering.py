@@ -169,17 +169,19 @@ class CaptureConfig:
     mask_sigma: float = 0.4
     discovery_start_step: int = 0
     discovery_end_step: Optional[int] = 12
+    save_all_timestep_vectors: bool = True
 
 @dataclass
 class InjectorConfig:
     layer_key: str = "down_2"
     strength: float = 1.0
-    cfg_target: str = "cond"   
-    normalize: str = "rms"     
+    cfg_target: str = "cond"
+    normalize: str = "rms"
     start_step: int = 0
     end_step: Optional[int] = 12
-    schedule: str = "flat"     
+    schedule: str = "flat"
     mask_sigma: float = 0.4
+    log_every: int = 0
 
 @dataclass
 class TraceResult:
@@ -190,24 +192,50 @@ class TraceResult:
 
 
 # =========================================================
+# Schedule helpers
+# =========================================================
+
+def schedule_multiplier(
+    step_idx: int,
+    start_step: int,
+    end_step: Optional[int],
+    mode: str,
+) -> float:
+    if step_idx < start_step:
+        return 0.0
+
+    if end_step is not None and step_idx >= end_step:
+        return 0.0
+
+    if mode == "flat":
+        return 1.0
+
+    if end_step is None:
+        return 1.0
+
+    span = max(end_step - start_step, 1)
+    t = (step_idx - start_step) / span
+    t = min(max(t, 0.0), 1.0)
+
+    if mode == "linear_decay":
+        return 1.0 - t
+    if mode == "cosine_decay":
+        return 0.5 * (1.0 + math.cos(math.pi * t))
+
+    raise ValueError(f"Unknown schedule mode: {mode}")
+
+
+# =========================================================
 # Activation Injector
 # =========================================================
 
 class ActivationInjector:
-    def __init__(self, cfg: InjectorConfig, direction: torch.Tensor | List[torch.Tensor]):
+    def __init__(self, cfg: InjectorConfig, direction: torch.Tensor):
         self.cfg = cfg
-        if isinstance(direction, list):
-            if not direction:
-                raise ValueError("direction list must not be empty")
-            self.direction_per_step = [normalize_vec(d.detach().float().cpu()) for d in direction]
-            self.direction = self.direction_per_step[0]
-        else:
-            self.direction = normalize_vec(direction.detach().float().cpu())
-            self.direction_per_step = None
+        self.direction = normalize_vec(direction.detach().float().cpu())
         self.current_step = 0
         self.handle = None
         self.target_module = None
-        self._warned_cfg_fallback = False
 
     def install(self, pipe: StableDiffusionXLPipeline) -> "ActivationInjector":
         unet = pipe.unet
@@ -233,34 +261,41 @@ class ActivationInjector:
             self.handle.remove()
             self.handle = None
 
-    def _get_direction_for_step(self) -> torch.Tensor:
-        if self.direction_per_step is None:
-            return self.direction
-        if self.current_step < len(self.direction_per_step):
-            return self.direction_per_step[self.current_step]
-        return self.direction_per_step[-1]
-
     def _make_delta(self, target_tensor: torch.Tensor) -> torch.Tensor:
-        direction = self._get_direction_for_step().to(target_tensor.device, dtype=target_tensor.dtype)
+        direction = self.direction.to(target_tensor.device, dtype=target_tensor.dtype)
+
+        if direction.numel() != target_tensor.shape[1]:
+            raise ValueError(
+                f"Direction length {direction.numel()} does not match target channels {target_tensor.shape[1]}"
+            )
+
         update_spatial = direction.view(1, -1, 1, 1)
 
         if self.cfg.normalize == "rms":
-            sample_scale = target_tensor.pow(2).mean(dim=(1, 2, 3), keepdim=True).sqrt().clamp_min(1e-8)
+            sample_scale = (
+                target_tensor.pow(2)
+                .mean(dim=(1, 2, 3), keepdim=True)
+                .sqrt()
+                .clamp_min(1e-8)
+            )
             delta = self.cfg.strength * sample_scale * update_spatial
-        else:
+        elif self.cfg.normalize == "none":
             delta = self.cfg.strength * update_spatial
+        else:
+            raise ValueError(f"Unknown normalize mode: {self.cfg.normalize}")
 
         h, w = target_tensor.shape[2], target_tensor.shape[3]
         mask = get_spatial_mask(h, w, target_tensor.device, target_tensor.dtype, self.cfg.mask_sigma)
-        return delta * mask
+        delta = delta * mask
+        return delta
 
     def _hook_fn(self, module, inputs, output):
-        if self.cfg.end_step is not None and self.current_step >= self.cfg.end_step:
-            step_mult = 0.0
-        elif self.current_step < self.cfg.start_step:
-            step_mult = 0.0
-        else:
-            step_mult = 1.0 # Flat schedule used for brevity, can re-add cosine later if needed
+        step_mult = schedule_multiplier(
+            step_idx=self.current_step,
+            start_step=self.cfg.start_step,
+            end_step=self.cfg.end_step,
+            mode=self.cfg.schedule,
+        )
 
         if step_mult == 0.0:
             self.current_step += 1
@@ -274,26 +309,26 @@ class ActivationInjector:
             return output
 
         out = tensor.clone()
+
         if self.cfg.cfg_target == "cond":
-            if out.shape[0] >= 2 and out.shape[0] % 2 == 0:
-                half = out.shape[0] // 2
-                out[half:] += self._make_delta(out[half:]) * step_mult
-            else:
-                if not self._warned_cfg_fallback:
-                    log(f"[warn] cfg_target='cond' requested but batch size={out.shape[0]} has no clear CFG split; falling back to 'both'.")
-                    self._warned_cfg_fallback = True
-                out += self._make_delta(out) * step_mult
+            half = out.shape[0] // 2
+            target = out[half:]
+            delta = self._make_delta(target) * step_mult
+            out[half:] = target + delta
+
         elif self.cfg.cfg_target == "uncond":
-            if out.shape[0] >= 2 and out.shape[0] % 2 == 0:
-                half = out.shape[0] // 2
-                out[:half] += self._make_delta(out[:half]) * step_mult
-            else:
-                if not self._warned_cfg_fallback:
-                    log(f"[warn] cfg_target='uncond' requested but batch size={out.shape[0]} has no clear CFG split; falling back to 'both'.")
-                    self._warned_cfg_fallback = True
-                out += self._make_delta(out) * step_mult
+            half = out.shape[0] // 2
+            target = out[:half]
+            delta = self._make_delta(target) * step_mult
+            out[:half] = target + delta
+
         elif self.cfg.cfg_target == "both":
-            out += self._make_delta(out) * step_mult
+            target = out
+            delta = self._make_delta(target) * step_mult
+            out = target + delta
+
+        else:
+            raise ValueError(f"Unknown cfg_target: {self.cfg.cfg_target}")
 
         self.current_step += 1
         return (out, *output[1:]) if is_tuple else out
@@ -401,6 +436,29 @@ def capture_robust_trace(manager: SDXLPipelineManager, prompt: str, seeds: List[
 
 
 # =========================================================
+# Axis construction
+# =========================================================
+
+def mean_trace_vector(trace: TraceResult) -> torch.Tensor:
+    return normalize_vec(torch.stack(trace.per_step_vectors, dim=0).mean(dim=0))
+
+
+def build_independent_vectors(
+    neutral_trace: TraceResult,
+    male_trace: TraceResult,
+    female_trace: TraceResult,
+) -> Tuple[torch.Tensor, torch.Tensor]:
+    neutral_mean = mean_trace_vector(neutral_trace)
+    male_mean = mean_trace_vector(male_trace)
+    female_mean = mean_trace_vector(female_trace)
+
+    vec_masculine = normalize_vec(male_mean - neutral_mean)
+    vec_feminine = normalize_vec(female_mean - neutral_mean)
+
+    return vec_masculine, vec_feminine
+
+
+# =========================================================
 # CLI & Execution
 # =========================================================
 
@@ -410,7 +468,7 @@ def parse_args():
     p.add_argument("--enable-cpu-offload", action="store_true")
     p.add_argument("--steps", type=int, default=30)
     p.add_argument("--seed", type=int, default=42)
-    p.add_argument("--professions", type=str, nargs="+", default=PROFESSIONS = [
+    p.add_argument("--professions", type=str, nargs="+", default= [
     "admin asst",
     "electrician",
     "author",
@@ -498,29 +556,46 @@ def main():
         m_trace = capture_robust_trace(manager, prompts["male"], discovery_seeds, capture_cfg)
         f_trace = capture_robust_trace(manager, prompts["female"], discovery_seeds, capture_cfg)
 
-        n_steps = torch.stack(n_trace.per_step_vectors, dim=0)
-        m_steps = torch.stack(m_trace.per_step_vectors, dim=0)
-        f_steps = torch.stack(f_trace.per_step_vectors, dim=0)
-        if not (n_steps.shape[0] == m_steps.shape[0] == f_steps.shape[0]):
-            raise RuntimeError("Trace step counts do not match across neutral/male/female prompts.")
+        neutral_mean = mean_trace_vector(n_trace)
+        male_mean = mean_trace_vector(m_trace)
+        female_mean = mean_trace_vector(f_trace)
+        vec_masculine, vec_feminine = build_independent_vectors(n_trace, m_trace, f_trace)
 
-        vec_masculine_steps = [normalize_vec(m_steps[i] - n_steps[i]) for i in range(n_steps.shape[0])]
-        vec_feminine_steps = [normalize_vec(f_steps[i] - n_steps[i]) for i in range(n_steps.shape[0])]
+        torch_save(prof_dir / "neutral_mean.pt", neutral_mean)
+        torch_save(prof_dir / "male_mean.pt", male_mean)
+        torch_save(prof_dir / "female_mean.pt", female_mean)
+        torch_save(prof_dir / "vec_masculine.pt", vec_masculine)
+        torch_save(prof_dir / "vec_feminine.pt", vec_feminine)
 
-        # Generate axis-debiased baseline (projected embeddings, no activation injection).
+        if capture_cfg.save_all_timestep_vectors:
+            torch_save(prof_dir / "neutral_steps.pt", torch.stack(n_trace.per_step_vectors))
+            torch_save(prof_dir / "male_steps.pt", torch.stack(m_trace.per_step_vectors))
+            torch_save(prof_dir / "female_steps.pt", torch.stack(f_trace.per_step_vectors))
+
+        save_json(
+            prof_dir / "trace_metadata.json",
+            {
+                "profession": profession,
+                "prompts": prompts,
+                "discovery_seeds": discovery_seeds,
+                "neutral_used_steps": n_trace.used_step_indices,
+                "male_used_steps": m_trace.used_step_indices,
+                "female_used_steps": f_trace.used_step_indices,
+            },
+        )
+
         log(f"[generate] Axis-debiased baseline for {profession}")
         baseline = manager.generate(cfg=capture_cfg, seed=args.seed, prompt_embeds=proj_emb, pooled_prompt_embeds=proj_pool, negative_prompt_embeds=neg_emb, negative_pooled_prompt_embeds=neg_pool)
         baseline.save(prof_dir / "unbiased_baseline.png")
 
-        # Generate Steered Images (Projected Embeddings + Vector Injection)
         for strength in np.linspace(args.min_strength, args.max_strength, args.num_strengths):
             log(f"[generate] {profession} | MASCULINE | strength={strength:.2f}")
-            inj_m = ActivationInjector(InjectorConfig(strength=strength), vec_masculine_steps)
+            inj_m = ActivationInjector(InjectorConfig(strength=strength), vec_masculine)
             img_m = manager.generate(cfg=capture_cfg, seed=args.seed, injector=inj_m, prompt_embeds=proj_emb, pooled_prompt_embeds=proj_pool, negative_prompt_embeds=neg_emb, negative_pooled_prompt_embeds=neg_pool)
             img_m.save(prof_dir / f"masculine_s{str(round(strength, 2)).replace('.', 'p')}.png")
 
             log(f"[generate] {profession} | FEMININE | strength={strength:.2f}")
-            inj_f = ActivationInjector(InjectorConfig(strength=strength), vec_feminine_steps)
+            inj_f = ActivationInjector(InjectorConfig(strength=strength), vec_feminine)
             img_f = manager.generate(cfg=capture_cfg, seed=args.seed, injector=inj_f, prompt_embeds=proj_emb, pooled_prompt_embeds=proj_pool, negative_prompt_embeds=neg_emb, negative_pooled_prompt_embeds=neg_pool)
             img_f.save(prof_dir / f"feminine_s{str(round(strength, 2)).replace('.', 'p')}.png")
 

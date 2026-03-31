@@ -1,0 +1,6 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 14.40it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  5.19it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  5.20it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.61it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  5.77it/s]
+/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/pipeline_utils.py:2186: FutureWarning: `enable_vae_slicing` is deprecated and will be removed in version 0.40.0. Calling `enable_vae_slicing()` on a `StableDiffusionXLPipeline` is deprecated and this method will be removed in a future version. Please use `pipe.vae.enable_slicing()`.
+  deprecate(
+/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/stable_diffusion_xl/pipeline_stable_diffusion_xl.py:748: FutureWarning: `upcast_vae` is deprecated and will be removed in version 1.0.0. `upcast_vae` is deprecated. Please use `pipe.vae.to(torch.float32)`. For more details, please refer to: https://github.com/huggingface/diffusers/pull/12619#issue-3606633695.
+  deprecate(
+slurmstepd: error: *** STEP 364099.0 ON lambda1 CANCELLED AT 2026-03-30T16:12:55 ***

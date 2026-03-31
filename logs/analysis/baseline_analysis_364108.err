@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "bias_deep_analysis.py", line 555, in <module>
+    run_analysis(args.bias, args.text, args.baseline, args.outdir)
+  File "bias_deep_analysis.py", line 390, in run_analysis
+    plot_heatmap(
+  File "bias_deep_analysis.py", line 233, in plot_heatmap
+    pivot = df.pivot(index="layer", columns="step", values=value_col, inverse=True)
+TypeError: pivot() got an unexpected keyword argument 'inverse'

@@ -1,0 +1,3 @@
+activation_metric,best_pearson_layer,best_pearson_step,best_pearson_value,best_spearman_layer,best_spearman_step,best_spearman_value
+continuous_bias,mid_block,17,-0.7147022388151628,mid_block,3,-0.5649625561736064
+mean_based_bias,mid_block,16,-0.6549805214105053,up_2,1,-0.5033278293237645

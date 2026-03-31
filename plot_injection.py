@@ -58,11 +58,13 @@ def parse_image_name(image_path: Path) -> ImageItem:
 
 
 def build_two_extremes_sequence(
-	by_axis: Dict[str, List[ImageItem]], baseline: Optional[ImageItem]
+	by_axis: Dict[str, List[ImageItem]], baseline: Optional[ImageItem],
+	left_indices: Optional[List[int]] = None, right_indices: Optional[List[int]] = None
 ) -> Tuple[List[ImageItem], str]:
 	"""
 	Build one progression row:
 	left extreme (descending strength) -> baseline -> right extreme (ascending strength)
+	left_indices/right_indices: 1-based indices to select from each side (if None, use all)
 	"""
 	axis_names = sorted(by_axis.keys())
 	left_axis, right_axis = axis_names[0], axis_names[1]
@@ -76,6 +78,12 @@ def build_two_extremes_sequence(
 		by_axis[right_axis],
 		key=lambda x: (x.power is None, x.power),
 	)
+
+	# Select only specified indices (convert 1-based to 0-based)
+	if left_indices is not None:
+		left = [left[i-1] for i in left_indices if 0 < i <= len(left)]
+	if right_indices is not None:
+		right = [right[i-1] for i in right_indices if 0 < i <= len(right)]
 
 	sequence = left.copy()
 	if baseline is not None:
@@ -115,7 +123,9 @@ def panel_label(item: ImageItem, is_first: bool, is_last: bool) -> str:
 	return "\n".join(parts)
 
 
-def plot_prompt_progression(prompt_dir: Path, output_dir: Path) -> Optional[Path]:
+def plot_prompt_progression(prompt_dir: Path, output_dir: Path,
+							left_indices: Optional[List[int]] = None,
+							right_indices: Optional[List[int]] = None) -> Optional[Path]:
 	image_paths = sorted(prompt_dir.glob("*.png"))
 	if not image_paths:
 		return None
@@ -133,7 +143,7 @@ def plot_prompt_progression(prompt_dir: Path, output_dir: Path) -> Optional[Path
 		return None
 
 	if len(by_axis) == 2:
-		sequence, subtitle = build_two_extremes_sequence(by_axis, baseline)
+		sequence, subtitle = build_two_extremes_sequence(by_axis, baseline, left_indices, right_indices)
 	else:
 		sequence, subtitle = build_generic_sequence(by_axis, baseline)
 
@@ -162,6 +172,21 @@ def plot_prompt_progression(prompt_dir: Path, output_dir: Path) -> Optional[Path
 	return out_path
 
 
+
+def parse_indices(indices_str: Optional[str]) -> Optional[List[int]]:
+	if not indices_str:
+		return None
+	# Accept comma-separated or range (e.g., 1,3,5 or 1-3)
+	indices = []
+	for part in indices_str.split(","):
+		part = part.strip()
+		if "-" in part:
+			start, end = part.split("-")
+			indices.extend(list(range(int(start), int(end)+1)))
+		elif part:
+			indices.append(int(part))
+	return indices if indices else None
+
 def main() -> None:
 	parser = argparse.ArgumentParser(
 		description="Plot side-by-side injection progression with axis/power labels parsed from filenames."
@@ -178,7 +203,22 @@ def main() -> None:
 		default=Path("outputs/injection_results/progression_plots"),
 		help="Where to save progression plots.",
 	)
+	parser.add_argument(
+		"--indices",
+		type=str,
+		default=None,
+		help="Comma-separated or range (e.g., 1,3,5 or 1-3)",
+	)
+
 	args = parser.parse_args()
+
+	total_images = sum(len(list(p.glob("*.png"))) for p in args.outcomes_dir.iterdir() if p.is_dir())
+	axis_imgs = (total_images-1)//2 + 1
+	right_indices = parse_indices(args.indices)
+	if right_indices is not None:
+		left_indices = [axis_imgs - i for i in right_indices]  # Mirror for left side (assuming 5 total)
+	else:
+		left_indices = None
 
 	prompt_dirs = [p for p in sorted(args.outcomes_dir.iterdir()) if p.is_dir()]
 	if not prompt_dirs:
@@ -187,7 +227,7 @@ def main() -> None:
 
 	created = 0
 	for prompt_dir in prompt_dirs:
-		out = plot_prompt_progression(prompt_dir, args.output_dir)
+		out = plot_prompt_progression(prompt_dir, args.output_dir, left_indices, right_indices)
 		if out is not None:
 			created += 1
 			print(f"Saved: {out}")

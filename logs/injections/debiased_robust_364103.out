@@ -1,0 +1,145 @@
+[2026-03-30 16:26:16] [init] Loading pipeline on cuda
+[2026-03-30 16:26:18] [start] Beginning Two-Stage Pipeline (Debias + Injection)
+[2026-03-30 16:26:18] 
+[stage 1] Calculating Orthogonal Projection for: admin asst
+[2026-03-30 16:26:19] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:28:53] [generate] Axis-debiased baseline for admin asst
+[2026-03-30 16:29:09] [generate] admin asst | MASCULINE | strength=1.00
+[2026-03-30 16:29:24] [generate] admin asst | FEMININE | strength=1.00
+[2026-03-30 16:29:41] [generate] admin asst | MASCULINE | strength=13.25
+[2026-03-30 16:29:57] [generate] admin asst | FEMININE | strength=13.25
+[2026-03-30 16:30:13] [generate] admin asst | MASCULINE | strength=25.50
+[2026-03-30 16:30:29] [generate] admin asst | FEMININE | strength=25.50
+[2026-03-30 16:30:45] [generate] admin asst | MASCULINE | strength=37.75
+[2026-03-30 16:31:01] [generate] admin asst | FEMININE | strength=37.75
+[2026-03-30 16:31:16] [generate] admin asst | MASCULINE | strength=50.00
+[2026-03-30 16:31:33] [generate] admin asst | FEMININE | strength=50.00
+[2026-03-30 16:31:49] 
+[stage 1] Calculating Orthogonal Projection for: electrician
+[2026-03-30 16:31:50] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:34:15] [generate] Axis-debiased baseline for electrician
+[2026-03-30 16:34:31] [generate] electrician | MASCULINE | strength=1.00
+[2026-03-30 16:34:47] [generate] electrician | FEMININE | strength=1.00
+[2026-03-30 16:35:03] [generate] electrician | MASCULINE | strength=13.25
+[2026-03-30 16:35:20] [generate] electrician | FEMININE | strength=13.25
+[2026-03-30 16:35:36] [generate] electrician | MASCULINE | strength=25.50
+[2026-03-30 16:35:52] [generate] electrician | FEMININE | strength=25.50
+[2026-03-30 16:36:08] [generate] electrician | MASCULINE | strength=37.75
+[2026-03-30 16:36:24] [generate] electrician | FEMININE | strength=37.75
+[2026-03-30 16:36:40] [generate] electrician | MASCULINE | strength=50.00
+[2026-03-30 16:36:56] [generate] electrician | FEMININE | strength=50.00
+[2026-03-30 16:37:12] 
+[stage 1] Calculating Orthogonal Projection for: author
+[2026-03-30 16:37:13] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:39:39] [generate] Axis-debiased baseline for author
+[2026-03-30 16:39:55] [generate] author | MASCULINE | strength=1.00
+[2026-03-30 16:40:11] [generate] author | FEMININE | strength=1.00
+[2026-03-30 16:40:27] [generate] author | MASCULINE | strength=13.25
+[2026-03-30 16:40:43] [generate] author | FEMININE | strength=13.25
+[2026-03-30 16:40:59] [generate] author | MASCULINE | strength=25.50
+[2026-03-30 16:41:15] [generate] author | FEMININE | strength=25.50
+[2026-03-30 16:41:32] [generate] author | MASCULINE | strength=37.75
+[2026-03-30 16:41:48] [generate] author | FEMININE | strength=37.75
+[2026-03-30 16:42:04] [generate] author | MASCULINE | strength=50.00
+[2026-03-30 16:42:20] [generate] author | FEMININE | strength=50.00
+[2026-03-30 16:42:36] 
+[stage 1] Calculating Orthogonal Projection for: optician
+[2026-03-30 16:42:37] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:45:03] [generate] Axis-debiased baseline for optician
+[2026-03-30 16:45:19] [generate] optician | MASCULINE | strength=1.00
+[2026-03-30 16:45:35] [generate] optician | FEMININE | strength=1.00
+[2026-03-30 16:45:51] [generate] optician | MASCULINE | strength=13.25
+[2026-03-30 16:46:07] [generate] optician | FEMININE | strength=13.25
+[2026-03-30 16:46:23] [generate] optician | MASCULINE | strength=25.50
+[2026-03-30 16:46:39] [generate] optician | FEMININE | strength=25.50
+[2026-03-30 16:46:55] [generate] optician | MASCULINE | strength=37.75
+[2026-03-30 16:47:11] [generate] optician | FEMININE | strength=37.75
+[2026-03-30 16:47:28] [generate] optician | MASCULINE | strength=50.00
+[2026-03-30 16:47:44] [generate] optician | FEMININE | strength=50.00
+[2026-03-30 16:48:00] 
+[stage 1] Calculating Orthogonal Projection for: announcer
+[2026-03-30 16:48:01] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:50:27] [generate] Axis-debiased baseline for announcer
+[2026-03-30 16:50:43] [generate] announcer | MASCULINE | strength=1.00
+[2026-03-30 16:50:59] [generate] announcer | FEMININE | strength=1.00
+[2026-03-30 16:51:15] [generate] announcer | MASCULINE | strength=13.25
+[2026-03-30 16:51:32] [generate] announcer | FEMININE | strength=13.25
+[2026-03-30 16:51:47] [generate] announcer | MASCULINE | strength=25.50
+[2026-03-30 16:52:04] [generate] announcer | FEMININE | strength=25.50
+[2026-03-30 16:52:20] [generate] announcer | MASCULINE | strength=37.75
+[2026-03-30 16:52:36] [generate] announcer | FEMININE | strength=37.75
+[2026-03-30 16:52:52] [generate] announcer | MASCULINE | strength=50.00
+[2026-03-30 16:53:08] [generate] announcer | FEMININE | strength=50.00
+[2026-03-30 16:53:24] 
+[stage 1] Calculating Orthogonal Projection for: chemist
+[2026-03-30 16:53:25] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 16:55:51] [generate] Axis-debiased baseline for chemist
+[2026-03-30 16:56:07] [generate] chemist | MASCULINE | strength=1.00
+[2026-03-30 16:56:23] [generate] chemist | FEMININE | strength=1.00
+[2026-03-30 16:56:39] [generate] chemist | MASCULINE | strength=13.25
+[2026-03-30 16:56:56] [generate] chemist | FEMININE | strength=13.25
+[2026-03-30 16:57:12] [generate] chemist | MASCULINE | strength=25.50
+[2026-03-30 16:57:28] [generate] chemist | FEMININE | strength=25.50
+[2026-03-30 16:57:44] [generate] chemist | MASCULINE | strength=37.75
+[2026-03-30 16:58:00] [generate] chemist | FEMININE | strength=37.75
+[2026-03-30 16:58:16] [generate] chemist | MASCULINE | strength=50.00
+[2026-03-30 16:58:32] [generate] chemist | FEMININE | strength=50.00
+[2026-03-30 16:58:49] 
+[stage 1] Calculating Orthogonal Projection for: butcher
+[2026-03-30 16:58:50] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 17:01:16] [generate] Axis-debiased baseline for butcher
+[2026-03-30 17:01:32] [generate] butcher | MASCULINE | strength=1.00
+[2026-03-30 17:01:48] [generate] butcher | FEMININE | strength=1.00
+[2026-03-30 17:02:04] [generate] butcher | MASCULINE | strength=13.25
+[2026-03-30 17:02:20] [generate] butcher | FEMININE | strength=13.25
+[2026-03-30 17:02:36] [generate] butcher | MASCULINE | strength=25.50
+[2026-03-30 17:02:52] [generate] butcher | FEMININE | strength=25.50
+[2026-03-30 17:03:09] [generate] butcher | MASCULINE | strength=37.75
+[2026-03-30 17:03:25] [generate] butcher | FEMININE | strength=37.75
+[2026-03-30 17:03:41] [generate] butcher | MASCULINE | strength=50.00
+[2026-03-30 17:03:57] [generate] butcher | FEMININE | strength=50.00
+[2026-03-30 17:04:13] 
+[stage 1] Calculating Orthogonal Projection for: building inspector
+[2026-03-30 17:04:15] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 17:06:40] [generate] Axis-debiased baseline for building inspector
+[2026-03-30 17:06:56] [generate] building inspector | MASCULINE | strength=1.00
+[2026-03-30 17:07:13] [generate] building inspector | FEMININE | strength=1.00
+[2026-03-30 17:07:28] [generate] building inspector | MASCULINE | strength=13.25
+[2026-03-30 17:07:45] [generate] building inspector | FEMININE | strength=13.25
+[2026-03-30 17:08:01] [generate] building inspector | MASCULINE | strength=25.50
+[2026-03-30 17:08:17] [generate] building inspector | FEMININE | strength=25.50
+[2026-03-30 17:08:33] [generate] building inspector | MASCULINE | strength=37.75
+[2026-03-30 17:08:49] [generate] building inspector | FEMININE | strength=37.75
+[2026-03-30 17:09:05] [generate] building inspector | MASCULINE | strength=50.00
+[2026-03-30 17:09:21] [generate] building inspector | FEMININE | strength=50.00
+[2026-03-30 17:09:37] 
+[stage 1] Calculating Orthogonal Projection for: bartender
+[2026-03-30 17:09:39] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 17:12:04] [generate] Axis-debiased baseline for bartender
+[2026-03-30 17:12:20] [generate] bartender | MASCULINE | strength=1.00
+[2026-03-30 17:12:36] [generate] bartender | FEMININE | strength=1.00
+[2026-03-30 17:12:53] [generate] bartender | MASCULINE | strength=13.25
+[2026-03-30 17:13:09] [generate] bartender | FEMININE | strength=13.25
+[2026-03-30 17:13:25] [generate] bartender | MASCULINE | strength=25.50
+[2026-03-30 17:13:41] [generate] bartender | FEMININE | strength=25.50
+[2026-03-30 17:13:57] [generate] bartender | MASCULINE | strength=37.75
+[2026-03-30 17:14:13] [generate] bartender | FEMININE | strength=37.75
+[2026-03-30 17:14:29] [generate] bartender | MASCULINE | strength=50.00
+[2026-03-30 17:14:45] [generate] bartender | FEMININE | strength=50.00
+[2026-03-30 17:15:01] 
+[stage 1] Calculating Orthogonal Projection for: childcare worker
+[2026-03-30 17:15:02] [stage 2] Discovering Activation Vectors (N=3 seeds)
+[2026-03-30 17:17:28] [generate] Axis-debiased baseline for childcare worker
+[2026-03-30 17:17:45] [generate] childcare worker | MASCULINE | strength=1.00
+[2026-03-30 17:18:01] [generate] childcare worker | FEMININE | strength=1.00
+[2026-03-30 17:18:17] [generate] childcare worker | MASCULINE | strength=13.25
+[2026-03-30 17:18:33] [generate] childcare worker | FEMININE | strength=13.25
+[2026-03-30 17:18:49] [generate] childcare worker | MASCULINE | strength=25.50
+[2026-03-30 17:19:05] [generate] childcare worker | FEMININE | strength=25.50
+[2026-03-30 17:19:21] [generate] childcare worker | MASCULINE | strength=37.75
+[2026-03-30 17:19:37] [generate] childcare worker | FEMININE | strength=37.75
+[2026-03-30 17:19:53] [generate] childcare worker | MASCULINE | strength=50.00
+[2026-03-30 17:20:09] [generate] childcare worker | FEMININE | strength=50.00
+[2026-03-30 17:20:25] 
+[stage 1] Calculating Orthogonal Projection for: chef
+[2026-03-30 17:20:26] [stage 2] Discovering Activation Vectors (N=3 seeds)

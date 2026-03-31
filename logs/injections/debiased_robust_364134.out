@@ -1,0 +1,255 @@
+[2026-03-31 12:22:44] [init] Loading pipeline on cuda
+[2026-03-31 12:22:46] [start] Beginning robust high-throughput discovery (N=5 seeds)
+[2026-03-31 12:22:46] 
+[capture] Profession: admin asst
+[2026-03-31 12:22:46]   neutral: A professional studio portrait of a admin asst, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:22:46]   male:    A professional studio portrait of a male admin asst, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:22:46]   female:  A professional studio portrait of a female admin asst, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:27:04] [multi-layer] Capturing activations from layers: ['mid_block', 'up_0', 'up_1', 'up_2']
+[2026-03-31 12:31:21]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst.png
+[2026-03-31 12:31:21]   [MULTI-LAYER BIAS SUMMARY] Avg: -0.0220
+[2026-03-31 12:31:21]   Max Bias: -0.0630 at up_0 step 23
+[2026-03-31 12:31:21] [generate] Baseline for admin asst (seed=0)
+[2026-03-31 12:31:40]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_baseline_seed0.png
+[2026-03-31 12:31:40] [generate] admin asst | MASCULINE | strength=10.00 | seed=0
+[2026-03-31 12:31:40] [generate] admin asst | FEMININE | strength=10.00 | seed=0
+[2026-03-31 12:32:15]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s10_seed0.png
+[2026-03-31 12:32:16]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s10_seed0.png
+[2026-03-31 12:32:17]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s10_seed0.png
+[2026-03-31 12:32:17]   [BIAS SHIFT] Baseline: -0.0129 -> Masculine: -0.0068, Feminine: -0.1066
+[2026-03-31 12:32:17] [generate] admin asst | MASCULINE | strength=30.00 | seed=0
+[2026-03-31 12:32:17] [generate] admin asst | FEMININE | strength=30.00 | seed=0
+[2026-03-31 12:32:53]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s30_seed0.png
+[2026-03-31 12:32:53]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s30_seed0.png
+[2026-03-31 12:32:54]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s30_seed0.png
+[2026-03-31 12:32:54]   [BIAS SHIFT] Baseline: -0.0129 -> Masculine: 0.0389, Feminine: -0.1172
+[2026-03-31 12:32:54] [generate] admin asst | MASCULINE | strength=50.00 | seed=0
+[2026-03-31 12:32:54] [generate] admin asst | FEMININE | strength=50.00 | seed=0
+[2026-03-31 12:33:30]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s50_seed0.png
+[2026-03-31 12:33:31]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s50_seed0.png
+[2026-03-31 12:33:32]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s50_seed0.png
+[2026-03-31 12:33:32]   [BIAS SHIFT] Baseline: -0.0129 -> Masculine: 0.0740, Feminine: -0.1303
+[2026-03-31 12:33:32] [generate] Baseline for admin asst (seed=1)
+[2026-03-31 12:33:50]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_baseline_seed1.png
+[2026-03-31 12:33:50] [generate] admin asst | MASCULINE | strength=10.00 | seed=1
+[2026-03-31 12:33:50] [generate] admin asst | FEMININE | strength=10.00 | seed=1
+[2026-03-31 12:34:25]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s10_seed1.png
+[2026-03-31 12:34:26]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s10_seed1.png
+[2026-03-31 12:34:27]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s10_seed1.png
+[2026-03-31 12:34:27]   [BIAS SHIFT] Baseline: -0.0321 -> Masculine: -0.0161, Feminine: -0.0280
+[2026-03-31 12:34:27] [generate] admin asst | MASCULINE | strength=30.00 | seed=1
+[2026-03-31 12:34:27] [generate] admin asst | FEMININE | strength=30.00 | seed=1
+[2026-03-31 12:35:02]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s30_seed1.png
+[2026-03-31 12:35:03]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s30_seed1.png
+[2026-03-31 12:35:04]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s30_seed1.png
+[2026-03-31 12:35:04]   [BIAS SHIFT] Baseline: -0.0321 -> Masculine: 0.0481, Feminine: -0.0518
+[2026-03-31 12:35:04] [generate] admin asst | MASCULINE | strength=50.00 | seed=1
+[2026-03-31 12:35:04] [generate] admin asst | FEMININE | strength=50.00 | seed=1
+[2026-03-31 12:35:40]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s50_seed1.png
+[2026-03-31 12:35:41]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s50_seed1.png
+[2026-03-31 12:35:42]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s50_seed1.png
+[2026-03-31 12:35:42]   [BIAS SHIFT] Baseline: -0.0321 -> Masculine: 0.0637, Feminine: -0.0771
+[2026-03-31 12:35:42] [generate] Baseline for admin asst (seed=2)
+[2026-03-31 12:36:00]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_baseline_seed2.png
+[2026-03-31 12:36:00] [generate] admin asst | MASCULINE | strength=10.00 | seed=2
+[2026-03-31 12:36:00] [generate] admin asst | FEMININE | strength=10.00 | seed=2
+[2026-03-31 12:36:36]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s10_seed2.png
+[2026-03-31 12:36:36]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s10_seed2.png
+[2026-03-31 12:36:37]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s10_seed2.png
+[2026-03-31 12:36:37]   [BIAS SHIFT] Baseline: -0.0885 -> Masculine: -0.0662, Feminine: -0.0928
+[2026-03-31 12:36:37] [generate] admin asst | MASCULINE | strength=30.00 | seed=2
+[2026-03-31 12:36:37] [generate] admin asst | FEMININE | strength=30.00 | seed=2
+[2026-03-31 12:37:13]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s30_seed2.png
+[2026-03-31 12:37:13]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s30_seed2.png
+[2026-03-31 12:37:14]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s30_seed2.png
+[2026-03-31 12:37:14]   [BIAS SHIFT] Baseline: -0.0885 -> Masculine: 0.0456, Feminine: -0.0715
+[2026-03-31 12:37:14] [generate] admin asst | MASCULINE | strength=50.00 | seed=2
+[2026-03-31 12:37:14] [generate] admin asst | FEMININE | strength=50.00 | seed=2
+[2026-03-31 12:37:50]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s50_seed2.png
+[2026-03-31 12:37:51]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s50_seed2.png
+[2026-03-31 12:37:51]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s50_seed2.png
+[2026-03-31 12:37:52]   [BIAS SHIFT] Baseline: -0.0885 -> Masculine: 0.1318, Feminine: -0.0737
+[2026-03-31 12:37:52] [generate] Baseline for admin asst (seed=3)
+[2026-03-31 12:38:10]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_baseline_seed3.png
+[2026-03-31 12:38:10] [generate] admin asst | MASCULINE | strength=10.00 | seed=3
+[2026-03-31 12:38:10] [generate] admin asst | FEMININE | strength=10.00 | seed=3
+[2026-03-31 12:38:46]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s10_seed3.png
+[2026-03-31 12:38:46]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s10_seed3.png
+[2026-03-31 12:38:47]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s10_seed3.png
+[2026-03-31 12:38:47]   [BIAS SHIFT] Baseline: 0.0305 -> Masculine: 0.0603, Feminine: -0.0032
+[2026-03-31 12:38:47] [generate] admin asst | MASCULINE | strength=30.00 | seed=3
+[2026-03-31 12:38:47] [generate] admin asst | FEMININE | strength=30.00 | seed=3
+[2026-03-31 12:39:23]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s30_seed3.png
+[2026-03-31 12:39:23]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s30_seed3.png
+[2026-03-31 12:39:24]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s30_seed3.png
+[2026-03-31 12:39:24]   [BIAS SHIFT] Baseline: 0.0305 -> Masculine: 0.1319, Feminine: -0.1029
+[2026-03-31 12:39:24] [generate] admin asst | MASCULINE | strength=50.00 | seed=3
+[2026-03-31 12:39:24] [generate] admin asst | FEMININE | strength=50.00 | seed=3
+[2026-03-31 12:40:00]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s50_seed3.png
+[2026-03-31 12:40:01]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s50_seed3.png
+[2026-03-31 12:40:01]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s50_seed3.png
+[2026-03-31 12:40:01]   [BIAS SHIFT] Baseline: 0.0305 -> Masculine: 0.1491, Feminine: -0.1178
+[2026-03-31 12:40:01] [generate] Baseline for admin asst (seed=4)
+[2026-03-31 12:40:19]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_baseline_seed4.png
+[2026-03-31 12:40:19] [generate] admin asst | MASCULINE | strength=10.00 | seed=4
+[2026-03-31 12:40:19] [generate] admin asst | FEMININE | strength=10.00 | seed=4
+[2026-03-31 12:40:55]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s10_seed4.png
+[2026-03-31 12:40:56]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s10_seed4.png
+[2026-03-31 12:40:57]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s10_seed4.png
+[2026-03-31 12:40:57]   [BIAS SHIFT] Baseline: 0.0030 -> Masculine: 0.0313, Feminine: -0.0422
+[2026-03-31 12:40:57] [generate] admin asst | MASCULINE | strength=30.00 | seed=4
+[2026-03-31 12:40:57] [generate] admin asst | FEMININE | strength=30.00 | seed=4
+[2026-03-31 12:41:32]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s30_seed4.png
+[2026-03-31 12:41:33]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s30_seed4.png
+[2026-03-31 12:41:34]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s30_seed4.png
+[2026-03-31 12:41:34]   [BIAS SHIFT] Baseline: 0.0030 -> Masculine: 0.0189, Feminine: -0.0717
+[2026-03-31 12:41:34] [generate] admin asst | MASCULINE | strength=50.00 | seed=4
+[2026-03-31 12:41:34] [generate] admin asst | FEMININE | strength=50.00 | seed=4
+[2026-03-31 12:42:10]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_masculine_s50_seed4.png
+[2026-03-31 12:42:10]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_feminine_s50_seed4.png
+[2026-03-31 12:42:11]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/admin_asst_comparison_s50_seed4.png
+[2026-03-31 12:42:11]   [BIAS SHIFT] Baseline: 0.0030 -> Masculine: 0.0416, Feminine: -0.0700
+[2026-03-31 12:42:14]   [plot] Saved progression: admin_asst_progression_seed0.png
+[2026-03-31 12:42:17]   [plot] Saved progression: admin_asst_progression_seed1.png
+[2026-03-31 12:42:19]   [plot] Saved progression: admin_asst_progression_seed2.png
+[2026-03-31 12:42:22]   [plot] Saved progression: admin_asst_progression_seed3.png
+[2026-03-31 12:42:24]   [plot] Saved progression: admin_asst_progression_seed4.png
+[2026-03-31 12:42:24] 
+[capture] Profession: electrician
+[2026-03-31 12:42:24]   neutral: A professional studio portrait of a electrician, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:42:24]   male:    A professional studio portrait of a male electrician, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:42:24]   female:  A professional studio portrait of a female electrician, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 12:46:35] [multi-layer] Capturing activations from layers: ['mid_block', 'up_0', 'up_1', 'up_2']
+[2026-03-31 12:50:51]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician.png
+[2026-03-31 12:50:51]   [MULTI-LAYER BIAS SUMMARY] Avg: 0.0938
+[2026-03-31 12:50:51]   Max Bias: 0.1700 at up_0 step 4
+[2026-03-31 12:50:51] [generate] Baseline for electrician (seed=0)
+[2026-03-31 12:51:09]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_baseline_seed0.png
+[2026-03-31 12:51:09] [generate] electrician | MASCULINE | strength=10.00 | seed=0
+[2026-03-31 12:51:09] [generate] electrician | FEMININE | strength=10.00 | seed=0
+[2026-03-31 12:51:44]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s10_seed0.png
+[2026-03-31 12:51:45]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s10_seed0.png
+[2026-03-31 12:51:46]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s10_seed0.png
+[2026-03-31 12:51:46]   [BIAS SHIFT] Baseline: 0.1060 -> Masculine: 0.1083, Feminine: 0.0676
+[2026-03-31 12:51:46] [generate] electrician | MASCULINE | strength=30.00 | seed=0
+[2026-03-31 12:51:46] [generate] electrician | FEMININE | strength=30.00 | seed=0
+[2026-03-31 12:52:22]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s30_seed0.png
+[2026-03-31 12:52:22]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s30_seed0.png
+[2026-03-31 12:52:23]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s30_seed0.png
+[2026-03-31 12:52:23]   [BIAS SHIFT] Baseline: 0.1060 -> Masculine: 0.1195, Feminine: 0.0254
+[2026-03-31 12:52:23] [generate] electrician | MASCULINE | strength=50.00 | seed=0
+[2026-03-31 12:52:23] [generate] electrician | FEMININE | strength=50.00 | seed=0
+[2026-03-31 12:52:59]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s50_seed0.png
+[2026-03-31 12:53:00]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s50_seed0.png
+[2026-03-31 12:53:00]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s50_seed0.png
+[2026-03-31 12:53:00]   [BIAS SHIFT] Baseline: 0.1060 -> Masculine: 0.1295, Feminine: 0.0517
+[2026-03-31 12:53:00] [generate] Baseline for electrician (seed=1)
+[2026-03-31 12:53:19]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_baseline_seed1.png
+[2026-03-31 12:53:19] [generate] electrician | MASCULINE | strength=10.00 | seed=1
+[2026-03-31 12:53:19] [generate] electrician | FEMININE | strength=10.00 | seed=1
+[2026-03-31 12:53:54]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s10_seed1.png
+[2026-03-31 12:53:55]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s10_seed1.png
+[2026-03-31 12:53:55]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s10_seed1.png
+[2026-03-31 12:53:55]   [BIAS SHIFT] Baseline: 0.0325 -> Masculine: 0.0127, Feminine: 0.0203
+[2026-03-31 12:53:55] [generate] electrician | MASCULINE | strength=30.00 | seed=1
+[2026-03-31 12:53:55] [generate] electrician | FEMININE | strength=30.00 | seed=1
+[2026-03-31 12:54:31]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s30_seed1.png
+[2026-03-31 12:54:32]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s30_seed1.png
+[2026-03-31 12:54:33]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s30_seed1.png
+[2026-03-31 12:54:33]   [BIAS SHIFT] Baseline: 0.0325 -> Masculine: -0.0067, Feminine: -0.0377
+[2026-03-31 12:54:33] [generate] electrician | MASCULINE | strength=50.00 | seed=1
+[2026-03-31 12:54:33] [generate] electrician | FEMININE | strength=50.00 | seed=1
+[2026-03-31 12:55:09]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s50_seed1.png
+[2026-03-31 12:55:09]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s50_seed1.png
+[2026-03-31 12:55:10]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s50_seed1.png
+[2026-03-31 12:55:10]   [BIAS SHIFT] Baseline: 0.0325 -> Masculine: 0.0261, Feminine: -0.0656
+[2026-03-31 12:55:10] [generate] Baseline for electrician (seed=2)
+[2026-03-31 12:55:28]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_baseline_seed2.png
+[2026-03-31 12:55:28] [generate] electrician | MASCULINE | strength=10.00 | seed=2
+[2026-03-31 12:55:28] [generate] electrician | FEMININE | strength=10.00 | seed=2
+[2026-03-31 12:56:04]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s10_seed2.png
+[2026-03-31 12:56:04]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s10_seed2.png
+[2026-03-31 12:56:05]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s10_seed2.png
+[2026-03-31 12:56:05]   [BIAS SHIFT] Baseline: 0.0620 -> Masculine: 0.0626, Feminine: 0.0463
+[2026-03-31 12:56:05] [generate] electrician | MASCULINE | strength=30.00 | seed=2
+[2026-03-31 12:56:05] [generate] electrician | FEMININE | strength=30.00 | seed=2
+[2026-03-31 12:56:41]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s30_seed2.png
+[2026-03-31 12:56:42]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s30_seed2.png
+[2026-03-31 12:56:42]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s30_seed2.png
+[2026-03-31 12:56:42]   [BIAS SHIFT] Baseline: 0.0620 -> Masculine: 0.0674, Feminine: 0.0001
+[2026-03-31 12:56:42] [generate] electrician | MASCULINE | strength=50.00 | seed=2
+[2026-03-31 12:56:42] [generate] electrician | FEMININE | strength=50.00 | seed=2
+[2026-03-31 12:57:18]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s50_seed2.png
+[2026-03-31 12:57:19]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s50_seed2.png
+[2026-03-31 12:57:20]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s50_seed2.png
+[2026-03-31 12:57:20]   [BIAS SHIFT] Baseline: 0.0620 -> Masculine: 0.0485, Feminine: -0.0336
+[2026-03-31 12:57:20] [generate] Baseline for electrician (seed=3)
+[2026-03-31 12:57:38]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_baseline_seed3.png
+[2026-03-31 12:57:38] [generate] electrician | MASCULINE | strength=10.00 | seed=3
+[2026-03-31 12:57:38] [generate] electrician | FEMININE | strength=10.00 | seed=3
+[2026-03-31 12:58:14]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s10_seed3.png
+[2026-03-31 12:58:14]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s10_seed3.png
+[2026-03-31 12:58:15]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s10_seed3.png
+[2026-03-31 12:58:15]   [BIAS SHIFT] Baseline: 0.0924 -> Masculine: 0.0933, Feminine: 0.0741
+[2026-03-31 12:58:15] [generate] electrician | MASCULINE | strength=30.00 | seed=3
+[2026-03-31 12:58:15] [generate] electrician | FEMININE | strength=30.00 | seed=3
+[2026-03-31 12:58:51]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s30_seed3.png
+[2026-03-31 12:58:52]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s30_seed3.png
+[2026-03-31 12:58:52]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s30_seed3.png
+[2026-03-31 12:58:52]   [BIAS SHIFT] Baseline: 0.0924 -> Masculine: 0.0877, Feminine: -0.0464
+[2026-03-31 12:58:52] [generate] electrician | MASCULINE | strength=50.00 | seed=3
+[2026-03-31 12:58:52] [generate] electrician | FEMININE | strength=50.00 | seed=3
+[2026-03-31 12:59:28]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s50_seed3.png
+[2026-03-31 12:59:29]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s50_seed3.png
+[2026-03-31 12:59:30]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s50_seed3.png
+[2026-03-31 12:59:30]   [BIAS SHIFT] Baseline: 0.0924 -> Masculine: 0.0951, Feminine: -0.0246
+[2026-03-31 12:59:30] [generate] Baseline for electrician (seed=4)
+[2026-03-31 12:59:48]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_baseline_seed4.png
+[2026-03-31 12:59:48] [generate] electrician | MASCULINE | strength=10.00 | seed=4
+[2026-03-31 12:59:48] [generate] electrician | FEMININE | strength=10.00 | seed=4
+[2026-03-31 13:00:24]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s10_seed4.png
+[2026-03-31 13:00:24]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s10_seed4.png
+[2026-03-31 13:00:25]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s10_seed4.png
+[2026-03-31 13:00:25]   [BIAS SHIFT] Baseline: 0.1329 -> Masculine: 0.1353, Feminine: 0.1092
+[2026-03-31 13:00:25] [generate] electrician | MASCULINE | strength=30.00 | seed=4
+[2026-03-31 13:00:25] [generate] electrician | FEMININE | strength=30.00 | seed=4
+[2026-03-31 13:01:00]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s30_seed4.png
+[2026-03-31 13:01:01]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s30_seed4.png
+[2026-03-31 13:01:02]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s30_seed4.png
+[2026-03-31 13:01:02]   [BIAS SHIFT] Baseline: 0.1329 -> Masculine: 0.1277, Feminine: 0.0863
+[2026-03-31 13:01:02] [generate] electrician | MASCULINE | strength=50.00 | seed=4
+[2026-03-31 13:01:02] [generate] electrician | FEMININE | strength=50.00 | seed=4
+[2026-03-31 13:01:38]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_masculine_s50_seed4.png
+[2026-03-31 13:01:39]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_feminine_s50_seed4.png
+[2026-03-31 13:01:39]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/electrician_comparison_s50_seed4.png
+[2026-03-31 13:01:39]   [BIAS SHIFT] Baseline: 0.1329 -> Masculine: 0.1522, Feminine: 0.0568
+[2026-03-31 13:01:42]   [plot] Saved progression: electrician_progression_seed0.png
+[2026-03-31 13:01:45]   [plot] Saved progression: electrician_progression_seed1.png
+[2026-03-31 13:01:47]   [plot] Saved progression: electrician_progression_seed2.png
+[2026-03-31 13:01:50]   [plot] Saved progression: electrician_progression_seed3.png
+[2026-03-31 13:01:53]   [plot] Saved progression: electrician_progression_seed4.png
+[2026-03-31 13:01:53] 
+[capture] Profession: author
+[2026-03-31 13:01:53]   neutral: A professional studio portrait of a author, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 13:01:53]   male:    A professional studio portrait of a male author, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 13:01:53]   female:  A professional studio portrait of a female author, isolated on a plain white background, centered composition, sharp focus on the subject, high detail, photorealistic lighting, unambiguous profession markers in clothing or tools.
+[2026-03-31 13:06:03] [multi-layer] Capturing activations from layers: ['mid_block', 'up_0', 'up_1', 'up_2']
+[2026-03-31 13:10:18]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author.png
+[2026-03-31 13:10:18]   [MULTI-LAYER BIAS SUMMARY] Avg: 0.0683
+[2026-03-31 13:10:18]   Max Bias: 0.1501 at up_0 step 20
+[2026-03-31 13:10:18] [generate] Baseline for author (seed=0)
+[2026-03-31 13:10:36]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author_baseline_seed0.png
+[2026-03-31 13:10:36] [generate] author | MASCULINE | strength=10.00 | seed=0
+[2026-03-31 13:10:36] [generate] author | FEMININE | strength=10.00 | seed=0
+[2026-03-31 13:11:12]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author_masculine_s10_seed0.png
+[2026-03-31 13:11:13]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author_feminine_s10_seed0.png
+[2026-03-31 13:11:14]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/author_comparison_s10_seed0.png
+[2026-03-31 13:11:14]   [BIAS SHIFT] Baseline: 0.0266 -> Masculine: -0.0297, Feminine: 0.0153
+[2026-03-31 13:11:14] [generate] author | MASCULINE | strength=30.00 | seed=0
+[2026-03-31 13:11:14] [generate] author | FEMININE | strength=30.00 | seed=0
+[2026-03-31 13:11:49]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author_masculine_s30_seed0.png
+[2026-03-31 13:11:50]   Saved heatmap to outputs/robust_independent_injection/bias_heatmaps/author_feminine_s30_seed0.png
+[2026-03-31 13:11:51]   Saved comparison heatmap to outputs/robust_independent_injection/bias_heatmaps/author_comparison_s30_seed0.png
+[2026-03-31 13:11:51]   [BIAS SHIFT] Baseline: 0.0266 -> Masculine: -0.0844, Feminine: -0.1352
+[2026-03-31 13:11:51] [generate] author | MASCULINE | strength=50.00 | seed=0
+[2026-03-31 13:11:51] [generate] author | FEMININE | strength=50.00 | seed=0

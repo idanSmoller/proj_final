@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "bias_deep_analysis.py", line 441, in <module>
+    run_analysis(args.bias, args.text, args.baseline, args.outdir)
+  File "bias_deep_analysis.py", line 313, in run_analysis
+    corr_df = step_layer_correlations(bias, text, baseline, metric, target_cols)
+  File "bias_deep_analysis.py", line 154, in step_layer_correlations
+    "spearman": safe_corr(g[activation_metric], g[target], "spearman"),
+  File "bias_deep_analysis.py", line 78, in safe_corr
+    return x.iloc[:, 0].corr(x.iloc[:, 1], method=method)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/pandas/core/series.py", line 2727, in corr
+    return nanops.nancorr(
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/pandas/core/nanops.py", line 96, in _f
+    return f(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/pandas/core/nanops.py", line 1613, in nancorr
+    f = get_corr_func(method)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/pandas/core/nanops.py", line 1628, in get_corr_func
+    from scipy.stats import spearmanr
+ModuleNotFoundError: No module named 'scipy'

@@ -1,0 +1,4 @@
+  File "bias_deep_analysis.py", line 249
+    pivot = pivot.sort_index().sort_index(axis=1)
+    ^
+SyntaxError: invalid syntax

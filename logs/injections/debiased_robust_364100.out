@@ -1,0 +1,5 @@
+[2026-03-30 16:17:49] [init] Loading pipeline on cuda
+[2026-03-30 16:17:51] [start] Beginning Two-Stage Pipeline (Debias + Injection)
+[2026-03-30 16:17:51] 
+[stage 1] Calculating Orthogonal Projection for: admin asst
+[2026-03-30 16:17:52] [stage 2] Discovering Activation Vectors (N=3 seeds)

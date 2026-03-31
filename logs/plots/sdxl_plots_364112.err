@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "plot_injection.py", line 263, in <module>
+    main()
+  File "plot_injection.py", line 230, in main
+    parser.add_argument(
+  File "/usr/lib/python3.8/argparse.py", line 1366, in add_argument
+    kwargs = self._get_optional_kwargs(*args, **kwargs)
+  File "/usr/lib/python3.8/argparse.py", line 1520, in _get_optional_kwargs
+    raise ValueError(msg % option_string)
+ValueError: dest= is required for options like '--'

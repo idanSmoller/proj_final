@@ -1,0 +1,4 @@
+  File "bias_deep_analysis.py", line 87
+    out = base[["profession"] + ["SD"]].copy()
+    ^
+IndentationError: unexpected indent

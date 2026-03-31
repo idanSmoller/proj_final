@@ -689,6 +689,14 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from diffusers import StableDiffusionXLPipeline
 
+# Import shared functions from identification module for reproducibility
+from identification import (
+    to_storable_tensor,
+    energy_distance_1d,
+    compute_bias_for_vectors as _compute_bias_for_vectors_base,
+    get_target_module,
+)
+
 
 # =========================================================
 # Logging / utilities
@@ -1269,36 +1277,22 @@ def capture_robust_trace(
 # =========================================================
 
 def get_target_module_by_key(unet, layer_key: str):
-    """Resolve layer key to UNet module."""
-    if layer_key == "mid_block":
-        return unet.mid_block
-    if layer_key == "up_0":
-        return unet.up_blocks[0]
-    if layer_key == "up_1":
-        return unet.up_blocks[1]
-    if layer_key == "up_2":
-        return unet.up_blocks[2]
+    """
+    Resolve layer key to UNet module.
+    Extends identification.get_target_module with support for down_blocks.
+    """
+    # Handle down_blocks (not in identification.py)
     if layer_key == "down_0":
         return unet.down_blocks[0]
     if layer_key == "down_1":
         return unet.down_blocks[1]
     if layer_key == "down_2":
         return unet.down_blocks[2]
-    raise ValueError(f"Unknown layer key: {layer_key}")
+    # Delegate to identification module for standard layers
+    return get_target_module(unet, layer_key)
 
 
-def to_storable_tensor(tensor: torch.Tensor) -> torch.Tensor:
-    """Keep channel information, pool out only spatial/position dimensions."""
-    if tensor.dim() == 4:
-        h, w = tensor.shape[2], tensor.shape[3]
-        h_start, w_start = h // 4, w // 4
-        h_end, w_end = h - h_start, w - w_start
-        x = tensor[:, :, h_start:h_end, w_start:w_end].mean(dim=(2, 3))
-    elif tensor.dim() == 3:
-        x = tensor.mean(dim=1)
-    else:
-        x = tensor
-    return x.detach().cpu().to(torch.float16).contiguous()
+# to_storable_tensor is imported from identification module for reproducibility
 
 
 def capture_multi_layer_trace(
@@ -1467,16 +1461,7 @@ def capture_multi_layer_sampled_trace(
     )
 
 
-def energy_distance_1d(a_scores, b_scores):
-    """Compute energy distance between two 1D score distributions."""
-    a = torch.tensor(a_scores, dtype=torch.float32).unsqueeze(1)
-    b = torch.tensor(b_scores, dtype=torch.float32).unsqueeze(1)
-
-    ab = torch.cdist(a, b, p=1).mean()
-    aa = torch.cdist(a, a, p=1).mean()
-    bb = torch.cdist(b, b, p=1).mean()
-
-    return (2.0 * ab - aa - bb).item()
+# energy_distance_1d is imported from identification module for reproducibility
 
 
 def compute_bias_for_vectors(male_vectors, female_vectors, neutral_vectors):
@@ -1484,11 +1469,13 @@ def compute_bias_for_vectors(male_vectors, female_vectors, neutral_vectors):
     Compute bias metrics given batched vectors for male, female, and neutral prompts.
     Expects tensors of shape [N, C] where N is number of samples (or single vectors [C]).
     Returns continuous bias score using energy distance and steering vector.
+
+    Wraps identification.compute_bias_for_vectors with 1D vector handling.
     """
     if male_vectors is None or female_vectors is None or neutral_vectors is None:
         return {"continuous": 0.0, "steering_vector": None}
 
-    # Handle both single vectors and batched vectors
+    # Handle both single vectors and batched vectors (extend to 2D for identification module)
     if male_vectors.dim() == 1:
         male_vectors = male_vectors.unsqueeze(0)
     if female_vectors.dim() == 1:
@@ -1496,29 +1483,12 @@ def compute_bias_for_vectors(male_vectors, female_vectors, neutral_vectors):
     if neutral_vectors.dim() == 1:
         neutral_vectors = neutral_vectors.unsqueeze(0)
 
-    # Normalize vectors
-    male_norm = torch.nn.functional.normalize(male_vectors, p=2, dim=1)
-    female_norm = torch.nn.functional.normalize(female_vectors, p=2, dim=1)
-    neutral_norm = torch.nn.functional.normalize(neutral_vectors, p=2, dim=1)
-
-    # Compute Gender Axis (Male Mean - Female Mean)
-    male_center = torch.nn.functional.normalize(male_norm.mean(dim=0, keepdim=True), p=2, dim=1)
-    female_center = torch.nn.functional.normalize(female_norm.mean(dim=0, keepdim=True), p=2, dim=1)
-    axis = torch.nn.functional.normalize(male_center - female_center, p=2, dim=1)
-
-    # Project onto axis
-    male_scores = (male_norm * axis).sum(dim=1).tolist()
-    female_scores = (female_norm * axis).sum(dim=1).tolist()
-    neutral_scores = (neutral_norm * axis).sum(dim=1).tolist()
-
-    # Compute energy distance-based bias (matches identification.py)
-    d_nm = energy_distance_1d(neutral_scores, male_scores)
-    d_nf = energy_distance_1d(neutral_scores, female_scores)
-    continuous = (d_nf - d_nm) / (d_nf + d_nm + 1e-8)
+    # Use the identification module's implementation for reproducibility
+    result = _compute_bias_for_vectors_base(male_vectors, female_vectors, neutral_vectors)
 
     return {
-        "continuous": continuous,
-        "steering_vector": axis.squeeze(0),
+        "continuous": result["continuous"],
+        "steering_vector": result["steering_vector"],
     }
 
 

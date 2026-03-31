@@ -1,0 +1,2 @@
+signal,pearson_vs_SD,pearson_vs_SD_p,spearman_vs_SD,spearman_vs_SD_p,pearson_vs_SD_z,pearson_vs_SD_z_p,spearman_vs_SD_z,spearman_vs_SD_z_p,n_professions
+text_embedding_bias,-0.8418546353601782,5.348261839333182e-12,-0.7985131794418938,3.9731323893029593e-10,-0.8418546353601782,5.348261839333182e-12,-0.7985131794418938,3.9731323893029593e-10,41

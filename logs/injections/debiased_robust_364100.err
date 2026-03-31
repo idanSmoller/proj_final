@@ -1,0 +1,20 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 14.29it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  4.70it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00,  6.94it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.00it/s]
+/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/pipeline_utils.py:2186: FutureWarning: `enable_vae_slicing` is deprecated and will be removed in version 0.40.0. Calling `enable_vae_slicing()` on a `StableDiffusionXLPipeline` is deprecated and this method will be removed in a future version. Please use `pipe.vae.enable_slicing()`.
+  deprecate(
+/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/stable_diffusion_xl/pipeline_stable_diffusion_xl.py:748: FutureWarning: `upcast_vae` is deprecated and will be removed in version 1.0.0. `upcast_vae` is deprecated. Please use `pipe.vae.to(torch.float32)`. For more details, please refer to: https://github.com/huggingface/diffusers/pull/12619#issue-3606633695.
+  deprecate(
+Traceback (most recent call last):
+  File "unbiased_steering.py", line 605, in <module>
+    main()
+  File "unbiased_steering.py", line 556, in main
+    m_trace = capture_robust_trace(manager, prompts["male"], discovery_seeds, capture_cfg)
+  File "unbiased_steering.py", line 427, in capture_robust_trace
+    trace = manager.capture_trace(prompt, s, cfg)
+  File "unbiased_steering.py", line 389, in capture_trace
+    self.pipe(prompt=prompt, num_inference_steps=cfg.num_inference_steps, guidance_scale=cfg.guidance_scale, height=cfg.height, width=cfg.width, generator=generator)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/pipelines/stable_diffusion_xl/pipeline_stable_diffusion_xl.py", line 1290, in __call__
+    image = self.image_processor.postprocess(image, output_type=output_type)
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/image_processor.py", line 792, in postprocess
+slurmstepd: error: *** STEP 364100.0 ON lambda1 CANCELLED AT 2026-03-30T16:19:35 ***

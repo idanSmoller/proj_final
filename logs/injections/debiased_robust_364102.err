@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "unbiased_steering.py", line 27, in <module>
+    from diffusers import StableDiffusionXLPipeline
+  File "<frozen importlib._bootstrap>", line 1039, in _handle_fromlist
+  File "/home/dan.raviv/project/proj_final/.venv_cuda/lib/python3.8/site-packages/diffusers/utils/import_utils.py", line 1007, in __getattr__
+slurmstepd: error: *** STEP 364102.0 ON lambda1 CANCELLED AT 2026-03-30T16:25:57 ***

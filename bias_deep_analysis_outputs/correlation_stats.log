@@ -1,0 +1,66 @@
+Text bias vs SD: Pearson r=-0.8419, p=5.348e-12; Spearman r=-0.7985, p=3.973e-10
+Text bias vs SD_z: Pearson r=-0.8419, p=5.348e-12; Spearman r=-0.7985, p=3.973e-10
+Step-layer continuous_bias vs SD: max |Pearson|=0.7147, min p=1.531e-07
+Step-layer continuous_bias vs SD: max |Spearman|=0.5650, min p=0.000119
+Step-layer mean_based_bias vs SD: max |Pearson|=0.6550, min p=3.378e-06
+Step-layer mean_based_bias vs SD: max |Spearman|=0.5033, min p=0.0007954
+continuous_bias act_mean_signed vs SD: Pearson r=-0.6599, p=2.682e-06; Spearman r=-0.3718, p=0.01669
+continuous_bias act_mean_abs vs SD: Pearson r=-0.2767, p=0.07991; Spearman r=-0.1266, p=0.4301
+continuous_bias act_std vs SD: Pearson r=0.0341, p=0.8324; Spearman r=0.1160, p=0.47
+continuous_bias act_max_abs vs SD: Pearson r=-0.4100, p=0.007761; Spearman r=-0.1850, p=0.2468
+continuous_bias act_median vs SD: Pearson r=-0.6699, p=1.666e-06; Spearman r=-0.4102, p=0.007724
+continuous_bias act_rms vs SD: Pearson r=-0.2920, p=0.06399; Spearman r=-0.1328, p=0.4079
+continuous_bias act_mean_signed layer mid_block vs SD: Pearson r=-0.7050, p=2.665e-07; Spearman r=-0.4236, p=0.005789
+continuous_bias act_mean_abs layer mid_block vs SD: Pearson r=-0.4587, p=0.00256; Spearman r=-0.2165, p=0.1739
+continuous_bias act_std layer mid_block vs SD: Pearson r=0.3181, p=0.04266; Spearman r=0.2514, p=0.1129
+continuous_bias act_max_abs layer mid_block vs SD: Pearson r=-0.4821, p=0.001414; Spearman r=-0.1907, p=0.2323
+continuous_bias act_median layer mid_block vs SD: Pearson r=-0.7098, p=2.026e-07; Spearman r=-0.4237, p=0.005777
+continuous_bias act_rms layer mid_block vs SD: Pearson r=-0.4508, p=0.0031; Spearman r=-0.2027, p=0.2038
+continuous_bias act_mean_signed layer up_0 vs SD: Pearson r=-0.6921, p=5.368e-07; Spearman r=-0.4029, p=0.008999
+continuous_bias act_mean_abs layer up_0 vs SD: Pearson r=-0.2891, p=0.06673; Spearman r=-0.1506, p=0.3473
+continuous_bias act_std layer up_0 vs SD: Pearson r=0.1701, p=0.2877; Spearman r=0.1046, p=0.5151
+continuous_bias act_max_abs layer up_0 vs SD: Pearson r=-0.4291, p=0.005124; Spearman r=-0.1953, p=0.2211
+continuous_bias act_median layer up_0 vs SD: Pearson r=-0.6998, p=3.551e-07; Spearman r=-0.4406, p=0.003939
+continuous_bias act_rms layer up_0 vs SD: Pearson r=-0.2865, p=0.06935; Spearman r=-0.1483, p=0.3547
+continuous_bias act_mean_signed layer up_1 vs SD: Pearson r=-0.6502, p=4.212e-06; Spearman r=-0.4072, p=0.008226
+continuous_bias act_mean_abs layer up_1 vs SD: Pearson r=-0.1772, p=0.2678; Spearman r=-0.0917, p=0.5685
+continuous_bias act_std layer up_1 vs SD: Pearson r=0.2618, p=0.09818; Spearman r=0.3304, p=0.03485
+continuous_bias act_max_abs layer up_1 vs SD: Pearson r=-0.2742, p=0.08282; Spearman r=-0.0860, p=0.5928
+continuous_bias act_median layer up_1 vs SD: Pearson r=-0.6464, p=4.993e-06; Spearman r=-0.4260, p=0.005482
+continuous_bias act_rms layer up_1 vs SD: Pearson r=-0.1820, p=0.2548; Spearman r=-0.0839, p=0.602
+continuous_bias act_mean_signed layer up_2 vs SD: Pearson r=-0.5331, p=0.0003326; Spearman r=-0.2616, p=0.09845
+continuous_bias act_mean_abs layer up_2 vs SD: Pearson r=-0.1451, p=0.3653; Spearman r=-0.0025, p=0.9878
+continuous_bias act_std layer up_2 vs SD: Pearson r=-0.1517, p=0.3438; Spearman r=-0.0103, p=0.9492
+continuous_bias act_max_abs layer up_2 vs SD: Pearson r=-0.2579, p=0.1035; Spearman r=-0.0897, p=0.577
+continuous_bias act_median layer up_2 vs SD: Pearson r=-0.5098, p=0.0006632; Spearman r=-0.2766, p=0.08005
+continuous_bias act_rms layer up_2 vs SD: Pearson r=-0.1573, p=0.3261; Spearman r=-0.0159, p=0.9215
+mean_based_bias act_mean_signed vs SD: Pearson r=-0.6168, p=1.754e-05; Spearman r=-0.3790, p=0.01454
+mean_based_bias act_mean_abs vs SD: Pearson r=-0.1700, p=0.2879; Spearman r=-0.0887, p=0.5812
+mean_based_bias act_std vs SD: Pearson r=-0.1574, p=0.3256; Spearman r=-0.0856, p=0.5947
+mean_based_bias act_max_abs vs SD: Pearson r=-0.1134, p=0.4802; Spearman r=-0.0527, p=0.7433
+mean_based_bias act_median vs SD: Pearson r=-0.5820, p=6.566e-05; Spearman r=-0.3773, p=0.01502
+mean_based_bias act_rms vs SD: Pearson r=-0.1704, p=0.2868; Spearman r=-0.1001, p=0.5333
+mean_based_bias act_mean_signed layer mid_block vs SD: Pearson r=-0.6275, p=1.126e-05; Spearman r=-0.3905, p=0.0116
+mean_based_bias act_mean_abs layer mid_block vs SD: Pearson r=-0.2068, p=0.1946; Spearman r=-0.1424, p=0.3743
+mean_based_bias act_std layer mid_block vs SD: Pearson r=-0.0748, p=0.6422; Spearman r=-0.0431, p=0.7891
+mean_based_bias act_max_abs layer mid_block vs SD: Pearson r=-0.2064, p=0.1954; Spearman r=-0.1577, p=0.3248
+mean_based_bias act_median layer mid_block vs SD: Pearson r=-0.6413, p=6.252e-06; Spearman r=-0.3942, p=0.01076
+mean_based_bias act_rms layer mid_block vs SD: Pearson r=-0.2026, p=0.204; Spearman r=-0.1324, p=0.4094
+mean_based_bias act_mean_signed layer up_0 vs SD: Pearson r=-0.6273, p=1.137e-05; Spearman r=-0.3960, p=0.01038
+mean_based_bias act_mean_abs layer up_0 vs SD: Pearson r=-0.1362, p=0.3959; Spearman r=-0.0791, p=0.6231
+mean_based_bias act_std layer up_0 vs SD: Pearson r=-0.0189, p=0.9065; Spearman r=0.0357, p=0.8245
+mean_based_bias act_max_abs layer up_0 vs SD: Pearson r=-0.1087, p=0.4988; Spearman r=-0.0527, p=0.7433
+mean_based_bias act_median layer up_0 vs SD: Pearson r=-0.6322, p=9.253e-06; Spearman r=-0.4191, p=0.006385
+mean_based_bias act_rms layer up_0 vs SD: Pearson r=-0.1311, p=0.4139; Spearman r=-0.0828, p=0.6069
+mean_based_bias act_mean_signed layer up_1 vs SD: Pearson r=-0.5739, p=8.742e-05; Spearman r=-0.3705, p=0.01711
+mean_based_bias act_mean_abs layer up_1 vs SD: Pearson r=-0.1489, p=0.3527; Spearman r=-0.0863, p=0.5917
+mean_based_bias act_std layer up_1 vs SD: Pearson r=-0.1151, p=0.4736; Spearman r=-0.1087, p=0.4985
+mean_based_bias act_max_abs layer up_1 vs SD: Pearson r=-0.1400, p=0.3825; Spearman r=-0.1040, p=0.5176
+mean_based_bias act_median layer up_1 vs SD: Pearson r=-0.5691, p=0.0001032; Spearman r=-0.3647, p=0.01906
+mean_based_bias act_rms layer up_1 vs SD: Pearson r=-0.1490, p=0.3524; Spearman r=-0.0952, p=0.5537
+mean_based_bias act_mean_signed layer up_2 vs SD: Pearson r=-0.3788, p=0.0146; Spearman r=-0.2794, p=0.07691
+mean_based_bias act_mean_abs layer up_2 vs SD: Pearson r=-0.1385, p=0.3879; Spearman r=-0.1044, p=0.5158
+mean_based_bias act_std layer up_2 vs SD: Pearson r=-0.1977, p=0.2153; Spearman r=-0.1115, p=0.4878
+mean_based_bias act_max_abs layer up_2 vs SD: Pearson r=-0.1887, p=0.2373; Spearman r=-0.1019, p=0.5261
+mean_based_bias act_median layer up_2 vs SD: Pearson r=-0.4183, p=0.006489; Spearman r=-0.3028, p=0.05434
+mean_based_bias act_rms layer up_2 vs SD: Pearson r=-0.1612, p=0.3141; Spearman r=-0.0939, p=0.5592
